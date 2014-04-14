@@ -3,6 +3,7 @@
 SRC=$(pwd)
 rm -rf _site
 RUBY=$(ruby -e "print RUBY_VERSION")
+ls ./vendor/bundle/ruby
 ./vendor/bundle/ruby/${RUBY}/bin/jekyll build
 
 CLONE=$(mktemp -d -t blog)
