@@ -72,5 +72,6 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  jekyll
   jekyll-press
   sass
