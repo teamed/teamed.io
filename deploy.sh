@@ -4,7 +4,7 @@ SRC=$(pwd)
 rm -rf _site
 jekyll build
 
-CLONE=$(mktemp -d -t blog)
+CLONE=$(mktemp -d -t blog-XXX)
 git clone https://yegor256:${PASSWORD}@github.com/tpc2/teamed.io.git ${CLONE}
 cd ${CLONE}
 git checkout gh-pages
