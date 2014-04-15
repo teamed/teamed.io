@@ -5,6 +5,6 @@ branches:
 install: bundle
 env:
   global:
-    - PASSWORD=test
+    - secure: "KG/YOPaOOjwotVwIkkKBZ8+y6X6cEohBRjCc6kAgQKNI6S6SnT8gn4pjNrpJnFATDY/gv2u56H1MbRDv/FlMvDLW6mlJXL/Ld1nIiXX/Iyeazg7xjY8jAGbBfwcF239GNiNHPbnc0wwwDhEkMcAWatvgJwnbQX3cDqx5MpHtp7c="
 script: ./deploy.sh
 
