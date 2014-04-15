@@ -1,5 +1,10 @@
 #!/bin/bash -e
 
+if [ "${PASSWORD}" -eq "" ]; then
+    echo "PASSWORD environment variable is not specified"
+    exit -1
+fi
+
 SRC=$(pwd)
 rm -rf _site
 jekyll build
