@@ -2,7 +2,7 @@
 
 SRC=$(pwd)
 rm -rf _site
-./vendor/bundle/ruby/*/bin/jekyll build
+jekyll build
 
 CLONE=$(mktemp -d -t blog)
 git clone https://yegor256:${PASSWORD}@github.com/tpc2/teamed.io.git ${CLONE}
