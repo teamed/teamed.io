@@ -1,16 +1,11 @@
 #!/bin/bash -e
 
-if [ "${PASSWORD}" -eq "" ]; then
-    echo "PASSWORD environment variable is not specified"
-    exit -1
-fi
-
 SRC=$(pwd)
 rm -rf _site
 jekyll build
 
 CLONE=$(mktemp -d -t blog-XXX)
-git clone https://yegor256:${PASSWORD}@github.com/tpc2/teamed.io.git ${CLONE}
+git clone git@github.com:tpc2/teamed.io.git ${CLONE}
 cd ${CLONE}
 git checkout gh-pages
 rm -rf *
