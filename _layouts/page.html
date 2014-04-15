@@ -7,11 +7,13 @@ footer: normal
   {% for par in page.paragraphs %}
     <div class="paragraph">
       <div class="left">
-        <img src="http://img.teamed.io/{{ par[1].image }}">
+        <img src="http://img.teamed.io/{{ par[1].image | cgi_escape }}">
       </div>
       <div class="right">
-        <h1>{{ par[1].title }}</h1>
-        {{ par[1].text }}
+        <h1>{{ par[1].title | escape }}</h1>
+        {% for p in par[1].text %}
+          {{ p | markdownify }}
+        {% endfor %}
       </div>
     </div>
   {% endfor %}
