@@ -5,6 +5,6 @@ branches:
 install: bundle
 env:
   global:
-    - secure: "KG/YOPaOOjwotVwIkkKBZ8+y6X6cEohBRjCc6kAgQKNI6S6SnT8gn4pjNrpJnFATDY/gv2u56H1MbRDv/FlMvDLW6mlJXL/Ld1nIiXX/Iyeazg7xjY8jAGbBfwcF239GNiNHPbnc0wwwDhEkMcAWatvgJwnbQX3cDqx5MpHtp7c="
+    - secure: "ONm0GHbjI394wrQScwwKf5FFExQXWLIYYhSb7yW4/YKIVf3b+cjlroqOdMlhmw531H6yguUjvsLgdlUfFCQIVTVjKNyLbFLea3WULLKWnRMqmJCHSiSs4mU+FmGPlanYhgOlCN5BsJoqE3XAKX/W+1TNCFX6U+otwtkL1gNqeUs="
 script: ./deploy.sh
 
