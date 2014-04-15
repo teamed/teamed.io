@@ -4,6 +4,8 @@ SRC=$(pwd)
 rm -rf _site
 jekyll build
 
+mkdir -p ~/.ssh
+echo -e "Host github.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 CLONE=$(mktemp -d -t blog-XXX)
 git clone git@github.com:tpc2/teamed.io.git ${CLONE}
 cd ${CLONE}
