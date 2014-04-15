@@ -2,25 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49199f01-634f-4063-969b-5f7e8a736880" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fira/FiraMonoOT-Bold.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fira/FiraMonoOT-Regular.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fira/FiraSansOT-Bold.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fira/FiraSansOT-BoldItalic.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fira/FiraSansOT-Light.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fira/FiraSansOT-LightItalic.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fira/FiraSansOT-Medium.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fira/FiraSansOT-MediumItalic.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fira/FiraSansOT-Regular.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fira/FiraSansOT-RegularItalic.otf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/image.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/image1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/image1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/image2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/image3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/image4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/image5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/image6.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/images/image7.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014-04-14-developer.md" afterPath="$PROJECT_DIR$/_posts/2014-04-14-developer.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/layout.scss" afterPath="$PROJECT_DIR$/css/layout.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="teamed.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -43,22 +27,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="layout.scss" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="layout.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/layout.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="145" column="1" selection-start="2545" selection-end="2545" vertical-scroll-proportion="0.040983606" vertical-offset="3600" max-vertical-offset="4475">
+            <state line="146" column="3" selection-start="2552" selection-end="2552" vertical-scroll-proportion="-10.15625" vertical-offset="3325" max-vertical-offset="4475">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2014-04-14-developer.md" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="2014-04-14-developer.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/_posts/2014-04-14-developer.md">
           <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="11" column="22" selection-start="210" selection-end="210" vertical-scroll-proportion="-3.3018868" vertical-offset="100" max-vertical-offset="1825">
+            <state line="69" column="0" selection-start="2610" selection-end="2610" vertical-scroll-proportion="0.75570035" vertical-offset="1261" max-vertical-offset="1875">
               <folding />
             </state>
           </provider>
@@ -147,9 +131,9 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/_fonts.scss" />
         <option value="$PROJECT_DIR$/_posts/2014-04-14-sponsor.md" />
-        <option value="$PROJECT_DIR$/_posts/2014-04-14-developer.md" />
         <option value="$PROJECT_DIR$/_layouts/content.html" />
         <option value="$PROJECT_DIR$/css/layout.scss" />
+        <option value="$PROJECT_DIR$/_posts/2014-04-14-developer.md" />
       </list>
     </option>
   </component>
@@ -319,6 +303,9 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.md" />
   </component>
   <component name="Vcs.Log.UiProperties">
     <option name="RECENTLY_FILTERED_USER_GROUPS">
@@ -562,16 +549,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2014-04-14-developer.md">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="11" column="22" selection-start="210" selection-end="210" vertical-scroll-proportion="-3.3018868" vertical-offset="100" max-vertical-offset="1825">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_layouts/default.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="18" column="26" selection-start="669" selection-end="669" vertical-scroll-proportion="-8.125" vertical-offset="190" max-vertical-offset="1150">
@@ -588,7 +565,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/layout.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="145" column="1" selection-start="2545" selection-end="2545" vertical-scroll-proportion="0.040983606" vertical-offset="3600" max-vertical-offset="4475">
+        <state line="146" column="3" selection-start="2552" selection-end="2552" vertical-scroll-proportion="-10.15625" vertical-offset="3325" max-vertical-offset="4475">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2014-04-14-developer.md">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="69" column="0" selection-start="2610" selection-end="2610" vertical-scroll-proportion="0.75570035" vertical-offset="1261" max-vertical-offset="1875">
           <folding />
         </state>
       </provider>

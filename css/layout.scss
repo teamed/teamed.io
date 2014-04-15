@@ -60,24 +60,24 @@ header {
 
 footer {
   width: 100%;
-  padding: 3em 20%;
+  padding: 3em 25%;
   font-size: .8em;
   box-sizing: border-box;
+  line-height: 1.7em;
   background-color: #e6e1ce;
+  text-align: left;
 
   .left {
     font-family: $teamed-font;
     display: inline-block;
     width: 48%;
-    line-height: 1.7em;
-    text-align: left;
+    vertical-align: top;
   }
 
   .right {
     font-family: $light-font;
     display: inline-block;
     width: 48%;
-    text-align: left;
   }
 }
 

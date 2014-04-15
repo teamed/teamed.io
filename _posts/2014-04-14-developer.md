@@ -67,4 +67,3 @@ keywords:
         <a href="mailto:dev@teamed.io">dev@teamed.io</a>
     </div>
 </div>
->>>>>>> max/master
