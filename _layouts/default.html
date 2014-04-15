@@ -4,28 +4,30 @@
     <link rel="icon" type="image/png" href="http://img.teamed.io/icon-64x64.png">
     <link rel="shortcut icon" href="http://img.teamed.io/icon-64x64.png" />
     <meta charset="utf-8"/>
-    <meta name="description" content="teamed.io" />
-    <meta name="keywords" content="teamed" />
+    <meta name="description" content="{{ page.description | escape }}" />
+    <meta name="keywords" content="{{ page.keywords | join:', ' | escape }}" />
     <meta name="viewport" content="width=device-width"/>
     <link rel="stylesheet" href="/css/layout.css?{{ site.data['hash'] }}"/>
     <title>{{ page.title }}</title>
   </head>
   <body>
-      <header>
-          <span class="teamed">teamed.io</span>
-          {{ content }}
-      </header>
-      <footer class="footer-index">
-          <p class="left">
-              <strong>email</strong> <a href="mailto:sales@teamed.io">sales@teamed.io</a><br/>
-              <strong>phone</strong> 860.506.5536
-          </p>
-          <p class="right">
-              Team as a Service is provided by
-              <a href="http://www.technoparkcorp.com">TechnoPark Corp.</a>
-              and is its registered trademark.
-          </p>
-      </footer>
+    <header>
+      <span class="teamed"><a href="/">teamed.io</a></span>
+    </header>
+    <section>
+      {{ content }}
+    </section>
+    <footer class="{{ page.footer }}">
+      <p class="left">
+        <strong>email</strong> <a href="mailto:sales@teamed.io">sales@teamed.io</a><br/>
+        <strong>phone</strong> 860.506.5536
+      </p>
+      <p class="right">
+        Team as a Service is provided by
+        <a href="http://www.technoparkcorp.com">TechnoPark Corp.</a>
+        and is its registered trademark.
+      </p>
+    </footer>
     <script type="text/javascript">
       var _gaq = _gaq || [];
       _gaq.push(['_setAccount', 'UA-1963507-34']);
