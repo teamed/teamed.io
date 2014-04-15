@@ -9,7 +9,7 @@ keywords:
 ---
 
 We want to work with you if you are passionate about software development
-and its quality aspect. Our coding standards are unexpectedly high
+and its quality aspect. Beware that our coding standards are unexpectedly high
 for most of new comers.
 
 It's a part-time job and you can work from
@@ -33,6 +33,6 @@ minutes. You will get $25 immediately after the task is completed.
 
 When you are ready to join, send us your Github account and StackOverflow
 profile. Yes, we expect people passionate about software development be
-active contributors to open source projects, and regularly spend time
-on StackOverflow. Please, send them, together with your CV, to
+active contributors to open source projects and regularly spend time
+on StackOverflow. Please send that links together with your CV to
 [dev@teamed.io](mailto:dev@teamed.io).
