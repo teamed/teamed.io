@@ -10,7 +10,7 @@ git clone "https://yegor256:${PASSWORD}@github.com/tpc2/teamed.io.git" "${CLONE}
 cd "${CLONE}"
 git checkout gh-pages
 rm -rf *
-cp -R "${SRC}/_site/*" .
+cp -R ${SRC}/_site/* .
 rm README.md
 rm deploy.sh
 
