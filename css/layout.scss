@@ -1,25 +1,173 @@
+/**
+ * Copyright (c) 2009, teamed.io
+ * All rights reserved. THIS IS PRIVATE SOFTWARE.
+ *
+ * Redistribution and use in source and binary forms, with or without modification, are PROHIBITED
+ * without prior written permission from the author. This product may NOT be used anywhere
+ * and on any computer except the server platform of teamed.io. located at
+ * www.teamed.io. If you received this code occasionally and without intent to use
+ * it, please report this incident to the author by email: privacy@teamed.io
+ *
+ * @author Max Bugaenko <max.bugaenko@gmail.com>
+ * @copyright Copyright (c) teamed.io, 2014
+ * @version $Id$
+ */
+
+@import "fonts";
+
+$main-font: 'Fira-Regular', 'Helvetica', 'Arial', serif;
+$light-font: 'Fira-Light', 'Helvetica', 'Arial', serif;
+$teamed-font: 'Source Code Pro';
+
 * {
   margin: 0;
   padding: 0;
 }
+
 body {
-  padding: 2em;
-  font-family: 'Helvetica Neue', 'Helvetica', 'Arial', serif;
-  font-size: 20px;
+  font-family: $main-font;
+  font-size: 1.5em;
+  text-align: center;
+  color: #66595c;
 }
-.wrapper {
-  width: 900px;
-  margin-left: auto;
-  margin-right: auto;
+
+header {
+  padding: 1em 0 3em;
+  font-family: $teamed-font;
+  font-weight: 300;
+  background-color: #e6e1ce;
 }
-h1 {
-  font-weight: normal;
-  font-size: 2em;
+
+.teamed {
+  font-size: 2.3em;
+  font-weight: 600;
+  letter-spacing: -5px;
+  line-height: 1em;
+  color: #66595c;
+  padding: 0 .5em 0 .5em;
+  border-radius: 10px;
 }
-p {
-  margin-top: 2em;
-  margin-bottom: 2em;
+
+.slogan {
+  font-size: 2.5em;
+  font-weight: 300;
+  letter-spacing: -5px;
 }
+
 footer {
-  font-size: 0.8em;
+  width: 100%;
+  padding: 3em 20% 3em 20%;
+  font-size: .8em;
+  box-sizing: border-box;
+  background-color: #e6e1ce;
+
+  .left {
+    font-family: $teamed-font;
+    display: inline-block;
+    width: 48%;
+    line-height: 1.7em;
+    text-align: left;
+  }
+
+  .right {
+    font-family: $light-font;
+    display: inline-block;
+    width: 48%;
+    text-align: left;
+  }
+}
+
+footer.footer-index {
+  @extend footer;
+  background-color: #fff;
+}
+
+%index-button {
+  padding: .5em 1em .5em 1em;
+  font-size: 1.5em;
+  margin: 0 1em;
+  font-family: $main-font;
+  text-decoration: none;
+  border-radius: 5px;
+  letter-spacing: 3px;
+  border: 0;
+  color: #fff;
+  position: relative;
+
+  &:active {
+    top: 3px;
+  }
+}
+
+.developers-button {
+  @extend %index-button;
+  background-color: #C14B30;
+
+  &:hover {
+    background-color: #AC351B;
+  }
+}
+
+.job-button {
+  @extend %index-button;
+  background-color: #547882;
+
+  &:hover {
+    background-color: #446A74;
+  }
+}
+
+.small-button {
+  @extend %index-button;
+  padding: .5em 1em .5em 1em;
+  font-size: 1em;
+  margin: 0 .3em;
+}
+
+a {
+  text-decoration: none;
+  border-bottom: 1px dashed;
+  color: inherit;
+}
+
+article {
+  padding: 2em 10em 2em 10em;
+  font-family: $light-font;
+}
+
+.paragraph {
+  padding: 1em 0 1em;
+
+  .left {
+    width: 35%;
+    display: inline-block;
+    vertical-align: top;
+
+    img {
+      margin: 1em 0;
+      max-width: 100%;
+    }
+  }
+
+  .right {
+    width: 55%;
+    display: inline-block;
+    text-align: left;
+    font-size: .8em;
+    padding: 1em;
+    line-height: 1.8em;
+  }
+}
+
+h1 {
+  font-family: $teamed-font;
+  font-weight: 300;
+  font-size: 2.2em;
+  letter-spacing: -2px;
+  margin: 0 0 .5em;
+}
+
+p {
+  margin-top: 1em;
+  margin-bottom: 1em;
 }

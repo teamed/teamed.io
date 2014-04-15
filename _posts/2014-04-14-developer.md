@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: content
 title: "Looking for a Job?"
 permalink: /developer.html
 description: "Welcome to teamed.io"
@@ -8,31 +8,62 @@ keywords:
   - distributed programming
 ---
 
-We want to work with you if you are passionate about software development
-and its quality aspect. Our coding standards are unexpectedly high
-for most of new comers.
+<div class="paragraph">
+    <div class="left">
+        <img src="images/image.png">
+    </div>
+    <div class="right">
+        <h1>We think quality, you?</h1>
+        We want to work with you if you are passionate about software development
+        and its quality aspect. Our coding standards are unexpectedly high
+        for most of new comers.
+    </div>
+</div>
+<div class="paragraph">
+    <div class="left">
+        <img src="images/image3.png">
+    </div>
+    <div class="right">
+        <h1>Self-improving jobs</h1>
+        It's a part-time job and you can work from
+        anywhere. In most cases we expect you to spend up to ten hours per week. You are
+        supposed to combine our projects with your full-time work.
+        <p>
+            It's challenging and interesting. You will
+            solve difficult problems, work with cutting edge technologies, and collaborate
+            with professionals. No routine or boring tasks.
+        </p>
+        <p>
+            You will work with small fixed-scope tasks (usually
+            30 minutes each), which will perfectly fit your skills and experience.
+            We even encourage our developers to reject tasks if they
+            don't feel like doing them.
+        </p>
+</div>
 
-It's a part-time job and you can work from
-anywhere. In most cases we expect you to spend up to ten hours per week. You are
-supposed to combine our projects with your full-time work.
-
-It's challenging and interesting. You will
-solve difficult problems, work with cutting edge technologies, and collaborate
-with professionals. No routine or boring tasks.
-
-You will work with small fixed-scope tasks (usually
-30 minutes each), which will perfectly fit your skills and experience.
-We even encourage our developers to reject tasks if they
-don't feel like doing them.
-
-We pay immediately after the task is completed,
-through [Odesk](http://www.odesk.com) or [PayPal](http://www.paypal.com). All
-fees are paid by us, you get exactly the budget allocated for the task
-multiplied by your hourly rate. Say, your rate is $50/hour and task budget is 30
-minutes. You will get $25 immediately after the task is completed.
-
-When you are ready to join, send us your Github account and StackOverflow
-profile. Yes, we expect people passionate about software development be
-active contributors to open source projects, and regularly spend time
-on StackOverflow. Please, send them, together with your CV, to
-[dev@teamed.io](mailto:dev@teamed.io).
+<div class="paragraph">
+    <div class="left">
+        <img src="images/image7.png">
+    </div>
+    <div class="right">
+        <h1>Get paid immedietely</h1>
+        We pay immediately after the task is completed,
+        through <a href="http://www.odesk.com">Odesk</a> or <a href="http://www.paypal.com">Paypal</a>. All
+        fees are paid by us, you get exactly the budget allocated for the task
+        multiplied by your hourly rate. Say, your rate is $50/hour and task budget is 30
+        minutes. You will get $25 immediately after the task is completed.
+    </div>
+</div>
+<div class="paragraph">
+    <div class="left">
+        <img src="images/image.png">
+    </div>
+    <div class="right">
+        <h1>Join our community</h1>
+        When you are ready to join, send us your Github account and StackOverflow
+        profile. Yes, we expect people passionate about software development be
+        active contributors to open source projects, and regularly spend time
+        on StackOverflow. Please, send them, together with your CV, to
+        <a href="mailto:dev@teamed.io">dev@teamed.io</a>
+    </div>
+</div>
