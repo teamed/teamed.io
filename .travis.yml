@@ -1,5 +1,6 @@
 language: ruby
-secure: "ABI8286b+MO9LZLIYgwiL54On+ciw43ADZpFKFGUgaWsuZ4CukJZ5VLAelWEJw9ktL9H1lYYwf6DLh1PsgxRh+uKHVJxCO99psEdHQYJRS8qQpZ13afpkXFaWtxnO0StHGc+02Z857x9jUuF+3UDdeunDLkNdpiQs1sNmzvitt0="
+env:
+  - secure: "ABI8286b+MO9LZLIYgwiL54On+ciw43ADZpFKFGUgaWsuZ4CukJZ5VLAelWEJw9ktL9H1lYYwf6DLh1PsgxRh+uKHVJxCO99psEdHQYJRS8qQpZ13afpkXFaWtxnO0StHGc+02Z857x9jUuF+3UDdeunDLkNdpiQs1sNmzvitt0="
 install: bundle
 script: ./deploy.sh
 
