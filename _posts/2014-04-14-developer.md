@@ -10,7 +10,7 @@ keywords:
 
 <div class="paragraph">
     <div class="left">
-        <img src="images/image.png">
+        <img src="http://img.teamed.io/image.png">
     </div>
     <div class="right">
         <h1>We think quality, you?</h1>
@@ -21,7 +21,7 @@ keywords:
 </div>
 <div class="paragraph">
     <div class="left">
-        <img src="images/image3.png">
+        <img src="http://img.teamed.io/image3.png">
     </div>
     <div class="right">
         <h1>Self-improving jobs</h1>
@@ -40,10 +40,9 @@ keywords:
             don't feel like doing them.
         </p>
 </div>
-
 <div class="paragraph">
     <div class="left">
-        <img src="images/image7.png">
+        <img src="http://img.teamed.io/image7.png">
     </div>
     <div class="right">
         <h1>Get paid immedietely</h1>
@@ -56,7 +55,7 @@ keywords:
 </div>
 <div class="paragraph">
     <div class="left">
-        <img src="images/image.png">
+        <img src="http://img.teamed.io/image4.png">
     </div>
     <div class="right">
         <h1>Join our community</h1>

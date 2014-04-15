@@ -4,8 +4,8 @@
     <list default="true" id="49199f01-634f-4063-969b-5f7e8a736880" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014-04-14-developer.md" afterPath="$PROJECT_DIR$/_posts/2014-04-14-developer.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014-04-14-sponsor.md" afterPath="$PROJECT_DIR$/_posts/2014-04-14-sponsor.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/default.html" afterPath="$PROJECT_DIR$/_layouts/default.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/_fonts.scss" afterPath="$PROJECT_DIR$/css/_fonts.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/content.html" afterPath="$PROJECT_DIR$/_layouts/content.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/layout.scss" afterPath="$PROJECT_DIR$/css/layout.scss" />
     </list>
     <ignored path="teamed.iws" />
@@ -29,22 +29,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="layout.scss" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="layout.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/layout.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="172" column="1" selection-start="2989" selection-end="2989" vertical-scroll-proportion="-17.5" vertical-offset="3740" max-vertical-offset="4450">
+            <state line="160" column="16" selection-start="2751" selection-end="2751" vertical-scroll-proportion="0.91803277" vertical-offset="3440" max-vertical-offset="4475">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="2014-04-14-developer.md" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="2014-04-14-developer.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_posts/2014-04-14-developer.md">
           <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="21" selection-start="671" selection-end="671" vertical-scroll-proportion="0.27843803" vertical-offset="486" max-vertical-offset="1850">
+            <state line="11" column="22" selection-start="210" selection-end="210" vertical-scroll-proportion="-3.3018868" vertical-offset="100" max-vertical-offset="1825">
               <folding />
             </state>
           </provider>
@@ -56,7 +56,7 @@
             <state />
           </provider>
           <provider selected="true" editor-type-id="text-editor">
-            <state line="17" column="6" selection-start="408" selection-end="408" vertical-scroll-proportion="-8.0188675" vertical-offset="0" max-vertical-offset="1300">
+            <state line="18" column="48" selection-start="448" selection-end="478" vertical-scroll-proportion="-4.5094337" vertical-offset="211" max-vertical-offset="1900">
               <folding />
             </state>
           </provider>
@@ -65,7 +65,7 @@
       <file leaf-file-name="default.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/default.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="15" column="23" selection-start="590" selection-end="590" vertical-scroll-proportion="-5.78125" vertical-offset="190" max-vertical-offset="1150">
+            <state line="18" column="26" selection-start="669" selection-end="669" vertical-scroll-proportion="-8.125" vertical-offset="190" max-vertical-offset="1150">
               <folding />
             </state>
           </provider>
@@ -83,7 +83,7 @@
       <file leaf-file-name="content.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/content.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="0" selection-start="843" selection-end="843" vertical-scroll-proportion="-6.5625" vertical-offset="390" max-vertical-offset="1275">
+            <state line="14" column="68" selection-start="579" selection-end="579" vertical-scroll-proportion="-10.9375" vertical-offset="0" max-vertical-offset="1175">
               <folding />
             </state>
           </provider>
@@ -92,7 +92,7 @@
       <file leaf-file-name="_fonts.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/_fonts.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="0" selection-start="97" selection-end="97" vertical-scroll-proportion="-0.78125" vertical-offset="0" max-vertical-offset="450">
+            <state line="11" column="23" selection-start="310" selection-end="310" vertical-scroll-proportion="-8.59375" vertical-offset="0" max-vertical-offset="450">
               <folding />
             </state>
           </provider>
@@ -101,7 +101,7 @@
       <file leaf-file-name="alias_generator.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_plugins/alias_generator.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2850">
+            <state line="108" column="0" selection-start="2811" selection-end="2811" vertical-scroll-proportion="-22.68" vertical-offset="2133" max-vertical-offset="2850">
               <folding />
             </state>
           </provider>
@@ -129,13 +129,13 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
+        <option value="$PROJECT_DIR$/_layouts/default.html" />
+        <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/css/_fonts.scss" />
         <option value="$PROJECT_DIR$/_posts/2014-04-14-sponsor.md" />
         <option value="$PROJECT_DIR$/_posts/2014-04-14-developer.md" />
-        <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/_layouts/content.html" />
         <option value="$PROJECT_DIR$/css/layout.scss" />
-        <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
   </component>
@@ -214,6 +214,20 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="_posts" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="teamed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="teamed" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="_plugins" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -496,47 +510,9 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_plugins/alias_generator.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2850">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/_plugins/jekyll-git-hash.rb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="678">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/_fonts.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="0" selection-start="97" selection-end="97" vertical-scroll-proportion="-0.78125" vertical-offset="0" max-vertical-offset="450">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_posts/2014-04-14-sponsor.md">
-      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
-        <state />
-      </provider>
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="6" selection-start="408" selection-end="408" vertical-scroll-proportion="-8.0188675" vertical-offset="0" max-vertical-offset="1300">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="23" selection-start="590" selection-end="590" vertical-scroll-proportion="-5.78125" vertical-offset="190" max-vertical-offset="1150">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/content.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="0" selection-start="843" selection-end="843" vertical-scroll-proportion="-6.5625" vertical-offset="390" max-vertical-offset="1275">
           <folding />
         </state>
       </provider>
@@ -548,9 +524,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/layout.scss">
+    <entry file="file://$PROJECT_DIR$/css/_fonts.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="172" column="1" selection-start="2989" selection-end="2989" vertical-scroll-proportion="-17.5" vertical-offset="3740" max-vertical-offset="4450">
+        <state line="11" column="23" selection-start="310" selection-end="310" vertical-scroll-proportion="-8.59375" vertical-offset="0" max-vertical-offset="450">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_plugins/alias_generator.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="108" column="0" selection-start="2811" selection-end="2811" vertical-scroll-proportion="-22.68" vertical-offset="2133" max-vertical-offset="2850">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_posts/2014-04-14-sponsor.md">
+      <provider editor-type-id="com.intellij.persistence.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="48" selection-start="448" selection-end="478" vertical-scroll-proportion="-4.5094337" vertical-offset="211" max-vertical-offset="1900">
           <folding />
         </state>
       </provider>
@@ -560,7 +553,28 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="21" selection-start="671" selection-end="671" vertical-scroll-proportion="0.27843803" vertical-offset="486" max-vertical-offset="1850">
+        <state line="11" column="22" selection-start="210" selection-end="210" vertical-scroll-proportion="-3.3018868" vertical-offset="100" max-vertical-offset="1825">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="18" column="26" selection-start="669" selection-end="669" vertical-scroll-proportion="-8.125" vertical-offset="190" max-vertical-offset="1150">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/content.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="14" column="68" selection-start="579" selection-end="579" vertical-scroll-proportion="-10.9375" vertical-offset="0" max-vertical-offset="1175">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/layout.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="160" column="16" selection-start="2751" selection-end="2751" vertical-scroll-proportion="0.91803277" vertical-offset="3440" max-vertical-offset="4475">
           <folding />
         </state>
       </provider>

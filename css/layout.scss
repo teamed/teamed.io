@@ -13,7 +13,7 @@
  * @version $Id$
  */
 
-@import "fonts";
+@import 'fonts';
 
 $main-font: 'Fira-Regular', 'Helvetica', 'Arial', serif;
 $light-font: 'Fira-Light', 'Helvetica', 'Arial', serif;
@@ -44,8 +44,12 @@ header {
   letter-spacing: -5px;
   line-height: 1em;
   color: #66595c;
-  padding: 0 .5em 0 .5em;
+  padding: 0 .5em;
   border-radius: 10px;
+
+  a {
+    border: 0;
+  }
 }
 
 .slogan {
@@ -56,7 +60,7 @@ header {
 
 footer {
   width: 100%;
-  padding: 3em 20% 3em 20%;
+  padding: 3em 20%;
   font-size: .8em;
   box-sizing: border-box;
   background-color: #e6e1ce;
@@ -83,7 +87,7 @@ footer.footer-index {
 }
 
 %index-button {
-  padding: .5em 1em .5em 1em;
+  padding: .5em 1em;
   font-size: 1.5em;
   margin: 0 1em;
   font-family: $main-font;
@@ -101,10 +105,10 @@ footer.footer-index {
 
 .developers-button {
   @extend %index-button;
-  background-color: #C14B30;
+  background-color: #c14b30;
 
   &:hover {
-    background-color: #AC351B;
+    background-color: #ac351b;
   }
 }
 
@@ -113,15 +117,8 @@ footer.footer-index {
   background-color: #547882;
 
   &:hover {
-    background-color: #446A74;
+    background-color: #446a74;
   }
-}
-
-.small-button {
-  @extend %index-button;
-  padding: .5em 1em .5em 1em;
-  font-size: 1em;
-  margin: 0 .3em;
 }
 
 a {
@@ -131,12 +128,12 @@ a {
 }
 
 article {
-  padding: 2em 10em 2em 10em;
+  padding: 2em 10em;
   font-family: $light-font;
 }
 
 .paragraph {
-  padding: 1em 0 1em;
+  padding: 1em 0;
 
   .left {
     width: 35%;
@@ -170,4 +167,8 @@ h1 {
 p {
   margin-top: 1em;
   margin-bottom: 1em;
+}
+
+ul {
+  padding: 1em 0 1em 2em;
 }
