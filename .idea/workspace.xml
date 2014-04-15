@@ -2,11 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49199f01-634f-4063-969b-5f7e8a736880" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014-04-14-developer.md" afterPath="$PROJECT_DIR$/_posts/2014-04-14-developer.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_posts/2014-04-14-sponsor.md" afterPath="$PROJECT_DIR$/_posts/2014-04-14-sponsor.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/_fonts.scss" afterPath="$PROJECT_DIR$/css/_fonts.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/_layouts/content.html" afterPath="$PROJECT_DIR$/_layouts/content.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/layout.scss" afterPath="$PROJECT_DIR$/css/layout.scss" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fira/FiraMonoOT-Bold.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fira/FiraMonoOT-Regular.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fira/FiraSansOT-Bold.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fira/FiraSansOT-BoldItalic.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fira/FiraSansOT-Light.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fira/FiraSansOT-LightItalic.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fira/FiraSansOT-Medium.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fira/FiraSansOT-MediumItalic.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fira/FiraSansOT-Regular.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/fonts/fira/FiraSansOT-RegularItalic.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/image.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/image1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/image1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/image2.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/image3.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/image4.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/image5.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/image6.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/images/image7.png" afterPath="" />
     </list>
     <ignored path="teamed.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -32,7 +46,7 @@
       <file leaf-file-name="layout.scss" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/layout.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="160" column="16" selection-start="2751" selection-end="2751" vertical-scroll-proportion="0.91803277" vertical-offset="3440" max-vertical-offset="4475">
+            <state line="145" column="1" selection-start="2545" selection-end="2545" vertical-scroll-proportion="0.040983606" vertical-offset="3600" max-vertical-offset="4475">
               <folding />
             </state>
           </provider>
@@ -574,7 +588,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/layout.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="160" column="16" selection-start="2751" selection-end="2751" vertical-scroll-proportion="0.91803277" vertical-offset="3440" max-vertical-offset="4475">
+        <state line="145" column="1" selection-start="2545" selection-end="2545" vertical-scroll-proportion="0.040983606" vertical-offset="3600" max-vertical-offset="4475">
           <folding />
         </state>
       </provider>
