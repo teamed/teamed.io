@@ -1,4 +1,10 @@
 language: ruby
+branches:
+  only:
+    - master
 install: bundle
+env:
+  global:
+    - PASSWORD=test
 script: ./deploy.sh
 

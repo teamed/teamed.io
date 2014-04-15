@@ -5,13 +5,12 @@ rm -rf _site
 jekyll build
 
 mkdir -p ~/.ssh
-echo -e "Host github.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
 CLONE=$(mktemp -d -t blog-XXX)
-git clone git@github.com:tpc2/teamed.io.git ${CLONE}
-cd ${CLONE}
+git clone "https://yegor256:${PASSWORD}:github.com/tpc2/teamed.io.git" "${CLONE}"
+cd "${CLONE}"
 git checkout gh-pages
 rm -rf *
-cp -R ${SRC}/_site/* .
+cp -R "${SRC}/_site/*" .
 rm README.md
 rm deploy.sh
 
@@ -21,4 +20,4 @@ git config --global user.name "deploy.sh"
 git commit -am "new site version"
 git push origin gh-pages
 
-rm -rf ${CLONE}
+rm -rf "${CLONE}"
