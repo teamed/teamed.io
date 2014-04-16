@@ -78,6 +78,17 @@ section.section-index {
 }
 
 /* line 71, /code/teamed/css/layout.scss */
+.contact-index {
+  padding: 1em;
+  line-height: 1.5em;
+  font-family: "Fira-Light", "Helvetica", "Arial", serif;
+}
+/* line 76, /code/teamed/css/layout.scss */
+.contact-index a {
+  border: 0;
+}
+
+/* line 81, /code/teamed/css/layout.scss */
 footer, footer.footer-index {
   width: 100%;
   min-height: 100%;
@@ -90,7 +101,7 @@ footer, footer.footer-index {
   font-family: "Fira-Light", "Helvetica", "Arial", serif;
   position: relative;
 }
-/* line 83, /code/teamed/css/layout.scss */
+/* line 93, /code/teamed/css/layout.scss */
 footer:before, footer.footer-index:before {
   content: '';
   position: absolute;
@@ -103,29 +114,29 @@ footer:before, footer.footer-index:before {
   box-shadow: 0 0 60px #66595c;
   z-index: -1;
 }
-/* line 96, /code/teamed/css/layout.scss */
+/* line 106, /code/teamed/css/layout.scss */
 footer a, footer.footer-index a {
   border: 0;
 }
-/* line 100, /code/teamed/css/layout.scss */
+/* line 110, /code/teamed/css/layout.scss */
 footer ul, footer.footer-index ul {
   -webkit-column-count: 3;
   -webkit-column-gap: 1em;
   -webkit-column-fill: auto;
   padding-left: 0;
 }
-/* line 106, /code/teamed/css/layout.scss */
+/* line 116, /code/teamed/css/layout.scss */
 footer ul li, footer.footer-index ul li {
   -webkit-column-break-inside: avoid;
   margin-bottom: 2em;
 }
 
-/* line 116, /code/teamed/css/layout.scss */
+/* line 126, /code/teamed/css/layout.scss */
 footer.footer-index {
   display: none;
 }
 
-/* line 121, /code/teamed/css/layout.scss */
+/* line 131, /code/teamed/css/layout.scss */
 .developers-button, .job-button {
   padding: .5em 1em;
   font-size: 1.5em;
@@ -138,58 +149,58 @@ footer.footer-index {
   color: #fff;
   position: relative;
 }
-/* line 133, /code/teamed/css/layout.scss */
+/* line 143, /code/teamed/css/layout.scss */
 .developers-button:active, .job-button:active {
   top: 3px;
 }
 
-/* line 138, /code/teamed/css/layout.scss */
+/* line 148, /code/teamed/css/layout.scss */
 .developers-button {
   background-color: #c14b30;
 }
-/* line 142, /code/teamed/css/layout.scss */
+/* line 152, /code/teamed/css/layout.scss */
 .developers-button:hover {
   background-color: #ac351b;
 }
 
-/* line 147, /code/teamed/css/layout.scss */
+/* line 157, /code/teamed/css/layout.scss */
 .job-button {
   background-color: #547882;
 }
-/* line 151, /code/teamed/css/layout.scss */
+/* line 161, /code/teamed/css/layout.scss */
 .job-button:hover {
   background-color: #446a74;
 }
 
-/* line 156, /code/teamed/css/layout.scss */
+/* line 166, /code/teamed/css/layout.scss */
 a {
   text-decoration: none;
   border-bottom: 1px dashed;
   color: inherit;
 }
 
-/* line 162, /code/teamed/css/layout.scss */
+/* line 172, /code/teamed/css/layout.scss */
 article {
   padding: 2em 10em;
   font-family: "Fira-Light", "Helvetica", "Arial", serif;
 }
 
-/* line 167, /code/teamed/css/layout.scss */
+/* line 177, /code/teamed/css/layout.scss */
 .paragraph {
   padding: 1em 0;
 }
-/* line 170, /code/teamed/css/layout.scss */
+/* line 180, /code/teamed/css/layout.scss */
 .paragraph .left {
   width: 35%;
   display: inline-block;
   vertical-align: top;
 }
-/* line 175, /code/teamed/css/layout.scss */
+/* line 185, /code/teamed/css/layout.scss */
 .paragraph .left img {
   margin: 1em 0;
   max-width: 100%;
 }
-/* line 181, /code/teamed/css/layout.scss */
+/* line 191, /code/teamed/css/layout.scss */
 .paragraph .right {
   width: 55%;
   display: inline-block;
@@ -199,7 +210,7 @@ article {
   line-height: 1.8em;
 }
 
-/* line 191, /code/teamed/css/layout.scss */
+/* line 201, /code/teamed/css/layout.scss */
 h1 {
   font-family: "Source Code Pro";
   font-weight: 300;
@@ -208,13 +219,13 @@ h1 {
   margin: 0 0 .5em;
 }
 
-/* line 199, /code/teamed/css/layout.scss */
+/* line 209, /code/teamed/css/layout.scss */
 p {
   margin-top: 1em;
   margin-bottom: 1em;
 }
 
-/* line 204, /code/teamed/css/layout.scss */
+/* line 214, /code/teamed/css/layout.scss */
 ul {
   padding: 1em 0 1em 2em;
 }

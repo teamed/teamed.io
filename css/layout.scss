@@ -68,6 +68,16 @@ section.section-index {
   letter-spacing: -5px;
 }
 
+.contact-index {
+  padding: 1em;
+  line-height: 1.5em;
+  font-family: $light-font;
+
+  a {
+    border: 0;
+  }
+}
+
 footer {
   width: 100%;
   min-height: 100%;
