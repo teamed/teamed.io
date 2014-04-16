@@ -31,6 +31,10 @@ body {
   color: #66595c;
 }
 
+body.body-index {
+  background-color: #e6e1ce;
+}
+
 header {
   padding: 1em 0 3em;
   font-family: $teamed-font;
@@ -74,6 +78,20 @@ footer {
   background-color: #e6e1ce;
   text-align: center;
   font-family: $light-font;
+  position: relative;
+
+  &:before {
+    content: '';
+    position: absolute;
+    width: 90%;
+    height: 200px;
+    top: 20px;
+    left: 5%;
+    right: 5%;
+    border-radius: 30px;
+    box-shadow: 0 0 60px #66595c;
+    z-index: -1;
+  }
 
   a {
     border: 0;
@@ -97,7 +115,7 @@ footer {
 
 footer.footer-index {
   @extend footer;
-  background-color: #fff;
+  display: none;
 }
 
 %index-button {
