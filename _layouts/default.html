@@ -12,13 +12,13 @@
     <title>{{ page.title }}</title>
   </head>
   <body class="{{ page.body }}">
-    <header>
+    <header class="{{ page.style }}">
       <span class="teamed"><a href="/">teamed</a></span>
     </header>
     <section class="{{ page.section }}">
       {{ content }}
     </section>
-    <footer class="{{ page.footer }}">
+    <footer class="{{ page.footer }} {{ page.style }}">
       <ul>
           <li>
               PO Box 211<br/>

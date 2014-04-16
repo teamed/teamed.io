@@ -19,6 +19,9 @@ $main-font: 'Fira-Regular', 'Helvetica', 'Arial', serif;
 $light-font: 'Fira-Light', 'Helvetica', 'Arial', serif;
 $teamed-font: 'Source Code Pro';
 
+$sponsor-background: #E37259;
+$developer-background: #6E97A2;
+
 * {
   margin: 0;
   padding: 0;
@@ -40,6 +43,18 @@ header {
   font-family: $teamed-font;
   font-weight: 300;
   background-color: #e6e1ce;
+  color: #66595c;
+}
+
+header.sponsor {
+  @extend header;
+  background-color: $sponsor-background;
+  color: #fff;
+}
+
+header.developer {
+  @extend header.sponsor;
+  background-color: $developer-background;
 }
 
 .teamed {
@@ -47,7 +62,6 @@ header {
   font-weight: 600;
   letter-spacing: -5px;
   line-height: 1em;
-  color: #66595c;
   padding: 0 .5em;
   border-radius: 10px;
 
@@ -69,7 +83,7 @@ section.section-index {
 }
 
 .contact-index {
-  padding: 1em;
+  padding: 4em 0 0;
   line-height: 1.5em;
   font-family: $light-font;
 
@@ -88,20 +102,6 @@ footer {
   background-color: #e6e1ce;
   text-align: center;
   font-family: $light-font;
-  position: relative;
-
-  &:before {
-    content: '';
-    position: absolute;
-    width: 90%;
-    height: 200px;
-    top: 20px;
-    left: 5%;
-    right: 5%;
-    border-radius: 30px;
-    box-shadow: 0 0 60px #66595c;
-    z-index: -1;
-  }
 
   a {
     border: 0;
@@ -117,15 +117,23 @@ footer {
       -webkit-column-break-inside: avoid;
       margin-bottom: 2em;
     }
-
-    li:nth-child(2) {
-    }
   }
 }
 
 footer.footer-index {
   @extend footer;
   display: none;
+}
+
+footer.sponsor {
+  @extend footer;
+  background-color: $sponsor-background;
+  color: #fff;
+}
+
+footer.developer {
+  @extend footer.sponsor;
+  background-color: $developer-background;
 }
 
 %index-button {

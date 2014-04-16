@@ -3,6 +3,7 @@ layout: page
 title: "Looking for a Job?"
 permalink: /developer.html
 description: "Welcome to teamed.io"
+style: developer
 keywords:
   - teams
   - distributed programming
