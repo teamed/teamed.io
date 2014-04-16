@@ -6,7 +6,12 @@ jekyll build
 
 mkdir -p ~/.ssh
 CLONE=$(mktemp -d -t blog-XXX)
-git clone "https://yegor256:${PASSWORD}@github.com/tpc2/teamed.io.git" "${CLONE}"
+if [ -z "${PASSWORD}" ]; then
+  URL=git@github.com:tpc2/teamed.io.git
+else
+  URL=https://yegor256:${PASSWORD}@github.com/tpc2/teamed.io.git
+fi
+git clone "${URL}" "${CLONE}"
 cd "${CLONE}"
 git checkout gh-pages
 rm -rf *

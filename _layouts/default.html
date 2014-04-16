@@ -8,6 +8,7 @@
     <meta name="keywords" content="{{ page.keywords | join:', ' | escape }}" />
     <meta name="viewport" content="width=device-width"/>
     <link rel="stylesheet" href="/css/layout.css?{{ site.data['hash'] }}"/>
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
     <title>{{ page.title }}</title>
   </head>
   <body>
@@ -18,15 +19,21 @@
       {{ content }}
     </section>
     <footer class="{{ page.footer }}">
-      <p class="left">
-        <strong>email</strong> <a href="mailto:sales@teamed.io">sales@teamed.io</a><br/>
-        <strong>phone</strong> 860.506.5536
-      </p>
-      <p class="right">
-        Team as a Service is provided by
-        <a href="http://www.technoparkcorp.com">TechnoPark Corp.</a>
-        and is its registered trademark.
-      </p>
+      <ul>
+          <li>
+              <i class="fa fa-twitter"></i>&#160;&#160;<a href="">teamedio</a><br/>
+              <i class="fa fa-envelope"></i>&#160;&#160;<a href="mailto:sales@teamed.io">sales@teamed.io</a><br/>
+              <i class="fa fa-phone"></i>&#160;&#160;860.506.5536<br/>
+          </li>
+          <li>
+              <a href="">angel.co/teamed-io</a><br/>
+              <a href="">crunchbase.com/teamed-io</a>
+          </li>
+          <li>
+              <img src="xdsd.png">
+              <img src="tpc.png" height="70px">
+          </li>
+      </ul>
     </footer>
     <script type="text/javascript">
       var _gaq = _gaq || [];
