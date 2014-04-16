@@ -7,7 +7,7 @@ jekyll build
 mkdir -p ~/.ssh
 CLONE=$(mktemp -d -t blog-XXX)
 if [ -z "${PASSWORD}" ]; then
-  URL=git@github.com:tpc2/teamed.io.git
+  URL=$(git config --get remote.origin.url)
 else
   URL=https://yegor256:${PASSWORD}@github.com/tpc2/teamed.io.git
 fi
