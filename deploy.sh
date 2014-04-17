@@ -20,8 +20,8 @@ rm README.md
 rm deploy.sh
 
 git add .
-git config --global user.email "deploy@timed.io"
-git config --global user.name "deploy.sh"
+git config user.email "deploy@timed.io"
+git config user.name "deploy.sh"
 git commit -am "new site version deployed" --allow-empty
 git push --quiet origin gh-pages
 
