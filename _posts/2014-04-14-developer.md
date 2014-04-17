@@ -10,7 +10,7 @@ keywords:
 paragraphs:
   quality-coding:
     title: High Quality Coding
-    image: image.png
+    image: high-quality-developer.svg
     text: |
       If you are passionate about software development and
       committed to quality, we want to work with you. Our
@@ -18,7 +18,7 @@ paragraphs:
       Don't be scared; just be ready to improve yourself :)
   perfect-job:
     title: Perfect Remote Job
-    image: image3.png
+    image: remote-job.svg
     text:
       - |
         We offer a flexible part-time job you can work from anywhere.
@@ -35,7 +35,7 @@ paragraphs:
         if you don't feel like they're a good fit.
   high-rates:
     title: High Hourly Rates
-    image: image7.png
+    image: hourly-rate.svg
     text: |
       We pay you immediately after a task is completed, either
       through [oDesk](http://www.odesk.com) or [PayPal](http://www.paypal.com),
@@ -45,7 +45,7 @@ paragraphs:
       Here is a [sample](http://img.tpc2.com/agreement.pdf) of our contract.
   apply-now:
     title: Apply Now
-    image: image4.png
+    image: apply-now.svg
     text: |
       When you are ready to join, send us your GitHub account and Stack Overflow
       profile, as we expect people passionate about software development to be
