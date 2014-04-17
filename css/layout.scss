@@ -21,6 +21,7 @@ $teamed-font: 'Source Code Pro';
 
 $sponsor-background: #e37259;
 $developer-background: #6e97a2;
+$switch-orientation-point: "900px";
 
 * {
   margin: 0;
@@ -44,6 +45,10 @@ header {
   font-weight: 300;
   background-color: #e6e1ce;
   color: #66595c;
+
+  @media all and (max-width: $switch-orientation-point) {
+    padding: 1em 0 1em;
+  }
 }
 
 header.sponsor {
@@ -68,6 +73,10 @@ header.developer {
   a {
     border: 0;
   }
+
+  @media all and (max-width: $switch-orientation-point) {
+    font-size: 1.7em;
+  }
 }
 
 section.section-index {
@@ -80,6 +89,10 @@ section.section-index {
   font-size: 2.5em;
   font-weight: 300;
   letter-spacing: -5px;
+
+  @media all and (max-width: $switch-orientation-point) {
+    font-size: 1.8em;
+  }
 }
 
 .contact-index {
@@ -112,6 +125,11 @@ footer {
     -webkit-column-gap: 1em;
     -webkit-column-fill: auto;
     padding-left: 0;
+    list-style: none;
+
+    @media all and (max-width: $switch-orientation-point) {
+      -webkit-column-count: 1;
+    }
 
     li {
       -webkit-column-break-inside: avoid;
@@ -142,6 +160,7 @@ footer.developer {
   margin: 0 1em;
   font-family: $main-font;
   text-decoration: none;
+  white-space: nowrap;
   border-radius: 5px;
   letter-spacing: 3px;
   border: 0;
@@ -180,6 +199,10 @@ a {
 article {
   padding: 2em 10em;
   font-family: $light-font;
+
+  @media all and (max-width: $switch-orientation-point) {
+    padding: 1em 1em;
+  }
 }
 
 .paragraph {
@@ -190,9 +213,19 @@ article {
     display: inline-block;
     vertical-align: top;
 
+    @media all and (max-width: $switch-orientation-point) {
+      width: 100%;
+      display: block;
+      text-align: center;
+    }
+
     img {
       margin: 1em 0;
       max-width: 100%;
+
+      @media all and (max-width: $switch-orientation-point) {
+        max-width: 50%;
+      }
     }
   }
 
@@ -203,6 +236,12 @@ article {
     font-size: .8em;
     padding: 1em;
     line-height: 1.8em;
+
+    @media all and (max-width: $switch-orientation-point) {
+      width: 100%;
+      box-sizing: border-box;
+      display: block;
+    }
   }
 }
 
@@ -212,6 +251,11 @@ h1 {
   font-size: 2.2em;
   letter-spacing: -2px;
   margin: 0 0 .5em;
+
+  @media all and (max-width: $switch-orientation-point) {
+    font-size: 1.7em;
+  }
+
 }
 
 p {
@@ -221,4 +265,18 @@ p {
 
 ul {
   padding: 1em 0 1em 2em;
+}
+
+nav {
+
+  @media all and (max-width: $switch-orientation-point) {
+    line-height: 4em;
+  }
+}
+
+.or-word {
+
+  @media all and (max-width: $switch-orientation-point) {
+    display: none;
+  }
 }
