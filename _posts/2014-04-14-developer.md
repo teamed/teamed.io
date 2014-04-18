@@ -18,7 +18,7 @@ paragraphs:
       Moreover, our work model
       [differs](http://www.xdsd.org/2014/04/17/how-xdsd-is-different.html)
       from everything you've seen before.
-      But don't be scared; just be ready to improve yourself :)
+      But don't be scared; just be ready to improve yourself.
   perfect-job:
     title: Perfect Remote Job
     image: remote-job.svg
