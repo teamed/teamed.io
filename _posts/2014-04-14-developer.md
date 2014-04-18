@@ -47,9 +47,9 @@ paragraphs:
     title: Apply Now
     image: apply-now.svg
     text: |
-      When you are ready to join, send us your GitHub account and Stack Overflow
+      When you are ready to join, send us your GitHub account and StackOverflow
       profile, as we expect people passionate about software development to be
       active contributors to open-source projects and regularly spend time
-      on Stack Overflow. Please send them, together with your CV, to
+      on StackOverflow. Please send them, together with your CV, to
       [dev@teamed.io](mailto:dev@teamed.io).
 ---
