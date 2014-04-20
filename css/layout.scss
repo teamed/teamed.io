@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2009, teamed.io
+ * Copyright (c) 2014, teamed.io
  * All rights reserved. THIS IS PRIVATE SOFTWARE.
  *
  * Redistribution and use in source and binary forms, with or without modification, are PROHIBITED
@@ -26,6 +26,8 @@ $switch-orientation-point: "900px";
 * {
   margin: 0;
   padding: 0;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
@@ -110,7 +112,6 @@ footer {
   min-height: 100%;
   padding: 3em 15%;
   font-size: .8em;
-  box-sizing: border-box;
   line-height: 2em;
   background-color: #e6e1ce;
   text-align: center;
@@ -121,18 +122,25 @@ footer {
   }
 
   ul {
+    -moz-column-count: 3;
+    -moz-column-gap: 1em;
+    column-count: 3;
+    column-gap: 1em;
     -webkit-column-count: 3;
     -webkit-column-gap: 1em;
-    -webkit-column-fill: auto;
     padding-left: 0;
     list-style: none;
 
     @media all and (max-width: $switch-orientation-point) {
       -webkit-column-count: 1;
+      -moz-column-count: 1;
+      column-count: 1;
     }
 
     li {
       -webkit-column-break-inside: avoid;
+      -moz-column-break-inside: avoid;
+      column-break-inside: avoid;
       margin-bottom: 2em;
     }
   }
@@ -239,7 +247,6 @@ article {
 
     @media all and (max-width: $switch-orientation-point) {
       width: 100%;
-      box-sizing: border-box;
       display: block;
     }
   }
@@ -279,4 +286,28 @@ nav {
   @media all and (max-width: $switch-orientation-point) {
     display: none;
   }
+}
+
+%footer-logos {
+  width: 80px;
+}
+
+.tpc-logo-developer {
+  @extend %footer-logos;
+  content: url('http://img.teamed.io/tpc-logo-developer.svg');
+}
+
+.xdsd-logo-developer {
+  @extend %footer-logos;
+  content: url('http://img.teamed.io/xdsd-logo-developer.svg');
+}
+
+.tpc-logo-sponsor {
+  @extend %footer-logos;
+  content: url('http://img.teamed.io/tpc-logo-sponsor2.svg');
+}
+
+.xdsd-logo-sponsor {
+  @extend %footer-logos;
+  content: url('http://img.teamed.io/xdsd-logo-sponsor.svg');
 }
