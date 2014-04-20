@@ -5,7 +5,6 @@ branches:
     - master
 env:
   global:
-    - secure: "ONm0GHbjI394wrQScwwKf5FFExQXWLIYYhSb7yW4/YKIVf3b+cjlroqOdMlhmw531H6yguUjvsLgdlUfFCQIVTVjKNyLbFLea3WULLKWnRMqmJCHSiSs4mU+FmGPlanYhgOlCN5BsJoqE3XAKX/W+1TNCFX6U+otwtkL1gNqeUs="
-script:
-  - ./deploy.sh
+    - secure: "TlVlCo+1FYK8dgBy115EpAWwVfvSo5J8g477uQqypO4C5zP8Va8eNM2lWnR/yK/GosnJ1CuG2OkhNc2diDCGg8la5WIB5xn57Bzp7C6mGMxQXg8X67R+Qay/11A2lVbGGQm+PeKE0/mwgMji3+aIi1sli5VujRAsRLBG0S34lqM="
+script: jgd -u https://yegor256:$PASSWORD@github.com/tpc2/teamed.io.git
 
