@@ -144,6 +144,7 @@ footer {
     li {
       -webkit-column-break-inside: avoid;
       -moz-column-break-inside: avoid;
+      page-break-inside: avoid;
       column-break-inside: avoid;
       margin-bottom: 2em;
     }
@@ -292,26 +293,20 @@ nav {
   }
 }
 
-%footer-logos {
-  width: 80px;
+.associated-partners {
+  height: 80px;
+  margin: 0 1em 1em;
 }
 
-.tpc-logo-developer {
-  @extend %footer-logos;
-  content: url('http://img.teamed.io/tpc-logo-developer.svg');
+.partners-link- {
+  display: none;
 }
 
-.xdsd-logo-developer {
-  @extend %footer-logos;
-  content: url('http://img.teamed.io/xdsd-logo-developer.svg');
+.partners-link-developer,
+.partners-link-sponsor {
+  display: inline-block;
 }
 
-.tpc-logo-sponsor {
-  @extend %footer-logos;
-  content: url('http://img.teamed.io/tpc-logo-sponsor2.svg');
-}
-
-.xdsd-logo-sponsor {
-  @extend %footer-logos;
-  content: url('http://img.teamed.io/xdsd-logo-sponsor.svg');
+.no-underline {
+  border: 0;
 }
