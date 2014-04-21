@@ -267,7 +267,11 @@ h1 {
   @media all and (max-width: $switch-orientation-point) {
     font-size: 1.7em;
   }
+}
 
+h2 {
+  @extend h1;
+  font-size: 1.2em;
 }
 
 p {
