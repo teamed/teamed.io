@@ -45,7 +45,7 @@ paragraphs:
       according to the budget allocated for the task multiplied by your hourly rate.
       Say, for example, that your rate is $50/hour and the task budget is 30
       minutes. You will get $25 immediately after the task is completed.
-      Here is a [sample](http://img.tpc2.com/agreement.pdf) of our contract.
+      Here is a [sample](http://img.teamed.io/engineer.pdf) of our contract.
   apply-now:
     title: Apply Now
     image: apply-now.svg
