@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
   <head>
+    <meta charset="utf-8"/>
     <link rel="icon" type="image/png" href="//img.teamed.io/ico-64x64.png">
     <link rel="shortcut icon" href="//img.teamed.io/ico-64x64.png" />
-    <meta charset="utf-8"/>
     <meta name="description" content="{{ page.description | escape }}" />
     <meta name="keywords" content="{{ page.keywords | join:', ' | escape }}" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -14,7 +14,9 @@
   <body class="{{ page.body }}">
     <header class="{{ page.style }}">
       <span class="teamed">
-        <a href="/"><img src="//img.teamed.io/logo.svg" width="180"/></a>
+        <a href="/">
+          <img src="//img.teamed.io/logo{% if page.style %}-white{% endif %}.svg" width="180"/>
+        </a>
       </span>
     </header>
     <section class="{{ page.section }}">
