@@ -42,9 +42,7 @@ body.body-index {
 }
 
 header {
-  padding: 1em 0 3em;
-  font-family: $teamed-font;
-  font-weight: 300;
+  padding: 1em 0;
   background-color: #e6e1ce;
   color: #66595c;
 
@@ -56,11 +54,10 @@ header {
 header.sponsor {
   @extend header;
   background-color: $sponsor-background;
-  color: #fff;
 }
 
 header.developer {
-  @extend header.sponsor;
+  @extend header;
   background-color: $developer-background;
 }
 
@@ -85,7 +82,7 @@ header.developer {
   }
 }
 
-section.section-index {
+.section-index {
   background-color: #e6e1ce;
   font-family: $teamed-font;
   padding: .4em 0 2em;
