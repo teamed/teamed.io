@@ -9,6 +9,30 @@ layout: default
     </a>
   </header>
   <section>
+    <script>
+    $(document).ready(
+      function() {
+        if (location.search.match(/^\?\d+/)) {
+          var texts = [
+            'Looking for reliable programmers for your startup?'
+          ];
+          var idx = parseInt(location.search.substring(1));
+          if (texts[idx]) {
+            $('#intro-text').html(texts[idx] + ' We can help! Find me in <a href="skype:egor256?chat">Skype</a>');
+            $('.intro').show();
+          }
+        }
+      }
+    );
+    </script>
+    <div class="slot intro" style="display:none">
+      <p class="cto">
+        <img src="http://img.yegor256.com/yegor-bugayenko.jpg" class="photo"/><br/>
+        Yegor Bugayenko<br/>
+        CTO of teamed.io
+      </p>
+      <p id="intro-text">...</p>
+    </div>
     <div class="slot page">
       {% for par in page.paragraphs %}
         <div class="paragraph">
