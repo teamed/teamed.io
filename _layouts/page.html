@@ -1,21 +1,56 @@
 ---
 layout: default
-footer: normal
 ---
 
-<article>
-  {% for par in page.paragraphs %}
-    <div class="paragraph">
-      <div class="left">
-        <img src="http://img.teamed.io/{{ par[1].image | cgi_escape }}"
-          alt="picture">
-      </div>
-      <div class="right">
-        <h1>{{ par[1].title | escape }}</h1>
-        {% for p in par[1].text %}
-          {{ p | markdownify }}
-        {% endfor %}
-      </div>
-    </div>
-  {% endfor %}
-</article>
+<body>
+  <header class="{{ page.style }}">
+    <a href="/">
+      <img src="//img.teamed.io/logo-white.svg" width="180"/>
+    </a>
+  </header>
+  <section>
+    <article class="page">
+      {% for par in page.paragraphs %}
+        <div class="paragraph">
+          <div class="left">
+            <img src="http://img.teamed.io/{{ par[1].image | cgi_escape }}" alt="picture">
+          </div>
+          <div class="right">
+            <h1>{{ par[1].title | escape }}</h1>
+            {% for p in par[1].text %}
+              {{ p | markdownify }}
+            {% endfor %}
+          </div>
+        </div>
+      {% endfor %}
+    </article>
+    <h2>Inspired by</h2>
+    <a class="no-underline" href="http://www.technoparkcorp.com"><img class="associated-partners" alt="TPC2.com" title="TPC2.com" src="http://img.teamed.io/tpc-logo.svg"></a>
+    <a class="no-underline" href="http://www.xdsd.org"><img class="associated-partners" alt="xdsd.org" title="xdsd.org" src="http://img.teamed.io/xdsd-logo.svg"></a>
+  </section>
+  <footer class="{{ page.style }}">
+    <ul>
+      <li>
+        PO Box 211
+        <br/>
+        Mountain View, CA 94042
+      </li>
+      <li>
+        <i class="fa fa-twitter ico"></i>
+        <a href="https://twitter.com/yegor256">yegor256</a>
+        <br/>
+        <i class="fa fa-envelope ico"></i>
+        <a href="mailto:sales@teamed.io">sales@teamed.io</a>
+        <br/>
+        <i class="fa fa-phone ico"></i>
+        860.506.5536
+      </li>
+      <li>
+        <a href="https://angel.co/teamed-io">angel.co/teamed-io</a>
+        <br/>
+        <a href="http://www.crunchbase.com/company/teamed">crunchbase.com/teamed</a>
+      </li>
+    </ul>
+  </footer>
+</body>
+

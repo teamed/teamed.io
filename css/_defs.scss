@@ -13,12 +13,13 @@
  * @version $Id$
  */
 
-@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro:200,300,400,500,600,700,900);
-@font-face {
-  font-family: 'Fira-Regular';
-  src: url('http://img.teamed.io/fonts/fira/FiraSansOT-Regular.otf');
-}
-@font-face {
-  font-family: 'Fira-Light';
-  src: url('http://img.teamed.io/fonts/fira/FiraSansOT-Light.otf');
-}
+@import 'fonts';
+
+$main-font: 'Fira-Regular', 'Helvetica', 'Arial', sans-serif;
+$light-font: 'Fira-Light', 'Helvetica', 'Arial', sans-serif;
+$foot-font: 'Source Code Pro', 'Courier New', 'Courier', monospace;
+
+$em: 24px;
+$sponsor-background: #e37259;
+$developer-background: #6e97a2;
+$switch-orientation-point: 900px;

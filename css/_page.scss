@@ -1,0 +1,131 @@
+/**
+ * Copyright (c) 2014, teamed.io
+ * All rights reserved. THIS IS PRIVATE SOFTWARE.
+ *
+ * Redistribution and use in source and binary forms, with or without modification, are PROHIBITED
+ * without prior written permission from the author. This product may NOT be used anywhere
+ * and on any computer except the server platform of teamed.io. located at
+ * www.teamed.io. If you received this code occasionally and without intent to use
+ * it, please report this incident to the author by email: privacy@teamed.io
+ *
+ * @author Max Bugaenko <max.bugaenko@gmail.com>
+ * @copyright Copyright (c) teamed.io, 2014
+ * @version $Id$
+ */
+
+@import 'defs';
+@import 'fonts';
+
+header {
+  &.sponsor {
+    background-color: $sponsor-background;
+  }
+  &.developer {
+    background-color: $developer-background;
+  }
+}
+
+footer {
+  width: 100%;
+  min-height: 100%;
+  padding: 3 * $em 15%;
+  font-size: .8 * $em;
+  line-height: 1.5 * $em;
+  text-align: center;
+  font-family: $light-font;
+  ul {
+    -moz-column-count: 3;
+    -moz-column-gap: $em;
+    column-count: 3;
+    column-gap: $em;
+    -webkit-column-count: 3;
+    -webkit-column-gap: $em;
+    padding-left: 0;
+    list-style: none;
+    @media all and (max-width: $switch-orientation-point) {
+      -webkit-column-count: 1;
+      -moz-column-count: 1;
+      column-count: 1;
+    }
+    li {
+      -webkit-column-break-inside: avoid;
+      -moz-column-break-inside: avoid;
+      page-break-inside: avoid;
+      column-break-inside: avoid;
+      margin-bottom: 2 * $em;
+    }
+  }
+  &.sponsor {
+    color: white;
+    background-color: $sponsor-background;
+  }
+  &.developer {
+    color: white;
+    background-color: $developer-background;
+  }
+}
+.page {
+  padding: 2 * $em 10 * $em;
+  font-family: $light-font;
+  @media all and (max-width: $switch-orientation-point) {
+    padding: $em $em;
+  }
+  a {
+    border-bottom: 1px dashed;
+  }
+  h1 {
+    font-family: $foot-font;
+    font-weight: 300;
+    font-size: 1.7 * $em;
+    letter-spacing: -2px;
+    margin: 0 0 .5 * $em;
+    @media all and (max-width: $switch-orientation-point) {
+      font-size: 1.7 * $em;
+    }
+  }
+  h2 {
+    @extend h1;
+    font-size: 1.2 * $em;
+  }
+  .paragraph {
+    padding: $em 0;
+    .left {
+      width: 35%;
+      display: inline-block;
+      vertical-align: top;
+      @media all and (max-width: $switch-orientation-point) {
+        width: 100%;
+        display: block;
+        text-align: center;
+      }
+      img {
+        margin: $em 0;
+        max-width: 100%;
+        @media all and (max-width: $switch-orientation-point) {
+          max-width: 50%;
+        }
+      }
+    }
+    .right {
+      width: 55%;
+      display: inline-block;
+      text-align: left;
+      font-size: .8 * $em;
+      padding: $em;
+      line-height: 1.4 * $em;
+      @media all and (max-width: $switch-orientation-point) {
+        width: 100%;
+        display: block;
+      }
+    }
+  }
+}
+
+.associated-partners {
+  height: 80px;
+  margin: 0 1em 1em;
+}
+
+.no-underline {
+  border: 0;
+}

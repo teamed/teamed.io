@@ -1,0 +1,68 @@
+/**
+ * Copyright (c) 2014, teamed.io
+ * All rights reserved. THIS IS PRIVATE SOFTWARE.
+ *
+ * Redistribution and use in source and binary forms, with or without modification, are PROHIBITED
+ * without prior written permission from the author. This product may NOT be used anywhere
+ * and on any computer except the server platform of teamed.io. located at
+ * www.teamed.io. If you received this code occasionally and without intent to use
+ * it, please report this incident to the author by email: privacy@teamed.io
+ *
+ * @author Max Bugaenko <max.bugaenko@gmail.com>
+ * @copyright Copyright (c) teamed.io, 2014
+ * @version $Id$
+ */
+
+@import 'fonts';
+@import 'defs';
+
+.idx {
+  background-color: #e6e1ce;
+  .slogan {
+    font-family: $foot-font;
+    font-size: 2.5 * $em;
+    font-weight: 300;
+    padding: 1.4 * $em 0;
+    letter-spacing: -5px;
+    @media all and (max-width: $switch-orientation-point) {
+      font-size: 1.8 * $em;
+    }
+  }
+  .contacts {
+    font-family: $light-font;
+    line-height: 1.5 * $em;
+    padding: 4 * $em 0;
+  }
+  .buttons {
+    span {
+      @media all and (max-width: $switch-orientation-point) {
+        display: none;
+      }
+    }
+    a {
+      padding: .5em 1em;
+      font-size: 1.5em;
+      margin: 0 1em;
+      font-family: $main-font;
+      text-decoration: none;
+      white-space: nowrap;
+      border-radius: 5px;
+      letter-spacing: 3px;
+      border: 0;
+      color: #fff;
+      position: relative;
+      &.developers {
+        background-color: #c14b30;
+        &:hover {
+          background-color: #ac351b;
+        }
+      }
+      &.job {
+        background-color: #547882;
+        &:hover {
+          background-color: #446a74;
+        }
+      }
+    }
+  }
+}
