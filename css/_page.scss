@@ -122,8 +122,7 @@ footer {
 }
 
 .portfolio {
-  background-color: #ddd;
-  .projects {
+  ul {
     text-align: center;
     list-style: none;
     li {
@@ -133,6 +132,27 @@ footer {
       font-size: .8 * $em;
       width: 10 * $em;
       max-width: 10 * $em;
+    }
+  }
+}
+
+.advisers {
+  ul {
+    text-align: center;
+    list-style: none;
+    li {
+      display: inline-block;
+      vertical-align: top;
+      text-align: left;
+      margin: $em;
+      font-size: .8 * $em;
+      width: 15 * $em;
+      max-width: 15 * $em;
+      img {
+        float: left;
+        margin-right: .5 * $em;
+        margin-bottom: .5 * $em;
+      }
     }
   }
 }
