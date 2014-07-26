@@ -64,28 +64,28 @@ footer {
     background-color: $developer-background;
   }
 }
-.page {
+
+.slot {
   padding: 2 * $em 10 * $em;
   font-family: $light-font;
   @media all and (max-width: $switch-orientation-point) {
     padding: $em $em;
   }
-  a {
-    border-bottom: 1px dashed;
-  }
   h1 {
+    margin: 0 0 .5 * $em;
     font-family: $foot-font;
     font-weight: 300;
     font-size: 1.7 * $em;
     letter-spacing: -2px;
-    margin: 0 0 .5 * $em;
     @media all and (max-width: $switch-orientation-point) {
       font-size: 1.7 * $em;
     }
   }
-  h2 {
-    @extend h1;
-    font-size: 1.2 * $em;
+}
+
+.page {
+  a {
+    border-bottom: 1px dashed;
   }
   .paragraph {
     padding: $em 0;
@@ -117,6 +117,22 @@ footer {
         width: 100%;
         display: block;
       }
+    }
+  }
+}
+
+.portfolio {
+  background-color: #ddd;
+  .projects {
+    text-align: center;
+    list-style: none;
+    li {
+      display: inline-block;
+      vertical-align: top;
+      margin: $em;
+      font-size: .8 * $em;
+      width: 10 * $em;
+      max-width: 10 * $em;
     }
   }
 }

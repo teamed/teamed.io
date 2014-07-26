@@ -9,7 +9,7 @@ layout: default
     </a>
   </header>
   <section>
-    <article class="page">
+    <div class="slot page">
       {% for par in page.paragraphs %}
         <div class="paragraph">
           <div class="left">
@@ -23,31 +23,86 @@ layout: default
           </div>
         </div>
       {% endfor %}
-    </article>
-    <h2>Inspired by</h2>
-    <a class="no-underline" href="http://www.technoparkcorp.com"><img class="associated-partners" alt="TPC2.com" title="TPC2.com" src="http://img.teamed.io/tpc-logo.svg"></a>
-    <a class="no-underline" href="http://www.xdsd.org"><img class="associated-partners" alt="xdsd.org" title="xdsd.org" src="http://img.teamed.io/xdsd-logo.svg"></a>
+    </div>
+    <div class="slot portfolio">
+      <h1>Our recent open source products</h1>
+      <ul class="projects">
+        <li>
+          <a href="http://www.rultor.com">
+            <img src="http://img.rultor.com/logo.svg" style="width:64px;" alt="rultor.com logo"/>
+          </a><br/>
+          Coding team assistant, automating merge, release, and deploy operations for Github projects
+        </li>
+        <li>
+          <a href="http://www.jcabi.com">
+            <img src="http://img.jcabi.com/logo-square.png" style="width:64px;" alt="jcabi.com logo"/>
+          </a><br/>
+          Useful Java components, including AOP aspects, DynamoDB SDK, MySQL Maven Plugin, etc.
+        </li>
+        <li>
+          <a href="http://www.s3auth.com">
+            <img src="http://img.s3auth.com/logo.png" style="width:170px;" alt="s3auth.com logo"/>
+          </a><br/>
+          HTTP Basic Authenticating gateway for Amazon S3 buckets
+        </li>
+        <li>
+          <a href="http://www.netbout.com">
+            <img src="http://img.netbout.com/logo.svg" style="width:128px;" alt="netbout.com logo"/>
+          </a><br/>
+          Secure online environment for private long-term business communications
+        </li>
+        <li>
+          <a href="http://www.qulice.com">
+            <img src="http://img.qulice.com/logo.png" style="width:150px;" alt="qulice.com logo"/>
+          </a><br/>
+          Static quality analysis toolkit for Java/Maven projects
+        </li>
+        <li>
+          <a href="http://www.rexsl.com">
+            <img src="http://img.rexsl.com/logo.png" style="width:150px;" alt="rexsl.com logo"/>
+          </a><br/>
+          XSLT-powered RESTful framework for Java web applications
+        </li>
+        <li>
+          <a href="http://www.requs.org">
+            <img src="http://img.requs.org/logo.svg" style="width:150px;" alt="requs.com logo"/>
+          </a><br/>
+          Controlled natural language and Java library for requirements specification
+        </li>
+        <li>
+          <a href="http://www.xembly.org">
+            <img src="http://img.xembly.org/logo-256x256.png" style="width:64px;" alt="xembly.org logo"/>
+          </a><br/>
+          XML manipulation language with Java implementation
+        </li>
+      </ul>
+    </div>
+    <div class="slot inspired">
+      <h1>Inspired by</h1>
+      <a href="http://www.technoparkcorp.com">
+        <img class="associated-partners" alt="TPC2.com" title="TPC2.com" src="http://img.teamed.io/tpc-logo.svg">
+      </a>
+      <a href="http://www.xdsd.org">
+        <img class="associated-partners" alt="xdsd.org" title="xdsd.org" src="http://img.teamed.io/xdsd-logo.svg">
+      </a>
+    </div>
   </section>
   <footer class="{{ page.style }}">
     <ul>
       <li>
-        PO Box 211
-        <br/>
-        Mountain View, CA 94042
+        568 9th Str S 202<br/>
+        Naples, FL 34102
       </li>
       <li>
         <i class="fa fa-twitter ico"></i>
-        <a href="https://twitter.com/yegor256">yegor256</a>
-        <br/>
+        <a href="https://twitter.com/yegor256">yegor256</a><br/>
         <i class="fa fa-envelope ico"></i>
-        <a href="mailto:sales@teamed.io">sales@teamed.io</a>
-        <br/>
+        <a href="mailto:sales@teamed.io">sales@teamed.io</a><br/>
         <i class="fa fa-phone ico"></i>
         860.506.5536
       </li>
       <li>
-        <a href="https://angel.co/teamed-io">angel.co/teamed-io</a>
-        <br/>
+        <a href="https://angel.co/teamed-io">angel.co/teamed-io</a><br/>
         <a href="http://www.crunchbase.com/company/teamed">crunchbase.com/teamed</a>
       </li>
     </ul>

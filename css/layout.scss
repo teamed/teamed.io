@@ -50,36 +50,7 @@ a {
   color: inherit;
 }
 
-h1 {
-  font-family: $foot-font;
-  font-weight: 300;
-  font-size: 2.2 * $em;
-  letter-spacing: -2px;
-  margin: 0 0 .5 * $em;
-  @media all and (max-width: $switch-orientation-point) {
-    font-size: 1.7em;
-  }
-}
-
-h2 {
-  @extend h1;
-  font-size: 1.2 * $em;
-}
-
 p {
   margin-top: $em;
   margin-bottom: $em;
-}
-
-ul {
-  padding: $em 0 $em 2 * $em;
-}
-
-.associated-partners {
-  height: 80px;
-  margin: 0 1em 1em;
-}
-
-.no-underline {
-  border: 0;
 }
