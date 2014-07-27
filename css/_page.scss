@@ -49,6 +49,9 @@
     a {
       border-bottom: 1px dashed;
     }
+    &#intro-text {
+      color: $sponsor-background;
+    }
   }
 }
 
@@ -101,7 +104,6 @@
       font-size: .8 * $em;
       width: 10 * $em;
       max-width: 10 * $em;
-      height: 7 * $em;
       img {
         margin: .5 * $em;
       }
