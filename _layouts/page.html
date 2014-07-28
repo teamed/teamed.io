@@ -35,6 +35,17 @@ layout: default
       </p>
       <p id="intro-text">...</p>
     </div>
+    {% if page.highlights %}
+      <div class="slot highlights">
+        <ul>
+          {% for msg in page.highlights %}
+            <li>
+              {{ msg | markdownify }}
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endif %}
     <div class="slot page">
       {% for par in page.paragraphs %}
         <div class="paragraph">

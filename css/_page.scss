@@ -52,6 +52,16 @@
   }
 }
 
+.highlights {
+  ul {
+    text-align: center;
+    list-style: none;
+    li {
+      font-size: 1.5 * $em;
+    }
+  }
+}
+
 .page {
   a {
     border-bottom: 1px dashed;
