@@ -15,43 +15,24 @@
 
 @import 'defs';
 @import 'fonts';
-@import 'index';
-@import 'page';
-@import 'info';
 
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-}
+$width: 700px;
 
-body {
-  font-family: $main-font;
-  font-size: $em;
-  text-align: center;
-  color: #66595c;
-  background-color: white;
-}
-
-header {
-  padding: 1.5 * $em 0;
-  @media all and (max-width: $switch-orientation-point) {
-    padding: 1em 0 1em;
+.info {
+  width: $width;
+  @media all and (max-width: $width) {
+    width: 100%;
   }
-}
-
-.ico {
-  margin-right: .5em;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-p {
-  margin-top: $em;
-  margin-bottom: $em;
+  text-align: left;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 0.8 * $em;
+  h1 {
+    margin: .5 * $em 0;
+    font-weight: 300;
+    font-size: 1.7 * $em;
+    line-height: 2 * $em;
+    letter-spacing: -2px;
+    color: $sponsor-background;
+  }
 }
