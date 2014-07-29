@@ -34,6 +34,7 @@
     padding: 4 * $em 0;
   }
   .buttons {
+    line-height: 5 * $em;
     span {
       @media all and (max-width: $switch-orientation-point) {
         display: none;
