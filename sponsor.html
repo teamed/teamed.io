@@ -1,0 +1,252 @@
+---
+layout: default
+title: "Looking for Software Developers?"
+permalink: /sponsor.html
+description:
+  We provide you with a distributed team of highly-qualified
+  programmers, all managed by us.
+keywords:
+  - distributed team
+  - distributed programming
+  - software developer outsource
+  - java programming outsource
+  - freelance programming
+  - get a freelancer
+  - find a freelancer
+  - find a software developer
+highlights:
+  - You pay only for what works
+  - We release new versions 5+ times per day
+  - Our CTO daily supervises your project
+  - We choose programmers for your project individually
+paragraphs:
+  taas:
+    title: Team as a Service
+    image: team-as-a-service.svg
+    text: |
+      You need to grow by developing new software. You need more technical and management
+      resources. You need a lot of them and very soon. You could opt for head-hunting or
+      you could try outsourcing. However, if you are savvy enough, there is a better
+      way &mdash; Team as a Service&reg;.
+  go-distributed:
+    title: Go Distributed
+    image: go-distributed.svg
+    text:
+      We give you a distributed team of highly qualified programmers, all working
+      remotely from their home countries. We assign them tasks and monitor their
+      performance. We take responsibility for the end result and milestones.
+  outstanding-quality:
+    title: Outstanding Quality
+    image: high-quality.svg
+    text:
+      Due to our unique management model, we can deliver much higher quality than many
+      other software teams. First, our rules are very strict &mdash; unit tests,
+      mandatory static analysis, pre-flight builds and continuous delivery.
+      Second, we pay only for deliverables that pass our quality checks. This
+      combination ensures outstanding results.
+  targeted-skills:
+    title: Targeted Skills
+    image: targeted-skills.svg
+    text:
+      Since we don't have programmers on our payroll, we have the luxury of choosing from
+      a vast talent market only those professionals specifically required for your project.
+      If it needs to be written in Scala, we won't try to sell you in-house Python developers
+      just to cover our expenses. Unlike most software teams, programmers are not a burden
+      to us.
+portfolio:
+  rultor.com:
+    href: http://www.rultor.com/
+    img: http://img.rultor.com/logo.svg
+    width: 64
+    text:
+      Coding team assistant, automating merge, release,
+      and deploy operations for Github projects
+  jcabi.com:
+    href: http://www.jcabi.com/
+    img: http://img.jcabi.com/logo-square.png
+    width: 64
+    text:
+      Useful Java components, including AOP aspects,
+      DynamoDB SDK, MySQL Maven Plugin, etc.
+  s3auth.com:
+    href: http://www.s3auth.com/
+    img: http://img.s3auth.com/logo.png
+    width: 170
+    text:
+      HTTP Basic Authenticating gateway for Amazon S3 buckets
+  netbout.com:
+    href: http://www.netbout.com/
+    img: http://img.netbout.com/logo.svg
+    width: 128
+    text:
+      Secure online environment for private
+      long-term business communications
+  qulice.com:
+    href: http://www.qulice.com/
+    img: http://img.qulice.com/logo.png
+    width: 150
+    text:
+      Static quality analysis toolkit for Java/Maven projects
+  stateful.co:
+    href: http://www.stateful.co/
+    img: http://img.stateful.co/pomegranate.svg
+    width: 64
+    text:
+      Stateful RESTful web privitives with XML/JSON API
+  rexsl.com:
+    href: http://www.rexsl.com/
+    img: http://img.rexsl.com/logo.png
+    width: 150
+    text:
+      XSLT-powered RESTful framework for Java web applications
+  requs.org:
+    href: http://www.requs.org/
+    img: http://img.requs.org/logo.svg
+    width: 150
+    text:
+      Controlled natural language and Java library for requirements specification
+  xembly.org:
+    href: http://www.xembly.org/
+    img: http://img.xembly.org/logo-256x256.png
+    width: 64
+    text:
+      XML manipulation language with Java implementation
+technologies:
+  java:
+    img: http://img.teamed.io/tech/java.jpg
+    width: 64
+    text: Java7, Groovy, Clojure, JAX-RS, XML/XSL, JUnit, Maven, Mockito
+  aws:
+    img: http://img.teamed.io/tech/aws.jpg
+    width: 128
+    text: EC2, S3, DynamoDB, SimpleDB, CloudWatch, SNS, SQS, CloudFront, SES
+  databases:
+    img: http://img.teamed.io/tech/database.png
+    width: 64
+    text: PostgreSQL, MySQL, H2, Amazon DynamoDB, MongoDB, Amazon SimpleDB
+advisers:
+  tpc:
+    href: http://www.technoparkcorp.com
+    img: http://img.teamed.io/tpc-logo.svg
+    width: 80
+    text: |
+      TechnoPark Corp. a founder of teamed.io, is doing software
+      development since 2006, employing over 100 software engineers
+      in different countries.
+  xdsd:
+    href: http://www.xdsd.org
+    img: http://img.teamed.io/xdsd-logo.svg
+    width: 80
+    text:
+      eXtremely Distributed Software Development (XDSD)
+      methodology is used by teamed.io as a guiding manual for
+      project management, quality control, and team motivation.
+---
+<body>
+  <header class="sponsor">
+    <a href="/">
+      <img src="//img.teamed.io/logo-white.svg" width="180"/>
+    </a>
+  </header>
+  <section>
+    <div class="slot highlights">
+      <ul>
+        {% for msg in page.highlights %}
+          <li>
+            {{ msg | markdownify }}
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="slot">
+      <div data-id="eTMpuy1PifE" class="livechat_button">
+        <a href="http://www.livechatinc.com/">wait a second...</a>
+      </div>
+    </div>
+    <div class="slot page">
+      {% for par in page.paragraphs %}
+        <div class="paragraph">
+          <div class="left">
+            <img src="http://img.teamed.io/{{ par[1].image | cgi_escape }}" alt="picture">
+          </div>
+          <div class="right">
+            <h1>{{ par[1].title | escape }}</h1>
+            {% for p in par[1].text %}
+              {{ p | markdownify }}
+            {% endfor %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+    <div class="slot portfolio">
+      <h1 id="portfolio">Our Recent Open Source Products</h1>
+      <ul>
+        {% for project in page.portfolio %}
+          <li>
+            <a href="{{ project[1].href }}">
+              <img src="{{ project[1].img }}" style="width:{{ project[1].width }}px;" alt="logo"/>
+            </a><br/>
+            {{ project[1].text | markdownify }}
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="slot technologies">
+      <h1 id="technologies">Technologies We Love</h1>
+      <ul>
+        {% for tech in page.technologies %}
+          <li>
+            <img src="{{ tech[1].img }}" style="width:{{ tech[1].width }}px;" alt="logo"/>
+            {{ tech[1].text | markdownify }}
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+    <div class="slot advisers">
+      <h1 id="advisers">Our advisers</h1>
+      <ul>
+        {% for adviser in page.advisers %}
+          <li>
+            <a href="{{ adviser[1].href }}">
+              <img src="{{ adviser[1].img }}" style="width:{{ adviser[1].width }}px;" alt="logo"/>
+            </a>
+            {{ adviser[1].text | markdownify }}
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </section>
+  <footer class="sponsor">
+    <ul>
+      <li>
+        568 9th Str S 202<br/>
+        Naples, FL 34102
+      </li>
+      <li>
+        <a href="https://twitter.com/yegor256">
+          <i class="fa fa-twitter ico"></i>
+          yegor256
+        </a><br/>
+        <a href="mailto:sales@teamed.io">
+          <i class="fa fa-envelope ico"></i>
+          sales@teamed.io
+        </a><br/>
+        <i class="fa fa-phone ico"></i>
+        860.506.5536
+      </li>
+      <li>
+        <a href="https://angel.co/teamed-io">angel.co/teamed-io</a><br/>
+        <a href="http://www.crunchbase.com/company/teamed">crunchbase.com/teamed</a>
+      </li>
+    </ul>
+  </footer>
+  <script type="text/javascript">
+  var __lc = {};
+  __lc.license = 4756341;
+  (function() {
+    var lc = document.createElement('script'); lc.type = 'text/javascript'; lc.async = true;
+    lc.src = ('https:' == document.location.protocol ? 'https://' : 'http://') + 'cdn.livechatinc.com/tracking.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(lc, s);
+  })();
+  </script>
+</body>

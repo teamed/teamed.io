@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: default
 title: "Looking for a Job?"
 permalink: /developer.html
 description: "Welcome to teamed.io"
@@ -56,3 +56,53 @@ paragraphs:
       on StackOverflow. Please send them, together with your CV, to
       [dev@teamed.io](mailto:dev@teamed.io).
 ---
+
+<body>
+  <header class="developer">
+    <a href="/">
+      <img src="//img.teamed.io/logo-white.svg" width="180"/>
+    </a>
+  </header>
+  <section>
+    <div class="slot page">
+      {% for par in page.paragraphs %}
+        <div class="paragraph">
+          <div class="left">
+            <img src="http://img.teamed.io/{{ par[1].image | cgi_escape }}" alt="picture">
+          </div>
+          <div class="right">
+            <h1>{{ par[1].title | escape }}</h1>
+            {% for p in par[1].text %}
+              {{ p | markdownify }}
+            {% endfor %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </section>
+  <footer class="developer">
+    <ul>
+      <li>
+        PO Box 211<br/>
+        Mountain View, CA 94042<br/>
+        United States of America
+      </li>
+      <li>
+        <a href="https://twitter.com/yegor256">
+          <i class="fa fa-twitter ico"></i>
+          yegor256
+        </a><br/>
+        <a href="mailto:dev@teamed.io">
+          <i class="fa fa-envelope ico"></i>
+          dev@teamed.io
+        </a><br/>
+        <i class="fa fa-phone ico"></i>
+        860.506.5536
+      </li>
+      <li>
+        We love Java, Ruby,<br/>
+        NoSQL, AWS and unit tests
+      </li>
+    </ul>
+  </footer>
+</body>

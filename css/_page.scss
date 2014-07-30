@@ -104,6 +104,26 @@
       width: 10 * $em;
       max-width: 10 * $em;
       img {
+        display: inline-block;
+        margin: .5 * $em;
+      }
+    }
+  }
+}
+
+.technologies {
+  ul {
+    text-align: center;
+    list-style: none;
+    li {
+      display: inline-block;
+      vertical-align: top;
+      margin: $em;
+      font-size: .8 * $em;
+      width: 10 * $em;
+      max-width: 10 * $em;
+      img {
+        display: inline-block;
         margin: .5 * $em;
       }
     }
@@ -111,16 +131,13 @@
 }
 
 .advisers {
-  a {
-    border-bottom: 1px dashed;
-  }
   ul {
     text-align: center;
     list-style: none;
     li {
       display: inline-block;
       vertical-align: top;
-      text-align: left;
+      text-align: center;
       margin: $em;
       font-size: .8 * $em;
       width: 15 * $em;
@@ -129,9 +146,8 @@
         width: 100%;
       }
       img {
-        float: left;
-        margin-right: .5 * $em;
-        margin-bottom: .5 * $em;
+        display: inline-block;
+        margin-bottom: .2 * $em;
       }
     }
   }
