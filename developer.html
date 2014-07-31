@@ -68,7 +68,7 @@ paragraphs:
       {% for par in page.paragraphs %}
         <div class="paragraph">
           <div class="left">
-            <img src="http://img.teamed.io/{{ par[1].image | cgi_escape }}" alt="picture">
+            <img src="{{ par[1].image }}" alt="picture">
           </div>
           <div class="right">
             <h1>{{ par[1].title | escape }}</h1>
