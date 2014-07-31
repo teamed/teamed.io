@@ -169,9 +169,12 @@
       vertical-align: top;
       width: 10 * $em;
       max-width: 10 * $em;
-      img {
-        display: inline-block;
-        margin: .5 * $em;
+      a {
+        display: block;
+        height: 90px;
+        img {
+          margin: .5 * $em;
+        }
       }
     }
   }
