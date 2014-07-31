@@ -42,6 +42,7 @@
     }
   }
   p {
+    margin: 0;
     a {
       text-decoration: underline;
     }
@@ -49,9 +50,6 @@
   ul {
     li {
       margin: .5 * $em;
-      p {
-        margin: 0;
-      }
     }
   }
 }
