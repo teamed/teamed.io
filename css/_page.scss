@@ -171,8 +171,8 @@
       max-width: 10 * $em;
       a {
         display: block;
-        height: 90px;
         img {
+          display: inline-block;
           margin: .5 * $em;
         }
       }
