@@ -141,30 +141,35 @@ technologies:
   java:
     img: http://img.teamed.io/tech/java.jpg
     width: 64
+    height: 64
     text:
       Java7, Groovy, Clojure, AOP/AspectJ,
       JAX-RS, XML, XSLT, JUnit, Maven, Mockito
   aws:
     img: http://img.teamed.io/tech/aws.jpg
     width: 128
+    height: 52
     text:
       EC2, S3, DynamoDB, SimpleDB, CloudWatch,
       SNS, SQS, CloudFront, SES
   databases:
     img: http://img.teamed.io/tech/database.png
     width: 64
+    height: 64
     text:
       PostgreSQL, H2, Amazon DynamoDB,
       MongoDB, Amazon SimpleDB
   front-end:
     img: http://img.teamed.io/tech/html5.png
     width: 64
+    height: 64
     text:
       JavaScript, jQuery, SASS, AngularJS,
       node.js, HTML5, CSS3, PhantomJS, CasperJS
   process:
     img: http://img.teamed.io/tech/wheel.png
     width: 64
+    height: 64
     text:
       Github, Rultor, Travis, Docker, Continuous Integration,
       Build Automation, TDD, Static Analysis
@@ -249,7 +254,7 @@ advisers:
       <ul>
         {% for tech in page.technologies %}
           <li>
-            <img src="{{ tech[1].img }}" style="width:{{ tech[1].width }}px;height:{{ tech[1].width }}px;" alt="logo"/>
+            <img src="{{ tech[1].img }}" style="width:{{ tech[1].width }}px;height:{{ tech[1].height }}px;" alt="logo"/>
             {{ tech[1].text | markdownify }}
           </li>
         {% endfor %}
