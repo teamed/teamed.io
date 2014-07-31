@@ -74,7 +74,8 @@
       img {
         display: inline-block;
         margin: .5 * $em;
-        width: 150px;
+        width: 100px;
+        height: 100px;
       }
     }
   }
@@ -92,15 +93,25 @@
         }
       }
       th {
-        text-align: center;
+        &.left {
+          text-align: right;
+        }
+        &.right {
+          text-align: left;
+        }
       }
       td {
-        text-align: left;
-        &.left strong {
-          color: red;
+        &.left {
+          text-align: right;
+          strong {
+            color: $red;
+          }
         }
-        &.right strong {
-          color: green;
+        &.right {
+          text-align: left;
+          strong {
+            color: $green;
+          }
         }
       }
     }
