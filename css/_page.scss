@@ -17,10 +17,18 @@
 @import 'fonts';
 
 .slot {
-  padding: 2 * $em 10 * $em;
+  padding: 4 * $em 0;
   font-family: $light-font;
+  font-size: .8 * $em;
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  strong {
+    font-family: $bold-font;
+  }
   @media all and (max-width: $switch-orientation-point) {
     padding: $em $em;
+    width: 100%;
   }
   h1 {
     margin: 0 0 .5 * $em;
@@ -33,22 +41,73 @@
       font-size: 1.7 * $em;
     }
   }
+  p {
+    a {
+      text-decoration: underline;
+    }
+  }
+  ul {
+    li {
+      margin: .5 * $em;
+      p {
+        margin: 0;
+      }
+    }
+  }
 }
 
-.highlights {
+.intro {
+  font-weight: 300;
+  font-size: 1.7 * $em;
+  line-height: 2 * $em;
+}
+
+.keys {
   ul {
     text-align: center;
     list-style: none;
     li {
-      font-size: 1.5 * $em;
+      display: inline-block;
+      vertical-align: top;
+      width: 10 * $em;
+      max-width: 10 * $em;
+      img {
+        display: inline-block;
+        margin: .5 * $em;
+        width: 150px;
+      }
+    }
+  }
+}
+
+.diffs {
+  text-align: center;
+  table {
+    tr {
+      td, th {
+        vertical-align: top;
+        padding: $em;
+        @media all and (max-width: $switch-orientation-point) {
+          padding: .3 * $em;
+        }
+      }
+      th {
+        text-align: center;
+      }
+      td {
+        text-align: left;
+        &.left strong {
+          color: red;
+        }
+        &.right strong {
+          color: green;
+        }
+      }
     }
   }
 }
 
 .page {
-  a {
-    border-bottom: 1px dashed;
-  }
   .paragraph {
     padding: $em 0;
     @media print {
@@ -99,8 +158,6 @@
     li {
       display: inline-block;
       vertical-align: top;
-      margin: $em;
-      font-size: .8 * $em;
       width: 10 * $em;
       max-width: 10 * $em;
       img {
@@ -118,13 +175,11 @@
     li {
       display: inline-block;
       vertical-align: top;
-      margin: $em;
-      font-size: .8 * $em;
       width: 10 * $em;
       max-width: 10 * $em;
       img {
         display: inline-block;
-        margin: .5 * $em;
+        margin: .2 * $em;
       }
     }
   }
@@ -138,13 +193,8 @@
       display: inline-block;
       vertical-align: top;
       text-align: center;
-      margin: $em;
-      font-size: .8 * $em;
       width: 15 * $em;
       max-width: 15 * $em;
-      @media all and (max-width: $switch-orientation-point) {
-        width: 100%;
-      }
       img {
         display: inline-block;
         margin-bottom: .2 * $em;

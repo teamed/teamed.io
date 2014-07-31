@@ -3,8 +3,10 @@ layout: default
 title: "Looking for Software Developers?"
 permalink: /sponsor.html
 description:
-  We provide you with a distributed team of highly-qualified
-  programmers, all managed by us.
+  Hire us and get a team of programmers
+  individually chosen for your project,
+  working up to the highest quality standards
+  in the industry
 keywords:
   - distributed team
   - distributed programming
@@ -14,37 +16,69 @@ keywords:
   - get a freelancer
   - find a freelancer
   - find a software developer
-highlights:
-  - You pay only for what works
-  - We release new versions 5+ times per day
-  - Our CTO daily supervises your project
-  - We choose programmers for your project individually
-paragraphs:
-  go-distributed:
-    title: Go Distributed
-    image: go-distributed.svg
-    text:
-      We give you a distributed team of highly qualified programmers, all working
-      remotely from their home countries. We assign them tasks and monitor their
-      performance. We take responsibility for the end result and milestones.
-  outstanding-quality:
-    title: Outstanding Quality
-    image: high-quality.svg
-    text:
-      Due to our unique management model, we can deliver much higher quality than many
-      other software teams. First, our rules are very strict &mdash; unit tests,
-      mandatory static analysis, pre-flight builds and continuous delivery.
-      Second, we pay only for deliverables that pass our quality checks. This
-      combination ensures outstanding results.
-  targeted-skills:
-    title: Targeted Skills
-    image: targeted-skills.svg
-    text:
-      Since we don't have programmers on our payroll, we have the luxury of choosing from
-      a vast talent market only those professionals specifically required for your project.
-      If it needs to be written in Scala, we won't try to sell you in-house Python developers
-      just to cover our expenses. Unlike most software teams, programmers are not a burden
-      to us.
+intro: |
+  We can develop a software for you with the quality
+  **you have never seen** before &mdash;
+  we are generation ahead of others
+keys:
+  Transparency:
+    img: http://img.teamed.io/go-distributed.svg
+    text: |
+      **Transparency** of work, bills, and deliverables.
+      Every dollar spent is traceable down to the line
+      of code written. You simply pay only for what works.
+  Continuous Delivery:
+    img: http://img.teamed.io/high-quality.svg
+    text: |
+      **Continuous delivery** of results to production
+      environment 5+ times per day. You see
+      your software incrementally growing in front
+      of your very eyes.
+  Targeted Skills:
+    img: http://img.teamed.io/targeted-skills.svg
+    text: |
+      Team of programmers with **targeted skills**. You get
+      people experienced in your specific problem domain
+      and experts in required technologies.
+diffs:
+  unit-tests:
+    left: |
+      They use unit testing as a **supplementary**
+      fancy thing, which is usually sacrificed
+      in favor of deadlines or new features.
+    right: |
+      Our rules are very strict &mdash; unit tests and static analysis
+      is a **mandatory** requirement for everybody. We never
+      accept any new code unless it is covered by unit tests and
+      pass our quality checks. We never make exceptions.
+  burden:
+    left: |
+      Their programmers are on a payroll and have to
+      be paid anyway, either they work perfectly
+      or they are lazy, either your project succeeds
+      or fails. The biggest worry of the management
+      is to get enough funds from you just to cover
+      **monthly payroll** expenses.
+    right: |
+      Our programmers are being paid by
+      deliverables. If they don't deliver for some
+      reason or the project doesn't need them any more &mdash; you
+      don't pay. We never worry about covering our expenses,
+      we worry about your **project objectives** instead.
+  skills:
+    left: |
+      Their programmers possess **certain** skills
+      working full-time. When they have a team
+      of Python developers &mdash; your project will
+      be developed in Python, even if this is not the
+      right technology for your specific case.
+    right: |
+      Since we don't have programmers on our payroll,
+      we have the luxury of choosing from a vast talent
+      market only those professionals
+      **specifically required** for your project.
+      If it needs to be written in Scala, we won't try to sell
+      you in-house Python developers just to cover our expenses.
 portfolio:
   rultor.com:
     href: http://www.rultor.com/
@@ -109,7 +143,7 @@ technologies:
     width: 64
     text:
       Java7, Groovy, Clojure, AOP/AspectJ,
-      JAX-RS, XML/XSL, JUnit, Maven, Mockito
+      JAX-RS, XML, XSLT, JUnit, Maven, Mockito
   aws:
     img: http://img.teamed.io/tech/aws.jpg
     width: 128
@@ -122,13 +156,26 @@ technologies:
     text:
       PostgreSQL, H2, Amazon DynamoDB,
       MongoDB, Amazon SimpleDB
+  front-end:
+    img: http://img.teamed.io/tech/database.png
+    width: 64
+    text:
+      JavaScript, jQuery, SASS, AngularJS,
+      node.js, HTML5, CSS3, PhantomJS, CasperJS
+  process:
+    img: http://img.teamed.io/tech/wheel.png
+    width: 64
+    text:
+      Github, Rultor, Travis, Docker, Continuous Integration,
+      Build Automation, TDD, Static Analysis
 advisers:
   tpc:
     href: http://www.technoparkcorp.com
     img: http://img.teamed.io/tpc-logo.svg
     width: 80
     text: |
-      TechnoPark Corp. a founder of teamed.io, is doing software
+      TechnoPark Corp., a founder of teamed.io, is
+      an ISO:9001 certified company doing software
       development since 2006, employing over 100 software engineers
       in different countries.
   xdsd:
@@ -143,33 +190,46 @@ advisers:
 <body>
   <header class="sponsor">
     <a href="/">
-      <img src="//img.teamed.io/logo-white.svg" width="180"/>
+      <img src="//img.teamed.io/logo-white.svg"/>
     </a>
   </header>
   <section>
-    <div class="slot highlights">
+    <div class="slot intro">
+      {{ page.intro | markdownify }}
+    </div>
+    <div class="slot keys">
+      <h1 id="keys">Hire Us and Enjoy</h1>
       <ul>
-        {% for msg in page.highlights %}
+        {% for key in page.keys %}
           <li>
-            {{ msg | markdownify }}
+            <img src="{{ key[1].img }}" alt="logo"/>
+            {{ key[1].text | markdownify }}
           </li>
         {% endfor %}
       </ul>
     </div>
-    <div class="slot page">
-      {% for par in page.paragraphs %}
-        <div class="paragraph">
-          <div class="left">
-            <img src="http://img.teamed.io/{{ par[1].image | cgi_escape }}" alt="picture">
-          </div>
-          <div class="right">
-            <h1>{{ par[1].title | escape }}</h1>
-            {% for p in par[1].text %}
-              {{ p | markdownify }}
-            {% endfor %}
-          </div>
-        </div>
-      {% endfor %}
+    <div class="slot diffs">
+      <h1 id="portfolio">We Are Revolutionary Different</h1>
+      <table>
+        <thead>
+          <colgroup>
+            <col width="50%"/>
+            <col width="50%"/>
+          </colgroup>
+          <tr>
+            <th>Others</th>
+            <th>Our Team</th>
+          </tr>
+        </thead>
+        <tbody>
+          {% for diff in page.diffs %}
+            <tr>
+              <td class="left">{{ diff[1].left | markdownify }}</td>
+              <td class="right">{{ diff[1].right | markdownify }}</td>
+            </tr>
+          {% endfor %}
+        </tbody>
+      </table>
     </div>
     <div class="slot portfolio">
       <h1 id="portfolio">Our Recent Open Source Products</h1>
@@ -185,15 +245,24 @@ advisers:
       </ul>
     </div>
     <div class="slot technologies">
-      <h1 id="technologies">Technologies We Love</h1>
+      <h1 id="technologies">Technologies We Love<sup>*</sup></h1>
       <ul>
         {% for tech in page.technologies %}
           <li>
-            <img src="{{ tech[1].img }}" style="width:{{ tech[1].width }}px;" alt="logo"/>
+            <img src="{{ tech[1].img }}" style="width:{{ tech[1].width }}px;height:{{ tech[1].width }}px;" alt="logo"/>
             {{ tech[1].text | markdownify }}
           </li>
         {% endfor %}
       </ul>
+      <p style="text-align:left;font-size:0.6em;">
+        * Some technologies we don't like and prefer not to work with them,
+        including PHP, Python, Ant, Azure, utility classes,
+        MySQL, .Net, copy &amp; paste,
+        Subversion, JIRA/Bitbucket, Scrum, daily standups,
+        singletons,
+        Windows, Adobe Flash, Perl, Spring Framework, RPC,
+        NULL references, Selenium
+      </p>
     </div>
     <div class="slot advisers">
       <h1 id="advisers">Our advisers</h1>

@@ -36,9 +36,13 @@ body {
 }
 
 header {
-  padding: 1.5 * $em 0;
+  padding: 2 * $em 0;
   @media all and (max-width: $switch-orientation-point) {
     padding: 1em 0 1em;
+  }
+  img {
+    width: 180px;
+    height: 36px;
   }
 }
 
