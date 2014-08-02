@@ -13,22 +13,25 @@ keywords:
 ---
 
 <body class="idx">
-  <header>
-    <a href="/">
-      <img src="//img.teamed.io/logo-light.svg"/>
-    </a>
-  </header>
-  <p class="slogan">What are you looking for?</p>
-  <nav class="buttons">
-    <a class="developers" href="/sponsor.html">developers</a>
-           <span>or</span>
-    <a class="job" href="/developer.html">a job</a>
-  </nav>
-  <p class="contacts">
-    <a href="https://twitter.com/yegor256">
-      <i class="fa fa-twitter ico"></i> yegor256
-    </a>
-    <br/>
-    <i class="fa fa-phone ico"></i> 860.506.5536
-  </p>
+  <section itemscope itemtype="http://schema.org/Organization">
+    <header>
+      <a href="/" title="home page">
+        <img itemprop="logo" src="//img.teamed.io/logo-light.svg" alt="teamed.io logo"/>
+      </a>
+    </header>
+    <p class="slogan">What are you looking for?</p>
+    <nav class="buttons">
+      <a class="developers" itemprop="makesOffer" href="/sponsor.html">developers</a>
+      <span>or</span>
+      <a class="job" itemprop="seeks" href="/developer.html">a job</a>
+    </nav>
+    <p class="contacts">
+      <a href="https://twitter.com/yegor256">
+        <i class="fa fa-twitter ico"></i> yegor256
+      </a>
+      <br/>
+      <i class="fa fa-phone ico"></i>
+      <span itemprop="telephone">860.506.5536</span>
+    </p>
+  </section>
 </body>
