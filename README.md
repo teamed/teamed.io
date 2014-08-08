@@ -1,4 +1,4 @@
-<img src="http://img.teamed.io/logo-light.svg" width="150"/>
+[![Made By Teamed.io](http://img.teamed.io/btn.svg)](http://www.teamed.io)
 
 [![Build Status](https://travis-ci.org/teamed/teamed.io.svg?branch=master)](https://travis-ci.org/teamed/teamed.io)
 
