@@ -89,11 +89,11 @@
       margin-top: 3 * $em;
       clear: both;
       .num {
+        font-family: $foot-font;
         float: left;
-        margin-right: $em;
+        margin-right: 1.5 * $em;
         margin-bottom: 5 * $em;
         display: block;
-        font-weight: bold;
         color: white;
         line-height: 3 * $em;
         text-align: center;
