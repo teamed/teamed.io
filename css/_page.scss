@@ -80,37 +80,41 @@
 }
 
 .diffs {
-  text-align: center;
-  table {
-    tr {
-      td, th {
-        vertical-align: top;
-        padding: $em;
-        @media all and (max-width: $switch-orientation-point) {
-          padding: .3 * $em;
-        }
+  ul {
+    display: inline-block;
+    width: 80%;
+    list-style: none;
+    text-align: left;
+    li {
+      margin-top: $em;
+      clear: both;
+      .num {
+        float: left;
+        margin-right: $em;
+        margin-bottom: 5 * $em;
+        display: block;
+        font-weight: bold;
+        color: white;
+        line-height: 3 * $em;
+        text-align: center;
+        background-color: $sponsor-background;
+        font-size: 3 * $em;
+        border-radius: 50%;
+        width: 3 * $em;
+        height: 3 * $em;
       }
-      th {
-        &.left {
-          text-align: right;
-        }
-        &.right {
-          text-align: left;
-        }
+      .title {
+        display: block;
+        font-size: 1.5 * $em;
+        font-weight: bold;
       }
-      td {
-        &.left {
-          text-align: right;
-          strong {
-            color: $red;
-          }
-        }
-        &.right {
-          text-align: left;
-          strong {
-            color: $green;
-          }
-        }
+      .reason {
+        display: block;
+        font-weight: bold;
+      }
+      .details {
+        display: block;
+        margin-top: .4 * $em;
       }
     }
   }

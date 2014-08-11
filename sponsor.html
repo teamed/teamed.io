@@ -16,67 +16,68 @@ keywords:
   - find a freelancer
   - find a software developer
 intro: |
-  We can develop software for you with <u>quality</u>
-  **you have never seen** before &mdash;
-  we are a generation ahead of others.
-keys:
+  The way we develop software is absolutely unique
+  and revolutionary. We **invented** it.
+hows:
+  Distributed Team:
+    img: http://img.teamed.io/keys/people.svg
+    text: |
+      For every project we organize a **distributed team**
+      of programmers, working by contract
   Transparency:
     img: http://img.teamed.io/keys/dollar.svg
     text: |
-      **Transparency** when it comes to work, bills and deliverables.
-      Every dollar spent is traceable down to each line of code
-      written. You simply pay only for what works.
-  Continuous Delivery:
+      We break the scope down into **thousands of micro-taks**
+      and compose their results into a solid product
+  Quality:
     img: http://img.teamed.io/keys/basket.svg
     text: |
-      **Continuous delivery** of results to production environment
-      5+ times per day. You see your software product grow
-      incrementally &mdash; literally in front of your very eyes.
-  Targeted Skills:
-    img: http://img.teamed.io/keys/people.svg
-    text: |
-      A dedicated team of programmers with **targeted skills**.
-      You get people experienced in your specific problem
-      domain and experts in required technologies.
+      We assure that every micro-task delivers
+      a stable version of the product with the
+      **required quality**
 diffs:
-  unit-tests:
-    left: |
-      They use unit testing as a **supplementary**
-      fancy thing, which is usually sacrificed
-      in favor of deadlines or new features.
-    right: |
-      Our rules are very strict &mdash; unit tests and static analysis
-      are **mandatory** requirements for everybody. We never
-      accept any new code unless it is covered by unit tests and
-      passes our quality checks. We never make exceptions.
-  burden:
-    left: |
-      Their programmers are on a payroll and have to
-      be paid anyway, either they work perfectly
-      or they are lazy, either your project succeeds
-      or fails. The biggest worry of the management
-      is getting enough funds from you just to cover
-      **monthly payroll** expenses.
-    right: |
-      Our programmers are being paid based on
-      deliverables. If they don't deliver for some
-      reason or the project doesn't need them any more &mdash; you
-      don't pay. We never worry about covering our expenses,
-      we worry about your **project objectives** instead.
-  skills:
-    left: |
-      Their programmers possess **certain** skills
-      working full-time. When they have a team
-      of Python developers &mdash; your project will
-      be developed in Python, even if this is not the
-      right technology for your specific case.
-    right: |
-      Since we don't have programmers on our payroll,
-      we have the luxury of choosing from a vast talent
-      market only those professionals
-      **specifically required** for your project.
+  1:
+    title: Less Bugs
+    reason: we pay for finding them
+    details: |
+      One type of our micro-task is bug finding activity. Testers
+      are motivated to find a pro-actively planned amount of bugs, before
+      the product gets to its end-users. When we start a project, we
+      estimate how much bugs it will contain. We find and fix them all before
+      the project is closed.
+  2:
+    title: Targeted Skills
+    reason: we don't have programmers in-house
+    details: |
+      Since we don't have programmers on our payroll, you have
+      the luxury of choosing from a vast talent market only
+      those professionals specifically required for your project.
       If it needs to be written in Scala, we won't try to sell
       you in-house Python developers just to cover our expenses.
+  3:
+    title: No Waste of Money
+    reason: we don't pay salaries
+    details: |
+      Our programmers are being paid based on deliverables. If they don't
+      deliver for some reason or the project doesn't need them any more
+      &mdash; you don't pay. We never worry about covering our expenses,
+      we worry about your project objectives instead.
+  4:
+    title: Unlimited Talent Pool
+    reason: we pay high hourly rates for the best engineers
+    details: |
+      Sometimes we pay $200/hour for an exceptional talent available
+      on the market. You can't get that person on a payroll, no matter
+      how interesting and well-funded your project is. But for a part-time
+      assignment we can hire those guys into your project.
+  5:
+    title: Higher Quality of Code
+    reason: we control quality in every micro-task
+    details: |
+      Our micro-tasks are really small in size, usually below
+      30 minutes of work. And every one of them (without exceptions)
+      has to pass a huge amount of quality checks we employ, like
+      Checkstyle, Rubocop or FindBugs.
 portfolio:
   rultor.com:
     href: http://www.rultor.com/
@@ -202,12 +203,25 @@ advisers:
         {{ page.intro | markdownify }}
       </div>
       <div class="slot keys">
-        <h1 id="keys">Hire Us and Enjoy</h1>
+        <h1 id="keys">How It Works</h1>
         <ul>
-          {% for key in page.keys %}
+          {% for how in page.hows %}
             <li>
-              <img src="{{ key[1].img }}" alt="logo"/>
-              {{ key[1].text | markdownify }}
+              <img src="{{ how[1].img }}" alt="logo"/>
+              {{ how[1].text | markdownify }}
+            </li>
+          {% endfor %}
+        </ul>
+      </div>
+      <div class="slot diffs">
+        <h1 id="diffs">What Do You Get</h1>
+        <ul>
+          {% for diff in page.diffs %}
+            <li>
+              <span class="num">{{ diff[0] }}</span>
+              <span class="title">{{ diff[1].title }}</span>
+              <span class="reason">Because {{ diff[1].reason }}</span>
+              <span class="details">{{ diff[1].details | markdownify }}</span>
             </li>
           {% endfor %}
         </ul>
@@ -216,29 +230,6 @@ advisers:
         We're developing software <strong>since 2001</strong><br/>
         <strong>150+</strong> projects, <strong>300K+</strong> hours of work<br/>
         <strong>3M+</strong> lines of code
-      </div>
-      <div class="slot diffs">
-        <h1 id="diffs">We Are Revolutionary Different</h1>
-        <table>
-          <colgroup>
-            <col style="width:50%"/>
-            <col style="width:50%"/>
-          </colgroup>
-          <thead>
-            <tr>
-              <th class="left">Others</th>
-              <th class="right">Our Team</th>
-            </tr>
-          </thead>
-          <tbody>
-            {% for diff in page.diffs %}
-              <tr>
-                <td class="left">{{ diff[1].left | markdownify }}</td>
-                <td class="right">{{ diff[1].right | markdownify }}</td>
-              </tr>
-            {% endfor %}
-          </tbody>
-        </table>
       </div>
       <div class="slot portfolio">
         <h1 id="portfolio">Our Recent Open Source Products</h1>
