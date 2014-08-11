@@ -86,7 +86,7 @@
     list-style: none;
     text-align: left;
     li {
-      margin-top: 2 * $em;
+      margin-top: 3 * $em;
       clear: both;
       .num {
         float: left;
@@ -114,7 +114,7 @@
       }
       .details {
         display: block;
-        margin-top: .4 * $em;
+        margin-top: .8 * $em;
       }
     }
   }
