@@ -86,7 +86,7 @@
     list-style: none;
     text-align: left;
     li {
-      margin-top: $em;
+      margin-top: 2 * $em;
       clear: both;
       .num {
         float: left;
