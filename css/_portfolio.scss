@@ -53,6 +53,12 @@
       th {
         background-color: $sponsor-background;
         color: white;
+        &.headerSortUp:after {
+          content: '\25BC';
+        }
+        &.headerSortDown:after {
+          content: '\25B2';
+        }
       }
       td {
         p {

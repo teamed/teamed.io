@@ -24,7 +24,7 @@ projects:
     loc: 12.7K
     team: 12
     start: 2013/Jun
-    lifetime: 18 weeks
+    lifetime: 18
     case: |
       Coding team assistant, automating merge, release, and deploy operations. It
       exploits Docker containers for builds isolation. Read some articles
@@ -41,7 +41,7 @@ projects:
     loc: 97.2K
     team: 27
     start: 2012/Apr
-    lifetime: 110 weeks
+    lifetime: 110
     case: |
       Useful Java components, including AOP aspects, DynamoDB SDK, MySQL Maven Plugin, etc.
       Check these articles about the most interesting jcabi components:
@@ -59,7 +59,7 @@ projects:
     loc: 8.7K
     team: 3
     start: 2014/May
-    lifetime: 6 weeks
+    lifetime: 6
     case: |
       Stateful RESTful web privitives with XML/JSON API. We are actively
       using this web tool in every application that works with DynamoDB.
@@ -75,7 +75,7 @@ projects:
     loc: 11K
     team: 9
     start: 2011/Aug
-    lifetime: 50 weeks
+    lifetime: 50
     case: |
       XSLT-powered RESTful framework for Java web applications.
       [XML+XSLT in a Browser](http://www.yegor256.com/2014/06/25/xml-and-xslt-in-browser.html)
@@ -90,7 +90,7 @@ projects:
     loc: 12.3K
     team: 3
     start: 2012/Aug
-    lifetime: 35 weeks
+    lifetime: 35
     case: |
       s3auth.com is a gateway to private AWS S3 buckets that
       provides Basic HTTP authentication. At the moment, s3auth.com
@@ -107,7 +107,7 @@ projects:
     loc: 13.9K
     team: 8
     start: 2010/Apr
-    lifetime: 57 weeks
+    lifetime: 57
     case:
       Secure online environment for private
       long-term business communications. Originally developed in PHP,
@@ -123,7 +123,7 @@ projects:
     loc: 10.9K
     team: 7
     start: 2011/Aug
-    lifetime: 90 weeks
+    lifetime: 90
     case:
       Static quality analysis toolkit for Java/Maven projects
   requs:
@@ -136,7 +136,7 @@ projects:
     loc: 12.2K
     team: 6
     start: 2010/Mar
-    lifetime: 24 weeks
+    lifetime: 24
     case:
       Controlled Natural Language (CNL) and Java library
       for formalization of requirements specification.
@@ -153,7 +153,7 @@ projects:
     loc: 5.5K
     team: 3
     start: 2013/Jul
-    lifetime: 10 weeks
+    lifetime: 10
     case:
       XML manipulation language with Java implementation. Its purpose
       is explain in
@@ -168,7 +168,7 @@ projects:
     loc: 1.5K
     team: 1
     start: 2014/Aug
-    lifetime: 2 weeks
+    lifetime: 2
     case:
       Puzzle Driven Development automation tool that
       parses source code files, finds TODO markers and
@@ -184,12 +184,29 @@ projects:
     loc: 9.1K
     team: 9
     start: 2010/Jan
-    lifetime: 20 weeks
+    lifetime: 20
     case:
       Integration testing framework that allows on-production
       monitoring of a running script application
 ---
 <body>
+  <script src="/js/tablesorter.js?{{ site.data['hash'] }}"></script>
+  <script type="text/javascript">
+    $(document).ready(
+      function() {
+        $(".folio table").tablesorter(
+          {
+            headers: {
+              0: { sorter: false },
+              1: { sorter: false },
+              2: { sorter: false },
+              7: { sorter: false }
+            }
+          }
+        );
+      }
+    );
+  </script>
   <section itemscope itemtype="http://schema.org/Article" class="folio">
     <a href="/" class="back"><i class="fa fa-arrow-left"></i> home page</a>
     <img src="//img.teamed.io/btn.svg" alt="made by teamed.io" class="made-by"/>
@@ -240,7 +257,7 @@ projects:
         include testers, active users, and documentation writers.
       <sup><strong>3</strong></sup> Even though all projects are actively exploited by its users,
         some of them are not in active development any more. Lifetime means
-        the total calendar time of active development by the project team.
+        the total calendar time of active development by the project team, in weeks.
     </p>
   </section>
 </body>
