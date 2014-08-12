@@ -52,6 +52,13 @@
     }
     tr {
       min-height: 4 * $em;
+      .bar {
+        width: 0px;
+        float: left;
+        overflow: hidden;
+        height: 8 * $em;
+        font-size: 0;
+      }
       td, th {
         text-align: left;
         vertical-align: top;
@@ -82,13 +89,6 @@
         }
         .pic {
           max-width: 100%;
-        }
-        .bar {
-          width: 0px;
-          float: left;
-          overflow: hidden;
-          height: 8 * $em;
-          font-size: 0;
         }
       }
     }
