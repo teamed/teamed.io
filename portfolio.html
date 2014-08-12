@@ -108,7 +108,7 @@ projects:
     team: 8
     start: 2010/Apr
     lifetime: 57
-    case:
+    case: |
       Secure online environment for private
       long-term business communications. Originally developed in PHP,
       then migrated to Java, then re-factored and simplified. At the moment,
@@ -124,7 +124,7 @@ projects:
     team: 7
     start: 2011/Aug
     lifetime: 90
-    case:
+    case: |
       Static quality analysis toolkit for Java/Maven projects
   requs:
     href: http://www.requs.org/
@@ -137,7 +137,7 @@ projects:
     team: 6
     start: 2010/Mar
     lifetime: 24
-    case:
+    case: |
       Controlled Natural Language (CNL) and Java library
       for formalization of requirements specification.
       [Incremental Requirements With Requs](http://www.yegor256.com/2014/04/26/incremental-requirements-with-requs.html)
@@ -154,7 +154,7 @@ projects:
     team: 3
     start: 2013/Jul
     lifetime: 10
-    case:
+    case: |
       XML manipulation language with Java implementation. Its purpose
       is explain in
       [Xembly, an Assembly for XML](http://www.yegor256.com/2014/04/09/xembly-intro.html) article.
@@ -169,7 +169,7 @@ projects:
     team: 1
     start: 2014/Aug
     lifetime: 2
-    case:
+    case: |
       Puzzle Driven Development automation tool that
       parses source code files, finds TODO markers and
       builds an XML report. PDD and this tool are explained
@@ -185,9 +185,23 @@ projects:
     team: 9
     start: 2010/Jan
     lifetime: 20
-    case:
+    case: |
       Integration testing framework that allows on-production
       monitoring of a running script application
+  expinia:
+    href: http://www.expinia.com
+    logo: http://img.expinia.com/logo.png
+    width: 100
+    license: private
+    stack: Java, Lucene, Mallet, XSLT, EC2, S3,
+    loc: 11.5K
+    team: 12
+    start: 2011/Jul
+    lifetime: 80
+    case: |
+      Custom search engine that crawls thousands of blogs
+      every day, fetch their posts, convert them to opinions,
+      rank them and enable fast and convenient search.
 ---
 <body>
   <script src="/js/tablesorter.js?{{ site.data['hash'] }}"></script>
