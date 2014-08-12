@@ -15,6 +15,7 @@ keywords:
   - find a software developer
 projects:
   rultor:
+    name: rultor.com
     href: http://www.rultor.com/
     logo: http://img.rultor.com/logo.svg
     width: 64
@@ -32,6 +33,7 @@ projects:
       [Rultor + Travis](http://www.yegor256.com/2014/07/31/travis-and-rultor.html) and
       [Rultor, a Merging Bot](http://www.yegor256.com/2014/07/24/rultor-automated-merging.html)
   jcabi.com:
+    name: jcabi.com
     href: http://www.jcabi.com/
     logo: http://img.jcabi.com/logo-square.svg
     width: 64
@@ -50,6 +52,7 @@ projects:
       [MySQL Maven Plugin](http://www.yegor256.com/2014/05/21/mysql-maven-plugin.html), and
       [Object-Oriented DynamoDB API](http://www.yegor256.com/2014/04/14/jcabi-dynamo-java-api-of-aws-dynamodb.html).
   stateful.co:
+    name: stateful.co
     href: http://www.stateful.co/
     logo: http://img.stateful.co/pomegranate.svg
     width: 64
@@ -144,6 +147,7 @@ projects:
       article explains what is it for and how we're using this tool
       in our projects.
   xembly:
+    name: xembly.org
     href: http://www.xembly.org/
     logo: http://img.xembly.org/logo-256x256.png
     width: 64
@@ -273,6 +277,9 @@ projects:
                   {{ p[0] }}
                 {% endif %}
               </a>
+              {% if p[1].name %}
+                <div>{{ p[1].name }}</div>
+              {% endif %}
             </td>
             <td>
               {% if p[1].sources %}
