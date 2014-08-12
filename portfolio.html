@@ -282,10 +282,10 @@ projects:
               {{ p[1].license }}
             </td>
             <td>{{ p[1].stack }}</td>
-            <td>{{ p[1].loc }}</td>
-            <td>{{ p[1].team }}</td>
+            <td style="text-align:right">{{ p[1].loc }}</td>
+            <td style="text-align:right">{{ p[1].team }}</td>
             <td>{{ p[1].start }}</td>
-            <td>{{ p[1].lifetime }}</td>
+            <td style="text-align:right">{{ p[1].lifetime }}</td>
             <td>{{ p[1].case | markdownify }}</td>
           </tr>
         {% endfor %}
