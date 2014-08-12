@@ -40,8 +40,12 @@
     font-size: .5 * $em;
   }
   table {
+    margin-right: auto;
+    margin-left: auto;
     border-collapse: collapse;
     overflow: hidden;
+    width: 90%;
+    table-layout: fixed;
     tr {
       min-height: 4 * $em;
       td, th {
