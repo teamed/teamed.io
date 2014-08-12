@@ -251,8 +251,11 @@ projects:
               </a>
             </td>
             <td>
-              <a href="{{ p[1].sources }}">
-                <i class="fa fa-github"></i></a>{{ p[1].license }}
+              {% if p[1].sources %}
+                <a href="{{ p[1].sources }}">
+                  <i class="fa fa-github"></i></a>
+              {% endif %}
+              {{ p[1].license }}
             </td>
             <td>{{ p[1].stack }}</td>
             <td>{{ p[1].loc }}</td>
