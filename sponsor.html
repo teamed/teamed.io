@@ -194,7 +194,7 @@ advisers:
               <span class="num">{{ diff[0] }}</span>
               <span class="title">{{ diff[1].title }}</span>
               <span class="reason">Because {{ diff[1].reason }}</span>
-              <span class="details">{{ diff[1].details | markdownify }}</span>
+              <div class="details">{{ diff[1].details | markdownify }}</div>
             </li>
           {% endfor %}
         </ul>

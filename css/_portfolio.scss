@@ -33,18 +33,22 @@
   .made-by {
     width: 200px;
     height: 40px;
+    margin-bottom: $em;
   }
   .footnotes {
     text-align: left;
-    font-size: .7 * $em;
+    font-size: .5 * $em;
   }
   table {
+    border-collapse: collapse;
+    overflow: hidden;
     tr {
+      min-height: 4 * $em;
       td, th {
         text-align: left;
         vertical-align: top;
         font-size: .7 * $em;
-        padding: .3 * $em;
+        padding: .4 * $em;
       }
       th {
         background-color: $sponsor-background;
@@ -54,7 +58,17 @@
         p {
           margin: 0;
         }
+        .bar {
+          width: 0px;
+          float: left;
+          overflow: hidden;
+          height: 5 * $em;
+          font-size: 0;
+        }
       }
+    }
+    tbody tr {
+      border-bottom: 1px solid #ddd;
     }
   }
 }
