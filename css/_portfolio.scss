@@ -18,7 +18,7 @@
 
 .folio {
   position: relative;
-  margin: $em;
+  margin: 2 * $em;
   font-family: $light-font;
   a {
     text-decoration: underline;
@@ -34,7 +34,7 @@
   .made-by {
     width: 200px;
     height: 40px;
-    margin-bottom: $em;
+    margin-bottom: 2 * $em;
   }
   .footnotes {
     text-align: left;
@@ -64,7 +64,7 @@
         text-align: left;
         vertical-align: top;
         font-size: .7 * $em;
-        padding: $em;
+        padding: 1.5 * $em;
         @media all and (max-width: $switch-orientation-point) {
           padding: .3 * $em;
         }
@@ -94,6 +94,12 @@
         }
         .pic {
           max-width: 100%;
+        }
+        .fa-github {
+          color: $beige;
+          &:hover {
+            color: $brown;
+          }
         }
       }
     }
