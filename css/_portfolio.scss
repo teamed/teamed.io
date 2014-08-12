@@ -19,6 +19,7 @@
 .folio {
   position: relative;
   margin: $em;
+  font-family: $light-font;
   a {
     text-decoration: underline;
     &:hover {
@@ -56,7 +57,7 @@
         width: 0px;
         float: left;
         overflow: hidden;
-        height: 8 * $em;
+        height: 6 * $em;
         font-size: 0;
       }
       td, th {
@@ -72,10 +73,14 @@
             display: none;
           }
         }
+        &.mono {
+          font-family: $foot-font;
+        }
       }
       th {
         background-color: $brown;
         color: white;
+        margin-bottom: 2 * $em;
         &.headerSortUp:after {
           content: '\25BC';
         }

@@ -255,10 +255,7 @@ projects:
       </colgroup>
       <thead>
         <tr>
-          <th>
-            <div class="bar"></div>
-            Project
-          </th>
+          <th>Project</th>
           <th>Src</th>
           <th>Tech Stack</th>
           <th class="desk">LoC<sup>1</sup></th>
@@ -287,16 +284,16 @@ projects:
             <td>
               {% if p[1].sources %}
                 <a href="{{ p[1].sources }}" title="{{ p[1].license }}">
-                  <i class="fa fa-github"></i></a>
+                  <i class="fa fa-2x fa-github"></i></a>
               {% else %}
                 {{ p[1].license }}
               {% endif %}
             </td>
             <td>{{ p[1].stack }}</td>
-            <td class="desk" style="text-align:right">{{ p[1].loc }}</td>
-            <td class="desk" style="text-align:right">{{ p[1].team }}</td>
+            <td class="desk mono" style="text-align:right">{{ p[1].loc }}</td>
+            <td class="desk mono" style="text-align:right">{{ p[1].team }}</td>
             <td class="desk">{{ p[1].start }}</td>
-            <td class="desk" style="text-align:right">{{ p[1].lifetime }}</td>
+            <td class="desk mono" style="text-align:right">{{ p[1].lifetime }}</td>
             <td>{{ p[1].case | markdownify }}</td>
           </tr>
         {% endfor %}
