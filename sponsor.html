@@ -88,59 +88,27 @@ portfolio:
     href: http://www.rultor.com/
     img: http://img.rultor.com/logo.svg
     width: 64
-    text:
-      Coding team assistant, automating merge, release,
-      and deploy operations for Github projects
+    text: Coding team assistant, automating merge, release, and deploy operations
   jcabi.com:
     href: http://www.jcabi.com/
     img: http://img.jcabi.com/logo-square.svg
     width: 64
-    text:
-      Useful Java components, including AOP aspects,
-      DynamoDB SDK, MySQL Maven Plugin, etc.
+    text: Useful Java components, including AOP aspects, DynamoDB SDK, MySQL Maven Plugin, etc.
   s3auth.com:
     href: http://www.s3auth.com/
     img: http://img.s3auth.com/logo.svg
     width: 170
-    text:
-      HTTP Basic Authenticating gateway for Amazon S3 buckets
-  netbout.com:
-    href: http://www.netbout.com/
-    img: http://img.netbout.com/logo.svg
-    width: 128
-    text:
-      Secure online environment for private
-      long-term business communications
-  qulice.com:
-    href: http://www.qulice.com/
-    img: http://img.qulice.com/logo.svg
-    width: 150
-    text:
-      Static quality analysis toolkit for Java/Maven projects
+    text: HTTP Basic Authenticating gateway for Amazon S3 buckets
   stateful.co:
     href: http://www.stateful.co/
     img: http://img.stateful.co/pomegranate.svg
     width: 64
-    text:
-      Stateful RESTful web privitives with XML/JSON API
+    text: Stateful RESTful web privitives with XML/JSON API
   rexsl.com:
     href: http://www.rexsl.com/
     img: http://img.rexsl.com/logo.svg
     width: 150
-    text:
-      XSLT-powered RESTful framework for Java web applications
-  requs.org:
-    href: http://www.requs.org/
-    img: http://img.requs.org/logo.svg
-    width: 150
-    text:
-      Controlled natural language and Java library for requirements specification
-  xembly.org:
-    href: http://www.xembly.org/
-    img: http://img.xembly.org/logo-256x256.png
-    width: 64
-    text:
-      XML manipulation language with Java implementation
+    text: XSLT-powered RESTful framework for Java web applications
 technologies:
   java:
     img: http://img.teamed.io/tech/java.jpg
@@ -200,7 +168,7 @@ advisers:
   <section itemscope itemtype="http://schema.org/Offer">
     <header class="sponsor">
       <a href="/">
-        <img src="//img.teamed.io/logo-white.svg" alt="teamed.io logo"/>
+        <img src="//img.teamed.io/logo-white.svg" alt="teamed.io logo" class="logo"/>
       </a>
     </header>
     <article role="main">
@@ -237,7 +205,7 @@ advisers:
         <strong>3M+</strong> lines of code
       </div>
       <div class="slot portfolio">
-        <h1 id="portfolio">Our Recent Open Source Products</h1>
+        <h1 id="portfolio">Our Recent Products</h1>
         <ul>
           {% for project in page.portfolio %}
             <li>
@@ -248,6 +216,7 @@ advisers:
             </li>
           {% endfor %}
         </ul>
+        <p class="also">also see <a href="/portfolio.html">our full portfolio</a></p>
       </div>
       <div class="slot technologies">
         <h1 id="technologies">Technologies We Love<sup>*</sup></h1>

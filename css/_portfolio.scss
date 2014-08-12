@@ -15,49 +15,46 @@
 
 @import 'defs';
 @import 'fonts';
-@import 'index';
-@import 'page';
-@import 'info';
-@import 'portfolio';
 
-* {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
-}
-
-body {
-  font-family: $main-font;
-  font-size: $em;
-  text-align: center;
-  color: #66595c;
-  background-color: white;
-}
-
-header {
-  padding: 2 * $em 0;
-  @media all and (max-width: $switch-orientation-point) {
-    padding: 1em 0 1em;
+.folio {
+  position: relative;
+  margin: $em;
+  a {
+    text-decoration: underline;
+    &:hover {
+      color: $sponsor-background;
+    }
   }
-}
-
-.logo {
-  width: 180px;
-  height: 36px;
-}
-
-.ico {
-  margin-right: .5em;
-}
-
-a {
-  text-decoration: none;
-  color: inherit;
-}
-
-p {
-  margin-top: $em;
-  margin-bottom: $em;
+  .back {
+    font-size: .7 * $em;
+    position: absolute;
+    left: 0;
+  }
+  .made-by {
+    width: 200px;
+    height: 40px;
+  }
+  .footnotes {
+    text-align: left;
+    font-size: .7 * $em;
+  }
+  table {
+    tr {
+      td, th {
+        text-align: left;
+        vertical-align: top;
+        font-size: .7 * $em;
+        padding: .3 * $em;
+      }
+      th {
+        background-color: $sponsor-background;
+        color: white;
+      }
+      td {
+        p {
+          margin: 0;
+        }
+      }
+    }
+  }
 }

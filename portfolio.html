@@ -1,0 +1,143 @@
+---
+layout: default
+title: "Software Portfolio of Teamed.io"
+permalink: /portfolio.html
+description:
+  Recent projects
+keywords:
+  - java programmers for hire
+  - programmers to hire
+  - software developer outsource
+  - java programming outsource
+  - hire freelancer
+  - get a freelancer
+  - find a freelancer
+  - find a software developer
+projects:
+  s3auth:
+    href: http://www.s3auth.com
+    logo: http://img.s3auth.com/logo.svg
+    width: 128
+    license: BSD
+    sources: https://github.com/yegor256/s3auth
+    stack: Java, DynamoDB, S3, EC2, H2 Database, Maven, JUnit, Mockito, XML/XSLT, HTML5, CSS
+    loc: 12.3K
+    team: 3 Java devs
+    lifetime: 2012-present
+    case: |
+      s3auth.com is a gateway to private AWS S3 buckets that
+      provides Basic HTTP authentication. At the moment, s3auth.com
+      hosts over 300 domains and sends through more than 10Mb of data each hour.
+      [This blog post](http://www.yegor256.com/2014/04/21/s3-http-basic-auth.html)
+      explains its business case with more details.
+  netbout:
+    href: http://www.netbout.com/
+    logo: http://img.netbout.com/logo.svg
+    width: 128
+    license: BSD
+    sources: https://github.com/yegor256/netbout
+    stack: Java, DynamoDB, H2 Database, Maven, JUnit, Mockito, XML/XSLT, HTML5, CSS
+    loc: 13.9K
+    team: 8 Java devs
+    lifetime: 2010-present
+    case:
+      Secure online environment for private
+      long-term business communications
+  qulice:
+    href: http://www.qulice.com/
+    logo: http://img.qulice.com/logo.svg
+    width: 150
+    license: BSD
+    sources: https://github.com/teamed/qulice
+    stack: Java, Maven plugins, Checkstyle, PMD, FindBugs, JUnit, Mockito
+    loc: 10.9K
+    team: 7 Java devs
+    lifetime: 2011-present
+    case:
+      Static quality analysis toolkit for Java/Maven projects
+  requs:
+    href: http://www.requs.org/
+    logo: http://img.requs.org/logo.svg
+    width: 150
+    license: BSD
+    sources: https://github.com/teamed/requs
+    stack: Java, XSTL, ANTLR4, Maven plugins, JUnit, Mockito
+    loc: 12.2K
+    team: 3 Java devs, 4 system analysts
+    lifetime: 2010-present
+    case:
+      Controlled natural language and Java library for requirements specification
+  xembly:
+    href: http://www.xembly.org/
+    logo: http://img.xembly.org/logo-256x256.png
+    width: 64
+    license: BSD
+    sources: https://github.com/yegor256/xembly
+    stack: Java, XML, DOM
+    loc: 5.5K
+    team: 3 Java devs
+    lifetime: 2013-present
+    case:
+      XML manipulation language with Java implementation
+  pdd gem:
+    href: https://github.com/teamed/pdd
+    width: 64
+    license: MIT
+    sources: https://github.com/teamed/pdd
+    stack: Ruby, Cucumber, Minitest, Rubocop
+    loc: 1.5K
+    team: 1 Ruby dev
+    lifetime: 2014
+    case:
+      Puzzle Driven Development automation tool that
+      parses source code files, finds TODO markers and
+      builds an XML report. PDD and this tool are explained
+      [here](http://www.yegor256.com/2009/03/04/pdd.html).
+---
+<body>
+  <section itemscope itemtype="http://schema.org/Article" class="folio">
+    <a href="/" class="back"><i class="fa fa-arrow-left"></i> home page</a>
+    <img src="//img.teamed.io/btn.svg" alt="made by teamed.io" class="made-by"/>
+    <table>
+      <thead>
+        <tr>
+          <th>Project</th>
+          <th>Sources</th>
+          <th>Tech Stack</th>
+          <th>LoC<sup>1</sup></th>
+          <th>Team</th>
+          <th>Lifetime</th>
+          <th>Business Case</th>
+        </tr>
+      </thead>
+      <tbody>
+        {% for p in page.projects %}
+          <tr>
+            <td>
+              <a href="{{ p[1].href }}">
+                {% if p[1].logo %}
+                  <img src="{{ p[1].logo }}" style="width:{{ p[1].width }}px;" alt="{{ p[0] }} logo"/>
+                {% else %}
+                  {{ p[0] }}
+                {% endif %}
+              </a>
+            </td>
+            <td>
+              <a href="{{ p[1].sources }}">
+                <i class="fa fa-github"></i></a>{{ p[1].license }}
+            </td>
+            <td>{{ p[1].stack }}</td>
+            <td>{{ p[1].loc }}</td>
+            <td>{{ p[1].team }}</td>
+            <td>{{ p[1].lifetime }}</td>
+            <td>{{ p[1].case | markdownify }}</td>
+          </li>
+        {% endfor %}
+      </tbody>
+    </table>
+    <p class="footnotes">
+      <sup>1</sup> LoC stands for Lines of Code, excluding empty lines and comments,
+        calculated using <a href="http://cloc.sourceforge.net/">cloc</a>
+    </p>
+  </section>
+</body>
