@@ -51,6 +51,9 @@
       width: 100%;
       table-layout: auto;
     }
+    tbody tr:first-child td {
+      padding-top: 3 * $em;
+    }
     tr {
       min-height: 4 * $em;
       .bar {
@@ -79,7 +82,7 @@
       }
       th {
         background-color: $brown;
-        color: white;
+        color: $beige;
         margin-bottom: 2 * $em;
         &.headerSortUp:after {
           content: '\25BC';
@@ -96,7 +99,7 @@
           max-width: 100%;
         }
         .fa-github {
-          color: $beige;
+          color: lighten($brown, 20);
           &:hover {
             color: $brown;
           }
