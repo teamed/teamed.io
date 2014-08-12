@@ -46,6 +46,10 @@
     overflow: hidden;
     width: 90%;
     table-layout: fixed;
+    @media all and (max-width: $switch-orientation-point) {
+      width: 100%;
+      table-layout: auto;
+    }
     tr {
       min-height: 4 * $em;
       td, th {
@@ -53,6 +57,14 @@
         vertical-align: top;
         font-size: .7 * $em;
         padding: $em;
+        @media all and (max-width: $switch-orientation-point) {
+          padding: .3 * $em;
+        }
+        &.desk {
+          @media all and (max-width: $switch-orientation-point) {
+            display: none;
+          }
+        }
       }
       th {
         background-color: $sponsor-background;

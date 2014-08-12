@@ -244,7 +244,7 @@ projects:
     <img src="//img.teamed.io/btn.svg" alt="made by teamed.io" class="made-by"/>
     <table>
       <colgroup>
-        <col/>
+        <col style="width:10%"/>
         <col style="width:3em"/>
         <col style="width:20%"/>
         <col style="width:3em"/>
@@ -258,10 +258,10 @@ projects:
           <th>Project</th>
           <th>Sources</th>
           <th>Tech Stack</th>
-          <th>LoC<sup>1</sup></th>
-          <th>Team<sup>2</sup></th>
-          <th>Start</th>
-          <th>Lifetime<sup>3</sup></th>
+          <th class="desk">LoC<sup>1</sup></th>
+          <th class="desk">Team<sup>2</sup></th>
+          <th class="desk">Start</th>
+          <th class="desk">Life<sup>3</sup></th>
           <th>Business Case</th>
         </tr>
       </thead>
@@ -289,10 +289,10 @@ projects:
               {{ p[1].license }}
             </td>
             <td>{{ p[1].stack }}</td>
-            <td style="text-align:right">{{ p[1].loc }}</td>
-            <td style="text-align:right">{{ p[1].team }}</td>
-            <td>{{ p[1].start }}</td>
-            <td style="text-align:right">{{ p[1].lifetime }}</td>
+            <td class="desk" style="text-align:right">{{ p[1].loc }}</td>
+            <td class="desk" style="text-align:right">{{ p[1].team }}</td>
+            <td class="desk">{{ p[1].start }}</td>
+            <td class="desk" style="text-align:right">{{ p[1].lifetime }}</td>
             <td>{{ p[1].case | markdownify }}</td>
           </tr>
         {% endfor %}
