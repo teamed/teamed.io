@@ -52,7 +52,7 @@
         text-align: left;
         vertical-align: top;
         font-size: .7 * $em;
-        padding: .4 * $em;
+        padding: $em;
       }
       th {
         background-color: $sponsor-background;
@@ -72,7 +72,7 @@
           width: 0px;
           float: left;
           overflow: hidden;
-          height: 5 * $em;
+          height: 8 * $em;
           font-size: 0;
         }
       }
