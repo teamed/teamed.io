@@ -244,7 +244,7 @@ projects:
     <img src="//img.teamed.io/btn.svg" alt="made by teamed.io" class="made-by"/>
     <table>
       <colgroup>
-        <col style="width:15%;min-width:140px;"/>
+        <col style="width:15%"/>
         <col style="width:3em"/>
         <col style="width:20%"/>
         <col style="width:3em"/>
@@ -272,7 +272,7 @@ projects:
               <div class="bar"></div>
               <a href="{{ p[1].href }}">
                 {% if p[1].logo %}
-                  <img src="{{ p[1].logo }}" style="width:{{ p[1].width }}px;" alt="{{ p[0] }} logo"/>
+                  <img src="{{ p[1].logo }}" style="width:{{ p[1].width }}px;" alt="{{ p[0] }} logo" class="pic"/>
                 {% else %}
                   {{ p[0] }}
                 {% endif %}
