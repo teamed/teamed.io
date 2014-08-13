@@ -24,7 +24,7 @@
     font-weight: 300;
     padding: 1.4 * $em 0;
     letter-spacing: -5px;
-    @media all and (max-width: $switch-orientation-point) {
+    @media all and (max-width: $width) {
       font-size: 1.8 * $em;
     }
   }
@@ -36,7 +36,7 @@
   .buttons {
     line-height: 5 * $em;
     span {
-      @media all and (max-width: $switch-orientation-point) {
+      @media all and (max-width: $width) {
         display: none;
       }
     }

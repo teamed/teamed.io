@@ -38,7 +38,7 @@ body {
 
 header {
   padding: 2 * $em 0;
-  @media all and (max-width: $switch-orientation-point) {
+  @media all and (max-width: $width) {
     padding: 1em 0 1em;
   }
 }

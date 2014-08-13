@@ -23,7 +23,7 @@
   a {
     text-decoration: underline;
     &:hover {
-      color: $sponsor-background;
+      color: $red;
     }
   }
   .back {
@@ -47,7 +47,7 @@
     overflow: hidden;
     width: 90%;
     table-layout: fixed;
-    @media all and (max-width: $switch-orientation-point) {
+    @media all and (max-width: $width) {
       width: 100%;
       table-layout: auto;
     }
@@ -68,11 +68,11 @@
         vertical-align: top;
         font-size: .7 * $em;
         padding: 1.5 * $em;
-        @media all and (max-width: $switch-orientation-point) {
+        @media all and (max-width: $width) {
           padding: .3 * $em;
         }
         &.desk {
-          @media all and (max-width: $switch-orientation-point) {
+          @media all and (max-width: $width) {
             display: none;
           }
         }

@@ -26,7 +26,7 @@
   strong {
     font-family: $bold-font;
   }
-  @media all and (max-width: $switch-orientation-point) {
+  @media all and (max-width: $width) {
     padding: $em $em;
     width: 100%;
   }
@@ -37,15 +37,19 @@
     font-size: 1.7 * $em;
     line-height: 2 * $em;
     letter-spacing: -2px;
-    @media all and (max-width: $switch-orientation-point) {
+    @media all and (max-width: $width) {
       font-size: 1.7 * $em;
+    }
+  }
+  a {
+    text-decoration: underline;
+    color: inherit;
+    &:hover {
+      color: $red;
     }
   }
   p {
     margin: 0;
-    a {
-      text-decoration: underline;
-    }
   }
   ul {
     li {
@@ -97,7 +101,7 @@
         color: white;
         line-height: 3 * $em;
         text-align: center;
-        background-color: $sponsor-background;
+        background-color: $red;
         font-size: 3 * $em;
         border-radius: 50%;
         width: 3 * $em;
@@ -130,7 +134,7 @@
       width: 35%;
       display: inline-block;
       vertical-align: top;
-      @media all and (max-width: $switch-orientation-point) {
+      @media all and (max-width: $width) {
         width: 100%;
         display: block;
         text-align: center;
@@ -141,7 +145,7 @@
       img {
         margin: $em 0;
         max-width: 100%;
-        @media all and (max-width: $switch-orientation-point) {
+        @media all and (max-width: $width) {
           max-width: 50%;
         }
       }
@@ -153,10 +157,13 @@
       font-size: .8 * $em;
       padding: $em;
       line-height: 1.4 * $em;
+      p {
+        margin-top: $em;
+      }
       @media print {
         padding: 0;
       }
-      @media all and (max-width: $switch-orientation-point) {
+      @media all and (max-width: $width) {
         width: 100%;
         display: block;
       }
@@ -224,10 +231,10 @@
 
 header {
   &.sponsor {
-    background-color: $sponsor-background;
+    background-color: $red;
   }
   &.developer {
-    background-color: $developer-background;
+    background-color: $blue;
   }
 }
 
@@ -248,7 +255,7 @@ footer {
     -webkit-column-gap: $em;
     padding-left: 0;
     list-style: none;
-    @media all and (max-width: $switch-orientation-point) {
+    @media all and (max-width: $width) {
       -webkit-column-count: 1;
       -moz-column-count: 1;
       column-count: 1;
@@ -263,11 +270,11 @@ footer {
   }
   &.sponsor {
     color: white;
-    background-color: $sponsor-background;
+    background-color: $red;
   }
   &.developer {
     color: white;
-    background-color: $developer-background;
+    background-color: $blue;
   }
 }
 
