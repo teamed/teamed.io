@@ -42,6 +42,9 @@
   .footnotes {
     text-align: left;
     font-size: .5 * $em;
+    @media all and (max-width: $width) {
+      display: none;
+    }
   }
   .mobile {
     display: none;
