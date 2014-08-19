@@ -71,8 +71,11 @@
     li {
       display: inline-block;
       vertical-align: top;
-      width: 10 * $em;
-      max-width: 10 * $em;
+      width: $width / 4;
+      max-width: $width / 4;
+      @media all and (max-width: $width / 3) {
+        width: 100%;
+      }
       img {
         display: inline-block;
         margin: .5 * $em;
@@ -177,8 +180,11 @@
     li {
       display: inline-block;
       vertical-align: top;
-      width: 10 * $em;
-      max-width: 10 * $em;
+      width: $width / 4;
+      max-width: $width / 4;
+      @media all and (max-width: $width / 3) {
+        width: 100%;
+      }
       a {
         display: block;
         img {
@@ -200,8 +206,11 @@
     li {
       display: inline-block;
       vertical-align: top;
-      width: 10 * $em;
-      max-width: 10 * $em;
+      width: $width / 4;
+      max-width: $width / 4;
+      @media all and (max-width: $width / 3) {
+        width: 100%;
+      }
       img {
         display: inline-block;
         margin: .2 * $em;
@@ -218,8 +227,11 @@
       display: inline-block;
       vertical-align: top;
       text-align: center;
-      width: 15 * $em;
-      max-width: 15 * $em;
+      width: $width / 3;
+      max-width: $width / 3;
+      @media all and (max-width: $width / 2) {
+        width: 100%;
+      }
       img {
         display: inline-block;
         margin-bottom: .2 * $em;
