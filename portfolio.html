@@ -302,7 +302,7 @@ projects:
     <ul class="mobile">
       {% for p in page.projects %}
         <li>
-          <a href="{{ p[1].href }}">
+          <a href="{{ p[1].href }}" class="mobile-logo">
             {% if p[1].logo %}
               <img src="{{ p[1].logo }}" style="width:{{ p[1].width }}px;" alt="{{ p[0] }} logo" class="pic"/>
             {% else %}

@@ -53,6 +53,9 @@
     list-style: none;
     li {
       margin-bottom: 4 * $em;
+      .mobile-logo {
+        text-decoration: none;
+      }
       p {
         margin: 0;
       }
