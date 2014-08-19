@@ -93,10 +93,9 @@
       margin-top: 3 * $em;
       clear: both;
       .num {
+        display: block;
         font-family: $foot-font;
-        float: left;
-        margin-right: 1.5 * $em;
-        margin-bottom: 5 * $em;
+        margin-bottom: 1.5 * $em;
         display: block;
         color: white;
         line-height: 3 * $em;

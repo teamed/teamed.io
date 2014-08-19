@@ -30,6 +30,9 @@
     font-size: .7 * $em;
     position: absolute;
     left: 0;
+    @media all and (max-width: $width) {
+      display: none;
+    }
   }
   .made-by {
     width: 200px;
@@ -102,6 +105,9 @@
           color: lighten($brown, 20);
           &:hover {
             color: $brown;
+          }
+          @media all and (max-width: $width) {
+            display: none;
           }
         }
       }
