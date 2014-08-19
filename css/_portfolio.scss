@@ -43,6 +43,21 @@
     text-align: left;
     font-size: .5 * $em;
   }
+  .mobile {
+    display: none;
+    text-align: left;
+    font-size: .7 * $em;
+    list-style: none;
+    li {
+      margin-bottom: 4 * $em;
+      p {
+        margin: 0;
+      }
+    }
+    @media all and (max-width: $width) {
+      display: inherit;
+    }
+  }
   table {
     margin-right: auto;
     margin-left: auto;
@@ -51,8 +66,7 @@
     width: 90%;
     table-layout: fixed;
     @media all and (max-width: $width) {
-      width: 100%;
-      table-layout: auto;
+      display: none;
     }
     tbody tr:first-child td {
       padding-top: 3 * $em;
