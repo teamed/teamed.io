@@ -52,6 +52,10 @@ body {
   }
   .page {
   }
+  ol {
+    padding-left: 0;
+    list-style-position: inside;
+  }
   .head, .foot {
     text-align: center;
     margin: 2 * $em 0;
