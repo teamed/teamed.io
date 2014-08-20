@@ -30,7 +30,7 @@ one business domain, and doesn't care much about the rest. He gets
 stuck into your business and eventually starts **to degrade**.
 
 Third, he is **afraid to argue** with you, because this job is everything
-to him. It's his mortgage, his insurance, and his car. He doesn't want
+for him. It's his mortgage, his insurance, and his car. He doesn't want
 to do things right &mdash; he wants to please his boss, which is,
 in most cases, not the same.
 
