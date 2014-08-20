@@ -29,7 +29,8 @@
     }
   }
   .contacts {
-    font-family: $light-font;
+    font-family: $main-font;
+    font-weight: 200;
     line-height: 1.5 * $em;
     padding: 4 * $em 0;
   }

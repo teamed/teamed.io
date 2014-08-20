@@ -18,14 +18,12 @@
 
 .slot {
   padding: 4 * $em 0;
-  font-family: $light-font;
+  font-family: $main-font;
+  font-weight: 200;
   font-size: .8 * $em;
   width: 900px;
   margin-left: auto;
   margin-right: auto;
-  strong {
-    font-family: $bold-font;
-  }
   @media all and (max-width: $width) {
     padding: $em $em;
     width: 100%;
@@ -256,7 +254,8 @@ footer {
   font-size: .8 * $em;
   line-height: 1.5 * $em;
   text-align: center;
-  font-family: $light-font;
+  font-family: $main-font;
+  font-weight: 200;
   ul {
     -moz-column-count: 3;
     -moz-column-gap: $em;

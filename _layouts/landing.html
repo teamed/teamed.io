@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+  <head>
+    <meta charset="utf-8"/>
+    <link rel="icon" type="image/png" href="//img.teamed.io/ico-64x64.png"/>
+    <link rel="shortcut icon" href="//img.teamed.io/ico-64x64.png" />
+    <meta name="description" content="{{ page.description | escape }}" />
+    <meta name="keywords" content="{{ page.keywords | join:', ' | escape }}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <meta property="twitter:account_id" content="4503599630178231" />
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+    <link rel="stylesheet" href="/css/landing.css?{{ site.data['hash'] }}"/>
+    <title>{{ page.title }}</title>
+    <script src="/js/all.js?{{ site.data['hash'] }}"></script>
+  </head>
+<body>
+  <section itemscope itemtype="http://schema.org/Offer" class="box">
+    <header class="head">
+      <a href="/">
+        <img src="//img.teamed.io/logo-light.svg" alt="teamed.io logo" class="logo"/>
+      </a>
+    </header>
+    <article role="main" class="page">
+      {{ content }}
+    </article>
+    <footer class="foot">
+      <a href="mailto:hire@teamed.io">hire@teamed.io</a>
+    </footer>
+  </section>
+</body>
+</html>

@@ -19,7 +19,8 @@
 .folio {
   position: relative;
   margin: 2 * $em;
-  font-family: $light-font;
+  font-family: $main-font;
+  font-weight: 200;
   a {
     text-decoration: underline;
     &:hover {
