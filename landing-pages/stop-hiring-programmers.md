@@ -7,10 +7,10 @@ description:
   instead. Hiring is not effective, it simply doesn't work
   when you want to achieve your goals
 keywords:
-  - java programmers for hire
-  - programmers to hire
-  - software developer outsource
-  - java programming outsource
+  - distributed teams
+  - stop hiring programmers
+  - don't hire programmers
+  - hiring is evil
   - hire freelancer
   - get a freelancer
   - find a freelancer
