@@ -20,6 +20,9 @@ keywords:
 A programmer sitting in your office from 9 till 5, on a full-time
 annual payrol is a **burden** to your business, not a forward driver.
 
+<img src="http://img.teamed.io/landing/stop-hiring-programmers.jpg"
+  class="picture" alt="stop hiring programmers"/>
+
 1. He spends most of his office time **pretending to be working**. He
 sits on the meetings, drinks coffee, discusses important things, but
 doesn't produce anything. Why would he? You're paying him anyway, every
