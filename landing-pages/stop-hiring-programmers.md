@@ -34,7 +34,7 @@ for him. It's his mortgage, his insurance, and his car. He doesn't want
 to do things right &mdash; he wants to please his boss, which is,
 in most cases, not the same.
 
-Forth, you're afraid to fire him becuase you will lose a knowledge
+Forth, you're afraid to fire him because you will lose a knowledge
 expert and who knows what will happen to the product. You have to pay
 him and hope for the best. **He controls you**, not the other way around.
 
