@@ -40,6 +40,7 @@ body {
   }
   .picture {
     width: $size;
+    max-width: 100%;
   }
   a {
     color: $red;
