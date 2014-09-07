@@ -41,7 +41,7 @@ is right. Long and open discussions should always preceed every decision making.
 
 5. Don't make anyone **personally responsibile** for anything. The entire
 team should always share the responsibility. If something goes wrong, never
-try to find who's fault it was. Moreover, never blame anyone for any mistakes.
+try to find whose fault it was. Moreover, never blame anyone for any mistakes.
 
 6. Don't waste time and money on **testers**. Good programmers test their
 own code and make sure it works, before they deliver it to production.
