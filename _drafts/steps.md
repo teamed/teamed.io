@@ -14,7 +14,7 @@ keywords:
 ---
 
 Follow these instructions and your software development
-team will turn into a complete disaster. Soon enough.
+team will turn into a **complete disaster**. Soon enough.
 
 <!--
 <img src="http://img.teamed.io/landing/7-steps.jpg"
