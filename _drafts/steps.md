@@ -50,4 +50,5 @@ own code and make sure it works, before they deliver it to production.
 conflicts should be avoided in the office, at all cost. But if they happen,
 you should find a compromise that will calm everybody down.
 
-You should know, there is a better way to develop software...
+Remember, these simple rules will help you **to ruin** your project.
+And you should know, there is a better way to develop software...
