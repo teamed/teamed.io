@@ -31,8 +31,8 @@ reviews will only insult your best engineers and they may leave.
 And never try to enforce any coding standards.
 Be nice to your colleagues!
 
-3. Don't offend your team by setting **deadlines**. Good and professional developers
-hate any kind of time pressures and will leave your team if you stress
+3. Don't offend your team by setting **deadlines**. Good, professional developers
+hate any kind of time pressure and will leave your team if you stress
 them. Let them work as fast as they can.
 
 4. Make **democratic** decisions in all technical disputes. Only an open voting
@@ -46,7 +46,7 @@ try to find who's fault it was. Moreover, never blame anyone for any mistakes.
 6. Don't waste time and money on **testers**. Good programmers test their
 own code and make sure it works, before they deliver it to production.
 
-7. Resolve all conflicts by **compromises**. First of all,
+7. Resolve all conflicts by **compromise**. First of all,
 conflicts should be avoided in the office, at all cost. But if they happen,
 you should find a compromise that will calm everybody down.
 
