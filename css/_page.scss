@@ -56,6 +56,34 @@
   }
 }
 
+.interested {
+  margin-top: $em;
+  input, button {
+    display: inline;
+    font-size: $em;
+    padding: .5 * $em;
+    margin: .2 * $em 0;
+    border: 1px solid $red;
+    @media all and (max-width: 300px) {
+      width: 100%;
+    }
+  }
+  input {
+    font-size: $em;
+  }
+  button {
+    cursor: pointer;
+    background-color: $red;
+    &:hover {
+      background-color: darken($red, 20);
+    }
+  }
+  #error {
+    color: red;
+    font-size: $em;
+  }
+}
+
 .intro {
   font-weight: 300;
   font-size: 1.7 * $em;

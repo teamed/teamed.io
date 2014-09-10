@@ -1,3 +1,75 @@
+function valid_email(email) {
+  var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+  return re.test(email);
+}
+function send_email($button, from, text, subject, success, error) {
+  $.ajax(
+    {
+      type: 'POST',
+      url: 'https://mandrillapp.com/api/1.0/messages/send.json',
+      data: {
+        'key': 'GMfq6HmqFFR4HGCVfIu6Zw',
+        'message': {
+          'from_email': 'site@teamed.io',
+          'to': [
+            {
+              'email': 'yegor@teamed.io',
+              'name': 'Yegor Bugayenko',
+              'type': 'to'
+            }
+          ],
+          'text': 'Hi,\n\n' + text
+            + '\n\nEmail: ' + from
+            + '\n\nThanks'
+            + '\n\n--\nsent through the form',
+          'subject': subject,
+          'auto_html': true,
+          'important': true
+        }
+      },
+      success: success,
+      error: error
+    }
+  );
+}
+$(
+  function() {
+    $('#send').click(
+      function (event) {
+        $this = $(this);
+        $error = $('#error');
+        var email = $('#email').val();
+        if (!email) {
+          $error.text('No email... What do you mean?');
+        } else if (!valid_email(email)) {
+          $error.text('Email address doesn\'t look correct');
+        } else {
+          $error.text('');
+          $this.attr('disabled', 'disabled');
+          $this.html('Please, wait...');
+          event.preventDefault();
+          send_email(
+            $this, email,
+            'I\'m interested in more information.\n\n',
+            'I am interested in teamed.io',
+            function () {
+              $('#form').html(
+                '<p class="green"><b>Many thanks!</b>'
+                + ' Your request was sent. We\'ll reply by email to'
+                + ' <code>' + email + '</code>.</p>'
+              );
+            },
+            function () {
+              $this.attr('disabled', '');
+              $this.html('Oops :( Try again...');
+            }
+          );
+        }
+      }
+    );
+  }
+);
+
 var _gaq = _gaq || [];
 _gaq.push(['_setAccount', 'UA-1963507-34']);
 _gaq.push(['_trackPageview']);
