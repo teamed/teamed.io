@@ -59,27 +59,27 @@
 .interested {
   margin-top: $em;
   input, button {
+    border-radius: 5px;
     display: inline;
-    font-size: $em;
-    padding: .5 * $em;
+    font-family: $main-font;
+    padding: .5em 1em;
     margin: .2 * $em 0;
-    border: 3px solid $red;
+    font-size: $em;
     outline: 0;
+    border: 1px solid #c14b30;
     @media all and (max-width: 300px) {
       width: 100%;
     }
   }
-  input {
-    font-size: $em;
-    font-family: $foot-font;
-  }
   button {
+    white-space: nowrap;
     cursor: pointer;
     color: white;
-    background-color: $red;
+    background-color: #c14b30;
+    letter-spacing: 3px;
     &:hover {
-      background-color: darken($red, 20);
-      border: 3px solid darken($red, 20);
+      background-color: #ac351b;
+      border: 1px solid #ac351b;
     }
   }
   #error {

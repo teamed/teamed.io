@@ -42,16 +42,16 @@
       }
     }
     a {
-      padding: .5em 1em;
-      font-size: 1.5em;
-      margin: 0 1em;
+      padding: .5 * $em $em;
+      font-size: 1.5 * $em;
+      margin: 0 $em;
       font-family: $main-font;
       text-decoration: none;
       white-space: nowrap;
       border-radius: 5px;
       letter-spacing: 3px;
       border: 0;
-      color: #fff;
+      color: white;
       position: relative;
       &.developers {
         background-color: #c14b30;
