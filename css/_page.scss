@@ -58,13 +58,13 @@
 
 .interested {
   margin-top: $em;
-  ::-webkit-input-placeholder {
+  input::-webkit-input-placeholder {
     color: darken($red,30);
   }
-  ::-moz-placeholder {
+  input::-moz-placeholder {
     color: darken($red,30);
   }
-  ::-ms-input-placeholder {
+  input::-ms-input-placeholder {
     color: darken($red,30);
   }
   input, button {
