@@ -58,6 +58,15 @@
 
 .interested {
   margin-top: $em;
+  ::-webkit-input-placeholder {
+    color: darken($red,30);
+  }
+  ::-moz-placeholder {
+    color: darken($red,30);
+  }
+  ::-ms-input-placeholder {
+    color: darken($red,30);
+  }
   input, button {
     border-radius: 5px;
     display: inline;
