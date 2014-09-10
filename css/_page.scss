@@ -63,7 +63,7 @@
     font-size: $em;
     padding: .5 * $em;
     margin: .2 * $em 0;
-    border: 1px solid $red;
+    border: 3px solid $red;
     @media all and (max-width: 300px) {
       width: 100%;
     }
@@ -73,9 +73,11 @@
   }
   button {
     cursor: pointer;
+    color: white;
     background-color: $red;
     &:hover {
       background-color: darken($red, 20);
+      border: 3px solid darken($red, 20);
     }
   }
   #error {

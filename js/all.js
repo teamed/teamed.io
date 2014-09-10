@@ -53,11 +53,7 @@ $(
             'I\'m interested in more information.\n\n',
             'I am interested in teamed.io',
             function () {
-              $('#form').html(
-                '<p class="green"><b>Many thanks!</b>'
-                + ' Your request was sent. We\'ll reply by email to'
-                + ' <code>' + email + '</code>.</p>'
-              );
+              window.location = '/sent.html';
             },
             function () {
               $this.attr('disabled', '');
