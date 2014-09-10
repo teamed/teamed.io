@@ -59,13 +59,13 @@
 .interested {
   margin-top: $em;
   input::-webkit-input-placeholder {
-    color: darken($red,30);
+    color: darken($red,20);
   }
   input::-moz-placeholder {
-    color: darken($red,30);
+    color: darken($red,20);
   }
   input::-ms-input-placeholder {
-    color: darken($red,30);
+    color: darken($red,20);
   }
   input, button {
     border-radius: 5px;
