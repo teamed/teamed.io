@@ -66,10 +66,13 @@
     margin: .2 * $em 0;
     font-size: $em;
     outline: 0;
-    border: 1px solid #c14b30;
     @media all and (max-width: 300px) {
       width: 100%;
     }
+  }
+  input {
+    background-color: lighten($red,30);
+    color: darken($red,30);
   }
   button {
     white-space: nowrap;
@@ -79,7 +82,6 @@
     letter-spacing: 3px;
     &:hover {
       background-color: #ac351b;
-      border: 1px solid #ac351b;
     }
   }
   #error {
