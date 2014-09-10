@@ -64,6 +64,7 @@
     padding: .5 * $em;
     margin: .2 * $em 0;
     border: 3px solid $red;
+    outline: 0;
     @media all and (max-width: 300px) {
       width: 100%;
     }
