@@ -4,7 +4,7 @@
     <meta charset="utf-8"/>
     <link rel="icon" type="image/png" href="//img.teamed.io/ico-64x64.png"/>
     <link rel="shortcut icon" href="//img.teamed.io/ico-64x64.png" />
-    <meta name="description" content="{{ page.description | escape }}" />
+    <meta name="description" content="{{ page.description | join:' ' | escape }}" />
     <meta name="keywords" content="{{ page.keywords | join:', ' | escape }}" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta property="twitter:account_id" content="4503599630178231" />
