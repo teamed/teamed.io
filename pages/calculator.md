@@ -16,7 +16,7 @@ keywords:
 This is how much your software will cost if you
 hire us to develop it (KLoC means thousands of lines of code).
 
-KLoC: <input id="kloc" name="kloc" value="20" style="width:5em" autofocus="autofocus"/>
+KLoC: <input id="kloc" name="kloc" value="13" style="width:5em" autofocus="autofocus"/>
 <span id="error" style="display:none;color:red;font-size:0.8em"></span>
 
 <style type="text/css">
@@ -41,7 +41,7 @@ KLoC: <input id="kloc" name="kloc" value="20" style="width:5em" autofocus="autof
     <tr><td>TM</td><td>Technical margin (69% of P)</td><td class="mm" id="tm"></td></tr>
     <tr><td>PM</td><td>Management fee ($19 per T/PR)</td><td class="mm" id="pm"></td></tr>
     <tr><td>MF</td><td>Merge fee ($49 per PR)</td><td class="mm" id="mf"></td></tr>
-    <tr><td></td><td>Total (P+TM+PM+MF) +300%/-60%</td><td class="mm" id="total" style="font-weight:bold"></td></tr>
+    <tr><td></td><td>Total (P+TM+PM+MF)</td><td class="mm" id="total" style="font-weight:bold"></td></tr>
     <tr><td></td><td>Cost per LoC</td><td class="mm" id="cost"></td></tr>
   </tbody>
 </table>
@@ -83,7 +83,7 @@ $(document).ready(
           $('.mm').text('');
         }
       }
-    );
+    ).keyup();
   }
 );
 </script>
