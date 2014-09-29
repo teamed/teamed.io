@@ -60,7 +60,7 @@ $(document).ready(
         var kloc = $(this).val(), $error = $('#error');
         if ($.isNumeric(kloc) && kloc >= 5 && kloc <= 1000) {
           var loc = kloc * 1000,
-            t = Math.round(loc / 75),
+            t = Math.round(loc / 40),
             pr = Math.round(t * 0.75),
             r = 30 - 12 * (kloc / 1000),
             p = Math.round((t + pr) * r * 0.5),
