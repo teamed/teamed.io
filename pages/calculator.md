@@ -26,15 +26,15 @@ KLoC: <input id="kloc" name="kloc" value="20"/>
 }
 </style>
 <table>
-  <tr><td></td><td>Team players (peak time)</td><td class="mm" id="coders"></td></tr>
-  <tr><td>T</td><td>Completed tasks</td><td class="mm" id="t"></td></tr>
+  <tr><td>T</td><td>Completed tasks (30 min each)</td><td class="mm" id="t"></td></tr>
   <tr><td>PR</td><td>Pull requests</td><td class="mm" id="pr"></td></tr>
   <tr><td>R</td><td>Average hourly rate</td><td class="mm" id="r"></td></tr>
   <tr><td>P</td><td>Paid to players</td><td class="mm" id="p"></td></tr>
   <tr><td>TM</td><td>Technical margin (69% of P)</td><td class="mm" id="tm"></td></tr>
   <tr><td>PM</td><td>Management fee ($19 per T and PR)</td><td class="mm" id="pm"></td></tr>
   <tr><td>MF</td><td>Merge fee ($49 per PR)</td><td class="mm" id="mf"></td></tr>
-  <tr><td></td><td>Total (P+TM+PM+MF)</td><td class="mm" id="total"></td></tr>
+  <tr><td></td><td>Total (P+TM+PM+MF)</td><td class="mm" id="total" style="font-weight:bold"></td></tr>
+  <tr><td></td><td>Cost per LoC</td><td class="mm" id="cost"></td></tr>
 </table>
 
 These numbers are very preliminary. For a more precise and
@@ -49,17 +49,17 @@ $(document).ready(
     $('#kloc').keyup(
       function () {
         var kloc = $(this).val(), $error = $('#error');
-        if ($.isNumeric(kloc) && kloc > 5 && kloc < 1000) {
-          var coders = Math.round(kloc / 50),
-            t = coders * 50,
-            pr = Math.round(t * 1.5),
-            r = 27,
-            p = (t + pr) * r,
+        if ($.isNumeric(kloc) && kloc >= 5 && kloc <= 1000) {
+          var loc = kloc * 1000,
+            t = Math.round(loc / 30),
+            pr = Math.round(t * 0.75),
+            r = 32,
+            p = Math.round((t + pr) * r * 0.5),
             tm = Math.round(0.69 * p),
             pm = 19 * (t + pr),
-            mf = 49 * pr;
+            mf = 49 * pr,
+            total = p + tm + pm + mf;
           $error.hide();
-          $('#coders').text(coders);
           $('#t').text(t);
           $('#pr').text(pr);
           $('#r').text(dollars(r));
@@ -67,7 +67,8 @@ $(document).ready(
           $('#tm').text(dollars(tm));
           $('#pm').text(dollars(pm));
           $('#mf').text(dollars(mf));
-          $('#total').text(dollars(p + tm + pm + mf));
+          $('#total').text(dollars(total));
+          $('#cost').text(dollars((total / loc).toFixed(2)));
         } else {
           $error.text('must be an integer, in 5..1000 range').show();
           $('.mm').text('');
