@@ -37,7 +37,7 @@ KLoC: <input id="kloc" name="kloc" value="13" style="width:5em" autofocus="autof
     <tr><td>T</td><td>Completed tasks</td><td class="mm" id="t"></td></tr>
     <tr><td>PR</td><td>Pull requests merged</td><td class="mm" id="pr"></td></tr>
     <tr><td>R</td><td>Average hourly rate</td><td class="mm" id="r"></td></tr>
-    <tr><td>P</td><td>Paid to players</td><td class="mm" id="p"></td></tr>
+    <tr><td>P</td><td>Paid to programmers</td><td class="mm" id="p"></td></tr>
     <tr><td>TM</td><td>Technical margin (69% of P)</td><td class="mm" id="tm"></td></tr>
     <tr><td>PM</td><td>Management fee ($19 per T/PR)</td><td class="mm" id="pm"></td></tr>
     <tr><td>MF</td><td>Merge fee ($49 per PR)</td><td class="mm" id="mf"></td></tr>
