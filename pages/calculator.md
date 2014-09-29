@@ -34,8 +34,8 @@ KLoC: <input id="kloc" name="kloc" value="20" style="width:5em"/>
     <col style="width:2em"/>
   </colgroup>
   <tbody>
-    <tr><td>T</td><td>Completed tasks (30 min each)</td><td class="mm" id="t"></td></tr>
-    <tr><td>PR</td><td>Pull requests</td><td class="mm" id="pr"></td></tr>
+    <tr><td>T</td><td>Completed tasks</td><td class="mm" id="t"></td></tr>
+    <tr><td>PR</td><td>Pull requests merged</td><td class="mm" id="pr"></td></tr>
     <tr><td>R</td><td>Average hourly rate</td><td class="mm" id="r"></td></tr>
     <tr><td>P</td><td>Paid to players</td><td class="mm" id="p"></td></tr>
     <tr><td>TM</td><td>Technical margin (69% of P)</td><td class="mm" id="tm"></td></tr>
@@ -60,9 +60,9 @@ $(document).ready(
         var kloc = $(this).val(), $error = $('#error');
         if ($.isNumeric(kloc) && kloc >= 5 && kloc <= 1000) {
           var loc = kloc * 1000,
-            t = Math.round(loc / 30),
+            t = Math.round(loc / 75),
             pr = Math.round(t * 0.75),
-            r = 40 - 18 * (kloc / 1000),
+            r = 30 - 12 * (kloc / 1000),
             p = Math.round((t + pr) * r * 0.5),
             tm = Math.round(0.69 * p),
             pm = 19 * (t + pr),
