@@ -16,7 +16,7 @@ keywords:
 This is how much your software will cost if you
 hire us to develop it (KLoC means thousands of lines of code).
 
-KLoC: <input id="kloc" name="kloc" value="20" style="width:5em"/>
+KLoC: <input id="kloc" name="kloc" value="20" style="width:5em" autofocus="autofocus"/>
 <span id="error" style="display:none;color:red;font-size:0.8em"></span>
 
 <style type="text/css">
