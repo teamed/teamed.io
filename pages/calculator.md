@@ -58,11 +58,11 @@ $(document).ready(
     $('#kloc').keyup(
       function () {
         var kloc = $(this).val(), $error = $('#error');
-        if ($.isNumeric(kloc) && kloc >= 5 && kloc <= 1000) {
+        if ($.isNumeric(kloc) && kloc >= 5 && kloc <= 200) {
           var loc = kloc * 1000,
             t = Math.round(loc / 40),
             pr = Math.round(t * 0.75),
-            r = 30 - 12 * (kloc / 1000),
+            r = 30 - 12 * (kloc / 200),
             p = Math.round((t + pr) * r * 0.5),
             tm = Math.round(0.69 * p),
             pm = 19 * (t + pr),
@@ -79,7 +79,7 @@ $(document).ready(
           $('#total').text(dollars(total));
           $('#cost').text(dollars(total / loc, 2));
         } else {
-          $error.text('must be an integer, in 5..1000 range').show();
+          $error.text('must be an integer, in 5..200 range').show();
           $('.mm').text('');
         }
       }
