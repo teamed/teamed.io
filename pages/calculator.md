@@ -43,6 +43,7 @@ KLoC: <input id="kloc" name="kloc" value="13" style="width:3em" autofocus="autof
     <tr><td>MF</td><td>Merge fee ($49 per PR)</td><td class="mm" id="mf"></td></tr>
     <tr><td></td><td>Total (P+TM+PM+MF)</td><td class="mm" id="total" style="font-weight:bold"></td></tr>
     <tr><td></td><td>Cost per LoC</td><td class="mm" id="cost"></td></tr>
+    <tr><td></td><td>Cost per task/release</td><td class="mm" id="per-task"></td></tr>
   </tbody>
 </table>
 
@@ -78,6 +79,7 @@ $(document).ready(
           $('#mf').text(dollars(mf, 0));
           $('#total').text(dollars(total));
           $('#cost').text(dollars(total / loc, 2));
+          $('#per-task').text(dollars(total / t, 0));
         } else {
           $error.text('must be an integer, in 5..200 range').show();
           $('.mm').text('');
