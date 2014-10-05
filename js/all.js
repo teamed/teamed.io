@@ -10,7 +10,7 @@ function send_email($button, from, text, subject, success, error) {
       data: {
         'key': 'GMfq6HmqFFR4HGCVfIu6Zw',
         'message': {
-          'from_email': 'site@teamed.io',
+          'from_email': from,
           'to': [
             {
               'email': 'yegor@teamed.io',
@@ -21,7 +21,7 @@ function send_email($button, from, text, subject, success, error) {
           'text': 'Hi,\n\n' + text
             + '\n\nEmail: ' + from
             + '\n\nThanks'
-            + '\n\n--\nsent through the form',
+            + '\n\n--\nsent through the form at www.teamed.io',
           'subject': subject,
           'auto_html': true,
           'important': true
