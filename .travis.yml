@@ -10,5 +10,7 @@ install:
   - npm install casperjs -g
 script:
   - _test/run.sh
+  - git config --global user.email "travis@teamed.io"
+  - git config --global user.name "Travis"
   - jgd -u https://yegor256:$PASSWORD@github.com/tpc2/teamed.io.git
 
