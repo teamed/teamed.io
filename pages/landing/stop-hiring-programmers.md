@@ -20,7 +20,7 @@ keywords:
 A programmer sitting in your office from 9 til 5, on a full-time,
 annual payroll is a **burden** to your business, not a forward driver.
 
-<img src="http://img.teamed.io/landing/tomorrow.jpg"
+<img src="/images/landing/tomorrow.jpg"
   class="picture" alt="stop hiring programmers"/>
 
 1. He spends most of his office time **pretending to be working**. He

@@ -17,7 +17,7 @@ Follow these instructions and your software development
 team will turn into a **complete disaster**. Soon enough.
 
 <!--
-<img src="http://img.teamed.io/landing/7-steps.jpg"
+<img src="/images/landing/7-steps.jpg"
   class="picture" alt="seven steps to ruin a project"/>
 -->
 
