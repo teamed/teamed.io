@@ -14,7 +14,7 @@ keywords:
 ---
 
 An average team for a 5-30 KLoC project consists
-of a core (eight actively working people) and 20-40 people
+of a core (six actively working people) and 20-40 people
 helping them time to time. The core of the team
 will look like this:
 
