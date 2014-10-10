@@ -45,4 +45,6 @@ reviewers, system analysts, database designers, performance
 testers, and graphic artists.
 
 To get an idea of how much the project will cost, use
-our [calculator](/calculator.html).
+our [calculator](/calculator.html). Remember, we produce
+[ten times](http://www.yegor256.com/2014/04/11/cost-of-loc.html) (!)
+more results in one hour than any other team.
