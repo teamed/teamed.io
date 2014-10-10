@@ -23,7 +23,7 @@ will look like this:
 Examples: [@yegor256](https://github.com/yegor256).
 Rate: $80-150/hr.
 
-**Two Java Designer**.
+**Two Java Designers**.
 5+ years experience, MSc, Java Certified Professional (JCP).
 Examples:
 [@krzyk](https://github.com/krzyk),
@@ -32,7 +32,7 @@ Examples:
 [@caarlos0](https://github.com/caarlos0)
 Rate: $25-50/hr.
 
-**Three Java Developer**.
+**Three Java Developers**.
 3+ years experience, MSc.
 Examples:
 [@lthuangiang](https://github.com/lthuangiang),
