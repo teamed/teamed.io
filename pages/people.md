@@ -40,9 +40,9 @@ Examples:
 [@hildo](https://github.com/hildo),
 Rate: $15-30/hr.
 
-**Two Testers**.
-3+ years experience.
-Rate: $10-20/hr.
+When necessary, we also invite manual testers, code
+reviewers, system analysts, database designers, performance
+testers, and graphic artists.
 
 To get an idea of how much the project will cost, use
 our [calculator](/calculator.html).
