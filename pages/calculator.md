@@ -36,6 +36,7 @@ KLoC: <input id="kloc" name="kloc" value="13" style="width:3em" autofocus="autof
   <tbody>
     <tr><td>T</td><td>Completed tasks</td><td class="mm" id="t"></td></tr>
     <tr><td>PR</td><td>Pull requests merged</td><td class="mm" id="pr"></td></tr>
+    <tr><td>H</td><td>Hours spent</td><td class="mm" id="h"></td></tr>
     <tr><td>R</td><td>Average hourly rate</td><td class="mm" id="r"></td></tr>
     <tr><td>P</td><td>Paid to programmers</td><td class="mm" id="p"></td></tr>
     <tr><td>TM</td><td>Technical margin (69% of P)</td><td class="mm" id="tm"></td></tr>
@@ -43,7 +44,7 @@ KLoC: <input id="kloc" name="kloc" value="13" style="width:3em" autofocus="autof
     <tr><td>MF</td><td>Merge fee ($49 per PR)</td><td class="mm" id="mf"></td></tr>
     <tr><td></td><td>Total (P+TM+PM+MF)</td><td class="mm" id="total" style="font-weight:bold"></td></tr>
     <tr><td></td><td>Cost per LoC</td><td class="mm" id="cost"></td></tr>
-    <tr><td></td><td>Cost per task/release</td><td class="mm" id="per-task"></td></tr>
+    <tr><td></td><td>Cost per hour</td><td class="mm" id="hourly"></td></tr>
   </tbody>
 </table>
 
@@ -63,7 +64,8 @@ $(document).ready(
           var loc = kloc * 1000,
             t = Math.round(loc / 40),
             pr = Math.round(t * 0.75),
-            r = 30 - 12 * (kloc / 200),
+            h = Math.round(t * 0.5 + pr * 0.75),
+            r = 40 - 12 * (kloc / 200),
             p = Math.round((t + pr) * r * 0.5),
             tm = Math.round(0.69 * p),
             pm = 19 * (t + pr),
@@ -72,6 +74,7 @@ $(document).ready(
           $error.hide();
           $('#t').text(t);
           $('#pr').text(pr);
+          $('#h').text(h);
           $('#r').text(dollars(r, 2));
           $('#p').text(dollars(p, 0));
           $('#tm').text(dollars(tm, 0));
@@ -79,7 +82,7 @@ $(document).ready(
           $('#mf').text(dollars(mf, 0));
           $('#total').text(dollars(total));
           $('#cost').text(dollars(total / loc, 2));
-          $('#per-task').text(dollars(total / t, 0));
+          $('#hourly').text(dollars(total / h, 0));
         } else {
           $error.text('must be an integer, in 5..200 range').show();
           $('.mm').text('');
