@@ -3,12 +3,14 @@ branches:
     - master
 env:
   global:
-    - secure: "TlVlCo+1FYK8dgBy115EpAWwVfvSo5J8g477uQqypO4C5zP8Va8eNM2lWnR/yK/GosnJ1CuG2OkhNc2diDCGg8la5WIB5xn57Bzp7C6mGMxQXg8X67R+Qay/11A2lVbGGQm+PeKE0/mwgMji3+aIi1sli5VujRAsRLBG0S34lqM="
+    - secure: "fYhWYdDrGNiaSxTGmZ72TEV1PZgpSmjD953jXUxUFcmd0SYEWDtTMAToGmngfgyYE+LIaYnOq/Y6Mq01CGS7hDCifE29ShB8UY1gLUxG7piSjiYuaEDoUnKV+xFHgrKveIDEFG10Hv/gKyL/M4hz9dkHNRZQA0XPAwR+l7yhfpA="
 install:
   - bundle install
   - npm install phantomjs -g
   - npm install casperjs -g
 script:
+  - set -x
+  - set -e
   - _test/run.sh
   - git config --global user.email "travis@teamed.io"
   - git config --global user.name "Travis"
