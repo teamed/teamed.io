@@ -10,6 +10,7 @@ before_install:
   - mkdir -p ~/.ssh
   - mv id_rsa ~/.ssh
   - sudo chmod -R 600 ~/.ssh
+  - ls -al ~/.ssh
 script:
   - set -x
   - set -e
