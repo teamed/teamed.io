@@ -19,4 +19,4 @@ script:
 - _test/run.sh
 - git config --global user.email "travis@teamed.io"
 - git config --global user.name "Travis"
-- jgd
+- jgd -u git@github.com:teamed/teamed.io.git
