@@ -2,20 +2,21 @@ branches:
   only:
   - master
 install:
-  - bundle install
-  - npm install phantomjs -g
-  - npm install casperjs -g
+- bundle install
+- npm install phantomjs -g
+- npm install casperjs -g
 before_install:
-  - set -e
-  - openssl aes-256-cbc -K $encrypted_091a05d4487d_key -iv $encrypted_091a05d4487d_iv -in id_rsa.pub.enc -out id_rsa.pub -d
-  - openssl aes-256-cbc -K $encrypted_091a05d4487d_key -iv $encrypted_091a05d4487d_iv -in id_rsa.enc -out id_rsa -d
-  - mv id_rsa ~/.ssh
-  - mv id_rsa.pub ~/.ssh
-  - chmod 600 ~/.ssh/id_rsa
-  - chmod 600 ~/.ssh/id_rsa.pub
+- set -e
+- openssl aes-256-cbc -K $encrypted_091a05d4487d_key -iv $encrypted_091a05d4487d_iv
+  -in id_rsa.tgz.enc -out id_rsa.tgz -d
+- tar xzf id_rsa.tgz
+- mv id_rsa ~/.ssh
+- mv id_rsa.pub ~/.ssh
+- chmod 600 ~/.ssh/id_rsa
+- chmod 600 ~/.ssh/id_rsa.pub
 script:
-  - set -e
-  - _test/run.sh
-  - git config --global user.email "travis@teamed.io"
-  - git config --global user.name "Travis"
-  - jgd
+- set -e
+- _test/run.sh
+- git config --global user.email "travis@teamed.io"
+- git config --global user.name "Travis"
+- jgd
