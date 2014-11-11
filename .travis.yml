@@ -8,12 +8,9 @@ install:
 before_install:
 - set -e
 - openssl aes-256-cbc -K $encrypted_091a05d4487d_key -iv $encrypted_091a05d4487d_iv
-  -in id_rsa.tgz.enc -out id_rsa.tgz -d
-- tar xzf id_rsa.tgz
+  -in id_rsa.enc -out id_rsa -d
 - mv id_rsa ~/.ssh
-- mv id_rsa.pub ~/.ssh
 - chmod 600 ~/.ssh/id_rsa
-- chmod 600 ~/.ssh/id_rsa.pub
 script:
 - set -e
 - _test/run.sh
