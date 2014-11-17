@@ -13,7 +13,7 @@ function send_email($button, from, text, subject, success, error) {
           'from_email': from,
           'to': [
             {
-              'email': 'yegor@teamed.io',
+              'email': 'sales@teamed.io',
               'name': 'Yegor Bugayenko',
               'type': 'to'
             }
