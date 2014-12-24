@@ -57,26 +57,36 @@ This is an estimate of a total budget:
   </colgroup>
   <tbody>
     <tr><td></td><th colspan="2">Thinking</th></tr>
-    <tr><td>SA</td><td>Requirements definition</td><td class="r b">&#x7B;&#x7B; dollars(sa) &#x7D;&#x7D;</td></tr>
+    <tr><td>SA</td><td>Requirements definition</td><td class="r">&#x7B;&#x7B; dollars(sa) &#x7D;&#x7D;</td></tr>
     <tr><td></td><th colspan="2">Building</th></tr>
-    <tr><td>A</td><td>Prototype</td><td class="r b">&#x7B;&#x7B; dollars(a) &#x7D;&#x7D;</td></tr>
+    <tr><td>A</td><td>Prototype</td><td class="r">&#x7B;&#x7B; dollars(a) &#x7D;&#x7D;</td></tr>
     <tr><td></td><th colspan="2">Fixing</th></tr>
-    <tr><td>T</td><td>Completed tasks</td><td class="r">&#x7B;&#x7B; round(t) &#x7D;&#x7D;</td></tr>
-    <tr><td>PR</td><td>Pull requests merged</td><td class="r">&#x7B;&#x7B; round(pr) &#x7D;&#x7D;</td></tr>
-    <tr><td>H</td><td>Hours spent</td><td class="r">&#x7B;&#x7B; round(h) &#x7D;&#x7D;</td></tr>
-    <tr><td>R</td><td>Average hourly rate</td><td class="r">&#x7B;&#x7B; dollars(r) &#x7D;&#x7D;</td></tr>
     <tr><td>P</td><td>Paid to programmers</td><td class="r">&#x7B;&#x7B; dollars(p) &#x7D;&#x7D;</td></tr>
     <tr><td>PM</td><td>Management fee ($19 per T/PR)</td><td class="r">&#x7B;&#x7B; dollars(pm) &#x7D;&#x7D;</td></tr>
     <tr><td>TM</td><td>Technical margin (69% of P)</td><td class="r">&#x7B;&#x7B; dollars(tm) &#x7D;&#x7D;</td></tr>
     <tr><td>MF</td><td>Merge fee ($49 per PR)</td><td class="r">&#x7B;&#x7B; dollars(mf) &#x7D;&#x7D;</td></tr>
-    <tr><td colspan="2" class="r">P+TM+PM+MF</td><td class="r b">&#x7B;&#x7B; dollars(p+tm+pm+mf) &#x7D;&#x7D;</td></tr>
-    <!--
-    <tr><td colspan="2" class="r">Cost per hit-of-code</td><td class="r">&#x7B;&#x7B; dollars((p+tm+pm+mf) / hoc, 2) &#x7D;&#x7D;</td></tr>
-    <tr><td colspan="2" class="r">Cost per hour</td><td class="r">&#x7B;&#x7B; dollars((p+tm+pm+mf) / h, 2) &#x7D;&#x7D;</td></tr>
-    -->
     <tr><td colspan="2" class="r">Total</td><td class="r b" style="border-top: 1px solid gray;">&#x7B;&#x7B; dollars(p+tm+pm+mf+sa+a) &#x7D;&#x7D;</td></tr>
   </tbody>
 </table>
+
+These are some key performance indicators:
+
+<table class="tbl">
+  <colgroup>
+    <col style="width:2em"/>
+    <col/>
+    <col style="width:4em"/>
+  </colgroup>
+  <tbody>
+    <tr><td>T</td><td>Tasks completed</td><td class="r">&#x7B;&#x7B; round(t) &#x7D;&#x7D;</td></tr>
+    <tr><td>PR</td><td>Pull requests merged</td><td class="r">&#x7B;&#x7B; round(pr) &#x7D;&#x7D;</td></tr>
+    <tr><td>H</td><td>Total hours spent</td><td class="r">&#x7B;&#x7B; round(h+thinking+building) &#x7D;&#x7D;</td></tr>
+    <tr><td>R</td><td>Average hourly rate of a programmer</td><td class="r">&#x7B;&#x7B; dollars(r) &#x7D;&#x7D;</td></tr>
+    <tr><td>CT</td><td>Cost per hit-of-code</td><td class="r">&#x7B;&#x7B; dollars((p+tm+pm+mf) / hoc, 2) &#x7D;&#x7D;</td></tr>
+    <tr><td>CH</td><td>Cost per hour</td><td class="r">&#x7B;&#x7B; dollars((p+tm+pm+mf) / (h+building+thinking), 2) &#x7D;&#x7D;</td></tr>
+  </tbody>
+</table>
+
 <script>
 angular.module('teamed', []).controller(
   'Main',
