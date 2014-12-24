@@ -53,7 +53,7 @@ This is an estimate of a total budget:
   <colgroup>
     <col style="width:2em"/>
     <col/>
-    <col style="width:4em"/>
+    <col style="width:6em"/>
   </colgroup>
   <tbody>
     <tr><td></td><th colspan="2">Thinking</th></tr>
@@ -75,13 +75,13 @@ These are some key performance indicators:
   <colgroup>
     <col style="width:2em"/>
     <col/>
-    <col style="width:4em"/>
+    <col style="width:6em"/>
   </colgroup>
   <tbody>
     <tr><td>T</td><td>Tasks completed</td><td class="r">&#x7B;&#x7B; round(t) &#x7D;&#x7D;</td></tr>
     <tr><td>PR</td><td>Pull requests merged</td><td class="r">&#x7B;&#x7B; round(pr) &#x7D;&#x7D;</td></tr>
     <tr><td>H</td><td>Total hours spent</td><td class="r">&#x7B;&#x7B; round(h+thinking+building) &#x7D;&#x7D;</td></tr>
-    <tr><td>R</td><td>Average hourly rate of a programmer</td><td class="r">&#x7B;&#x7B; dollars(r) &#x7D;&#x7D;</td></tr>
+    <tr><td>R</td><td>Avg. hourly rate of a programmer</td><td class="r">&#x7B;&#x7B; dollars(r) &#x7D;&#x7D;</td></tr>
     <tr><td>CT</td><td>Cost per hit-of-code</td><td class="r">&#x7B;&#x7B; dollars((p+tm+pm+mf) / hoc, 2) &#x7D;&#x7D;</td></tr>
     <tr><td>CH</td><td>Cost per hour</td><td class="r">&#x7B;&#x7B; dollars((p+tm+pm+mf) / (h+building+thinking), 2) &#x7D;&#x7D;</td></tr>
   </tbody>
