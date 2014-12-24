@@ -7,8 +7,8 @@ permalink: :year/:month/:day/:title.html
 
 url: http://www.teamed.io
 
-# see https://github.com/noct/jekyll-sass
-gems: ['jekyll-sass']
+gems:
+  - jekyll-sass # see https://github.com/noct/jekyll-sass
 sass:
   style: compressed
   deploy_style: compressed

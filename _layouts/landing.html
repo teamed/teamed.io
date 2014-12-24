@@ -10,18 +10,19 @@
     <meta property="twitter:account_id" content="4503599630178231" />
     <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
     <link rel="stylesheet" href="/css/landing.css?{{ site.data['hash'] }}"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.0.7/angular.min.js"></script>
     <title>{{ page.title }}</title>
     <script src="//code.jquery.com/jquery-2.1.0.min.js"></script>
     <script src="/js/all.js?{{ site.data['hash'] }}"></script>
   </head>
-  <body>
+  <body ng-app='teamed'>
     <section itemscope itemtype="http://schema.org/Offer" class="box">
       <header class="head">
         <a href="/sponsor.html">
           <img src="//img.teamed.io/logo-light.svg" alt="teamed.io logo" class="logo"/>
         </a>
       </header>
-      <article role="main" class="page">
+      <article role="main" class="page" ng-controller="Main">
         {{ content }}
       </article>
       <footer class="foot">

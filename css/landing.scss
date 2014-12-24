@@ -66,6 +66,9 @@ body {
     text-align: center;
     margin: 2 * $em 0;
   }
+  table tr th {
+    text-align: left;
+  }
 }
 
 input {
