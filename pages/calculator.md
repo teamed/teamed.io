@@ -83,7 +83,7 @@ These are some key performance indicators:
     <tr><td>H</td><td>Total hours spent</td><td class="r">&#x7B;&#x7B; round(h+thinking+building) &#x7D;&#x7D;</td></tr>
     <tr><td>R</td><td>Avg. hourly rate of a programmer</td><td class="r">&#x7B;&#x7B; dollars(r) &#x7D;&#x7D;</td></tr>
     <tr><td>CT</td><td>Cost per hit-of-code</td><td class="r">&#x7B;&#x7B; dollars((p+tm+pm+mf) / hoc, 2) &#x7D;&#x7D;</td></tr>
-    <tr><td>CH</td><td>Cost per hour</td><td class="r">&#x7B;&#x7B; dollars((p+tm+pm+mf) / (h+building+thinking), 2) &#x7D;&#x7D;</td></tr>
+    <tr><td>CH</td><td>Cost per hour</td><td class="r">&#x7B;&#x7B; dollars((p+tm+pm+mf+sa+a) / (h+building+thinking), 2) &#x7D;&#x7D;</td></tr>
   </tbody>
 </table>
 
