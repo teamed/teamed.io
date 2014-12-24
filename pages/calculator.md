@@ -74,6 +74,7 @@ This is an estimate of a total budget:
     <tr><td colspan="2" class="r">Cost per hit-of-code</td><td class="r">&#x7B;&#x7B; dollars((p+tm+pm+mf) / hoc, 2) &#x7D;&#x7D;</td></tr>
     <tr><td colspan="2" class="r">Cost per hour</td><td class="r">&#x7B;&#x7B; dollars((p+tm+pm+mf) / h, 2) &#x7D;&#x7D;</td></tr>
     -->
+    <tr><td colspan="2" class="r">Total</td><td class="r b" style="border-top: 1px solid gray;">&#x7B;&#x7B; dollars(p+tm+pm+mf+sa+a) &#x7D;&#x7D;</td></tr>
   </tbody>
 </table>
 <script>
