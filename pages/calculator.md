@@ -28,7 +28,7 @@ can be estimated:
       <td><input style="width:2em" ng-model="building" ng-change="update()"/> hours</td>
     </tr>
     <tr>
-      <td>Hits of code</td>
+      <td><a href="http://www.yegor256.com/2014/11/14/hits-of-code.html">Hits of code</a></td>
       <td><input style="width:4em" ng-model="hoc" ng-change="update()"/></td>
     </tr>
   </tbody>
