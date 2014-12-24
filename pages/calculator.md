@@ -131,9 +131,9 @@ is our profit.
 **MF**. This money covers all our expenses and investments into
 new technologies we develop, mostly open source. There are a few important
 tools that we use to optimize the development and make this entire
-distributed model of work possible, including [Rultor.com](http://www.rultor.com),
-[PDD gem](https://github.com/teamed/pdd),
-[Qulice](http://www.qulice.com) static analyzer,
-set of [Jcabi](http://www.jcabi.com) libraries, etc. Besides that, we pay
+distributed model of work possible, including [rultor](http://www.rultor.com),
+[pdd](https://github.com/teamed/pdd),
+[qulice](http://www.qulice.com) static analyzer,
+set of [jcabi](http://www.jcabi.com) libraries, etc. Besides that, we pay
 for build servers, continuous integration environment, test environments, etc.
 
