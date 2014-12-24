@@ -21,7 +21,7 @@ can be estimated:
   <tbody>
     <tr>
       <td>Thinking</td>
-      <td><input style="width:2em" ng-model="thinking" ng-change="update()"/> hours</td>
+      <td><input style="width:2em" ng-model="thinking" ng-change="update()" autofocus="autofocus"/> hours</td>
     </tr>
     <tr>
       <td>Building</td>
