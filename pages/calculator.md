@@ -57,7 +57,7 @@ This is an estimate of a total budget:
   </colgroup>
   <tbody>
     <tr><td></td><th colspan="2">Thinking</th></tr>
-    <tr><td>SA</td><td>Requirements definition (&#x7B;&#x7B; thinking &#x7D;&#x7D; hours, $100/hour)</td><td class="r">&#x7B;&#x7B; dollars(sa) &#x7D;&#x7D;</td></tr>
+    <tr><td>SA</td><td>Analysis (&#x7B;&#x7B; thinking &#x7D;&#x7D; hours, $100/hour)</td><td class="r">&#x7B;&#x7B; dollars(sa) &#x7D;&#x7D;</td></tr>
     <tr><td></td><th colspan="2">Building</th></tr>
     <tr><td>A</td><td>Prototype (&#x7B;&#x7B; building &#x7D;&#x7D; hours, $100/hour)</td><td class="r">&#x7B;&#x7B; dollars(a) &#x7D;&#x7D;</td></tr>
     <tr><td></td><th colspan="2">Fixing</th></tr>
