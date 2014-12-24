@@ -128,7 +128,7 @@ recruiting/discharging programmers, etc.
 **TM**: This is our margin on top of what programmers get. This
 is our profit.
 
-**MF**. This money covers all our expenses and investments into
+**MF**: This money covers all our expenses and investments into
 new technologies we develop, mostly open source. There are a few important
 tools that we use to optimize the development and make this entire
 distributed model of work possible, including [rultor](http://www.rultor.com),
