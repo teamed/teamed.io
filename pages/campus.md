@@ -1,7 +1,7 @@
 ---
 layout: landing
 title: "Campus"
-permalink: /people.html
+permalink: /campus.html
 description:
   Before we can invite you to a commerical project
   you should complete at least ten tasks in one of
