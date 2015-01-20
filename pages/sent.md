@@ -1,5 +1,5 @@
 ---
-layout: landing
+layout: plain
 title: "Thanks!"
 permalink: /sent.html
 description:

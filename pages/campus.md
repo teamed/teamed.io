@@ -1,5 +1,5 @@
 ---
-layout: landing
+layout: plain
 title: "Campus"
 permalink: /campus.html
 description:

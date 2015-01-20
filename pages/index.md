@@ -1,6 +1,7 @@
 ---
 layout: default
 title: "Software Developers"
+permalink: /index.html
 description: |
   Unique software development model in distributed teams,
   using Java, Ruby, NoSQL, continuous delivery and unit tests

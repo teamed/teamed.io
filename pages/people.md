@@ -1,5 +1,5 @@
 ---
-layout: landing
+layout: plain
 title: "People In Your Team"
 permalink: /people.html
 description:
