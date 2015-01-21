@@ -27,8 +27,8 @@ Once we see that you're capable to work in a commercial project,
 we electronically sign a formal [contract](/engineer.pdf) with you and invite you to
 a few commercial projects.
 
-We communicate with you via [netbout.com](http://www.netbout.com). Create
-an account there and send your account name to us by [email](mailto:dev@teamed.io).
+We communicate with you via [netbout.com](http://www.netbout.com). Please, create
+an account there and send its name to us by [email](mailto:dev@teamed.io).
 
 Project communications are kept solely in tickets. We don't use any other
 communication tools, like emails, Skype, phone, conferences, or chats.
@@ -36,28 +36,33 @@ Read these articles:
 [Five Principles of Bug Tracking](http://www.yegor256.com/2014/11/24/principles-of-bug-tracking.html),
 [Stop Chatting, Start Coding](http://www.yegor256.com/2014/10/07/stop-chatting-start-coding.html).
 
-A task has a pre-defined budget, in minutes, which is announced by the project
+Each task has a pre-defined budget, in minutes, which is announced by the project
 manager. The budget is not negotiable. When the task is done
 you get the payment equal to the amount of minutes in the budget multiplied
 by your hourly rate.
 
-Our Definition of Done is simple: the task is done iff its author accepts the deliverables.
+Our Definition of Done is simple: the task is done if
+its author accepts the deliverables.
 Read this article: [Definition Of Done](http://www.yegor256.com/2014/04/15/definition-of-done.html).
+
+If you don't complete the task, you get no payment, no matter what
+was the reason of incompletion, including someone else's mistakes.
 
 For a code review task you get 15 minutes plus as many minutes
 as many comments you posted in the discussion.
 
 If you don't want to work with a task, for any reason, post a message
-to the project manager, asking to "assign someone else". You don't lose
+to the project manager, asking to "_assign someone else_". You don't lose
 any points in this case.
 
 If you can't complete a task in time, inform the project manager about it. Just
-post a message to him right in the ticket, asking for "more time". If he
+post a message to him, right in the ticket, asking for "_more time_". If he
 accepts your request, you won't be penalized for any delays.
 
 If you can't complete a task in time because you're waiting for another
 task to be completed beforehand, inform the project manager. Post a message
-to him, right in the ticket, saying that you are "waiting for #123".
+to him, right in the ticket, saying that you are "_waiting for #123_"
+(123 is the number of the ticket you're blocked by).
 If he accepts your request, you won't be penalized for any delays.
 
 When you find a bug in existing source code or documentation, report it
