@@ -66,8 +66,13 @@ to him, right in the ticket, saying that you are "_waiting for #123_"
 If he accepts your request, you won't be penalized for any delays.
 
 When you find a bug in existing source code or documentation, report it
-properly and it is accepted by the project architect, you get 15 minutes on
-your account.
+[properly](http://www.yegor256.com/2014/11/24/principles-of-bug-tracking.html)
+and it is accepted by the project architect, you get 15 minutes on
+your account. Read this: [Bugs Are Welcome](http://www.yegor256.com/2014/04/13/bugs-are-welcome.html).
+
+Small, easy to find, easy to fix, or cosmetic bugs are not paid,
+even if they lead to a code change and project improvement. The
+decision is made by a project architect and is not negotiable.
 
 When you close a task we increment your rating by as many points as many
 minutes were in the task budget.
