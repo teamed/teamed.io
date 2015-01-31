@@ -21,15 +21,18 @@ can be estimated:
   <tbody>
     <tr>
       <td>Thinking</td>
-      <td><input style="width:2em" ng-model="thinking" ng-change="update()" autofocus="autofocus"/> hours</td>
+      <td><input style="width:2em" ng-model="thinking"
+        ng-change="update()" autofocus="autofocus" tabindex="1"/> hours</td>
     </tr>
     <tr>
       <td>Building</td>
-      <td><input style="width:2em" ng-model="building" ng-change="update()"/> hours</td>
+      <td><input style="width:2em" ng-model="building"
+        ng-change="update()" tabindex="2"/> hours</td>
     </tr>
     <tr>
       <td><a href="http://www.yegor256.com/2014/11/14/hits-of-code.html">Hits of code</a></td>
-      <td><input style="width:4em" ng-model="hoc" ng-change="update()"/></td>
+      <td><input style="width:4em" ng-model="hoc"
+        ng-change="update()" tabindex="3"/></td>
     </tr>
   </tbody>
 </table>
