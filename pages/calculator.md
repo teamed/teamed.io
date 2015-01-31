@@ -94,8 +94,8 @@ These are some key performance indicators:
 angular.module('teamed', []).controller(
   'Main',
   [
-    '$scope',
-    function($scope) {
+    '$scope', '$location',
+    function($scope, $location) {
       $scope.dollars = function(value, digits) {
         if (!digits) {
           digits = 0;
@@ -120,9 +120,19 @@ angular.module('teamed', []).controller(
         $scope.pm = 19 * ($scope.t + $scope.pr);
         $scope.mf = 49 * $scope.pr;
       }
-      $scope.hoc = 25000;
-      $scope.thinking = 15;
-      $scope.building = 80;
+      var params = $location.search();
+      var coords = '15,80,25000';
+      if ('v' in params) {
+        if (params['v'].match(/\d+,\d+,\d+/g)) {
+          coords = params['v'];
+        } else {
+          console.log("can't match coordinates: " + params['v']);
+        }
+      }
+      var vals = coords.split(',')
+      $scope.thinking = parseInt(vals[0]);
+      $scope.building = parseInt(vals[1]);
+      $scope.hoc = parseInt(vals[2]);
       $scope.update();
     }
   ]
