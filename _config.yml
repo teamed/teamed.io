@@ -9,7 +9,7 @@ url: http://www.teamed.io
 
 gems:
   - jekyll-sass # see https://github.com/noct/jekyll-sass
-  # - jekyll-press
+  - jekyll-press
 sass:
   style: compressed
   deploy_style: compressed

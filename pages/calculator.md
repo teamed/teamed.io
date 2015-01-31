@@ -17,29 +17,37 @@ Our [project lifecycle](http://www.yegor256.com/2014/10/06/software-project-life
 consists of four phases. First three of them
 can be estimated:
 
-<table class="tbl">
-  <tbody>
-    <tr>
-      <td>Thinking</td>
-      <td><input style="width:2em" ng-model="thinking" maxlength="3" ng-maxlength="3" ng-pattern="/[0-9]+/"
-        ng-class="{ bad : thinking.$valid }"
-        ng-change="update()" autofocus="autofocus" tabindex="1"/>
-        hours</td>
-    </tr>
-    <tr>
-      <td>Building</td>
-      <td><input style="width:2em" ng-model="building" maxlength="3" ng-maxlength="3" ng-pattern="/[0-9]+/"
-        ng-change="update()" tabindex="2"/>
-        hours</td>
-    </tr>
-    <tr>
-      <td>Fixing</td>
-      <td><input style="width:4em" ng-model="hoc" maxlength="6" ng-maxlength="6" ng-pattern="/[0-9]+/"
-        ng-change="update()" tabindex="3"/>
-        <a href="http://www.yegor256.com/2014/11/14/hits-of-code.html">hits of code</a></td>
-    </tr>
-  </tbody>
-</table>
+<form name="estimate">
+  <table class="tbl">
+    <colgroup>
+      <col style="width: 7em;"/>
+      <col/>
+    </colgroup>
+    <tbody>
+      <tr>
+        <td>Thinking</td>
+        <td><input style="width:2em" ng-model="thinking" maxlength="3" ng-maxlength="3" ng-pattern="/^[0-9]+$/"
+          ng-change="update()" autofocus="autofocus" tabindex="1" name="thinking"/>
+          hours
+          <span class="oops" ng-show="estimate.thinking.$error.pattern">oops!</span></td>
+      </tr>
+      <tr>
+        <td>Building</td>
+        <td><input style="width:2em" ng-model="building" maxlength="3" ng-maxlength="3" ng-pattern="/^[0-9]+$/"
+          ng-change="update()" tabindex="2" name="building"/>
+          hours
+          <span class="oops" ng-show="estimate.building.$error.pattern">oops!</span></td>
+      </tr>
+      <tr>
+        <td>Fixing</td>
+        <td><input style="width:4em" ng-model="hoc" maxlength="6" ng-maxlength="6" ng-pattern="/^[0-9]+$/"
+          ng-change="update()" tabindex="3" name="hoc"/>
+          <a href="http://www.yegor256.com/2014/11/14/hits-of-code.html">hits of code</a>
+          <span class="oops" ng-show="estimate.hoc.$error.pattern">oops!</span></td>
+      </tr>
+    </tbody>
+  </table>
+</form>
 
 This is an estimate of a total budget:
 
@@ -50,8 +58,8 @@ This is an estimate of a total budget:
   .b {
     font-weight: bold;
   }
-  .bad {
-    background-color: red;
+  .oops {
+    color: red;
   }
   .tbl {
     width: 100%;
@@ -100,9 +108,12 @@ These are some key performance indicators:
 <script>
 var app = angular.module('teamed', []);
 app.config(
-  function($locationProvider) {
-    $locationProvider.html5Mode(true);
-  }
+  [
+    '$locationProvider',
+    function($locationProvider) {
+      $locationProvider.html5Mode(true);
+    }
+  ]
 );
 app.controller(
   'Main',
@@ -125,18 +136,10 @@ app.controller(
         return Math.round(value);
       }
       $scope.update = function() {
-        if (!$scope.thinking.$valid) {
-          console.log('invalid THINKING input');
-          return;
-        }
-        if (!$scope.building.$valid) {
-          console.log('invalid BUILDING input');
-          return;
-        }
-        if (!$scope.hoc.$valid) {
-          console.log('invalid FIXING input');
-          return;
-        }
+        // if (!$scope.estimate.$valid) {
+        //   console.log('invalid input');
+        //   return;
+        // }
         $scope.sa = parseInt($scope.thinking) * 100;
         $scope.a = parseInt($scope.building) * 100;
         $scope.h = parseInt($scope.hoc) / 71;
