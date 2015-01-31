@@ -129,8 +129,10 @@ angular.module('teamed', []).controller(
         if (params['v'].match(/^\d+,\d+,\d+/g)) {
           coords = params['v'];
         } else {
-          console.log("can't match coordinates: " + params['v']);
+          console.log("can't match coordinates: [" + params['v'] + ']');
         }
+      } else {
+        console.log('coordinates are absent in the URI');
       }
       var vals = coords.split(',')
       $scope.thinking = parseInt(vals[0]);
