@@ -21,19 +21,19 @@ can be estimated:
   <tbody>
     <tr>
       <td>Thinking</td>
-      <td><input style="width:2em" ng-model="thinking" maxlength="3"
+      <td><input style="width:2em" ng-model="thinking" maxlength="3" ng-maxlength="3" ng-pattern="/[0-9]+/"
         ng-change="update()" autofocus="autofocus" tabindex="1"/>
         hours</td>
     </tr>
     <tr>
       <td>Building</td>
-      <td><input style="width:2em" ng-model="building" maxlength="3"
+      <td><input style="width:2em" ng-model="building" maxlength="3" ng-maxlength="3" ng-pattern="/[0-9]+/"
         ng-change="update()" tabindex="2"/>
         hours</td>
     </tr>
     <tr>
       <td>Fixing</td>
-      <td><input style="width:4em" ng-model="hoc" maxlength="6"
+      <td><input style="width:4em" ng-model="hoc" maxlength="6" ng-maxlength="6" ng-pattern="/[0-9]+/"
         ng-change="update()" tabindex="3"/>
         <a href="http://www.yegor256.com/2014/11/14/hits-of-code.html">hits of code</a></td>
     </tr>
@@ -126,7 +126,7 @@ angular.module('teamed', []).controller(
       var params = $location.search();
       var coords = '15,80,25000';
       if ('v' in params) {
-        if (params['v'].match(/\d+,\d+,\d+/g)) {
+        if (params['v'].match(/^\d+,\d+,\d+/g)) {
           coords = params['v'];
         } else {
           console.log("can't match coordinates: " + params['v']);
