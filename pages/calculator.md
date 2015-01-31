@@ -21,19 +21,19 @@ can be estimated:
   <tbody>
     <tr>
       <td>Thinking</td>
-      <td><input style="width:2em" ng-model="thinking"
+      <td><input style="width:2em" ng-model="thinking" maxlength="3"
         ng-change="update()" autofocus="autofocus" tabindex="1"/>
         hours</td>
     </tr>
     <tr>
       <td>Building</td>
-      <td><input style="width:2em" ng-model="building"
+      <td><input style="width:2em" ng-model="building" maxlength="3"
         ng-change="update()" tabindex="2"/>
         hours</td>
     </tr>
     <tr>
       <td>Fixing</td>
-      <td><input style="width:4em" ng-model="hoc"
+      <td><input style="width:4em" ng-model="hoc" maxlength="6"
         ng-change="update()" tabindex="3"/>
         <a href="http://www.yegor256.com/2014/11/14/hits-of-code.html">hits of code</a></td>
     </tr>
