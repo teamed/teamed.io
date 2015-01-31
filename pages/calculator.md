@@ -22,6 +22,7 @@ can be estimated:
     <tr>
       <td>Thinking</td>
       <td><input style="width:2em" ng-model="thinking" maxlength="3" ng-maxlength="3" ng-pattern="/[0-9]+/"
+        ng-class="{ bad : thinking.$valid }"
         ng-change="update()" autofocus="autofocus" tabindex="1"/>
         hours</td>
     </tr>
@@ -48,6 +49,9 @@ This is an estimate of a total budget:
   }
   .b {
     font-weight: bold;
+  }
+  .bad {
+    background-color: red;
   }
   .tbl {
     width: 100%;
@@ -94,7 +98,13 @@ These are some key performance indicators:
 </table>
 
 <script>
-angular.module('teamed', []).controller(
+var app = angular.module('teamed', []);
+app.config(
+  function($locationProvider) {
+    $locationProvider.html5Mode(true);
+  }
+);
+app.controller(
   'Main',
   [
     '$scope', '$location',
@@ -103,12 +113,30 @@ angular.module('teamed', []).controller(
         if (!digits) {
           digits = 0;
         }
-        return '$' + value.toFixed(digits);
+        var txt;
+        if (value == undefined) {
+          txt = '?';
+        } else {
+          txt = '$' + value.toFixed(digits);
+        }
+        return txt;
       }
       $scope.round = function(value) {
         return Math.round(value);
       }
       $scope.update = function() {
+        if (!$scope.thinking.$valid) {
+          console.log('invalid THINKING input');
+          return;
+        }
+        if (!$scope.building.$valid) {
+          console.log('invalid BUILDING input');
+          return;
+        }
+        if (!$scope.hoc.$valid) {
+          console.log('invalid FIXING input');
+          return;
+        }
         $scope.sa = parseInt($scope.thinking) * 100;
         $scope.a = parseInt($scope.building) * 100;
         $scope.h = parseInt($scope.hoc) / 71;
