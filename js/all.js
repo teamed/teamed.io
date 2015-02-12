@@ -2,7 +2,7 @@ function valid_email(email) {
   var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
   return re.test(email);
 }
-function send_email($button, from, text, subject, success, error) {
+function send_email(from, text, subject, success, error) {
   $.ajax(
     {
       type: 'POST',
@@ -49,7 +49,7 @@ $(
           $this.html('Please, wait...');
           event.preventDefault();
           send_email(
-            $this, email,
+            email,
             'I\'m interested in more information.\n\n',
             'I am interested in teamed.io',
             function () {
