@@ -91,6 +91,13 @@ When you find a bug in existing source code or documentation, report it
 and it is accepted by the project architect, you get 15 minutes on
 your account. Read this: [Bugs Are Welcome](http://www.yegor256.com/2014/04/13/bugs-are-welcome.html).
 
+{% par 21 %}
+Each bug has to be accepted by an architect before it is paid and dispatched
+for fixing. Being an architect, when you see a new bug submitted, inform
+the project manager that it is a valid bug by posting a message, similar
+to "_it is a valid bug_", or explain to the reporter what is wrong with
+the issue reported. Read this: [Five Principles of Bug Tracking](http://www.yegor256.com/2014/11/24/principles-of-bug-tracking.html).
+
 {% par 13 %}
 Small, easy to find, easy to fix, or cosmetic bugs are not paid,
 even if they lead to a code change and project improvement. The
