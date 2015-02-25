@@ -141,7 +141,7 @@ app.controller(
         //   return;
         // }
         $scope.sa = $scope.thinking * 100;
-        $scope.a = $scope.building) * 100;
+        $scope.a = $scope.building * 100;
         $scope.h = $scope.hoc / 100;
         $scope.r = 40;
         if ($scope.hoc > 10000) {
