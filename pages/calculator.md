@@ -140,14 +140,14 @@ app.controller(
         //   console.log('invalid input');
         //   return;
         // }
-        $scope.sa = parseInt($scope.thinking) * 100;
-        $scope.a = parseInt($scope.building) * 100;
-        $scope.h = parseInt($scope.hoc) / 71;
+        $scope.sa = $scope.thinking * 100;
+        $scope.a = $scope.building) * 100;
+        $scope.h = $scope.hoc / 100;
         $scope.r = 40;
         if ($scope.hoc > 10000) {
           $scope.r -= 12 / ($scope.hoc / 5000);
         }
-        $scope.t = $scope.hoc / 100;
+        $scope.t = $scope.h * 1.9;
         $scope.pr = $scope.t * 0.75;
         $scope.p = $scope.h * $scope.r;
         $scope.tm = $scope.p * 0.69;
