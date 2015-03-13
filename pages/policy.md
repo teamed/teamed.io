@@ -61,12 +61,8 @@ as many comments you posted in the discussion. Either you accept
 the code or reject it, you still get the payment.
 
 {% par 20 %}
-For each release you publish you get 15 minutes plus as many minutes
-as this formula produces: _(h * 0.3 + c * 2) * [c / t] * [50 * h / t]_. Here,
-_t_ is the amount of hours since the previous release,
-_c_ is the amount of commits in the release,
-_h_ is the amount of hits-of-code in the release. Square brackets mean
-that the number inside can't be bigger than 1.
+For each release you publish you get 30 minutes plus as many minutes
+as [this formula](/release.html).
 
 {% par 9 %}
 If you don't want to work with a task, for any reason, post a message
