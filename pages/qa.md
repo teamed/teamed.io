@@ -17,6 +17,12 @@ keywords:
 Each ticket must comply to the following requirements. They are
 groupped by the type of the task.
 
+All:
+
+ * Formatting of ticket description follows
+   [Github Markdown](https://help.github.com/articles/github-flavored-markdown/)
+   style.
+
 `TS/FIX` (bug fixing):
 
  * The ticket is closed only when the reported problem is solved,
