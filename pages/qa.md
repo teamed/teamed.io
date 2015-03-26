@@ -14,7 +14,10 @@ keywords:
   - quality assurance principles
 ---
 
-Each ticket must comply to these requirements:
+Each ticket must comply to the following requirements. They are
+groupped by the type of the task.
+
+`TS/FIX` (bug fixing):
 
  * The ticket is closed only when the reported problem is solved,
    [see](http://www.yegor256.com/2015/02/12/top-down-design.html)
@@ -28,4 +31,10 @@ Each ticket must comply to these requirements:
 
  * The ticket describes _one_ specific problem and provides a _single_ solution.
 
+`TS/REV` (code review):
+
  * The code reviewer found at least _three issues_ in the pull request.
+
+`TS/PDD` (puzzle resolving):
+
+ * tbd
