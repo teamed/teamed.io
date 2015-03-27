@@ -21,7 +21,7 @@ by the type of the ticket they are applicable to.
 
 As a QA engineer, you earn 10 minutes for each ticket reviewed. You get
 the payment right after you inform the project manager that the ticket
-`looks good` for you.
+"_looks good_" for you.
 
 All tickets:
 
