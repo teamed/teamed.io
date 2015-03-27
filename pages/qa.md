@@ -32,15 +32,15 @@ All tickets:
 `TS/FIX` (bug fixing tickets) and `TS/PDD` (puzzle resolving):
 
  * The ticket is closed only when the reported problem is solved,
-   [see](http://www.yegor256.com/2015/02/12/top-down-design.html)
+   [see](http://www.yegor256.com/2015/02/12/top-down-design.html).
 
 `TS/FIX` (bug fixing tickets):
 
  * The ticket is closed only when the reported problem is solved,
-   [see](http://www.yegor256.com/2015/02/12/top-down-design.html)
+   [see](http://www.yegor256.com/2015/02/12/top-down-design.html).
 
  * Problem reporter and problem solver are two different persons,
-   [see](http://www.yegor256.com/2014/11/24/principles-of-bug-tracking.html#1.-keep-it-one-on-one)
+   [see](http://www.yegor256.com/2014/11/24/principles-of-bug-tracking.html#1.-keep-it-one-on-one).
 
  * Ticket title and description clearly state what is _broken_ and
    what kind of fix is expected,
