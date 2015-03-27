@@ -14,16 +14,27 @@ keywords:
   - quality assurance principles
 ---
 
-Each ticket must comply to the following requirements. They are
-groupped by the type of the task.
+As a Quality Assurance (QA) engineer your responsibility in a project is
+to review every ticket after its completion and reveal incompliances with
+our quality requirements listed below. The requirements are groupped
+by the type of the ticket they are applicable to.
 
-All:
+As a QA engineer, you earn 10 minutes for each ticket reviewed. You get
+the payment right after you inform the project manager that the ticket
+`looks good` for you.
+
+All tickets:
 
  * Formatting of ticket description follows
    [Github Markdown](https://help.github.com/articles/github-flavored-markdown/)
    style.
 
-`TS/FIX` (bug fixing):
+`TS/FIX` (bug fixing tickets) and `TS/PDD` (puzzle resolving):
+
+ * The ticket is closed only when the reported problem is solved,
+   [see](http://www.yegor256.com/2015/02/12/top-down-design.html)
+
+`TS/FIX` (bug fixing tickets):
 
  * The ticket is closed only when the reported problem is solved,
    [see](http://www.yegor256.com/2015/02/12/top-down-design.html)
@@ -39,8 +50,13 @@ All:
 
 `TS/REV` (code review):
 
- * The code reviewer found at least _three issues_ in the pull request.
+ * Pull request title explains the problem it is fixing.
 
-`TS/PDD` (puzzle resolving):
+ * Pull request description explains the solution proposed and contains
+   a link to the original ticket it is related to.
 
- * tbd
+ * The code reviewer found at least _three problems_ in the code.
+
+ * All problems found by the code reviewer were addressed by
+   the pull request author.
+
