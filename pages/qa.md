@@ -25,9 +25,12 @@ the payment right after you inform the project manager that the ticket
 
 All tickets:
 
- * Formatting of ticket description follows
+ * The formatting of a ticket description, as well as all messages inside it, follows
    [Github Markdown](https://help.github.com/articles/github-flavored-markdown/)
    style.
+
+ * Messages in a ticket always start with a name of a user they are
+   addressed to.
 
 `TS/FIX` (bug fixing tickets) and `TS/PDD` (puzzle resolving):
 
