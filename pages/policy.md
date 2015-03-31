@@ -114,7 +114,7 @@ of task's budget. If you complete is less than 48 hours, you get 50% bonus.
 If you complete in less than 72 hours, you get 25% bonus.
 
 {% par 16 %}
-You have 10 days to complete a task. If you fail to complete the task,
+You have 10 days to complete a task. If you fail,
 no matter what was the reason of it, we assign the task to another
 performer and you get twice as many negative points to your rating, as
 many minutes were in the task budget.
