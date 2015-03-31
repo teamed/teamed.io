@@ -110,7 +110,7 @@ about the task and the moment you were paid for its completion.
 
 {% par 22 %}
 If you complete a task in less than 24 hours, you get a 100% bonus, on top
-of task's budget. If you complete is less than 48 hours, you get 50% bonus.
+of task's budget. If you complete in less than 48 hours, you get 50% bonus.
 If you complete in less than 72 hours, you get 25% bonus.
 
 {% par 16 %}
