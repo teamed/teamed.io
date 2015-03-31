@@ -6,7 +6,7 @@ module Jekyll
         @num = num.strip
       end
       def render(context)
-        "<span id='#{@num}' class='par'>&sect;#{@num}</span> "
+        "<span id='#{@num}' class='par'><a href='#{@num}'>&sect;#{@num}</a></span> "
       end
     end
   end
