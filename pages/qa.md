@@ -21,7 +21,13 @@ by the type of the ticket they are applicable to.
 
 As a QA engineer, you earn 10 minutes for each ticket reviewed. You get
 the payment right after you inform the project manager that the ticket
-"_looks good_" for you.
+passed the review. Your message should include your measurement of the
+quality, like `quality is good` or `quality is acceptabl`.
+No matter what is your remark, you get paid right after you post it.
+
+Ticket performer will get his/her payment only after the ticket receives
+your quality review. When you give a "good" mark, the performer gets some
+bonus. Try to give "good" marks only when you see no issues in the ticket.
 
 All tickets:
 
