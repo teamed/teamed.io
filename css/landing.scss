@@ -77,8 +77,7 @@ input {
 }
 
 .par {
-  font-family: serif;
-  :target {
+  &:target {
     font-size: 2em;
     font-weight: bold;
   }
