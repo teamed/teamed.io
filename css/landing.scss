@@ -75,3 +75,11 @@ input {
   background-color: darken($beige,10);
   color: darken($brown,20);
 }
+
+.par {
+  font-family: serif;
+  :target {
+    font-size: 2em;
+    font-weight: bold;
+  }
+}

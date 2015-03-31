@@ -62,11 +62,3 @@ p {
   margin-top: $em;
   margin-bottom: $em;
 }
-
-.par {
-  font-family: serif;
-  :target {
-    font-size: 2em;
-    font-weight: bold;
-  }
-}
