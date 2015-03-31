@@ -80,5 +80,8 @@ input {
   &:target {
     font-size: 2em;
     font-weight: bold;
+    margin-right: .5em;
+    float: left;
+    line-height: 1em;
   }
 }
