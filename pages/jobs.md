@@ -36,7 +36,7 @@ Senior C++ Developer:
 If interested, please apply to [dev@teamed.io](mailto:dev@teamed.io) and include
 this information in your email:
 
- * Your Github account link
+ * Link to your pull request in the [quiz](https://github.com/teamed/quiz)
  * Your StackOverflow account link
  * Your hourly rate in USD
  * Your resume in PDF
