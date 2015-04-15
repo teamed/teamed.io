@@ -66,8 +66,8 @@ as [this formula](/release.html).
 
 {% par 9 %}
 If you don't want to work with a task, for any reason, post a message
-to the project manager, asking to "_assign someone else_". You don't lose
-any points in this case.
+to the project manager, asking to "_assign someone else_". You lose
+as many points in this case as many minutes the task has in budget.
 
 {% par 10 %}
 If you can't complete a task in time, inform the project manager about it. Just
