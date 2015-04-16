@@ -69,6 +69,11 @@ If you don't want to work with a task, for any reason, post a message
 to the project manager, asking to "_assign someone else_". You lose
 as many points in this case as many minutes the task has in budget.
 
+{% par 23 %}
+If you want to stop getting new tasks for some time, inform us
+through Netbout and you won't get any new assignments in all our projects,
+for the desired period.
+
 {% par 10 %}
 If you can't complete a task in time, inform the project manager about it. Just
 post a message to him, right in the ticket, asking for "_more time_". If he
