@@ -40,6 +40,9 @@ All tickets:
  * The ticket is closed only when the reported problem is solved,
    [see](http://www.yegor256.com/2015/02/12/top-down-design.html).
 
+ * Some of ticket messages must mention all pull requests where the
+   problem was actually fixed.
+
 `TS/FIX` (bug fixing tickets):
 
  * Problem reporter and problem solver are two different persons,
