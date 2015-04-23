@@ -154,7 +154,7 @@ As an architect, you can prioritize tasks into three categories: urgent, normal
 and postponed. Urgent tasks are assigned to performers immediately. Normal
 tasks are assigned to performers only when the project has less than ten
 assigned tasks. Postponed tasks are never assigned. To change any task
-priority, just a project manager, for exampl "_this task is urgent_"
+priority, just ask a project manager, for example "_this task is urgent_"
 or "_this task is posponed_", or "_this task is not urgent any more_"
 
 {% par 27 %}
