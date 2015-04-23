@@ -60,10 +60,6 @@ For a code review task you get 15 minutes plus as many minutes
 as many comments you posted in the discussion. Either you accept
 the code or reject it, you still get the payment.
 
-{% par 20 %}
-For each release you publish you get 30 minutes plus as many minutes
-as [this formula](/release.html).
-
 {% par 9 %}
 If you don't want to work with a task, for any reason, post a message
 to the project manager, asking to "_assign someone else_". You lose
@@ -91,13 +87,6 @@ When you find a bug in existing source code or documentation, report it
 [properly](http://www.yegor256.com/2014/11/24/principles-of-bug-tracking.html)
 and it is accepted by the project architect, you get 15 minutes on
 your account. Read this: [Bugs Are Welcome](http://www.yegor256.com/2014/04/13/bugs-are-welcome.html).
-
-{% par 21 %}
-Each bug has to be accepted by an architect before it is paid and dispatched
-for fixing. Being an architect, when you see a new bug submitted, inform
-the project manager that it is a valid bug by posting a message, similar
-to "_it is a valid bug_", or explain to the reporter what is wrong with
-the issue reported. Read this: [Five Principles of Bug Tracking](http://www.yegor256.com/2014/11/24/principles-of-bug-tracking.html).
 
 {% par 13 %}
 Small, easy to find, easy to fix, or cosmetic bugs are not paid,
@@ -145,6 +134,48 @@ a raise, but these factors will be taken into account:
 All payment processing fees are reimbursed by us. No matter what payment
 instrument is used (PayPal, oDesk, wire transfer, check, or cash) we guarantee
 that you get exactly the amount you earned.
+
+## Architect (ARC)
+
+{% par 20 %}
+For each release you publish as an architect you get 30 minutes plus as many minutes
+as [this formula](/release.html) calculates.
+
+{% par 21 %}
+Each bug has to be accepted by an architect before it is paid and dispatched
+for fixing. Being an architect, when you see a new bug submitted, inform
+the project manager that it is a valid bug by posting a message, similar
+to "_it is a valid bug_", or explain to the reporter what is wrong with
+the issue reported. Read this:
+[Five Principles of Bug Tracking](http://www.yegor256.com/2014/11/24/principles-of-bug-tracking.html).
+
+{% par 26 %}
+As an architect, you can prioritize tasks into three categories: urgent, normal
+and postponed. Urgent tasks are assigned to performers immediately. Normal
+tasks are assigned to performers only when the project has less than ten
+assigned tasks. Postponed tasks are never assigned. To change any task
+priority, just a project manager, for exampl "_this task is urgent_"
+or "_this task is posponed_", or "_this task is not urgent any more_"
+
+{% par 27 %}
+As an architect, you can assign any ticket to one of the project milestones.
+To do that just ask a project manager, for example "_set milestone to 1.4_".
+
+## Quality Assurance (QA)
+
+{% par 24 %}
+As a QA engineer, you earn 10 minutes for each ticket reviewed, according to
+our [quality rules](/qa.html). You get
+the payment right after you inform the project manager that the ticket
+passed the review. Your message should include your measurement of the
+quality, like "quality is good", "quality is acceptable" or "quality is bad".
+No matter what is your remark, you get paid right after you post it.
+
+{% par 25 %}
+Ticket performer will get his/her payment only after the ticket receives
+your quality review. When you give a "good" mark, the performer gets a
+bonus. If you give "acceptable" mark, the performer doesn't get a bonus. When
+you give "bad" mark, the performer is not paid for the ticket.
 
 If you have any suggestions about this policy, please submit a request
 in [netbout.com](http://www.netbout.com). If you have a correction, please
