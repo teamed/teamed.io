@@ -63,6 +63,8 @@ All tickets:
 
  * The code reviewer found at least _three problems_ in the code.
 
+ * Comments were mostly about design problems, not cosmetic issues.
+
  * All problems found by the code reviewer were addressed by
    the pull request author.
 
