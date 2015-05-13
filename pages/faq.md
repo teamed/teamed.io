@@ -16,7 +16,7 @@ keywords:
 
 ## Frequently Asked Questions (FAQ)
 
-**Who estimates tasks, and how do we know the estimation is fair?**
+**Who estimates tasks, and how do I know the estimation is fair?**
 
 Most of our tasks are 30-60 minutes in size and this estimate
 is set by the project manager. The estimate is not negotiable
