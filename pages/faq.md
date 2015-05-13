@@ -27,7 +27,7 @@ required to complete a task. In this case, we encourage you to use
 **How do you use oDesk/Upwork/Elance?**
 
 We often work through oDesk, but we don't use their time tracking
-system at all. We are using them only as a payment processor, to
+system at all. We use them only as a payment processor, to
 distribute payments. You should **not** report your time there. We
 send payments ourselves once you complete a task. Remember,
 we don't pay for time, but only for results (see [&sect;5](/policy.html#5)).
