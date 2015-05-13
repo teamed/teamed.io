@@ -14,7 +14,7 @@ keywords:
   - software developers
 ---
 
-## Frequently Asked Questions (FAQ)
+## FAQ
 
 **Who estimates tasks, and how do I know the estimation is fair?**
 
