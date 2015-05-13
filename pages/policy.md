@@ -44,7 +44,7 @@ Read these articles:
 Each task has a pre-defined budget, in minutes, which is announced by the project
 manager. The budget is not negotiable. When the task is done
 you get the payment equal to the amount of minutes in the budget multiplied
-by your hourly rate.
+by your hourly rate, no matter how much time you actually spent.
 
 {% par 6 %}
 Our Definition of Done is simple: the task is done if
