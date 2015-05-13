@@ -18,7 +18,7 @@ keywords:
 
 Most of our tasks are 30-60 minutes in size and this estimate
 is set by the project manager. The estimate is not negotiable
-(see [&par;5](/policy.html#5)). However, very often more time is
+(see [&sect;5](/policy.html#5)). However, very often more time is
 required to complete a task. In this case, we are using
 [Puzzle Driven Development](http://www.yegor256.com/2009/03/04/pdd.html).
 
@@ -28,5 +28,5 @@ We often work through oDesk, but we don't use their time tracking
 system at all. We are using them only as a payment processor, to
 distribute payments. You should **not** report your time there. We
 send payments ourselves once you complete a task. Remember,
-we don't pay for time, but only for results (see [&par;5](/policy.html#5)).
+we don't pay for time, but only for results (see [&sect;5](/policy.html#5)).
 
