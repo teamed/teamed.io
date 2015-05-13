@@ -20,8 +20,8 @@ keywords:
 
 Most of our tasks are 30-60 minutes in size and this estimate
 is set by the project manager. The estimate is not negotiable
-(see [&sect;5](/policy.html#5)). However, very often more time is
-required to complete a task. In this case, we are using
+(see [&sect;5](/policy.html#5)). However, very often, more time is
+required to complete a task. In this case, we encourage you to use
 [Puzzle Driven Development](http://www.yegor256.com/2009/03/04/pdd.html).
 
 **How do you use oDesk/Upwork/Elance?**
