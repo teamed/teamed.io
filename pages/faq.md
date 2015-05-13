@@ -14,6 +14,8 @@ keywords:
   - software developers
 ---
 
+## Frequently Asked Questions (FAQ)
+
 **Who estimates tasks, and how do we know the estimation is fair?**
 
 Most of our tasks are 30-60 minutes in size and this estimate
