@@ -32,3 +32,11 @@ distribute payments. You should **not** report your time there. We
 send payments ourselves once you complete a task. Remember,
 we don't pay for time, but only for results (see [&sect;5](/policy.html#5)).
 
+**Do you assign tasks or developers can pick tasks?**
+
+Our project managers assign tasks to you when they think it's
+appropriate. But sometimes, when you really want to pick some task,
+you may express your interest in that particular task. But there
+is no guarantee that the task will be assigned to you.
+
+More information you can find in our [Policy](/policy.html).

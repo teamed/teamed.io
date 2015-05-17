@@ -18,6 +18,7 @@ This policy regulates all work relationship between Teamed.io
 and you, a remote team member. We follow the principles of
 eXtremely Distributed Softare Development ([XDSD](http://www.xdsd.org)) methodology. Read
 [how XDSD is different](http://www.yegor256.com/2014/04/17/how-xdsd-is-different.html) from others.
+Also, see our [FAQ](/faq.html).
 
 {% par 1 %}
 When we start working with you, you get a few tasks in a few of our
