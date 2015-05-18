@@ -13,17 +13,15 @@ keywords:
   - software developers
 ---
 
-## Sales Agent
-
 Refer a friend to us and we'll share our revenue with you
-on the following terms.
+on the following terms:
 
-We will pay you 5% of all money the clients pays us.
+We will pay you **5%** of all money the clients pays us.
 
 We will stop paying you in 12 calendar months after the first
 payment made by the client.
 
-We won't pay you more than $4,000 per referred client.
+We will pay you no more than $4,000 per each referred client.
 
 We will pay you by check, PayPal or wire transfer (up to you)
 within 5 business days after client's payment is received by us.
