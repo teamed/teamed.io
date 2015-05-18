@@ -162,6 +162,10 @@ or "_this task is posponed_", or "_this task is not urgent any more_"
 As an architect, you can assign any ticket to one of the project milestones.
 To do that just ask a project manager, for example "_set milestone to 1.4_".
 
+{% par 29 %}
+As an architect, you can ask a project manager to assign any task to anyone,
+just say, for example, "_assign @yegor256_".
+
 {% par 28 %}
 For each merged pull request you get 10 minutes, if the quality is "good",
 according to QA.
