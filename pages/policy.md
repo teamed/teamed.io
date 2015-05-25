@@ -115,6 +115,11 @@ performer and you get twice as many negative points to your rating, as
 many minutes were in the task budget.
 Read this [No Obligations](http://www.yegor256.com/2014/04/13/no-obligations-principle.html) principle.
 
+{% par 30 %}
+If you hold a task for longer than 7 days, you may get a notice from
+a project manager and as many negative points to your rating as many
+minutes are in the task budget.
+
 {% par 17 %}
 At any moment of time and at our own discretion we may decide to stop
 giving you tasks and eject you from any and/or all projects. This usually
