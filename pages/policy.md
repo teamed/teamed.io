@@ -90,7 +90,7 @@ and it is accepted by the project architect, you get 15 minutes on
 your account. Read this: [Bugs Are Welcome](http://www.yegor256.com/2014/04/13/bugs-are-welcome.html).
 
 {% par 13 %}
-Small, easy to find, easy to fix, or cosmetic bugs are not paid,
+Small, easy to find, easy to fix, or cosmetic bugs and tasks are not paid,
 even if they lead to a code change and project improvement. The
 decision is made by a project architect and is not negotiable.
 
