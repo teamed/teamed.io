@@ -108,6 +108,10 @@ If you complete a task in less than 24 hours, you get a 100% bonus, on top
 of task's budget. If you complete in less than 48 hours, you get 50% bonus.
 If you complete in less than 72 hours, you get 25% bonus.
 
+{% par 31 %}
+If you complete a task that has a boost factor attached to it, your
+payment, together with the bonus, will be multiplied by that factor.
+
 {% par 16 %}
 You have 10 days to complete a task. If you fail,
 no matter what was the reason of it, we assign the task to another
