@@ -173,7 +173,7 @@ just say, for example, "_assign @yegor256_".
 
 {% par 28 %}
 For each merged pull request you get 10 minutes, if the quality is "good",
-according to QA.
+according to [QA](/qa.html).
 
 ## Quality Assurance (QA)
 
