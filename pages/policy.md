@@ -145,6 +145,12 @@ All payment processing fees are reimbursed by us. No matter what payment
 instrument is used (PayPal, oDesk, wire transfer, check, or cash) we guarantee
 that you get exactly the amount you earned.
 
+{% par 32 %}
+There is a certain amount of tasks we assign to you concurrently. When
+you start working with us, you have two tasks maximum. When
+your rating is over 60 you get 5 tasks. When it's over 600 you get 10 tasks.
+When it's over 1600 you get 20 tasks.
+
 ## Architect (ARC)
 
 {% par 20 %}
