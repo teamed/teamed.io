@@ -15,11 +15,8 @@
 
 @import 'defs';
 @import 'fonts';
-@import 'index';
-@import 'page';
-@import 'forms';
-@import 'info';
 @import 'portfolio';
+@import 'index';
 
 * {
   margin: 0;
@@ -30,7 +27,7 @@
 }
 
 body {
-  font-family: $main-font;
+  font-family: $fira;
   font-size: $em;
   text-align: center;
   color: $brown;
@@ -42,11 +39,6 @@ header {
   @media all and (max-width: $width) {
     padding: 1em 0 1em;
   }
-}
-
-.logo {
-  width: 180px;
-  height: 36px;
 }
 
 .ico {

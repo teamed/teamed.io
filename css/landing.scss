@@ -14,8 +14,8 @@
  */
 
 @import 'defs';
-@import 'forms';
 @import 'fonts';
+@import 'forms';
 
 $size: 600px;
 
@@ -28,7 +28,6 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  background-color: $beige;
 }
 
 .box {
@@ -36,7 +35,7 @@ body {
   -moz-box-sizing: border-box;
   width: $size;
   margin: 0 auto;
-  font-family: $main-font;
+  font-family: $fira;
   font-weight: 200;
   font-size: $em;
   padding: $em;
@@ -52,11 +51,9 @@ body {
   }
   .head {
     .logo {
-      width: 180px;
-      height: 36px;
+      width: 64px;
+      height: 64px;
     }
-  }
-  .page {
   }
   ol {
     padding-left: 0;
@@ -68,6 +65,12 @@ body {
   }
   table tr th {
     text-align: left;
+  }
+  h2 {
+    font-family: $quadon;
+    font-weight: 200;
+    margin-top: 2em;
+    color: $red;
   }
 }
 

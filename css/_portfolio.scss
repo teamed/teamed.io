@@ -19,7 +19,7 @@
 .folio {
   position: relative;
   margin: 2 * $em;
-  font-family: $main-font;
+  font-family: $fira;
   font-weight: 200;
   a {
     text-decoration: underline;
@@ -101,7 +101,7 @@
           }
         }
         &.mono {
-          font-family: $foot-font;
+          font-family: monospace;
         }
       }
       th {
