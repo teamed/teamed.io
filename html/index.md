@@ -210,6 +210,7 @@ Sunnyvale, CA 94085<br/>
 860.506.5536
 
 Also follow us on
+[Facebook](https://www.facebook.com/teamedio),
 [LinkedIn](https://www.linkedin.com/company/teamed-io),
 [AngelList](https://angel.co/teamed-io),
 [Twitter](https://twitter.com/yegor256).
