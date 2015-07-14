@@ -29,6 +29,8 @@ founded by [Yegor Bugayenko](http://www.yegor256.com)
 and [TechnoPark Corp.](http://www.technoparkcorp.com) in 2014.
 We're based in Sunnyvale, CA. We develop server-side and web apps,
 mostly in Java, Ruby and C++.
+We use eXtremely Distributed Software Development ([XDSD](http://www.xdsd.org))
+methodology in all our projects.
 
 ## How We Work
 
