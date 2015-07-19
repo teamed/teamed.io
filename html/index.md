@@ -46,7 +46,7 @@ and compile the output into a single work product.
 We ensure that every incremental task preserves the **required quality**
 of the overall project.
 
-## Why Are Uniquely Better
+## Why We Are Uniquely Better
 
 **No Waste of Money**, because we don't pay salaries.
 Our programmers are paid based on their deliverables. If for some reason they
