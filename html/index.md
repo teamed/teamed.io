@@ -55,7 +55,7 @@ We ensure that every incremental task preserves the **required quality**
 of the overall project.
 
 <img src="http://www.yegor256.com/images/yegor-bugayenko.png"
-  style="width:128px;border-radius:10px;float:left;margin-right:1em;margin-bottom:1em"/>
+  style="width:128px;border-radius:50%;float:left;margin-right:1em;margin-bottom:1em"/>
 "I've started to experiment with this idea six years ago, in 2009. Filed
 a number of patents, tested in a few dozens of open source projects and gave it a name. It's called
 eXtremely Distributed Software Development ([XDSD](http://www.xdsd.org)).
