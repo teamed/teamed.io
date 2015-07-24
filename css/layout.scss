@@ -35,21 +35,21 @@ body {
 }
 
 header {
-  padding: 2 * $em 0;
+  padding-top: 2 * $em;
   @media all and (max-width: $width) {
-    padding: 1em 0 1em;
+    padding: $em 0 $em;
   }
 }
 
 footer {
   background: $brown;
-  height: 5em;
+  height: 5 * $em;
   color: white;
-  padding: 2em;
+  padding: 2 * $em;
 }
 
 .ico {
-  margin-right: .5em;
+  margin-right: .5 * $em;
 }
 
 a {

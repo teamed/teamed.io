@@ -21,7 +21,7 @@ keywords:
 
 Explain us your requirements, be it a web system, a mobile app,
 or a Big Data who-knows-what. We will give you our best team of
-free-lancers, all working remotely. We will <strong>orchestrate</strong> their work
+free-lancers, all working remotely. We will <strong>orchestrate</strong> their work,
 keeping you an active participant of the project.
 
 No product owners or weekly updates here! You're the <strong>product owner</strong> and
