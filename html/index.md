@@ -24,8 +24,8 @@ or a Big Data who-knows-what. We will give you our best team of
 free-lancers, all working remotely. We will <strong>orchestrate</strong> their work,
 keeping you an active participant of the project.
 
-No product owners or weekly updates here! You're the <strong>product owner</strong> and
-all programmers will communicate with you directly, about the product
+No product owners on duty here or weekly updates! You're the <strong>product owner</strong> and
+all programmers will communicate with you directly and immediately, about
 features and functionality. Although, all management overhead is ours.
 
 440 North Wolfe Road, #61<br/>
