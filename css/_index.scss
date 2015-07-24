@@ -17,10 +17,11 @@
 @import 'defs';
 
 .index {
-  width: 700px;
+  width: 800px;
+  max-width: 100%;
+  text-align: left;
   font-family: $fira;
   font-weight: 200;
-  text-align: left;
   margin-left: auto;
   margin-right: auto;
   clear: both;
@@ -28,22 +29,30 @@
     text-decoration: underline;
   }
   h2 {
-    font-family: $quadon;
-    font-weight: 200;
-    margin-top: 4em;
+    /*font-family: $quadon;*/
+    font-size: 2.5em;
+    font-weight: 400;
+    margin-top: 3em;
     color: $red;
   }
-  .project,
+  p, table, ul, ol {
+    clear: both;
+    width: 600px;
+    max-width: 100%;
+    text-align: left;
+    margin-left: auto;
+  }
   .tech {
-    margin-top: 2em;
-    margin-right: .5em;
-    font-size: 0.85em;
-    display: inline-block;
-    width: 10em;
-    vertical-align: top;
     img {
-      display: block;
-      margin-bottom: 1em;
+      float: left;
+      margin-right: 1em;
+    }
+  }
+  .project {
+    a.logo {
+      float: left;
+      width: 128px;
+      height: 128px;
     }
   }
 }

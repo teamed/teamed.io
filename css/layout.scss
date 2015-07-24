@@ -30,7 +30,7 @@ body {
   font-family: $fira;
   font-size: $em;
   text-align: center;
-  color: $brown;
+  color: black;
   background-color: white;
 }
 
@@ -39,6 +39,13 @@ header {
   @media all and (max-width: $width) {
     padding: 1em 0 1em;
   }
+}
+
+footer {
+  background: $brown;
+  height: 5em;
+  color: white;
+  padding: 2em;
 }
 
 .ico {
