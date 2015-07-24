@@ -39,6 +39,10 @@ Don't forget to follow us on
 [AngelList](https://angel.co/teamed-io),
 [Twitter](https://twitter.com/yegor256).
 
+Yes, we're based in <strong>Silicon Valley</strong>, but developers
+are all remote, from 15+ countries, including Poland,
+Philippines, Brazil, Russia, France, Ukraine, and United States.
+
 ## Learn how it works
 
 The way we develop software is absolutely unique
