@@ -243,6 +243,12 @@ projects and regularly spend time on StackOverflow. Please send
 them, together with your CV, to
 [dev@teamed.io](mailto:dev@teamed.io).
 
+BTW, if you want to contribute to our open source projects, try
+these: [takes](https://github.com/yegor256/takes),
+[rultor](https://github.com/yegor256/rultor),
+[thindeck](https://github.com/yegor256/thindeck). We're working with them
+right now, your help will be appreciated.
+
 
 <script src="//platform.twitter.com/oct.js" type="text/javascript"></script>
 <script type="text/javascript">
