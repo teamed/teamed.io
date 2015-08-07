@@ -155,7 +155,10 @@ When it's over 1600 you get 20 tasks.
 
 {% par 20 %}
 For each release you publish as an architect you get 30 minutes plus as many minutes
-as [this formula](/release.html) calculates.
+as [this formula](/release.html) calculates. Release is "published" when
+its status in Github is set to "final". You have to ask Project Owner to
+change the status when a new version is released and it satisfies
+the PO.
 
 {% par 21 %}
 Each bug has to be accepted by an architect before it is paid and dispatched
