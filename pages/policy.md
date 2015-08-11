@@ -188,6 +188,12 @@ just say, for example, "_assign @yegor256_".
 For each merged pull request you get 10 minutes, if the quality is "good",
 according to [QA](/qa.html).
 
+{% par 33 %}
+Every few days the project is checked by the project manager, to detect
+mistakes in ticket planning, milestone organization, release discipline, etc.
+If any problems found, you as an architect get -100 points to your rating.
+If no problems found, you get 60 minutes.
+
 ## Quality Assurance (QA)
 
 {% par 24 %}

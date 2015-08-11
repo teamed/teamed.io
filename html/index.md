@@ -43,6 +43,7 @@ Yes, we're based in <strong>Silicon Valley</strong>, but developers
 are all remote, from 15+ countries, including Poland,
 Philippines, Brazil, Russia, France, Ukraine, and United States.
 
+<span id="how"></span>
 ## Learn how it works
 
 The way we develop software is absolutely unique
@@ -58,15 +59,16 @@ and compile the output into a single work product
 We ensure that every incremental task preserves the **required quality**
 of the overall project.
 
-<img src="http://www.yegor256.com/images/yegor-bugayenko.png"
-  style="width:128px;border-radius:50%;float:left;margin-right:1em;margin-bottom:1em"/>
-"I've started to experiment with this idea six years ago, in 2009. Filed
+<a href="http://www.yegor256.com"><img src="http://www.yegor256.com/images/yegor-bugayenko.png"
+  style="width:128px;border-radius:50%;float:left;margin-right:1em;margin-bottom:1em"/></a>
+&ldquo;I started to experiment with this idea six years ago, in 2009. Filed
 a number of patents, tested in a few dozens of open source projects and gave it a name. It's called
 eXtremely Distributed Software Development ([XDSD](http://www.xdsd.org)).
-I've wrote a number of articles about it, on [my blog](http://www.yegor256.com/tag/xdsd.html).
+I wrote a number of articles about it, on [my blog](http://www.yegor256.com/tag/xdsd.html).
 Interested in learning more about it? Just [email me](mailto:yegor@teamed.io),
-we'll chat." &mdash; Yegor Bugayenko, CTO of Teamed.io
+we'll chat.&rdquo; &mdash; Yegor Bugayenko, CTO of Teamed.io
 
+<span id="portfolio"></span>
 ## Enjoy the quality of code
 
 The quality of code we produce is higher than any other software
@@ -76,7 +78,8 @@ and 2) we apply them after each change.
 Our teams are also working in open source projects, so you can
 check our code and compare it with what you've seen before, in other
 teams and from other programmers. Also, see the way we manage projects. All
-project communications are open, in Github. Check these recent
+project communications are open, in
+[Github](https://github.com/teamed). Check these recent
 projects:
 
 <p class="project">
@@ -145,6 +148,7 @@ time to focus on meeting your project objectives. In some cases,
 we're [30 times more cost efficient](http://www.yegor256.com/2014/04/11/cost-of-loc.html)
 than traditional organizations.
 
+<span id="pool"></span>
 ## Access a literally unlimited talent pool
 
 You get targeted skills because we don't have programmers in-house.
@@ -195,13 +199,42 @@ Github, Rultor, Travis, Docker, Continuous Integration,
 Build Automation, TDD, Static Analysis
 </p>
 
-There are some technologies that we prefer not to work with,
+There are some technologies that we prefer **not** to work with,
 including: PHP, Python, Ant, Azure, utility classes,
 MySQL, getters and setters, .Net, copy &amp; paste,
 Subversion, JIRA/Bitbucket, Scrum, daily standups,
 singletons, Windows, Adobe Flash, ORM, Perl, Spring Framework, RPC,
-NULL references, Selenium, PowerMock
+NULL references, Selenium, PowerMock.
 
+<span id="team"></span>
+## Check out our<br/>best developers
+
+Even though we build a custom team for each project, some developers
+are staying with us for a long time, taking participation
+in many projects. Simply because they are **the best**:
+
+<p class="tech">
+<a href="https://github.com/pinaf"><img src="/images/team/pinaf.png" style="width:96px;height:96px;border-radius:50%;"/></a>
+<a href="https://github.com/pinaf">@pinaf</a>
+is a mathematician and senior Java developer with 10+ years of experience,
+most of which is in the financial sector, more info <a href="https://br.linkedin.com/in/pinaf">here</a>.
+</p>
+
+<p class="tech">
+<a href="https://github.com/caarlos0"><img src="/images/team/caarlos0.png" style="width:96px;height:96px;border-radius:50%;"/></a>
+<a href="https://github.com/caarlos0">@caarlos0</a>
+is a software developer based in Joinville, SC, Brazil.
+You can find out more about him in <a href="http://www.carlosbecker.com">carlosbecker.com</a>.
+</p>
+
+<p class="tech">
+<a href="https://github.com/ggajos"><img src="/images/team/ggajos.png" style="width:96px;height:96px;border-radius:50%;"/></a>
+<a href="https://github.com/ggajos">@ggajos</a>
+is a co-founder of
+<a href="http://opentangerine.com">Open Tangerine</a> software house,
+quality evangelist, not only in code.</p>
+
+<span id="join"></span>
 ## You're a good programmer?<br/> Try to join us
 
 If you are passionate about software development
