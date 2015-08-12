@@ -224,9 +224,8 @@ You can find out more about him in <a href="http://www.carlosbecker.com">carlosb
 <p class="tech">
 <a href="https://github.com/carlosmiranda"><img src="/images/team/carlosmiranda.png" style="width:96px;height:96px;border-radius:50%;"/></a>
 <a href="https://github.com/carlosmiranda">@carlosmiranda</a>
-is a Certified Java Developer. As an advocate for improving software quality
-and professional competence, he also works part-time as a programming instructor.
-More info <a href="https://ph.linkedin.com/pub/carlos-miguel-miranda/92/993/b8">here</a>.
+is a Certified Java Developer, also works part-time as a programming instructor,
+more info <a href="https://ph.linkedin.com/pub/carlos-miguel-miranda/92/993/b8">here</a>.
 </p>
 
 <p class="tech">
