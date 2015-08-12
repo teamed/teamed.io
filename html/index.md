@@ -211,13 +211,14 @@ NULL references, Selenium, PowerMock.
 
 Even though we build a custom team for each project, some developers
 are staying with us for a long time, taking participation
-in many projects. Simply because they are **the best**:
+in many projects. Simply because they are **the best**
+(alphabetic order):
 
 <p class="tech">
-<a href="https://github.com/pinaf"><img src="/images/team/pinaf.png" style="width:96px;height:96px;border-radius:50%;"/></a>
-<a href="https://github.com/pinaf">@pinaf</a>
-is a mathematician and senior Java developer with 10+ years of experience,
-most of which is in the financial sector, more info <a href="https://br.linkedin.com/in/pinaf">here</a>.
+<a href="https://github.com/caarlos0"><img src="/images/team/caarlos0.png" style="width:96px;height:96px;border-radius:50%;"/></a>
+<a href="https://github.com/caarlos0">@caarlos0</a>
+is a software developer based in Joinville, SC, Brazil.
+You can find out more about him in <a href="http://www.carlosbecker.com">carlosbecker.com</a>.
 </p>
 
 <p class="tech">
@@ -228,20 +229,19 @@ and professional competence, he also works part-time as a programming instructor
 More info <a href="https://ph.linkedin.com/pub/carlos-miguel-miranda/92/993/b8">here</a>.
 </p>
 
-
-<p class="tech">
-<a href="https://github.com/caarlos0"><img src="/images/team/caarlos0.png" style="width:96px;height:96px;border-radius:50%;"/></a>
-<a href="https://github.com/caarlos0">@caarlos0</a>
-is a software developer based in Joinville, SC, Brazil.
-You can find out more about him in <a href="http://www.carlosbecker.com">carlosbecker.com</a>.
-</p>
-
 <p class="tech">
 <a href="https://github.com/ggajos"><img src="/images/team/ggajos.png" style="width:96px;height:96px;border-radius:50%;"/></a>
 <a href="https://github.com/ggajos">@ggajos</a>
 is a co-founder of
 <a href="http://opentangerine.com">Open Tangerine</a> software house,
 quality evangelist, not only in code.</p>
+
+<p class="tech">
+<a href="https://github.com/pinaf"><img src="/images/team/pinaf.png" style="width:96px;height:96px;border-radius:50%;"/></a>
+<a href="https://github.com/pinaf">@pinaf</a>
+is a mathematician and senior Java developer with 10+ years of experience,
+most of which is in the financial sector, more info <a href="https://br.linkedin.com/in/pinaf">here</a>.
+</p>
 
 <span id="join"></span>
 ## You're a good programmer?<br/> Try to join us
