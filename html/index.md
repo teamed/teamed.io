@@ -221,6 +221,15 @@ most of which is in the financial sector, more info <a href="https://br.linkedin
 </p>
 
 <p class="tech">
+<a href="https://github.com/carlosmiranda"><img src="/images/team/carlosmiranda.png" style="width:96px;height:96px;border-radius:50%;"/></a>
+<a href="https://github.com/carlosmiranda">@carlosmiranda</a>
+is a Certified Java Developer. As an advocate for improving software quality
+and professional competence, he also works part-time as a programming instructor.
+More info <a href="https://ph.linkedin.com/pub/carlos-miguel-miranda/92/993/b8">here</a>.
+</p>
+
+
+<p class="tech">
 <a href="https://github.com/caarlos0"><img src="/images/team/caarlos0.png" style="width:96px;height:96px;border-radius:50%;"/></a>
 <a href="https://github.com/caarlos0">@caarlos0</a>
 is a software developer based in Joinville, SC, Brazil.
