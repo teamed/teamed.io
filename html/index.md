@@ -231,8 +231,8 @@ more info <a href="https://ph.linkedin.com/pub/carlos-miguel-miranda/92/993/b8">
 <p class="tech">
 <a href="https://github.com/ekondrashev"><img src="/images/team/ekondrashev.png" style="width:96px;height:96px;border-radius:50%;"/></a>
 <a href="https://github.com/ekondrashev">@ekondrashev</a>
-is a free-lancer from Odessa, Ukraine, with 8+ years of commercial development experience in Java and 5+ in Python,
-check him at <a href"https://www.upwork.com/freelancers/~010f8bc13f9d228ff1">Upwork</a>.</p>
+is a free-lancer from Odessa, Ukraine, with 8+ years of experience in Java and 5+ in Python,
+check him at <a href="https://www.upwork.com/freelancers/~010f8bc13f9d228ff1">Upwork</a>.</p>
 
 <p class="tech">
 <a href="https://github.com/ggajos"><img src="/images/team/ggajos.png" style="width:96px;height:96px;border-radius:50%;"/></a>
