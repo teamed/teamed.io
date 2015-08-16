@@ -242,6 +242,12 @@ is a co-founder of
 quality evangelist, not only in code.</p>
 
 <p class="tech">
+<a href="https://github.com/longtimeago"><img src="/images/team/longtimeago.png" style="width:96px;height:96px;border-radius:50%;"/></a>
+<a href="https://github.com/longtimeago">@longtimeago</a>
+is a software developer with huge experience in securities and Forex trading domain,
+likes automation, quality and proactivity, more <a href="https://ua.linkedin.com/pub/pavlo-polishchuk/18/889/b49">here</a>.</p>
+
+<p class="tech">
 <a href="https://github.com/pinaf"><img src="/images/team/pinaf.png" style="width:96px;height:96px;border-radius:50%;"/></a>
 <a href="https://github.com/pinaf">@pinaf</a>
 is a mathematician and senior Java developer with 10+ years of experience,
