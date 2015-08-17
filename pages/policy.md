@@ -198,6 +198,7 @@ If no problems found, you get 60 minutes.
 As an architect, you get extra 15 minutes for each bug reported,
 on top of what you get according to &sect;12.
 
+
 ## Quality Assurance (QA)
 
 {% par 24 %}
