@@ -242,6 +242,14 @@ is a co-founder of
 quality evangelist, not only in code.</p>
 
 <p class="tech">
+<a href="https://github.com/krzyk"><img src="/images/team/krzyk.png" style="width:96px;height:96px;border-radius:50%;"/></a>
+<a href="https://github.com/krzyk">@krzyk</a>
+is a software developer with 12 years of experience
+developing applications for telecommunications, advertising and travel industry,
+more info <a href="https://www.linkedin.com/in/krzyk">here</a>.
+</p>
+
+<p class="tech">
 <a href="https://github.com/longtimeago"><img src="/images/team/longtimeago.png" style="width:96px;height:96px;border-radius:50%;"/></a>
 <a href="https://github.com/longtimeago">@longtimeago</a>
 is a software developer with huge experience in securities and Forex trading domain,
