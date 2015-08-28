@@ -229,6 +229,12 @@ more info <a href="https://ph.linkedin.com/pub/carlos-miguel-miranda/92/993/b8">
 </p>
 
 <p class="tech">
+<a href="https://github.com/darkled"><img src="/images/team/darkled.png" style="width:96px;height:96px;border-radius:50%;"/></a>
+<a href="https://github.com/darkled">@darkled</a>
+is a senior Java developer with 8+ years of experience mostly in telecommunications and computer science research areas, more info
+<a href="https://www.linkedin.com/in/alexeysaenko">here</p>.</p>
+
+<p class="tech">
 <a href="https://github.com/ekondrashev"><img src="/images/team/ekondrashev.png" style="width:96px;height:96px;border-radius:50%;"/></a>
 <a href="https://github.com/ekondrashev">@ekondrashev</a>
 is a free-lancer from Odessa, Ukraine, with 8+ years of experience in Java and 5+ in Python,
