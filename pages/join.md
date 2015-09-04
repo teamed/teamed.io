@@ -1,10 +1,10 @@
 ---
 layout: plain
-title: "Hire Me"
-permalink: /hire.html
+title: "Join Us"
+permalink: /join.html
 description:
   In order to hire you, we have to collect this basic
-  information
+  information.
 keywords:
   - hire software developer
   - remote programmer hire
