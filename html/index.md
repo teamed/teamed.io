@@ -302,13 +302,7 @@ and the task budget is 30 minutes.
 You will get $25 immediately after the task is completed. Here is a
 [sample](/engineer.pdf) of our contract.
 
-When you are ready to join, read [this article](http://www.yegor256.com/2014/10/29/how-much-do-you-cost.html)
-and send us your GitHub account and
-StackOverflow  profile, as we expect people passionate about
-software development to be active contributors to open-source
-projects and regularly spend time on StackOverflow. Please send
-them, together with your CV, to
-[dev@teamed.io](mailto:dev@teamed.io).
+Click [here to join](/join.html).
 
 BTW, if you want to contribute to our open source projects, try
 these: [takes](https://github.com/yegor256/takes),
