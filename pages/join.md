@@ -76,7 +76,15 @@ Please, fill this form if you want to work with us.
     <span class="help">There are two options at the moment:
     <a href="http://www.paypal.com">PayPal</a> or <a href="http://www.upwork.com">Upwork</a>.
     If you want us to pay through PayPal, just give the email of
-    your PayPal account. If you want Upwork, give the contract number.</span>
+    your PayPal account. If you want Upwork, give the contract number
+    (yes, you have to sign it first).</span>
+  </p>
+  <p>
+    <label>Tell us briefly about yourself</label><br/>
+    <textarea name="info" style="width:21em;height:4em" ng-model="info" required></textarea><br/>
+    <span class="help">Read <a href="http://www.yegor256.com/2014/10/29/how-much-do-you-cost.html">this article</a>
+    and explain briefly why you think you're better than
+    others and why we should work with you.</span>
   </p>
   <p>
     <button id='submit'>Submit</button><br/>
@@ -102,7 +110,9 @@ app.controller(
     '$scope', '$location',
     function($scope, $location) {
       $scope.submit = function() {
-        var text = 'name=' + $scope.name
+        var text =
+          'I would like to join you\n\n'
+          + 'name=' + $scope.name
           + '; rate=$' + $scope.rate + '/hr'
           + '; phone=' + $scope.phone
           + '; country=' + $scope.country
@@ -110,7 +120,8 @@ app.controller(
           + '; email=' + $scope.email
           + '; github=' + $scope.github
           + '; netbout=' + $scope.netbout
-          + '; wallet=' + $scope.wallet;
+          + '; wallet=' + $scope.wallet
+          + '\n\n' + $scope.info;
         var url = 'http://www.netbout.com/start?post='
           + encodeURIComponent(text)
           + '&invite=yegor256&rename='

@@ -74,7 +74,7 @@ body {
   }
 }
 
-input {
+input, textarea {
   background-color: darken($beige,10);
   color: darken($brown,20);
 }
