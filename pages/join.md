@@ -134,7 +134,7 @@ app.controller(
           + '\n\n' + $scope.info;
         var url = 'http://www.netbout.com/start?post='
           + encodeURIComponent(text)
-          + '&invite=yegor256&rename='
+          + '&invite=yegor256&invite=alice&rename='
           + encodeURIComponent($scope.github);
         window.location = url;
       }
