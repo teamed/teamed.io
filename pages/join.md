@@ -123,6 +123,7 @@ app.controller(
         var text =
           'I would like to join you\n\n'
           + 'name=' + $scope.name
+          + '; bout=here'
           + '; rate=$' + $scope.rate + '/hr'
           + '; phone=' + $scope.phone
           + '; country=' + $scope.country
