@@ -59,7 +59,7 @@ and compile the output into a single work product
 We ensure that every incremental task preserves the **required quality**
 of the overall project.
 
-<a href="http://www.yegor256.com"><img src="http://www.yegor256.com/images/yegor-bugayenko.png"
+<a href="http://www.yegor256.com"><img src="http://www.yegor256.com/images/yegor-bugayenko-192x192.png"
   style="width:128px;border-radius:50%;float:left;margin-right:1em;margin-bottom:1em"/></a>
 &ldquo;I started to experiment with this idea six years ago, in 2009. Filed
 a number of patents, tested in a few dozens of open source projects and gave it a name. It's called
@@ -72,7 +72,8 @@ we'll chat.&rdquo; &mdash; Yegor Bugayenko, CTO of Teamed.io
 ## Enjoy the quality of code
 
 The quality of code we produce is higher than any other software
-team can deliver. Simply because 1) our quality controls are very strict
+team can deliver. Simply because 1) our quality controls are
+[very strict](http://www.yegor256.com/2014/08/13/strict-code-quality-control.html)
 and 2) we apply them after each change.
 
 Our teams are also working in open source projects, so you can
