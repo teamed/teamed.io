@@ -145,7 +145,7 @@ angular.module('teamed', []).controller(
           + encodeURIComponent(text)
           + '&invite=yegor256&invite=alice&rename='
           + encodeURIComponent($scope.github)
-          + '&post=@alice+interview+' + $scope.netbout;
+          + '&post=@alice+interview';
         window.location = url;
       }
     }
