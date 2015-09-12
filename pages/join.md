@@ -120,20 +120,11 @@ Please, fill this form if you want to work with us.
 </form>
 
 <script>
-var app = angular.module('teamed', []);
-app.config(
-  [
-    '$locationProvider',
-    function($locationProvider) {
-      $locationProvider.html5Mode(true);
-    }
-  ]
-);
-app.controller(
+angular.module('teamed', []).controller(
   'Main',
   [
-    '$scope', '$location',
-    function($scope, $location) {
+    '$scope',
+    function($scope) {
       $scope.submit = function() {
         var text =
           'I would like to join you\n\n'
@@ -154,7 +145,7 @@ app.controller(
           + encodeURIComponent(text)
           + '&invite=yegor256&invite=alice&rename='
           + encodeURIComponent($scope.github)
-          + '&post=@alice+interview';
+          + '&post=@alice+interview+' + $scope.netbout;
         window.location = url;
       }
     }
