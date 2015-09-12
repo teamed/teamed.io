@@ -39,7 +39,7 @@ Please, fill this form if you want to work with us.
     <input name="skills" tabindex="3"
       style="width:11em" maxlength="150" ng-model="skills" required/><br/>
     <span class="help">Comma-separated list of skills you're good at, for example
-    "java,c++"</span>
+    "java,c++". No more than three, please.</span>
   </p>
   <p>
     <label>Phone number</label><br/>
@@ -49,7 +49,7 @@ Please, fill this form if you want to work with us.
     from all our engineers, programmers, testers, DevOps, etc. We have
     to know who we're working with, in order to guarantee our clients
     a certain level of security of their sensitive information. We won't
-    call you or mail you.</span>
+    call or mail you.</span>
   </p>
   <p>
     <label>Country</label><br/>
