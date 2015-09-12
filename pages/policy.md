@@ -198,6 +198,13 @@ If no problems found, you get 60 minutes.
 As an architect, you get extra 15 minutes for each bug reported,
 on top of what you get according to &sect;12.
 
+{% par 35 %}
+You may be assigned in Netbout as an interviewer when we
+recruit new programmers. Apply your best judgement and try to
+be objective, as [this article](http://www.yegor256.com/2014/10/29/how-much-do-you-cost.html)
+suggests. When ready, post `@alice verdict ...` to the bout, explaining
+your decision. No matter what is the decision, you get 15 minutes.
+
 
 ## Quality Assurance (QA)
 
