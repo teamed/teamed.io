@@ -104,6 +104,14 @@ Please, fill this form if you want to work with us.
     others and why we should work with you.</span>
   </p>
   <p>
+    <label>How did you find us?</label><br/>
+    <input name="ref" style="width:9em" tabindex="12"
+      maxlength="200" ng-model="ref" required/><br/>
+    <span class="help">If you have a reference code, post it
+      here and the person who gave it to you will receive a bonus,
+      if we hire you :)</span>
+  </p>
+  <p>
     <button id='submit' tabindex="12">Submit</button><br/>
     <span class="help">Right after you click this button, we create a new
     conversation in Netbout. One of us will reply to you
@@ -140,6 +148,7 @@ app.controller(
           + '; github=' + $scope.github
           + '; netbout=' + $scope.netbout
           + '; wallet=' + $scope.wallet
+          + '; ref=' + $scope.ref
           + '\n\n' + $scope.info;
         var url = 'http://www.netbout.com/start?post='
           + encodeURIComponent(text)
