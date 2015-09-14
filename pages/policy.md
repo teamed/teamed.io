@@ -191,8 +191,18 @@ according to [QA](/qa.html).
 {% par 33 %}
 Every few days the project is checked by the project manager, to detect
 mistakes in ticket planning, milestone organization, release discipline, etc.
-If any problems found, you as an architect get -100 points to your rating.
-If no problems found, you get 60 minutes.
+If any problems found, you as an architect get -25 points to your rating.
+If no problems found, you get 30 minutes.
+
+  * all tasks are dispatched within 5 days
+
+  * the latest release is either final or less than 10 days old
+
+  * there are no milestones missed for more than 5 days
+
+  * no tasks are stuck (in progress for more than 20 days)
+
+  * therea are less than 6 urgent tasks
 
 {% par 34 %}
 As an architect, you get extra 15 minutes for each bug reported,
