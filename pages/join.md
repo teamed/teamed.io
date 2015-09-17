@@ -101,10 +101,10 @@ Please, fill this form if you want to work with us.
     <span class="help">Read <a href="http://www.yegor256.com/2014/10/29/how-much-do-you-cost.html">this article</a>
     and explain briefly why you think you're better than
     others and why we should work with you.
-    Would be great if can review
+    Would be great if you solve
     <a href="https://github.com/teamed/quiz">this quiz</a>,
-    submit a pull request with your corrections, and post the link
-    to it right here.</span>
+    submit a pull request with your corrections, and post its link
+    right here.</span>
   </p>
   <p>
     <label>How did you find us?</label><br/>
