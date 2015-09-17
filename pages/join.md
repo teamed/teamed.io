@@ -111,7 +111,7 @@ Please, fill this form if you want to work with us.
       if we hire you :)</span>
   </p>
   <p>
-    <button id='submit' tabindex="12">Submit</button><br/>
+    <button id='submit' tabindex="13">Submit</button><br/>
     <span class="help">Right after you click this button, we create a new
     conversation in Netbout. One of us will reply to you
     in 24 hours. Keep in mind that we reject over 80% of
