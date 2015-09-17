@@ -39,7 +39,7 @@ Please, fill this form if you want to work with us.
     <input name="skills" tabindex="3"
       style="width:11em" maxlength="150" ng-model="skills" required/><br/>
     <span class="help">Comma-separated list of skills you're good at, for example
-    "java,c++". No more than three, please.</span>
+    "java,c++" or "uml". No more than three, please.</span>
   </p>
   <p>
     <label>Phone number</label><br/>
