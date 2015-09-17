@@ -131,6 +131,7 @@ angular.module('teamed', []).controller(
           + 'name=' + $scope.name
           + '; bout=here'
           + '; rate=$' + $scope.rate + '/hr'
+          + '; roles=DEV,IMP'
           + '; skills=' + $scope.skills
           + '; phone=' + $scope.phone
           + '; country=' + $scope.country
