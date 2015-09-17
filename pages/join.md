@@ -32,7 +32,9 @@ Please, fill this form if you want to work with us.
     <input name="name" type="number" tabindex="2"
       style="width:3em" maxlength="10" ng-model="rate" required/><br/>
     <span class="help">Keep this article in mind:
-    <a href="http://www.yegor256.com/2014/10/29/how-much-do-you-cost.html">How Much Do You Cost?</a></span>
+    <a href="http://www.yegor256.com/2014/10/29/how-much-do-you-cost.html">How Much Do You Cost?</a>
+      If your rate is lower than $20/hr, don't bother, we most
+      likely won't accept you.</span>
   </p>
   <p>
     <label>Skills</label><br/>
