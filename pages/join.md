@@ -92,8 +92,7 @@ Please, fill this form if you want to work with us.
     <span class="help">There are two options at the moment:
     <a href="http://www.paypal.com">PayPal</a> or <a href="http://www.upwork.com">Upwork</a>.
     If you want us to pay through PayPal, just give the email of
-    your PayPal account. If you want Upwork, give the contract number
-    (yes, you have to sign it first).</span>
+    your PayPal account. If you want Upwork, give us a link to your Upwork profile.</span>
   </p>
   <p>
     <label>Tell us briefly about yourself</label><br/>
