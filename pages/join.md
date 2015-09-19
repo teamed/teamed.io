@@ -46,7 +46,7 @@ Please, fill this form if you want to work with us.
   <p>
     <label>Phone number</label><br/>
     <input name="phone" style="width:10em" tabindex="4"
-      pattern="/^[0-9\.\-\+ ]+$/"
+      pattern="/^[0-9\.\-\+ ]+$/" placeholder="/^[0-9\.\-\+ ]+$/"
       maxlength="20" ng-model="phone" required/><br/>
     <span class="help">Our customers require us to collect this information
     from all our engineers, programmers, testers, DevOps, etc. We have
