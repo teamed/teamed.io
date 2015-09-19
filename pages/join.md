@@ -152,13 +152,12 @@ angular.module('teamed', []).controller(
           + '; wallet=' + $scope.wallet
           + '; ref=' + $scope.ref
           + '\n\n' + $scope.info;
-          alert(1);
-        // var url = 'http://www.netbout.com/start?post='
-        //   + encodeURIComponent(text)
-        //   + '&invite=yegor256&invite=alice&rename='
-        //   + encodeURIComponent($scope.github)
-        //   + '&post=@alice+interview+' + $scope.netbout;
-        // window.location = url;
+        var url = 'http://www.netbout.com/start?post='
+          + encodeURIComponent(text)
+          + '&invite=yegor256&invite=alice&rename='
+          + encodeURIComponent($scope.github)
+          + '&post=@alice+interview+' + $scope.netbout;
+        window.location = url;
       }
     }
   ]
