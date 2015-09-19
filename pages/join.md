@@ -46,7 +46,7 @@ Please, fill this form if you want to work with us.
   <p>
     <label>Phone number</label><br/>
     <input name="phone" style="width:10em" tabindex="4"
-      pattern="/^[0-9\.\-\+ ]+$/" placeholder="/^[0-9\.\-\+ ]+$/"
+      pattern="[0-9\.\-\+ ]" placeholder="[0-9\.\-\+ ]"
       maxlength="20" ng-model="phone" required/><br/>
     <span class="help">Our customers require us to collect this information
     from all our engineers, programmers, testers, DevOps, etc. We have
@@ -57,7 +57,7 @@ Please, fill this form if you want to work with us.
   <p>
     <label>Country</label><br/>
     <input name="country" style="width:9em" tabindex="5"
-      pattern="/^[a-zA-Z ]+$/"
+      pattern="[a-zA-Z ]+" placeholder="[a-zA-Z ]+"
       maxlength="50" ng-model="country" required/>
   </p>
   <p>
@@ -73,7 +73,7 @@ Please, fill this form if you want to work with us.
   <p>
     <label><a href="https://github.com">GitHub</a> account name</label><br/>
     <input name="github" type="text" tabindex="8"
-      placeholder="[a-zA-Z0-9\-]+" pattern="/^[a-zA-Z0-9\-]+$/"
+      placeholder="[a-zA-Z0-9\-]+" pattern="[a-zA-Z0-9\-]+"
       style="width:8em" maxlength="50" ng-model="github" required/><br/>
     <span class="help">As <a href="http://www.yegor256.com/2014/10/07/stop-chatting-start-coding.html">this article</a> explains,
     we use only GitHub tickets to communicate in a project, no
@@ -82,7 +82,7 @@ Please, fill this form if you want to work with us.
   <p>
     <label><a href="http://www.netbout.com">Netbout</a> account name</label><br/>
     <input name="netbout" style="width:8em" tabindex="9"
-      placeholder="[a-zA-Z0-9]+" pattern="/^[a-zA-Z0-9]+$/"
+      placeholder="[a-zA-Z0-9]+" pattern="[a-zA-Z0-9]+"
       maxlength="50" ng-model="netbout" required/><br/>
     <span class="help">We use Netbout for out-of-project discussions,
     related to payments, disciplinary actions, rating, performance
@@ -152,12 +152,13 @@ angular.module('teamed', []).controller(
           + '; wallet=' + $scope.wallet
           + '; ref=' + $scope.ref
           + '\n\n' + $scope.info;
-        var url = 'http://www.netbout.com/start?post='
-          + encodeURIComponent(text)
-          + '&invite=yegor256&invite=alice&rename='
-          + encodeURIComponent($scope.github)
-          + '&post=@alice+interview+' + $scope.netbout;
-        window.location = url;
+          alert(1);
+        // var url = 'http://www.netbout.com/start?post='
+        //   + encodeURIComponent(text)
+        //   + '&invite=yegor256&invite=alice&rename='
+        //   + encodeURIComponent($scope.github)
+        //   + '&post=@alice+interview+' + $scope.netbout;
+        // window.location = url;
       }
     }
   ]
