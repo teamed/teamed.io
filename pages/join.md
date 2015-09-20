@@ -15,12 +15,6 @@ keywords:
 
 Please, fill this form if you want to work with us.
 
-<style type="text/css">
-  .help {
-    font-size: 0.8em;
-    color: gray;
-  }
-</style>
 <form name="hire" name="form" ng-submit="submit()">
   <p>
     <label>Your full name</label><br/>

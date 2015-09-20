@@ -200,12 +200,14 @@ Github, Rultor, Travis, Docker, Continuous Integration,
 Build Automation, TDD, Static Analysis
 </p>
 
+<p class="help">
 There are some technologies that we prefer **not** to work with,
 including: PHP, Python, Ant, Azure, utility classes,
 MySQL, getters and setters, .Net, copy &amp; paste,
 Subversion, JIRA/Bitbucket, Scrum, daily standups,
 singletons, Windows, Adobe Flash, ORM, Perl, Spring Framework, RPC,
 NULL references, Selenium, PowerMock.
+</p>
 
 <span id="team"></span>
 ## Check out our<br/>best developers
