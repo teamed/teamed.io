@@ -201,12 +201,12 @@ Build Automation, TDD, Static Analysis
 </p>
 
 <p class="help">
-There are some technologies that we prefer **not** to work with,
-including: PHP, Python, Ant, Azure, utility classes,
-MySQL, getters and setters, .Net, copy &amp; paste,
-Subversion, JIRA/Bitbucket, Scrum, daily standups,
-singletons, Windows, Adobe Flash, ORM, Perl, Spring Framework, RPC,
-NULL references, Selenium, PowerMock.
+  There are some technologies that we prefer <strong>not</strong> to work with,
+  including: PHP, Python, Ant, Azure, utility classes,
+  MySQL, getters and setters, .Net, copy &amp; paste,
+  Subversion, JIRA/Bitbucket, Scrum, daily standups,
+  singletons, Windows, Adobe Flash, ORM, Perl, Spring Framework, RPC,
+  NULL references, Selenium, PowerMock.
 </p>
 
 <span id="team"></span>
@@ -305,14 +305,19 @@ and the task budget is 30 minutes.
 You will get $25 immediately after the task is completed. Here is a
 [sample](/engineer.pdf) of our contract.
 
-Click [here to join](/join.html).
-
-BTW, if you want to contribute to our open source projects, try
-these: [takes](https://github.com/yegor256/takes),
-[rultor](https://github.com/yegor256/rultor),
-[thindeck](https://github.com/yegor256/thindeck). We're working with them
-right now, your help will be appreciated.
-
+<form action="/join.html">
+  <p>
+    <button type="submit">Apply Now</button>
+  </p>
+  <p class="help">
+    BTW, if you want to contribute to our open source projects, try
+    these: <a href="https://github.com/yegor256/takes">takes</a>,
+    <a href="https://github.com/yegor256/rultor">rultor</a>,
+    <a href="https://github.com/yegor256/thindeck">thindeck</a>.
+    We're working with them
+    right now, your help will be appreciated.
+  </p>
+</form>
 
 <script src="//platform.twitter.com/oct.js" type="text/javascript"></script>
 <script type="text/javascript">
