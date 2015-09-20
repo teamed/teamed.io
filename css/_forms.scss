@@ -38,9 +38,10 @@ input, button, textarea {
   }
 }
 input, textarea {
-  background-color: lighten($red,30);
-  color: darken($red,30);
   width: 280px;
+  background-color: darken($beige,10);
+  color: darken($brown,20);
+  max-width: 100%;
 }
 button {
   white-space: nowrap;

@@ -83,8 +83,8 @@ project communications are open, in
 [Github](https://github.com/teamed). Check these recent
 projects:
 
-<p class="project">
-<a href="http://www.takes.org" class="logo">
+<p class="double">
+<a href="http://www.takes.org">
 <img src="http://www.takes.org/clapper.jpg" style="width:96px;" alt="takes logo"/></a>
 <a href="http://www.takes.org">takes.org</a>
 &mdash;
@@ -93,8 +93,8 @@ for UI web apps and RESTful APIs, an OOP alternative
 to Spring, Play Framework and other dinosaurs.
 </p>
 
-<p class="project">
-<a href="http://www.rultor.com" class="logo">
+<p class="double">
+<a href="http://www.rultor.com">
 <img src="http://doc.rultor.com/images/logo.svg" style="width:64px;" alt="rultor logo"/></a>
 <a href="http://www.rultor.com">rultor.com</a>
 &mdash;
@@ -103,8 +103,8 @@ in on-demand Docker containers, communicating with over 100 open source
 projects through Github.
 </p>
 
-<p class="project">
-<a href="http://www.jcabi.com" class="logo">
+<p class="double">
+<a href="http://www.jcabi.com">
 <img src="http://img.jcabi.com/logo-square.svg" style="width:64px;" alt="jcabi logo"/></a>
 <a href="http://www.jcabi.com">jcabi.com</a>
 &mdash;
@@ -116,7 +116,7 @@ all built with strict OOP principles in mind.
 </p>
 
 <!--
-<p class="project">
+<p class="double">
 <a href="http://www.s3auth.com">
 <img src="http://img.s3auth.com/logo.svg" style="width:170px;" alt="s3auth logo"/></a>
 HTTP Basic Authenticating gateway for Amazon S3 buckets
@@ -124,7 +124,7 @@ HTTP Basic Authenticating gateway for Amazon S3 buckets
 -->
 
 <!--
-<p class="project">
+<p class="double">
 <a href="http://www.stateful.co">
 <img src="http://img.stateful.co/pomegranate.svg" style="width:64px;" alt="stateful logo"/></a>
 Stateful RESTful web privitives with XML/JSON API
@@ -170,31 +170,31 @@ assignment we can hire those talented programmers for your project.
 We may work with almost any technology stack, but we prefer open source
 technologies on Linux, especially:
 
-<p class="tech">
+<p class="double">
 <img src="/images/tech/java.jpg" style="width:64px;height:64px;"/>
 Java, Groovy, Hadoop, AOP/AspectJ,
 JAX-RS, XML, XSLT, JUnit, Maven, Mockito
 </p>
 
-<p class="tech">
+<p class="double">
 <img src="/images/tech/aws.jpg" style="width:128px;height:52px;"/>
 EC2, S3, Elastic Beanstalk, DynamoDB, CloudWatch,
 SNS, SQS, CloudFront, SES
 </p>
 
-<p class="tech">
+<p class="double">
 <img src="/images/tech/database.png" style="width:64px;height:64px;"/>
 PostgreSQL, H2, DynamoDB,
 MongoDB, SimpleDB
 </p>
 
-<p class="tech">
+<p class="double">
 <img src="/images/tech/html5.png" style="width:64px;height:64px;"/>
 JavaScript, jQuery, SASS, AngularJS,
 node.js, HTML5, CSS3, PhantomJS, CasperJS
 </p>
 
-<p class="tech">
+<p class="double">
 <img src="/images/tech/wheel.png" style="width:64px;height:64px;"/>
 Github, Rultor, Travis, Docker, Continuous Integration,
 Build Automation, TDD, Static Analysis
@@ -215,40 +215,40 @@ are staying with us for a long time, taking participation
 in many projects. Simply because they are **the best**
 (alphabetic order):
 
-<p class="tech">
+<p class="double">
 <a href="https://github.com/caarlos0"><img src="/images/team/caarlos0.png" style="width:96px;height:96px;border-radius:50%;"/></a>
 <a href="https://github.com/caarlos0">@caarlos0</a>
 is a software developer based in Joinville, SC, Brazil.
 You can find out more about him in <a href="http://www.carlosbecker.com">carlosbecker.com</a>.
 </p>
 
-<p class="tech">
+<p class="double">
 <a href="https://github.com/carlosmiranda"><img src="/images/team/carlosmiranda.png" style="width:96px;height:96px;border-radius:50%;"/></a>
 <a href="https://github.com/carlosmiranda">@carlosmiranda</a>
 is a Certified Java Developer, also works part-time as a programming instructor,
 more info <a href="https://ph.linkedin.com/pub/carlos-miguel-miranda/92/993/b8">here</a>.
 </p>
 
-<p class="tech">
+<p class="double">
 <a href="https://github.com/darkled"><img src="/images/team/darkled.png" style="width:96px;height:96px;border-radius:50%;"/></a>
 <a href="https://github.com/darkled">@darkled</a>
 is a senior Java developer with 8+ years of experience mostly in telecommunications and computer science research areas, more info
 <a href="https://www.linkedin.com/in/alexeysaenko">here</a>.</p>
 
-<p class="tech">
+<p class="double">
 <a href="https://github.com/ekondrashev"><img src="/images/team/ekondrashev.png" style="width:96px;height:96px;border-radius:50%;"/></a>
 <a href="https://github.com/ekondrashev">@ekondrashev</a>
 is a free-lancer from Odessa, Ukraine, with 8+ years of experience in Java and 5+ in Python,
 check him at <a href="https://www.upwork.com/freelancers/~010f8bc13f9d228ff1">Upwork</a>.</p>
 
-<p class="tech">
+<p class="double">
 <a href="https://github.com/ggajos"><img src="/images/team/ggajos.png" style="width:96px;height:96px;border-radius:50%;"/></a>
 <a href="https://github.com/ggajos">@ggajos</a>
 is a co-founder of
 <a href="http://opentangerine.com">Open Tangerine</a> software house,
 quality evangelist, not only in code.</p>
 
-<p class="tech">
+<p class="double">
 <a href="https://github.com/krzyk"><img src="/images/team/krzyk.png" style="width:96px;height:96px;border-radius:50%;"/></a>
 <a href="https://github.com/krzyk">@krzyk</a>
 is a software developer with 12 years of experience
@@ -256,13 +256,13 @@ developing applications for telecommunications, advertising and travel industry,
 more info <a href="https://www.linkedin.com/in/krzyk">here</a>.
 </p>
 
-<p class="tech">
+<p class="double">
 <a href="https://github.com/longtimeago"><img src="/images/team/longtimeago.png" style="width:96px;height:96px;border-radius:50%;"/></a>
 <a href="https://github.com/longtimeago">@longtimeago</a>
 is a software developer with huge experience in securities and Forex trading domain,
 likes automation, quality and proactivity, more <a href="https://ua.linkedin.com/pub/pavlo-polishchuk/18/889/b49">here</a>.</p>
 
-<p class="tech">
+<p class="double">
 <a href="https://github.com/pinaf"><img src="/images/team/pinaf.png" style="width:96px;height:96px;border-radius:50%;"/></a>
 <a href="https://github.com/pinaf">@pinaf</a>
 is a mathematician and senior Java developer with 10+ years of experience,

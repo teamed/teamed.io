@@ -15,6 +15,7 @@
 
 @import 'defs';
 @import 'fonts';
+@import 'forms';
 @import 'portfolio';
 @import 'index';
 
@@ -60,4 +61,62 @@ a {
 p {
   margin-top: $em;
   margin-bottom: $em;
+}
+
+article {
+  padding: $em;
+  width: 800px;
+  max-width: 100%;
+  text-align: left;
+  font-family: $fira;
+  font-weight: 200;
+  margin-left: auto;
+  margin-right: auto;
+  clear: both;
+  a {
+    border-bottom: 1px solid $red;
+    color: $red;
+    &:hover {
+      border-bottom: 2px solid $red;
+    }
+  }
+  h2 {
+    /*font-family: $quadon;*/
+    font-size: 2.5 * $em;
+    font-weight: 400;
+    margin-top: 5 * $em;
+    color: $red;
+  }
+  p, table, ul, ol {
+    clear: both;
+    width: 600px;
+    max-width: 100%;
+    text-align: left;
+    margin-left: auto;
+  }
+}
+
+.double {
+  img {
+    float: left;
+    margin-right: $em;
+    width: 128px;
+    height: 128px;
+  }
+}
+
+.par {
+  &:target {
+    font-size: 2em;
+    font-weight: bold;
+    float: left;
+    line-height: 1em;
+    margin-left: -5.3em;
+    width: 5em;
+    text-align: right;
+  }
+  a {
+    border-bottom: none;
+    color: inherit;
+  }
 }
