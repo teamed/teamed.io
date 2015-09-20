@@ -85,7 +85,7 @@ projects:
 
 <p class="double">
 <a href="http://www.takes.org">
-<img src="http://www.takes.org/clapper.jpg" style="width:96px;" alt="takes logo"/></a>
+<img src="http://www.takes.org/clapper.jpg" style="width:96px;height:96px;" alt="takes logo"/></a>
 <a href="http://www.takes.org">takes.org</a>
 &mdash;
 true object-oriented and immutable Java web framework
@@ -95,7 +95,7 @@ to Spring, Play Framework and other dinosaurs.
 
 <p class="double">
 <a href="http://www.rultor.com">
-<img src="http://doc.rultor.com/images/logo.svg" style="width:64px;" alt="rultor logo"/></a>
+<img src="http://doc.rultor.com/images/logo.svg" style="width:64px;height:64px;" alt="rultor logo"/></a>
 <a href="http://www.rultor.com">rultor.com</a>
 &mdash;
 virtual DevOps assistant, automating merge, release, and deploy operations,
@@ -105,7 +105,7 @@ projects through Github.
 
 <p class="double">
 <a href="http://www.jcabi.com">
-<img src="http://img.jcabi.com/logo-square.svg" style="width:64px;" alt="jcabi logo"/></a>
+<img src="http://img.jcabi.com/logo-square.svg" style="width:64px;height:64px;" alt="jcabi logo"/></a>
 <a href="http://www.jcabi.com">jcabi.com</a>
 &mdash;
 useful Java components, including <a href="https://github.com/jcabi/jcabi-aspects">AOP aspects</a>,
