@@ -66,7 +66,12 @@ a number of patents, tested in a few dozens of open source projects and gave it 
 eXtremely Distributed Software Development ([XDSD](http://www.xdsd.org)).
 I wrote a number of articles about it, on [my blog](http://www.yegor256.com/tag/xdsd.html).
 Interested in learning more about it? Just [email me](mailto:yegor@teamed.io),
-we'll chat.&rdquo; &mdash; Yegor Bugayenko, CTO of Teamed.io
+we'll chat.&rdquo;
+
+<p style="text-align:right">
+&mdash; Yegor Bugayenko<br/>
+CTO of Teamed.io
+</p>
 
 <span id="portfolio"></span>
 ## Enjoy the quality of code
