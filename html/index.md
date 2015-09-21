@@ -150,7 +150,9 @@ There is no waste of money here, because we don't pay <strong>salaries</strong>.
 Our programmers are paid based on their deliverables. If, for some reason, they
 are unable to deliver or if the project no longer requires their services
 &mdash; you don't pay. We don't have to focus on covering our expenses, so we have more
-time to focus on meeting your project objectives. In some cases,
+time to focus on meeting your project objectives.
+
+In some cases,
 we're [30 times more cost efficient](http://www.yegor256.com/2014/04/11/cost-of-loc.html)
 than traditional organizations.
 
