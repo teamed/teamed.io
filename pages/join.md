@@ -148,7 +148,7 @@ angular.module('teamed', []).controller(
           + '\n\n' + $scope.info;
         var url = 'http://www.netbout.com/start?post='
           + encodeURIComponent(text)
-          + '&invite=yegor256&invite=alice&rename='
+          + '&invite=alice&rename='
           + encodeURIComponent($scope.github)
           + '&post=@alice+interview+' + $scope.netbout;
         window.location = url;
