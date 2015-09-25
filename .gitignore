@@ -1,5 +1,7 @@
-_site/
+.DS_Store
+Gemfile.lock
 .sass-cache/
 .bundle/
 vendor
 .idea/
+_site/

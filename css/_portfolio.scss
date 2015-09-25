@@ -1,0 +1,140 @@
+/**
+ * Copyright (c) 2014, teamed.io
+ * All rights reserved. THIS IS PRIVATE SOFTWARE.
+ *
+ * Redistribution and use in source and binary forms, with or without modification, are PROHIBITED
+ * without prior written permission from the author. This product may NOT be used anywhere
+ * and on any computer except the server platform of teamed.io. located at
+ * www.teamed.io. If you received this code occasionally and without intent to use
+ * it, please report this incident to the author by email: privacy@teamed.io
+ *
+ * @author Max Bugaenko <max.bugaenko@gmail.com>
+ * @copyright Copyright (c) teamed.io, 2014
+ * @version $Id$
+ */
+
+@import 'defs';
+@import 'fonts';
+
+.folio {
+  position: relative;
+  margin: 2 * $em;
+  font-family: $fira;
+  font-weight: 200;
+  a {
+    text-decoration: underline;
+    &:hover {
+      color: $red;
+    }
+  }
+  .back {
+    font-size: .7 * $em;
+    position: absolute;
+    left: 0;
+    @media all and (max-width: $width) {
+      display: none;
+    }
+  }
+  .made-by {
+    width: 200px;
+    height: 40px;
+    margin-bottom: 2 * $em;
+  }
+  .footnotes {
+    text-align: left;
+    font-size: .5 * $em;
+    @media all and (max-width: $width) {
+      display: none;
+    }
+  }
+  .mobile {
+    display: none;
+    text-align: left;
+    font-size: .7 * $em;
+    list-style: none;
+    li {
+      margin-bottom: 4 * $em;
+      .mobile-logo {
+        text-decoration: none;
+      }
+      p {
+        margin: 0;
+      }
+    }
+    @media all and (max-width: $width) {
+      display: inherit;
+    }
+  }
+  table {
+    margin-right: auto;
+    margin-left: auto;
+    border-collapse: collapse;
+    overflow: hidden;
+    width: 90%;
+    table-layout: fixed;
+    @media all and (max-width: $width) {
+      display: none;
+    }
+    tbody tr:first-child td {
+      padding-top: 3 * $em;
+    }
+    tr {
+      min-height: 4 * $em;
+      .bar {
+        width: 0px;
+        float: left;
+        overflow: hidden;
+        height: 6 * $em;
+        font-size: 0;
+      }
+      td, th {
+        text-align: left;
+        vertical-align: top;
+        font-size: .7 * $em;
+        padding: 1.5 * $em;
+        @media all and (max-width: $width) {
+          padding: .3 * $em;
+        }
+        &.desk {
+          @media all and (max-width: $width) {
+            display: none;
+          }
+        }
+        &.mono {
+          font-family: monospace;
+        }
+      }
+      th {
+        background-color: $brown;
+        color: $beige;
+        margin-bottom: 2 * $em;
+        &.headerSortUp:after {
+          content: '\25BC';
+        }
+        &.headerSortDown:after {
+          content: '\25B2';
+        }
+      }
+      td {
+        p {
+          margin: 0;
+        }
+        .pic {
+          max-width: 100%;
+        }
+        .fa-github {
+          color: lighten($brown, 20);
+          &:hover {
+            color: $brown;
+          }
+          @media all and (max-width: $width) {
+            display: none;
+          }
+        }
+      }
+    }
+    tbody tr {
+      border-bottom: 1px solid #ddd;
+    }
+  }
+}

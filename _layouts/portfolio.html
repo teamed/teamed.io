@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en-US">
+  <head>
+    <meta charset="utf-8"/>
+    <link rel="icon" type="image/png" href="//img.teamed.io/ico-64x64.png"/>
+    <link rel="shortcut icon" href="//img.teamed.io/ico-64x64.png" />
+    <meta name="description" content="{{ page.description | join:' ' | escape }}" />
+    <meta name="keywords" content="{{ page.keywords | join:', ' | escape }}" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+    <link rel="stylesheet" href="/css/layout.css?{{ site.data['hash'] }}"/>
+    <link href="//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" rel="stylesheet">
+    <title>{{ page.title }}</title>
+  </head>
+  <body>
+    <section itemscope itemtype="http://schema.org/Offer">
+      <div role="main">
+        {{ content }}
+      </div>
+    </section>
+  </body>
+</html>

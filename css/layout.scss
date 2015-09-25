@@ -1,5 +1,5 @@
 /**
- * Copyright (c) 2009, teamed.io
+ * Copyright (c) 2014, teamed.io
  * All rights reserved. THIS IS PRIVATE SOFTWARE.
  *
  * Redistribution and use in source and binary forms, with or without modification, are PROHIBITED
@@ -13,168 +13,118 @@
  * @version $Id$
  */
 
+@import 'defs';
 @import 'fonts';
-
-$main-font: 'Fira-Regular', 'Helvetica', 'Arial', serif;
-$light-font: 'Fira-Light', 'Helvetica', 'Arial', serif;
-$teamed-font: 'Source Code Pro';
+@import 'forms';
+@import 'portfolio';
+@import 'index';
 
 * {
   margin: 0;
   padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
 }
 
 body {
-  font-family: $main-font;
-  font-size: 1.5em;
+  font-family: $fira;
+  font-size: $em;
   text-align: center;
-  color: #66595c;
+  color: black;
+  background-color: white;
 }
 
 header {
-  padding: 1em 0 3em;
-  font-family: $teamed-font;
-  font-weight: 300;
-  background-color: #e6e1ce;
-}
-
-.teamed {
-  font-size: 2.3em;
-  font-weight: 600;
-  letter-spacing: -5px;
-  line-height: 1em;
-  color: #66595c;
-  padding: 0 .5em;
-  border-radius: 10px;
-
-  a {
-    border: 0;
+  padding-top: 2 * $em;
+  @media all and (max-width: $width) {
+    padding: $em 0 $em;
   }
-}
-
-section.section-index {
-  background-color: #e6e1ce;
-  font-family: $teamed-font;
-  padding: .4em 0 2em;
-}
-
-.slogan {
-  font-size: 2.5em;
-  font-weight: 300;
-  letter-spacing: -5px;
 }
 
 footer {
-  width: 100%;
-  padding: 3em 25%;
-  font-size: .8em;
-  box-sizing: border-box;
-  line-height: 1.7em;
-  background-color: #e6e1ce;
-  text-align: left;
-
-  .left {
-    font-family: $teamed-font;
-    display: inline-block;
-    width: 48%;
-    vertical-align: top;
-  }
-
-  .right {
-    font-family: $light-font;
-    display: inline-block;
-    width: 48%;
-  }
+  background: $brown;
+  height: 5 * $em;
+  color: white;
+  padding: 2 * $em;
 }
 
-footer.footer-index {
-  @extend footer;
-  background-color: #fff;
-}
-
-%index-button {
-  padding: .5em 1em;
-  font-size: 1.5em;
-  margin: 0 1em;
-  font-family: $main-font;
-  text-decoration: none;
-  border-radius: 5px;
-  letter-spacing: 3px;
-  border: 0;
-  color: #fff;
-  position: relative;
-
-  &:active {
-    top: 3px;
-  }
-}
-
-.developers-button {
-  @extend %index-button;
-  background-color: #c14b30;
-
-  &:hover {
-    background-color: #ac351b;
-  }
-}
-
-.job-button {
-  @extend %index-button;
-  background-color: #547882;
-
-  &:hover {
-    background-color: #446a74;
-  }
+.ico {
+  margin-right: .5 * $em;
 }
 
 a {
   text-decoration: none;
-  border-bottom: 1px dashed;
   color: inherit;
 }
 
-article {
-  padding: 2em 10em;
-  font-family: $light-font;
+p {
+  margin-top: $em;
+  margin-bottom: $em;
 }
 
-.paragraph {
-  padding: 1em 0;
-
-  .left {
-    width: 35%;
-    display: inline-block;
-    vertical-align: top;
-
-    img {
-      margin: 1em 0;
-      max-width: 100%;
+article {
+  padding: $em;
+  width: 800px;
+  max-width: 100%;
+  text-align: left;
+  font-family: $fira;
+  font-weight: 200;
+  margin-left: auto;
+  margin-right: auto;
+  clear: both;
+  a {
+    border-bottom: 1px solid $red;
+    color: $red;
+    &:hover {
+      border-bottom: 2px solid $red;
     }
   }
-
-  .right {
-    width: 55%;
-    display: inline-block;
+  h2 {
+    /*font-family: $quadon;*/
+    font-size: 2.5 * $em;
+    font-weight: 400;
+    margin-top: 5 * $em;
+    color: $red;
+    @media all and (max-width: $width) {
+      font-size: 1.5 * $em;
+    }
+  }
+  p, table, ul, ol {
+    clear: both;
+    width: 600px;
+    max-width: 100%;
     text-align: left;
-    font-size: .8em;
-    padding: 1em;
-    line-height: 1.8em;
+    margin-left: auto;
   }
 }
 
-h1 {
-  font-family: $teamed-font;
-  font-weight: 300;
-  font-size: 2.2em;
-  letter-spacing: -2px;
-  margin: 0 0 .5em;
+.double {
+  img {
+    float: left;
+    margin-right: $em;
+    width: 128px;
+    height: 128px;
+  }
 }
 
-p {
-  margin-top: 1em;
-  margin-bottom: 1em;
+.par {
+  &:target {
+    font-size: 2em;
+    font-weight: bold;
+    float: left;
+    line-height: 1em;
+    margin-left: -5.3em;
+    width: 5em;
+    text-align: right;
+  }
+  a {
+    border-bottom: none;
+    color: inherit;
+  }
 }
 
-ul {
-  padding: 1em 0 1em 2em;
+.help {
+  font-size: 0.8em;
+  color: gray;
 }

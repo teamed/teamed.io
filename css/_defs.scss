@@ -13,27 +13,16 @@
  * @version $Id$
  */
 
-@import url(http://fonts.googleapis.com/css?family=Source+Code+Pro:200,300,400,500,600,700,900);
-@font-face {
-  font-family: 'Fira';
-  src: url('/fonts/fira/FiraSansOT-Regular.otf');
-}
-@font-face {
-  font-family: 'Fira';
-  font-weight: bold;
-  src: url('/fonts/fira/FiraSansOT-Medium.otf');
-}
-@font-face {
-  font-family: 'Fira';
-  font-weight: 200;
-  src: url('/fonts/fira/FiraSansOT-Light.otf');
-}
-@font-face {
-  font-family: 'Quadon';
-  src: url('//img.teamed.io/quadon/quadon-regular.ttf');
-}
-@font-face {
-  font-family: 'Quadon';
-  font-weight: bold;
-  src: url('//img.teamed.io/quadon/quadon-bold.ttf');
-}
+@import 'fonts';
+
+$fira: 'Fira', 'Helvetica', 'Arial', sans-serif;
+$quadon: 'Quadon', 'Helvetica', 'Arial', sans-serif;
+
+$em: 24px;
+$width: 900px;
+
+$green: #6e97a2;
+$blue: #6e97a2;
+$red: #e37259;
+$brown: #66595c;
+$beige: #e6e1ce;
