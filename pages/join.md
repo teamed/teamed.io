@@ -149,8 +149,12 @@ angular.module('teamed', []).controller(
         var url = 'http://www.netbout.com/start?post='
           + encodeURIComponent(text)
           + '&invite=alice&rename='
-          + encodeURIComponent($scope.github)
-          + '&post=@alice+interview+' + $scope.netbout;
+          + encodeURIComponent($scope.github);
+        if ($scope.ref.toLowerCase() === 'yegor') {
+          url += '&invite=yegor256&post=@yegor256+please+take+a+look';
+        } else {
+          url += '&post=@alice+interview+' + $scope.netbout;
+        }
         window.location = url;
       }
     }
