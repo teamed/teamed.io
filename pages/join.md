@@ -3,7 +3,7 @@ layout: plain
 title: "Join Us"
 permalink: /join.html
 description:
-  In order to hire you, we have to collect this basic
+  In order to hire you, we have to collect some basic
   information.
 keywords:
   - hire software developer
@@ -13,7 +13,7 @@ keywords:
   - hire a programmer
 ---
 
-Please, fill this form if you want to work with us.
+Please fill out this form if you want to work with us.
 
 <form name="hire" name="form" ng-submit="submit()">
   <p>
@@ -22,20 +22,20 @@ Please, fill this form if you want to work with us.
       maxlength="100" ng-model="name" required/>
   </p>
   <p>
-    <label>Hourly rate, in US dollars</label><br/>
+    <label>Hourly rate (in U.S. dollars)</label><br/>
     <input name="name" type="number" tabindex="2"
       style="width:3em" maxlength="10" ng-model="rate" required/><br/>
     <span class="help">Keep this article in mind:
     <a href="http://www.yegor256.com/2014/10/29/how-much-do-you-cost.html">How Much Do You Cost?</a>
-    If your rate is lower than $20/hr, don't bother, we most
+    If your rate is lower than $20 per hour, don't bother; we most
     likely won't accept you.</span>
   </p>
   <p>
     <label>Skills</label><br/>
     <input name="skills" tabindex="3"
       style="width:11em" maxlength="150" ng-model="skills" required/><br/>
-    <span class="help">Comma-separated list of skills you're good at, for example
-    "java,c++" or "uml". No more than three, please.</span>
+    <span class="help">Comma-separated list of skills you're good at; for example,
+    "Java, C++" or "UML." No more than three, please.</span>
   </p>
   <p>
     <label>Phone number</label><br/>
@@ -44,8 +44,8 @@ Please, fill this form if you want to work with us.
       maxlength="20" ng-model="phone" required/><br/>
     <span class="help">Our customers require us to collect this information
     from all our engineers, programmers, testers, DevOps, etc. We have
-    to know who we're working with, in order to guarantee our clients
-    a certain level of security of their sensitive information. We won't
+    to know who we're working with in order to guarantee our clients
+    a certain level of security for their sensitive information. We won't
     call or mail you.</span>
   </p>
   <p>
@@ -70,7 +70,7 @@ Please, fill this form if you want to work with us.
       placeholder="[a-zA-Z0-9\-]+" pattern="[a-zA-Z0-9\-]+"
       style="width:8em" maxlength="50" ng-model="github" required/><br/>
     <span class="help">As <a href="http://www.yegor256.com/2014/10/07/stop-chatting-start-coding.html">this article</a> explains,
-    we use only GitHub tickets to communicate in a project, no
+    we exclusively use GitHub tickets to communicate in a project; no
     emails, chats, meetings, or phone calls.</span>
   </p>
   <p>
@@ -78,21 +78,21 @@ Please, fill this form if you want to work with us.
     <input name="netbout" style="width:8em" tabindex="9"
       placeholder="[a-zA-Z0-9]+" pattern="[a-zA-Z0-9]+"
       maxlength="50" ng-model="netbout" required/><br/>
-    <span class="help">We use Netbout for out-of-project discussions,
-    related to payments, disciplinary actions, rating, performance
+    <span class="help">We use Netbout for non-project discussions
+    related to payments, disciplinary actions, ratings, performance
     appraisals, etc. Netbout integrates our management and automated
-    reporting tools. If you don't have a Netbout account, create it now,
-    should take less than a minute. Don't forget to register your email
-    there, to stay tuned on updates.</span>
+    reporting tools. If you don't have a Netbout account, create one now;
+    it should take less than a minute. Don't forget to register your email
+    there to stay tuned for updates.</span>
   </p>
   <p>
-    <label>How can we pay you?</label><br/>
+    <label>How do we pay you?</label><br/>
     <input name="wallet" style="width:13em" tabindex="10"
       maxlength="100" ng-model="wallet" required/><br/>
     <span class="help">There are two options at the moment:
     <a href="http://www.paypal.com">PayPal</a> or <a href="http://www.upwork.com">Upwork</a>.
-    If you want us to pay through PayPal, just give the email of
-    your PayPal account. If you want Upwork, give us a link to your Upwork profile.</span>
+    If you want us to pay through PayPal, just give us the email of
+    your PayPal account. If you want to use Upwork, provide us a link to your Upwork profile.</span>
   </p>
   <p>
     <label>Tell us briefly about yourself</label><br/>
@@ -101,24 +101,24 @@ Please, fill this form if you want to work with us.
     <span class="help">Read <a href="http://www.yegor256.com/2014/10/29/how-much-do-you-cost.html">this article</a>
     and explain briefly why you think you're better than
     others and why we should work with you.
-    Would be great if you solve
+    It would be great if you could solve
     <a href="https://github.com/teamed/quiz">this quiz</a>,
-    submit a pull request with your corrections, and post its link
-    right here.</span>
+    submit a pull request with your corrections, and post the link
+    to it right here.</span>
   </p>
   <p>
     <label>How did you find us?</label><br/>
     <input name="ref" style="width:9em" tabindex="12"
       maxlength="200" ng-model="ref" required/><br/>
     <span class="help">If you have a reference code, post it
-      here and the person who gave it to you will receive a bonus,
-      if we hire you :)</span>
+      here and the person who gave it to you will receive a bonus
+      &mdash; if we hire you :)</span>
   </p>
   <p>
     <button id='submit' tabindex="13">Submit</button><br/>
-    <span class="help">Right after you click this button, we create a new
+    <span class="help">Right after you click this button, we'll create a new
     conversation in Netbout. One of us will reply to you
-    in 24 hours. Keep in mind that we reject over 80% of
+    within 24 hours. Keep in mind that we reject over 80 percent of
     applications.</span>
   </p>
 </form>
