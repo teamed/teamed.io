@@ -63,7 +63,7 @@ the code or reject it, you'll still get the payment.
 
 {% par 9 %}
 If you don't want to work with a task &mdash; for any reason, post a message
-to the project manager asking to "_assign someone else_". In this case, you'll lose
+to the project manager asking to "_assign someone else._" In this case, you'll lose
 as many points as there are minutes in the task budget.
 
 {% par 23 %}
@@ -73,7 +73,7 @@ during the desired period.
 
 {% par 10 %}
 If you can't complete a task on time, inform the project manager about it. Just
-post a message to him right in the ticket and ask for "_more time_". If he
+post a message to him right in the ticket and ask for "_more time._" If he
 accepts your request, you won't be penalized for any delays.
 
 {% par 11 %}
@@ -164,7 +164,7 @@ the PO.
 Each bug has to be accepted by an architect before it is paid and dispatched
 for fixing. As an architect, when you see a new bug submitted, inform
 the project manager that it is a valid bug by posting a message similar
-to "_it is a valid bug_", or explain to the reporter what is wrong with
+to "_it is a valid bug,_" or explain to the reporter what is wrong with
 the issue reported. Read this:
 [Five Principles of Bug Tracking](http://www.yegor256.com/2014/11/24/principles-of-bug-tracking.html).
 
@@ -173,12 +173,12 @@ As an architect, you can prioritize tasks into three categories: urgent, normal,
 and postponed. Urgent tasks are assigned to performers immediately. Normal
 tasks are assigned to performers only when the project has fewer than 10
 assigned tasks. Postponed tasks are never assigned. To change any task
-priority, just ask a project manager with a statement like "_this task is urgent_,"
-or "_this task is postponed_," or "_this task is not urgent anymore._"
+priority, just ask a project manager with a statement like "_this task is urgent,_"
+or "_this task is postponed,_" or "_this task is not urgent anymore._"
 
 {% par 27 %}
 As an architect, you can assign any ticket to one of the project milestones.
-To do that, just ask a project manager to, for example, "_set milestone to 1.4_".
+To do that, just ask a project manager to, for example, "_set milestone to 1.4._"
 
 {% par 29 %}
 As an architect, you can ask a project manager to assign any task to anyone;
