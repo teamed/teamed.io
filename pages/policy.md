@@ -77,36 +77,36 @@ post a message to him right in the ticket and ask for "_more time_". If he
 accepts your request, you won't be penalized for any delays.
 
 {% par 11 %}
-If you can't complete a task in time because you're waiting for another
-task to be completed beforehand, inform the project manager. Post a message
-to him, right in the ticket, saying that you are "_waiting for #123_"
-(123 is the number of the ticket you're blocked by).
+If you can't complete a task on time because you're waiting for another
+task to be completed first, inform the project manager. Post a message
+to him right in the ticket, saying you are "_waiting for #123_"
+(123 is the number of the ticket you're waiting on).
 If he accepts your request, you won't be penalized for any delays.
 
 {% par 12 %}
 When you find a bug in existing source code or documentation, report it
-[properly](http://www.yegor256.com/2014/11/24/principles-of-bug-tracking.html)
-and it is accepted by the project architect, you get 15 minutes on
+[properly](http://www.yegor256.com/2014/11/24/principles-of-bug-tracking.html),
+and it is accepted by the project architect, you'll get 15 minutes added to
 your account. Read this: [Bugs Are Welcome](http://www.yegor256.com/2014/04/13/bugs-are-welcome.html).
 
 {% par 13 %}
-Small, easy to find, easy to fix, or cosmetic bugs and tasks are not paid,
-even if they lead to a code change and project improvement. The
+Small, easy-to-find, easy-to-fix, or cosmetic bugs and tasks are not paid,
+even if they lead to a code change and project improvement. This
 decision is made by a project architect and is not negotiable.
 
 {% par 14 %}
-When you close a task we increment your rating by as many points as many
-minutes were in the task budget.
+When you close a task, we'll increase your rating by as many points as there
+are minutes in the task budget.
 
 {% par 15 %}
-When you complete a task we measure the speed of delivery, which is the
-time interval between the moment you were informed by the project manager
-about the task and the moment you were paid for its completion.
+When you complete a task, we'll measure the speed of delivery, which is the
+time interval between the moment you were informed of the task by the project manager
+and the moment you were paid for its completion.
 
 {% par 22 %}
-If you complete a task in less than 24 hours, you get a 100% bonus, on top
-of task's budget. If you complete in less than 48 hours, you get 50% bonus.
-If you complete in less than 72 hours, you get 25% bonus.
+If you complete a task in less than 24 hours, you'll get a 100 percent bonus on top
+of the task's budget. If you complete it in less than 48 hours, you'll get a 50 percent bonus.
+If you complete it in less than 72 hours, you'll get a 25 percent bonus.
 
 {% par 31 %}
 If you complete a task that has a boost factor attached to it, your
@@ -114,35 +114,35 @@ payment, together with the bonus, will be multiplied by that factor.
 
 {% par 16 %}
 You have 10 days to complete a task. If you fail,
-no matter what was the reason of it, we assign the task to another
-performer and you get twice as many negative points to your rating, as
-many minutes were in the task budget.
+no matter the reason, we'll assign the task to another
+performer, and your rating will receive twice as many negative points as
+there were minutes in the task budget.
 Read this [No Obligations](http://www.yegor256.com/2014/04/13/no-obligations-principle.html) principle.
 
 {% par 30 %}
-If you hold a task for longer than 7 days, you may get a notice from
-a project manager and as many negative points to your rating as many
-minutes are in the task budget.
+If you hold a task for longer than seven days, you may get a notice from
+a project manager and be docked points for your rating in the amount of the
+minutes in the task budget.
 
 {% par 17 %}
-At any moment of time and at our own discretion we may decide to stop
-giving you tasks and eject you from any and/or all projects. This usually
+At any moment of time and at our own discretion, we may decide to stop
+giving you tasks and remove you from any and/or all projects. This usually
 happens for one of these reasons:
-1) your communication skills are poor;
-2) your rating is too low;
-3) your code quality is low.
+1) Your communication skills are poor;
+2) Your rating is too low;
+3) Your code quality is low.
 
 {% par 18 %}
 If you want to increase your hourly rate, send us a message via
-[netbout.com](http://www.netbout.com). There is no guarantee you will get
+[Netbout.com](http://www.netbout.com). There is no guarantee you will get
 a raise, but these factors will be taken into account:
-1) your rating, 2) your average speed of delivery, 3) your communication skills,
-4) the amount of bugs you report. This article explains even more:
+1) your rating, 2) your average speed of delivery, 3) your communication skills, and
+4) the number of bugs you report. This article explains even more:
 [How Hourly Rate Is Calculated](http://www.yegor256.com/2014/04/20/how-hourly-rate-is-calculated.html).
 
 {% par 19 %}
-All payment processing fees are reimbursed by us. No matter what payment
-instrument is used (PayPal, oDesk, wire transfer, check, or cash) we guarantee
+All payment processing fees are reimbursed by us. No matter which payment
+instrument is used (PayPal, Upwork, wire transfer, check, or cash), we guarantee
 that you get exactly the amount you earned.
 
 {% par 32 %}
