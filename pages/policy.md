@@ -4,8 +4,8 @@ title: "Work Policy"
 permalink: /policy.html
 description:
   Remote work policy for programmers, designers, testers,
-  analysts, HR specialists and everybody else who is working
-  with us in remote teams
+  analysts, HR specialists, and everybody else who works
+  with us on remote teams.
 keywords:
   - work policy outsourcing
   - remote work policy
@@ -14,66 +14,66 @@ keywords:
   - management policy
 ---
 
-This policy regulates all work relationship between Teamed.io
-and you, a remote team member. We follow the principles of
-eXtremely Distributed Softare Development ([XDSD](http://www.xdsd.org)) methodology. Read
-[how XDSD is different](http://www.yegor256.com/2014/04/17/how-xdsd-is-different.html) from others.
+This policy regulates all work relationships between Teamed.io
+and you, a remote team member. We follow the principles of the
+eXtremely Distributed Software Development ([XDSD](http://www.xdsd.org)) methodology. Read
+[how XDSD is different](http://www.yegor256.com/2014/04/17/how-xdsd-is-different.html) than others.
 Also, see our [FAQ](/faq.html).
 
 {% par 1 %}
-When we start working with you, you get a few tasks in a few of our
-[campus projects](/campus.html). They are paid, managed and rated the same
-way as all other tasks, but the projects are open source, hosted in Github.
+When we start working with you, you'll get a few tasks in a few of our
+[campus projects](/campus.html). They are paid, managed, and rated the same
+way as all other tasks, but the projects are open source and hosted in GitHub.
 
 {% par 2 %}
-Once we see that you're capable to work in a commercial project,
-we electronically sign a formal [contract](/engineer.pdf) with you and invite you to
+Once we see that you're capable of working on a commercial project,
+we'll electronically sign a formal [contract](/engineer.pdf) with you and invite you to
 a few commercial projects.
 
 {% par 3 %}
-We communicate with you via [netbout.com](http://www.netbout.com). Please, create
-an account there and send its name to us by [email](mailto:dev@teamed.io).
+We communicate with you via [Netbout.com](http://www.netbout.com). Please create
+an account there and send your username to us by [email](mailto:dev@teamed.io).
 
 {% par 4 %}
 Project communications are kept solely in tickets. We don't use any other
 communication tools, like emails, Skype, phone, conferences, or chats.
 Read these articles:
-[Five Principles of Bug Tracking](http://www.yegor256.com/2014/11/24/principles-of-bug-tracking.html),
+[Five Principles of Bug Tracking](http://www.yegor256.com/2014/11/24/principles-of-bug-tracking.html) and
 [Stop Chatting, Start Coding](http://www.yegor256.com/2014/10/07/stop-chatting-start-coding.html).
 
 {% par 5 %}
 Each task has a pre-defined budget, in minutes, which is announced by the project
-manager. The budget is not negotiable. When the task is done
-you get the payment equal to the amount of minutes in the budget multiplied
-by your hourly rate, no matter how much time you actually spent.
+manager. The budget is not negotiable. When the task is done,
+you'll get a payment equal to the number of minutes in the budget multiplied
+by your hourly rate, no matter how much time you actually spent on it.
 
 {% par 6 %}
-Our Definition of Done is simple: the task is done if
+Our definition of done is simple: The task is done if
 its author accepts the deliverables.
-Read this article: [Definition Of Done](http://www.yegor256.com/2014/04/15/definition-of-done.html).
+Read this article: [Definition of Done](http://www.yegor256.com/2014/04/15/definition-of-done.html).
 
 {% par 7 %}
-If you don't complete the task, you get no payment, no matter what
-was the reason of incompletion, including someone else's mistakes.
+If you don't complete the task, you'll get no payment, no matter what
+the reason for incompletion was, including someone else's mistakes.
 
 {% par 8 %}
-For a code review task you get 15 minutes plus as many minutes
-as many comments you posted in the discussion. Either you accept
-the code or reject it, you still get the payment.
+For a code review task, you'll get 15 minutes plus as many minutes
+as the number of comments you post in the discussion. Whether you accept
+the code or reject it, you'll still get the payment.
 
 {% par 9 %}
-If you don't want to work with a task, for any reason, post a message
-to the project manager, asking to "_assign someone else_". You lose
-as many points in this case as many minutes the task has in budget.
+If you don't want to work with a task &mdash; for any reason, post a message
+to the project manager asking to "_assign someone else_". In this case, you'll lose
+as many points as there are minutes in the task budget.
 
 {% par 23 %}
-If you want to stop getting new tasks for some time, inform us
-through Netbout and you won't get any new assignments in all our projects,
-for the desired period.
+If you want to stop getting new tasks for a time, inform us
+through Netbout, and you won't get any new assignments for any of our projects
+during the desired period.
 
 {% par 10 %}
-If you can't complete a task in time, inform the project manager about it. Just
-post a message to him, right in the ticket, asking for "_more time_". If he
+If you can't complete a task on time, inform the project manager about it. Just
+post a message to him right in the ticket and ask for "_more time_". If he
 accepts your request, you won't be penalized for any delays.
 
 {% par 11 %}
