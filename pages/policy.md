@@ -146,92 +146,92 @@ instrument is used (PayPal, Upwork, wire transfer, check, or cash), we guarantee
 that you get exactly the amount you earned.
 
 {% par 32 %}
-There is a certain amount of tasks we assign to you concurrently. When
-you start working with us, you have two tasks maximum. When
-your rating is over 60 you get 5 tasks. When it's over 600 you get 10 tasks.
-When it's over 1600 you get 20 tasks.
+There is a certain limit of tasks we'll assign to you concurrently. When
+you start working with us, you'll have two tasks maximum. When
+your rating is over 60, you'll get up to five tasks. When it's over 600, you'll get up to 10 tasks.
+When it's over 1,600, you'll get up to 20 tasks.
 
 ## Architect (ARC)
 
 {% par 20 %}
-For each release you publish as an architect you get 30 minutes plus as many minutes
-as [this formula](/release.html) calculates. Release is "published" when
-its status in Github is set to "final". You have to ask Project Owner to
+For each release you publish as an architect, you'll get 30 minutes plus as many minutes
+as [this formula](/release.html) calculates. A release is "published" when
+its status in GitHub is set to "final." You have to ask the project owner to
 change the status when a new version is released and it satisfies
 the PO.
 
 {% par 21 %}
 Each bug has to be accepted by an architect before it is paid and dispatched
-for fixing. Being an architect, when you see a new bug submitted, inform
-the project manager that it is a valid bug by posting a message, similar
+for fixing. As an architect, when you see a new bug submitted, inform
+the project manager that it is a valid bug by posting a message similar
 to "_it is a valid bug_", or explain to the reporter what is wrong with
 the issue reported. Read this:
 [Five Principles of Bug Tracking](http://www.yegor256.com/2014/11/24/principles-of-bug-tracking.html).
 
 {% par 26 %}
-As an architect, you can prioritize tasks into three categories: urgent, normal
+As an architect, you can prioritize tasks into three categories: urgent, normal,
 and postponed. Urgent tasks are assigned to performers immediately. Normal
-tasks are assigned to performers only when the project has less than ten
+tasks are assigned to performers only when the project has fewer than 10
 assigned tasks. Postponed tasks are never assigned. To change any task
-priority, just ask a project manager, for example "_this task is urgent_"
-or "_this task is postponed_", or "_this task is not urgent any more_"
+priority, just ask a project manager with a statement like "_this task is urgent_,"
+or "_this task is postponed_," or "_this task is not urgent anymore._"
 
 {% par 27 %}
 As an architect, you can assign any ticket to one of the project milestones.
-To do that just ask a project manager, for example "_set milestone to 1.4_".
+To do that, just ask a project manager to, for example, "_set milestone to 1.4_".
 
 {% par 29 %}
-As an architect, you can ask a project manager to assign any task to anyone,
-just say, for example, "_assign @yegor256_".
+As an architect, you can ask a project manager to assign any task to anyone;
+just say, for example, "_assign @yegor256._"
 
 {% par 28 %}
-For each merged pull request you get 10 minutes, if the quality is "good",
+For each merged pull request, you'll get 10 minutes if the quality is "good,"
 according to [QA](/qa.html).
 
 {% par 33 %}
-Every few days the project is checked by the project manager, to detect
+Every few days, projects are checked by a project manager to detect
 mistakes in ticket planning, milestone organization, release discipline, etc.
-If any problems found, you as an architect get -25 points to your rating.
-If no problems found, you get 30 minutes.
+If any problems are found, you as an architect will get 25 points docked from your rating.
+If no problems are found, you'll get 30 minutes.
 
-  * all tasks are dispatched within 5 days
+  * All tasks are dispatched within five days.
 
-  * the latest release is either final or less than 10 days old
+  * The latest release is either final or less than 10 days old.
 
-  * there are no milestones missed for more than 5 days
+  * There are no milestones missed for more than five days.
 
-  * no tasks are stuck (in progress for more than 20 days)
+  * No tasks are stuck (in progress for more than 20 days).
 
-  * therea are less than 6 urgent tasks
+  * There are fewer than six urgent tasks.
 
 {% par 34 %}
-As an architect, you get extra 15 minutes for each bug reported,
+As an architect, you'll get an extra 15 minutes for each bug reported,
 on top of what you get according to &sect;12.
 
 {% par 35 %}
-You may be assigned in Netbout as an interviewer when we
+You may be designated in Netbout as an interviewer when we
 recruit new programmers. Apply your best judgement and try to
 be objective, as [this article](http://www.yegor256.com/2014/10/29/how-much-do-you-cost.html)
 suggests. When ready, post `@alice verdict ...` to the bout, explaining
-your decision. No matter what is the decision, you get 15 minutes.
+your decision. No matter what your verdict is, you'll get 15 minutes.
 
 
 ## Quality Assurance (QA)
 
 {% par 24 %}
-As a QA engineer, you earn 10 minutes for each ticket reviewed, according to
-our [quality rules](/qa.html). You get
+As a QA engineer, you'll earn 10 minutes for each ticket reviewed according to
+our [quality rules](/qa.html). You'll get
 the payment right after you inform the project manager that the ticket
 passed the review. Your message should include your measurement of the
-quality, like "quality is good", "quality is acceptable" or "quality is bad".
-No matter what is your remark, you get paid right after you post it.
+quality, like "quality is good," "quality is acceptable," or "quality is bad."
+No matter what remarks you make, you'll get paid right after you post it.
 
 {% par 25 %}
-Ticket performer will get his/her payment only after the ticket receives
+A ticket performer will get his or her payment only after the ticket receives
 your quality review. When you give a "good" mark, the performer gets a
-bonus. If you give "acceptable" mark, the performer doesn't get a bonus. When
-you give "bad" mark, the performer is not paid for the ticket.
+bonus. If you give an "acceptable" mark, the performer doesn't get a bonus. When
+you give a "bad" mark, the performer is not paid for the ticket.
 
-If you have any suggestions about this policy, please submit a request
-in [netbout.com](http://www.netbout.com). If you have a correction, please
+If you have any suggestions concerning this policy, please submit a request
+on [Netbout.com](http://www.netbout.com). If you have a correction, please
 submit a [pull request](https://github.com/teamed/teamed.io).
