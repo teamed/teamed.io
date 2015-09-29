@@ -97,6 +97,12 @@ article {
     text-align: left;
     margin-left: auto;
   }
+  ul, ol {
+    li {
+      margin-top: .5 * $em;
+      margin-left: 1.5 * $em;
+    }
+  }
 }
 
 .double {
