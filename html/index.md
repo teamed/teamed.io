@@ -17,7 +17,7 @@ keywords:
   - find a software developer
 ---
 
-## Hire a remotely<br/> <del>managed</del> orchestrated<br/>team of developers
+## Hire a Remotely<br/> <del>Managed</del> Orchestrated<br/>Team of Developers
 
 Present us with your requirements, be it a web system, mobile app,
 or Big Data who-knows-what. We will give you our best team of
@@ -320,7 +320,7 @@ You will get $25 immediately after the task is completed. Here is a
     these: <a href="https://github.com/yegor256/takes">takes</a>,
     <a href="https://github.com/yegor256/rultor">rultor</a>, and
     <a href="https://github.com/yegor256/thindeck">thindeck</a>.
-    We're working on them right now, 
+    We're working on them right now,
     and your help would be appreciated.
   </p>
 </form>
