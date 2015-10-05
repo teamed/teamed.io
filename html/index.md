@@ -20,7 +20,7 @@ keywords:
 <ul class="hot">
   <li>
     4 Oct: 11 finalists in the
-    <a href="http://www.teamed.io/award.html#11">Software Quality Award</a>,
+    <a href="http://www.yegor256.com/award.html#11">Software Quality Award</a>,
     sponsored by Yegor Bugayenko, our CTO, were selected today
   </li>
   <li>
