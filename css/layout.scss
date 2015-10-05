@@ -113,9 +113,10 @@ article {
   padding-left: 0;
   li {
     margin-left: 0;
-    border-left: 4px solid $red;
+    border-left: 4px solid $green;
     padding-left: $em;
     margin-bottom: $em;
+    color: darken($green, 25);
   }
 }
 
