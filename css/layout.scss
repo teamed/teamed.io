@@ -104,6 +104,21 @@ article {
   }
 }
 
+.hot {
+  font-size: 85%;
+  line-height: $em;
+  margin-top: 2 * $em;
+  margin-bottom: 2 * $em;
+  list-style: none;
+  padding-left: 0;
+  li {
+    margin-left: 0;
+    border-left: 4px solid $red;
+    padding-left: $em;
+    margin-bottom: $em;
+  }
+}
+
 .double {
   img {
     float: left;

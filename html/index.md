@@ -17,6 +17,19 @@ keywords:
   - find a software developer
 ---
 
+<ul class="hot">
+  <li>
+    4 Oct: 11 finalists in the
+    <a href="http://www.teamed.io/award.html#11">Software Quality Award</a>,
+    sponsored by Yegor Bugayenko, our CTO, were selected today
+  </li>
+  <li>
+    29 Sep: We started a new iOS app project.
+    It's a new tech stack for us:
+    Swift, CocoaPods, Alamofire, TestFlight, etc.
+  </li>
+</ul>
+
 ## Hire a Remotely<br/> <del>Managed</del> Orchestrated<br/>Team of Developers
 
 Present us with your requirements, be it a web system, mobile app,

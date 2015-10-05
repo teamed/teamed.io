@@ -1,7 +1,7 @@
 ---
 layout: plain
-title: "Campus"
-permalink: /campus.html
+title: "Interviews"
+permalink: /interview.html
 description:
   Before we can invite you to a commerical project
   you should complete at least ten tasks in one of
