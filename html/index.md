@@ -23,7 +23,7 @@ keywords:
     in <a href="https://bitcoin.org/en/">Bitcoins</a>
   </li>
   <li>
-    4 Oct: 11 finalists in the
+    4 Oct: 12 finalists in the
     <a href="http://www.yegor256.com/award.html#11">Software Quality Award</a>,
     sponsored by Yegor Bugayenko, our CTO, were selected today
   </li>
@@ -320,6 +320,11 @@ skills and experience. We even [encourage](http://www.yegor256.com/2014/04/13/no
 our developers to reject
 tasks if they don't feel like they're a good fit.
 
+<span style="float:right">
+  <img src="/images/wallet/paypal.png" style="width:75px;height:75px;"/>
+  <img src="/images/wallet/bitcoin.png" style="width:75px;height:75px;"/>
+  <img src="/images/wallet/upwork.png" style="width:75px;height:75px;"/>
+</span>
 We pay you immediately after a task is completed, either
 through [Upwork](http://www.upwork.com), [PayPal](http://www.paypal.com),
 or [Bitcoins](https://bitcoin.org/en/),

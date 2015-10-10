@@ -90,10 +90,19 @@ Please fill out this form if you want to work with us.
     <label>How do we pay you?</label><br/>
     <input name="wallet" style="width:13em" tabindex="10"
       maxlength="100" ng-model="wallet" required/><br/>
-    <span class="help">There are two options at the moment:
-    <a href="http://www.paypal.com">PayPal</a> or <a href="http://www.upwork.com">Upwork</a>.
+    <span style="float:right">
+      <img src="/images/wallet/paypal.png" style="width:50px;height:50px;"/>
+      <img src="/images/wallet/bitcoin.png" style="width:50px;height:50px;"/>
+      <img src="/images/wallet/upwork.png" style="width:50px;height:50px;"/>
+    </span>
+    <span class="help">There are three options at the moment:
+    <a href="http://www.paypal.com">PayPal</a>,
+    <a href="http://www.bitcoin.org">Bitcoin</a>,
+    or <a href="http://www.upwork.com">Upwork</a>.
     If you want us to pay through PayPal, just give us the email of
-    your PayPal account. If you want to use Upwork, provide us a link to your Upwork profile.</span>
+    your PayPal account.
+    If you prefer Bitcoins, give us the address of your <a href="https://en.bitcoin.it/wiki/Address">BTC address</a>.
+    If you want to use Upwork, provide us a link to your Upwork profile.</span>
   </p>
   <p>
     <label>Tell us briefly about yourself</label><br/>
