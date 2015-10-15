@@ -19,13 +19,18 @@ keywords:
 
 <ul class="hot">
   <li>
+    14 Oct: Our CTO <a href="http://www.yegor256.com">Yegor Bugayenko</a> will talk
+    about microservices at <a href="http://buildstuff.com.ua/">BuildStuff 2015</a>
+    in Kyiv, Ukraine, on 23rd of November.
+  </li>
+  <li>
     8 Oct: We're starting to pay our developers
-    in <a href="https://bitcoin.org/en/">Bitcoins</a>
+    in <a href="https://bitcoin.org/en/">Bitcoins</a>.
   </li>
   <li>
     4 Oct: 12 finalists in the
     <a href="http://www.yegor256.com/award.html#11">Software Quality Award</a>,
-    sponsored by Yegor Bugayenko, our CTO, were selected today
+    sponsored by Yegor Bugayenko, our CTO, were selected today.
   </li>
   <li>
     29 Sep: We started a new iOS app project.
