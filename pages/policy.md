@@ -186,7 +186,10 @@ just say, for example, "_assign @yegor256._"
 
 {% par 28 %}
 For each merged pull request, you'll get 10 minutes if the quality is "good,"
-according to [QA](/qa.html).
+according to [QA](/qa.html). To motivate code reviewer to pay
+more attention to details, you may ask QA to give "bad" quality to
+the pull request. In this case, the reviewer will not be paid, while
+you and QA will still be paid.
 
 {% par 33 %}
 Every few days, projects are checked by a project manager to detect
