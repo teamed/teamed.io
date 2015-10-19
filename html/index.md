@@ -17,23 +17,21 @@ keywords:
   - find a software developer
 ---
 
-<ul class="hot">
-  <li>
-    15 Oct: A winner in the
-    <a href="http://www.yegor256.com/award.html#11">Software Quality Award</a>
-    was announced today and received <strong>$4,096</strong>
-    prize from Yegor Bugayenko, our CTO.
-  </li>
-  <li>
-    14 Oct: Our CTO <a href="http://www.yegor256.com">Yegor Bugayenko</a> will talk
-    about microservices at <a href="http://buildstuff.com.ua/">BuildStuff 2015</a>
-    in Kyiv, Ukraine, on 23rd of November.
-  </li>
-  <li>
-    8 Oct: We're starting to pay our developers
-    in <a href="https://bitcoin.org/en/">Bitcoins</a>.
-  </li>
-</ul>
+<script src="/js/twitter-fetcher.js"></script>
+<script>
+twitterFetcher.fetch(
+  {
+    'id': '656210753641279488',
+    'domId': 'tweets',
+    'maxTweets': 3,
+    'enableLinks': true
+  }
+);
+</script>
+
+<div id='tweets'></div>
+
+<p style="text-align:right"><a href="https://twitter.com/teamed_io">follow us</a></p>
 
 ## Hire a Remotely<br/> <del>Managed</del> Orchestrated<br/>Team of Developers
 
@@ -55,7 +53,7 @@ Don't forget to follow us on
 [Facebook](https://www.facebook.com/teamedio),
 [LinkedIn](https://www.linkedin.com/company/teamed-io),
 [AngelList](https://angel.co/teamed-io), and
-[Twitter](https://twitter.com/yegor256).
+[Twitter](https://twitter.com/teamed_io).
 
 Yes, we're based in <strong>Silicon Valley</strong>, but our developers
 all contribute remotely from more than 15 countries, including Poland,

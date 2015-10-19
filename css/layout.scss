@@ -104,19 +104,38 @@ article {
   }
 }
 
-.hot {
-  font-size: 85%;
-  line-height: $em;
-  margin-top: 2 * $em;
-  margin-bottom: 2 * $em;
-  list-style: none;
-  padding-left: 0;
-  li {
-    margin-left: 0;
-    border-left: 4px solid $green;
-    padding-left: $em;
-    margin-bottom: $em;
-    color: darken($green, 25);
+#tweets {
+  ul {
+    font-size: 85%;
+    line-height: $em;
+    margin-top: 2 * $em;
+    margin-bottom: 2 * $em;
+    list-style: none;
+    padding-left: 0;
+    li {
+      margin-left: 0;
+      border-left: 4px solid $green;
+      padding-left: $em;
+      margin-bottom: $em;
+      color: darken($green, 25);
+      .interact,
+      .user {
+        display: none;
+      }
+      p {
+        margin: 0;
+      }
+      .timePosted {
+        a {
+          color: inherit;
+          font-size: .8em;
+          border-bottom: none;
+          &:hover {
+            color: $red;
+          }
+        }
+      }
+    }
   }
 }
 
