@@ -31,7 +31,7 @@ twitterFetcher.fetch(
 
 <div id='tweets'></div>
 
-<p style="text-align:right"><a href="https://twitter.com/teamed_io">follow us</a></p>
+<p style="text-align:right"><a href="https://twitter.com/teamed_io">more news</a></p>
 
 <form name="form" name="form" ng-submit="submit()">
   <p>
