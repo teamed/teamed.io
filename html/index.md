@@ -79,7 +79,7 @@ No product owners on duty here or weekly updates! You're the <strong>product own
 all programmers will communicate with you directly and immediately about
 features and functionality. Although all management overhead is ours.
 
-440 North Wolfe Road, #61<br/>
+440 North Wolfe Road, Ste 61<br/>
 Sunnyvale, CA 94085<br/>
 [hire@teamed.io](mailto:hire@teamed.io)<br/>
 860.506.5536
