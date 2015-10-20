@@ -33,7 +33,7 @@ twitterFetcher.fetch(
 
 <p style="text-align:right"><a href="https://twitter.com/teamed_io">follow us</a></p>
 
-<form name="apply" name="form" ng-submit="submit()">
+<form name="form" name="form" ng-submit="submit()">
   <p>
     <label>What your project is about?</label><br/>
     <textarea name="details" style="width:100%;height:4em" tabindex="1"
@@ -47,6 +47,7 @@ twitterFetcher.fetch(
     <span class="help">We'll get back in a few hours with a free estimate.</span>
   </p>
 </form>
+
 <script>
 angular.module('teamed', []).controller(
   'Main',
