@@ -40,7 +40,7 @@ twitterFetcher.fetch(
       ng-model="details" required autofocus></textarea><br/>
     <span class="help">Please, tell us briefly about your business case,
       expected stack of technologies, current situation with
-      the source code (if it exists), and your cost/time expectations.</span>
+      the source code (if it exists), and your quality and time expectations.</span>
   </p>
   <p>
     <button id='submit' tabindex="2">Request estimate</button><br/>
