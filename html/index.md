@@ -90,9 +90,11 @@ Don't forget to follow us on
 [AngelList](https://angel.co/teamed-io), and
 [Twitter](https://twitter.com/teamed_io).
 
-Yes, we're based in <strong>Silicon Valley</strong>, but our developers
-all contribute remotely from more than 15 countries, including Poland,
-the Philippines, Brazil, Russia, France, Ukraine, and the United States.
+<p class="help">
+  Yes, we're based in <strong>Silicon Valley</strong>, but our developers
+  all contribute remotely from more than 15 countries, including Poland,
+  the Philippines, Brazil, Russia, France, Ukraine, and the United States.
+</p>
 
 <span id="how"></span>
 ## Learn How It Works
