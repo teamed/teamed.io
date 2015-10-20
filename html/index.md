@@ -33,6 +33,40 @@ twitterFetcher.fetch(
 
 <p style="text-align:right"><a href="https://twitter.com/teamed_io">follow us</a></p>
 
+<form name="apply" name="form" ng-submit="submit()">
+  <p>
+    <label>What your project is about?</label><br/>
+    <textarea name="details" style="width:100%;height:4em" tabindex="1"
+      ng-model="details" required></textarea><br/>
+    <span class="help">Please, tell us briefly about your business case,
+      expected stack of technologies, current situation with
+      the source code (if it exists), and your cost/time expectations.</span>
+  </p>
+  <p>
+    <button id='submit' tabindex="2">Request estimate</button><br/>
+    <span class="help">We'll get back in a few hours with a free estimate.</span>
+  </p>
+</form>
+<script>
+angular.module('teamed', []).controller(
+  'Main',
+  [
+    '$scope',
+    function($scope) {
+      $scope.submit = function() {
+        var text =
+          'I have a project to outsource:\n\n'
+          + $scope.details;
+        var url = 'http://www.netbout.com/start?post='
+          + encodeURIComponent(text)
+          + '&invite=yegor256&rename=new+project';
+        window.location = url;
+      }
+    }
+  ]
+);
+</script>
+
 ## Hire a Remotely<br/> <del>Managed</del> Orchestrated<br/>Team of Developers
 
 Present us with your requirements, be it a web system, mobile app,
