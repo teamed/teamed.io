@@ -19,7 +19,7 @@ Please fill out this form if you want to work with us.
   <p>
     <label>Your full name</label><br/>
     <input name="name" style="width:12em" tabindex="1"
-      maxlength="100" ng-model="name" required/>
+      maxlength="100" ng-model="name" required autofocus/>
   </p>
   <p>
     <label>Hourly rate (in U.S. dollars)</label><br/>

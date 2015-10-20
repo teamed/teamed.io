@@ -37,7 +37,7 @@ twitterFetcher.fetch(
   <p>
     <label>What your project is about?</label><br/>
     <textarea name="details" style="width:100%;height:4em" tabindex="1"
-      ng-model="details" required></textarea><br/>
+      ng-model="details" required autofocus></textarea><br/>
     <span class="help">Please, tell us briefly about your business case,
       expected stack of technologies, current situation with
       the source code (if it exists), and your cost/time expectations.</span>
