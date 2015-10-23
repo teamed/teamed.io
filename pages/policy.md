@@ -218,6 +218,9 @@ be objective, as [this article](http://www.yegor256.com/2014/10/29/how-much-do-y
 suggests. When ready, post `@alice verdict ...` to the bout, explaining
 your decision. No matter what your verdict is, you'll get 15 minutes.
 
+{% par 36 %}
+You may ask a project manager to mark any ticket as invalid or duplicate,
+just asay something like "_this is invalid_" or "_this is duplicate_".
 
 ## Quality Assurance (QA)
 
