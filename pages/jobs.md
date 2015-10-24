@@ -33,6 +33,11 @@ Senior C++ Developer:
  * STL
  * Linux, Windows system programming
 
+Senior iOS Developer:
+
+ * OOP, TDD
+ * Swift, Objective-C
+
 If interested, please apply to [dev@teamed.io](mailto:dev@teamed.io) and include
 this information in your email:
 
