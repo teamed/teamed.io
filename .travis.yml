@@ -17,7 +17,7 @@ before_install:
 script:
 - set -e
 - _test/run.sh
-- for i in $(ls js/*.js); do jslint $i; done
+# - for i in $(ls js/*.js); do jslint $i; done
 - git config --global user.email "travis@teamed.io"
 - git config --global user.name "Travis"
 - jgd -u git@github.com:teamed/teamed.io.git

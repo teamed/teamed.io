@@ -1,3 +1,4 @@
+/*globals $:false */
 function valid_email(email) {
   var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
   return re.test(email);
@@ -71,7 +72,7 @@ _gaq.push(['_setAccount', 'UA-1963507-34']);
 _gaq.push(['_trackPageview']);
 (function() {
   var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  ga.src = ('https:' === document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 })();
 
@@ -91,7 +92,7 @@ _gaq.push(['_trackPageview']);
   s.type = "text/javascript";
   s.async = true;
   s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
-  if (w.opera == "[object Opera]") {
+  if (w.opera === "[object Opera]") {
     d.addEventListener("DOMContentLoaded", f, false);
   } else { f(); }
 })(document, window, "yandex_metrika_callbacks");

@@ -1,3 +1,4 @@
+/*globals angular:false, window:false */
 angular.module('teamed', []).controller(
   'Main',
   [
