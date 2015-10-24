@@ -21,12 +21,12 @@ angular.module('teamed', []).controller(
           + '; netbout=' + $scope.netbout
           + '; wallet=' + $scope.wallet
           + '; ref=' + $scope.ref
-          + '\n\n' + $scope.info;
-        var entry = '@alice interview alias='
+          + '\n\n' + $scope.info,
+        entry = '@alice interview alias='
           + $scope.netbout
           + '; skills='
-          + $scope.skills;
-        var url = 'http://www.netbout.com/start?post='
+          + $scope.skills,
+        url = 'http://www.netbout.com/start?post='
           + encodeURIComponent(text)
           + '&invite=alice&rename='
           + encodeURIComponent($scope.github)

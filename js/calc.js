@@ -49,8 +49,7 @@ app.controller(
         $scope.pm = 19 * ($scope.t + $scope.pr);
         $scope.mf = 49 * $scope.pr;
       }
-      var params = $location.search();
-      var coords = '15,80,25000';
+      var params = $location.search(), coords = '15,80,25000';
       if ('v' in params) {
         if (params['v'].match(/^\d+,\d+,\d+/g)) {
           coords = params['v'];
@@ -60,7 +59,7 @@ app.controller(
       } else {
         console.log('coordinates are absent in the URI');
       }
-      var vals = coords.split(',')
+      var vals = coords.split(',');
       $scope.thinking = parseInt(vals[0]);
       $scope.building = parseInt(vals[1]);
       $scope.hoc = parseInt(vals[2]);
