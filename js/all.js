@@ -1,9 +1,11 @@
 /*globals $:false */
 function valid_email(email) {
+  'use strict';
   var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
   return re.test(email);
 }
 function send_email(from, text, subject, success, error) {
+  'use strict';
   $.ajax(
     {
       type: 'POST',
@@ -35,6 +37,7 @@ function send_email(from, text, subject, success, error) {
 }
 $(
   function() {
+    'use strict';
     $('#send').click(
       function (event) {
         $this = $(this);
@@ -71,12 +74,14 @@ var _gaq = _gaq || [];
 _gaq.push(['_setAccount', 'UA-1963507-34']);
 _gaq.push(['_trackPageview']);
 (function() {
+  'use strict';
   var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
   ga.src = ('https:' === document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 })();
 
 (function (d, w, c) {
+  'use strict';
   (w[c] = w[c] || []).push(function() {
     try {
       w.yaCounter25693490 = new Ya.Metrika({id:25693490,

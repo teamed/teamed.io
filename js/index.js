@@ -4,6 +4,7 @@ angular.module('teamed', []).controller(
   [
     '$scope',
     function($scope) {
+      'use strict';
       $scope.submit = function() {
         var text =
           'I have a project to outsource:\n\n'

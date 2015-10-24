@@ -4,6 +4,7 @@ app.config(
   [
     '$locationProvider',
     function($locationProvider) {
+      'use strict';
       $locationProvider.html5Mode(true);
     }
   ]
@@ -13,6 +14,7 @@ app.controller(
   [
     '$scope', '$location',
     function($scope, $location) {
+      'use strict';
       $scope.dollars = function(value, digits) {
         if (!digits) {
           digits = 0;
