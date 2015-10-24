@@ -220,7 +220,11 @@ your decision. No matter what your verdict is, you'll get 15 minutes.
 
 {% par 36 %}
 You may ask a project manager to mark any ticket as invalid or duplicate,
-just asay something like "_this is invalid_" or "_this is duplicate_".
+just say something like "_this is invalid_" or "_this is duplicate_".
+
+{% par 37 %}
+You can add a boost factor to any task, just ask a project manager
+to do so, for example: "_boost factor is 2x_".
 
 ## Quality Assurance (QA)
 
