@@ -48,26 +48,6 @@ twitterFetcher.fetch(
   </p>
 </form>
 
-<script>
-angular.module('teamed', []).controller(
-  'Main',
-  [
-    '$scope',
-    function($scope) {
-      $scope.submit = function() {
-        var text =
-          'I have a project to outsource:\n\n'
-          + $scope.details;
-        var url = 'http://www.netbout.com/start?post='
-          + encodeURIComponent(text)
-          + '&invite=yegor256&rename=new+project';
-        window.location = url;
-      }
-    }
-  ]
-);
-</script>
-
 ## Hire a Remotely<br/> <del>Managed</del> Orchestrated<br/>Team of Developers
 
 Present us with your requirements, be it a web system, mobile app,
@@ -384,7 +364,10 @@ You will get $25 immediately after the task is completed. Here is a
   </p>
 </form>
 
+<script src="/js/index.js"></script>
+
 <script src="//platform.twitter.com/oct.js" type="text/javascript"></script>
 <script type="text/javascript">
 twttr.conversion.trackPid('l4qjl');
 </script>
+
