@@ -24,7 +24,7 @@ Please fill out this form if you want to work with us.
   <p>
     <label>Hourly rate (in U.S. dollars)</label><br/>
     <input name="name" type="number" tabindex="2"
-      style="width:3em" maxlength="10" ng-model="rate" required/><br/>
+      style="width:5em" maxlength="10" ng-model="rate" required/><br/>
     <span class="help">Keep this article in mind:
     <a href="http://www.yegor256.com/2014/10/29/how-much-do-you-cost.html">How Much Do You Cost?</a>
     If your rate is lower than $20 per hour, don't bother; we most
@@ -34,7 +34,7 @@ Please fill out this form if you want to work with us.
     <label>Skills</label><br/>
     <input name="skills" tabindex="3"
       pattern="([A-Za-z+\-]+,?)+" placeholder="([A-Za-z+\-]+,?)+"
-      style="width:11em" maxlength="150" ng-model="skills" required/><br/>
+      style="width:16em" maxlength="150" ng-model="skills" required/><br/>
     <span class="help">Comma-separated list of skills you're good at; for example,
     "Java, C++" or "UML." No more than three, please.</span>
   </p>
@@ -63,20 +63,20 @@ Please fill out this form if you want to work with us.
   <p>
     <label>Email</label><br/>
     <input name="email" type="email" tabindex="7"
-      style="width:11em" maxlength="100" ng-model="email" required/>
+      style="width:17em" maxlength="100" ng-model="email" required/>
   </p>
   <p>
     <label><a href="https://github.com">GitHub</a> account name</label><br/>
     <input name="github" type="text" tabindex="8"
       placeholder="[a-zA-Z0-9\-]+" pattern="[a-zA-Z0-9\-]+"
-      style="width:8em" maxlength="50" ng-model="github" required/><br/>
+      style="width:11em" maxlength="50" ng-model="github" required/><br/>
     <span class="help">As <a href="http://www.yegor256.com/2014/10/07/stop-chatting-start-coding.html">this article</a> explains,
     we exclusively use GitHub tickets to communicate in a project; no
     emails, chats, meetings, or phone calls.</span>
   </p>
   <p>
     <label><a href="http://www.netbout.com">Netbout</a> account name</label><br/>
-    <input name="netbout" style="width:8em" tabindex="9"
+    <input name="netbout" style="width:11em" tabindex="9"
       placeholder="[a-zA-Z0-9]+" pattern="[a-zA-Z0-9]+"
       maxlength="50" ng-model="netbout" required/><br/>
     <span class="help">We use Netbout for non-project discussions
@@ -165,7 +165,6 @@ angular.module('teamed', []).controller(
           + '&invite=alice&rename='
           + encodeURIComponent($scope.github);
           + '&post=' + encodeURIComponent(entry);
-        }
         window.location = url;
       }
     }
