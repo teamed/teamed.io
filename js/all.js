@@ -1,7 +1,7 @@
-/*globals $:false */
+/*globals $:false, window:false, document:false */
 function valid_email(email) {
   'use strict';
-  var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+  var re = /^(([^<>()\[\]\\.,;:\s@\"]+(\.[^<>()\[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
   return re.test(email);
 }
 function send_email(from, text, subject, success, error) {
@@ -40,9 +40,7 @@ $(
     'use strict';
     $('#send').click(
       function (event) {
-        $this = $(this);
-        $error = $('#error');
-        var email = $('#email').val();
+        var $this = $(this), $error = $('#error'), email = $('#email').val();
         if (!email) {
           $error.text('No email... What do you mean?');
         } else if (!valid_email(email)) {
@@ -79,25 +77,3 @@ _gaq.push(['_trackPageview']);
   ga.src = ('https:' === document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
   var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
 })();
-
-(function (d, w, c) {
-  'use strict';
-  (w[c] = w[c] || []).push(function() {
-    try {
-      w.yaCounter25693490 = new Ya.Metrika({id:25693490,
-        webvisor:true,
-        clickmap:true,
-        trackLinks:true,
-        accurateTrackBounce:true});
-    } catch(e) { }
-  });
-  var n = d.getElementsByTagName("script")[0],
-    s = d.createElement("script"),
-    f = function () { n.parentNode.insertBefore(s, n); };
-  s.type = "text/javascript";
-  s.async = true;
-  s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
-  if (w.opera === "[object Opera]") {
-    d.addEventListener("DOMContentLoaded", f, false);
-  } else { f(); }
-})(document, window, "yandex_metrika_callbacks");
