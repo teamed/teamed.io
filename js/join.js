@@ -28,7 +28,7 @@ angular.module('teamed', []).controller(
         var url = 'http://www.netbout.com/start?post='
           + encodeURIComponent(text)
           + '&invite=alice&rename='
-          + encodeURIComponent($scope.github);
+          + encodeURIComponent($scope.github)
           + '&post=' + encodeURIComponent(entry);
         window.location = url;
       }
