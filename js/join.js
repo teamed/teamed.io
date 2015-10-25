@@ -4,8 +4,8 @@ angular.module('teamed', []).controller(
   [
     '$scope',
     function($scope) {
-      $scope.submit = function() {
       'use strict';
+      $scope.submit = function() {
         var text =
           'I would like to join you\n\n'
           + 'name=' + $scope.name
@@ -32,7 +32,7 @@ angular.module('teamed', []).controller(
           + encodeURIComponent($scope.github)
           + '&post=' + encodeURIComponent(entry);
         window.location = url;
-      }
+      };
     }
   ]
 );
