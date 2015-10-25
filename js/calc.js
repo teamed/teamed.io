@@ -49,7 +49,7 @@ app.controller(
         $scope.pm = 19 * ($scope.t + $scope.pr);
         $scope.mf = 49 * $scope.pr;
       };
-      var params = $location.search(), coords = '15,80,25000', val;
+      var params = $location.search(), coords = '15,80,25000', vals;
       if (params.hasOwnProperty('v')) {
         if (params.v.match(/^\d+,\d+,\d+/g)) {
           coords = params.v;
