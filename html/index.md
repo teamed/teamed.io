@@ -17,7 +17,7 @@ keywords:
   - find a software developer
 ---
 
-<script src="/js/twitter-fetcher.js"></script>
+<script src="/js/vendor/twitter-fetcher.js"></script>
 <script>
 twitterFetcher.fetch(
   {
