@@ -1,4 +1,4 @@
-/*globals $:false */
+/*globals $:false, console:false */
 var app = angular.module('teamed', []);
 app.config(
   [
@@ -49,20 +49,20 @@ app.controller(
         $scope.pm = 19 * ($scope.t + $scope.pr);
         $scope.mf = 49 * $scope.pr;
       };
-      var params = $location.search(), coords = '15,80,25000';
-      if ('v' in params) {
-        if (params['v'].match(/^\d+,\d+,\d+/g)) {
-          coords = params['v'];
+      var params = $location.search(), coords = '15,80,25000', val;
+      if (params.hasOwnProperty('v')) {
+        if (params.v.match(/^\d+,\d+,\d+/g)) {
+          coords = params.v;
         } else {
-          console.log("can't match coordinates: [" + params['v'] + ']');
+          console.log("can't match coordinates: [" + params.v + ']');
         }
       } else {
         console.log('coordinates are absent in the URI');
       }
-      var vals = coords.split(',');
-      $scope.thinking = parseInt(vals[0]);
-      $scope.building = parseInt(vals[1]);
-      $scope.hoc = parseInt(vals[2]);
+      vals = coords.split(',');
+      $scope.thinking = parseInt(vals[0], 10);
+      $scope.building = parseInt(vals[1], 10);
+      $scope.hoc = parseInt(vals[2], 10);
       $scope.update();
     }
   ]
