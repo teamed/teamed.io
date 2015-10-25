@@ -13,7 +13,7 @@ angular.module('teamed', []).controller(
           + encodeURIComponent(text)
           + '&invite=yegor256&rename=new+project';
         window.location = url;
-      }
+      };
     }
   ]
 );
