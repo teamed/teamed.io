@@ -20,16 +20,16 @@ app.controller(
           digits = 0;
         }
         var txt;
-        if (value == undefined) {
+        if (value === undefined) {
           txt = '?';
         } else {
           txt = '$' + value.toFixed(digits);
         }
         return txt;
-      }
+      };
       $scope.round = function(value) {
         return Math.round(value);
-      }
+      };
       $scope.update = function() {
         // if (!$scope.estimate.$valid) {
         //   console.log('invalid input');
@@ -48,7 +48,7 @@ app.controller(
         $scope.tm = $scope.p * 0.69;
         $scope.pm = 19 * ($scope.t + $scope.pr);
         $scope.mf = 49 * $scope.pr;
-      }
+      };
       var params = $location.search(), coords = '15,80,25000';
       if ('v' in params) {
         if (params['v'].match(/^\d+,\d+,\d+/g)) {
