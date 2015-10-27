@@ -26,18 +26,21 @@ how we calculate it:
     <tbody>
       <tr>
         <td>Time between releases (<i>t</i>)</td>
-        <td><input style="width:2em" ng-model="t" maxlength="3" ng-maxlength="3" ng-pattern="/^[0-9]+$/"
+        <td><input style="width:4em" ng-model="t" maxlength="3"
+          ng-maxlength="3" type="number"
           ng-change="update()" autofocus="autofocus" tabindex="1" name="t"/>
           hours</td>
       </tr>
       <tr>
         <td>Commits (<i>c</i>)</td>
-        <td><input style="width:2em" ng-model="c" maxlength="3" ng-maxlength="3" ng-pattern="/^[0-9]+$/"
+        <td><input style="width:4em" ng-model="c" maxlength="3"
+          ng-maxlength="3" type="number"
           ng-change="update()" tabindex="2" name="c"/></td>
       </tr>
       <tr>
         <td>Hits of code (<i>h</i>)</td>
-        <td><input style="width:2em" ng-model="h" maxlength="4" ng-maxlength="4" ng-pattern="/^[0-9]+$/"
+        <td><input style="width:5em" ng-model="h" maxlength="4"
+          ng-maxlength="4" type="number"
           ng-change="update()" tabindex="3" name="h"/></td>
       </tr>
     </tbody>
