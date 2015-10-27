@@ -20,6 +20,7 @@ angular.module('teamed', []).controller(
           + '; github=' + $scope.github
           + '; netbout=' + $scope.netbout
           + '; wallet=' + $scope.wallet
+          + '; personality=' + $scope.personality
           + '; ref=' + $scope.ref
           + '\n\n' + $scope.info,
         entry = '@alice interview alias='

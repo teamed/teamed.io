@@ -87,8 +87,19 @@ Please fill out this form if you want to work with us.
     there to stay tuned for updates.</span>
   </p>
   <p>
+    <label>Your personality code<br/>
+    <input name="personality" style="width:9em" tabindex="10"
+      placeholder="[a-zA-Z\-]{,6}" pattern="[a-zA-Z\-]{,6}"
+      maxlength="8" ng-model="personality" required/><br/>
+    <span class="help">Please, take
+      this <a href="http://www.16personalities.com/">5-minutes test</a>
+      to identify your personality profile. They will give you a five-letter
+      code, post it here. It won't affect our decision anyhow, we just
+      want to know you better.</span>
+  </p>
+  <p>
     <label>How do we pay you?</label><br/>
-    <input name="wallet" style="width:13em" tabindex="10"
+    <input name="wallet" style="width:13em" tabindex="11"
       maxlength="100" ng-model="wallet" required/><br/>
     <span style="float:right">
       <img src="/images/wallet/paypal.png" style="width:50px;height:50px;"/>
@@ -106,7 +117,7 @@ Please fill out this form if you want to work with us.
   </p>
   <p>
     <label>Tell us briefly about yourself</label><br/>
-    <textarea name="info" style="width:21em;height:4em" tabindex="11"
+    <textarea name="info" style="width:21em;height:4em" tabindex="12"
       ng-model="info" required></textarea><br/>
     <span class="help">Read <a href="http://www.yegor256.com/2014/10/29/how-much-do-you-cost.html">this article</a>
     and explain briefly why you think you're better than
@@ -118,14 +129,14 @@ Please fill out this form if you want to work with us.
   </p>
   <p>
     <label>How did you find us?</label><br/>
-    <input name="ref" style="width:9em" tabindex="12"
+    <input name="ref" style="width:9em" tabindex="13"
       maxlength="200" ng-model="ref" required/><br/>
     <span class="help">If you have a reference code, post it
       here and the person who gave it to you will receive a bonus
       &mdash; if we hire you :)</span>
   </p>
   <p>
-    <button id='submit' tabindex="13">Submit</button><br/>
+    <button id='submit' tabindex="14">Submit</button><br/>
     <span class="help">Right after you click this button, we'll create a new
     conversation in Netbout. One of us will reply to you
     within 24 hours. Keep in mind that we reject over 80 percent of
