@@ -20,6 +20,13 @@ eXtremely Distributed Software Development ([XDSD](http://www.xdsd.org)) methodo
 [how XDSD is different](http://www.yegor256.com/2014/04/17/how-xdsd-is-different.html) than others.
 Also, see our [FAQ](/faq.html).
 
+These articles are mandatory for everybody to read:
+
+ * [Stop Chatting, Start Coding](http://www.yegor256.com/2014/10/07/stop-chatting-start-coding.html)
+ * [How XDSD Is Different](http://www.yegor256.com/2014/04/17/how-xdsd-is-different.html)
+ * []
+ * [Project Lifecycle in Teamed.io](http://www.yegor256.com/2014/10/06/software-project-lifecycle.html)
+
 {% par 1 %}
 When we start working with you, you'll get a few tasks in a few of our
 [campus projects](/campus.html). They are paid, managed, and rated the same
@@ -151,6 +158,32 @@ you start working with us, you'll have two tasks maximum. When
 your rating is over 60, you'll get up to five tasks. When it's over 600, you'll get up to 10 tasks.
 When it's over 1,600, you'll get up to 20 tasks.
 
+## System Analyst (SA)
+
+{% par 39 %}
+As a system analyst, you are responsible for validation and verification of
+product scope. First, you validate requirements to make sure the
+specification is accurate. Second, you verify that our product is
+in line with the specification. The specification (`README` file in GitHub)
+is your deliverables. Follow these guidelines:
+[How We Write a Product Vision](http://www.yegor256.com/2014/10/20/how-we-write-product-vision.html) and
+[Worst Technical Specifications Have No Glossaries](http://www.yegor256.com/2015/03/16/technical-glossaries.html).
+
+{% par 40 %}
+You're allowed to communicate with the product owner via Skype,
+Slack, phone calls, and emails. Communication with programmers still has
+to go through GitHub tickets [only](http://www.yegor256.com/2014/10/07/stop-chatting-start-coding.html).
+
+{% par 41 %}
+Every time we pay for one hour to anyone in the project, you receive 10
+minutes on your account.
+
+{% par 42 %}
+While the project is in [Thinking](http://www.yegor256.com/2014/10/06/software-project-lifecycle.html#thinking)
+phase, you're allowed to report any time spent. You will be paid
+according to your reports. Just say "_I have spent 120 minutes for ..._"
+to the project manager.
+
 ## Architect (ARC)
 
 {% par 20 %}
@@ -158,7 +191,7 @@ For each release you publish as an architect, you'll get 30 minutes plus as many
 as [this formula](/release.html) calculates. A release is "published" when
 its status in GitHub is set to "final." You have to ask the project owner to
 change the status when a new version is released and it satisfies
-the PO.
+the product owner.
 
 {% par 21 %}
 Each bug has to be accepted by an architect before it is paid and dispatched
@@ -215,7 +248,7 @@ on top of what you get according to &sect;12.
 You may be designated in Netbout as an interviewer when we
 recruit new programmers. Apply your best judgement and try to
 be objective, as [this article](http://www.yegor256.com/2014/10/29/how-much-do-you-cost.html)
-suggests. When ready, post `@alice verdict ...` to the bout, explaining
+suggests. When ready, post "_@alice verdict ..._" to the bout, explaining
 your decision. No matter what your verdict is, you'll get 15 minutes.
 
 {% par 36 %}
@@ -225,6 +258,12 @@ just say something like "_this is invalid_" or "_this is duplicate_".
 {% par 37 %}
 You can add a boost factor to any task, just ask a project manager
 to do so, for example: "_boost factor is 2x_".
+
+{% par 38 %}
+While the project is in [Building](http://www.yegor256.com/2014/10/06/software-project-lifecycle.html#building)
+phase, you're allowed to report any time spent. You will be paid
+according to your reports. Just say "_I have spent 120 minutes for ..._"
+to the project manager.
 
 ## Quality Assurance (QA)
 
