@@ -24,7 +24,10 @@ These articles are mandatory for everybody to read:
 
  * [Stop Chatting, Start Coding](http://www.yegor256.com/2014/10/07/stop-chatting-start-coding.html)
  * [How XDSD Is Different](http://www.yegor256.com/2014/04/17/how-xdsd-is-different.html)
- * []
+ * [Definition of Done](http://www.yegor256.com/2014/04/15/definition-of-done.html)
+ * [No Obligations](http://www.yegor256.com/2014/04/13/no-obligations-principle.html)
+ * [Five Principles of Bug Tracking](http://www.yegor256.com/2014/11/24/principles-of-bug-tracking.html)
+ * [Bugs Are Welcome](http://www.yegor256.com/2014/04/13/bugs-are-welcome.html)
  * [Project Lifecycle in Teamed.io](http://www.yegor256.com/2014/10/06/software-project-lifecycle.html)
 
 {% par 1 %}
