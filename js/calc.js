@@ -41,7 +41,7 @@ app.controller(
         $scope.t = $scope.h * 2.6;
         $scope.pr = $scope.t * 0.45;
         $scope.p = $scope.h * $scope.r;
-        $scope.tm = $scope.p * 1.00;
+        $scope.tm = $scope.p;
       };
       var params = $location.search(), coords = '15,80,25000', vals;
       if (params.hasOwnProperty('v')) {
