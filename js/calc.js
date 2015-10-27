@@ -31,10 +31,6 @@ app.controller(
         return Math.round(value);
       };
       $scope.update = function() {
-        // if (!$scope.estimate.$valid) {
-        //   console.log('invalid input');
-        //   return;
-        // }
         $scope.sa = $scope.thinking * 100;
         $scope.a = $scope.building * 100;
         $scope.h = $scope.hoc / 210;
@@ -45,9 +41,7 @@ app.controller(
         $scope.t = $scope.h * 2.6;
         $scope.pr = $scope.t * 0.45;
         $scope.p = $scope.h * $scope.r;
-        $scope.tm = $scope.p * 0.69;
-        $scope.pm = 19 * ($scope.t + $scope.pr);
-        $scope.mf = 49 * $scope.pr;
+        $scope.tm = $scope.p * 1.00;
       };
       var params = $location.search(), coords = '15,80,25000', vals;
       if (params.hasOwnProperty('v')) {
