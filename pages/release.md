@@ -1,5 +1,5 @@
 ---
-layout: plain
+layout: default
 title: "PI/RLS"
 permalink: /release.html
 description:

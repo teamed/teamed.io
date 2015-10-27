@@ -1,5 +1,5 @@
 ---
-layout: plain
+layout: default
 title: "Work Policy"
 permalink: /policy.html
 description:

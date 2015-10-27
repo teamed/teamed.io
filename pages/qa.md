@@ -1,5 +1,5 @@
 ---
-layout: plain
+layout: default
 title: "Quality Assurance principles"
 permalink: /qa.html
 description:

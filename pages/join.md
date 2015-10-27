@@ -1,5 +1,5 @@
 ---
-layout: plain
+layout: default
 title: "Join Us"
 permalink: /join.html
 description:

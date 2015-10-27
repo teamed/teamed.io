@@ -1,5 +1,5 @@
 ---
-layout: plain
+layout: default
 title: "Jobs"
 permalink: /jobs.html
 description:

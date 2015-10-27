@@ -1,5 +1,5 @@
 ---
-layout: plain
+layout: default
 title: "Agent"
 permalink: /agent.html
 description:

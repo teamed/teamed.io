@@ -1,5 +1,5 @@
 ---
-layout: plain
+layout: default
 title: "Cost Calculator"
 permalink: /calculator.html
 description:
