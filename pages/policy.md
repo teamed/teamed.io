@@ -69,7 +69,7 @@ as many points as there are minutes in the task budget.
 {% par 23 %}
 If you want to stop getting new tasks for a time, inform us
 through Netbout, and you won't get any new assignments for any of our projects
-during the desired period.
+during the desired period. Just post "_@alice away_" there.
 
 {% par 10 %}
 If you can't complete a task on time, inform the project manager about it. Just
@@ -142,7 +142,7 @@ a raise, but these factors will be taken into account:
 
 {% par 19 %}
 All payment processing fees are reimbursed by us. No matter which payment
-instrument is used (PayPal, Upwork, wire transfer, check, or cash), we guarantee
+instrument is used (PayPal, Upwork, or Bitcoins), we guarantee
 that you get exactly the amount you earned.
 
 {% par 32 %}
