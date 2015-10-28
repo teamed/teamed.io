@@ -1,7 +1,7 @@
 ---
 layout: default
 title: "Get Teamed!"
-permalink: /get-teamed
+permalink: /get-teamed.html
 description:
   Teamed.io is the best ROI for your next offshore
   software development project.
