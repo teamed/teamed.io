@@ -13,7 +13,7 @@ angular.module('teamed', []).controller(
           + 'Details:' + $scope.details,
         url = 'http://www.netbout.com/start?post='
           + encodeURIComponent(text)
-          + '&invite=yegor256&rename=new+project';
+          + '&invite=yegor256&invite=patrickboyle&rename=new+project';
         window.location = url;
       };
     }
