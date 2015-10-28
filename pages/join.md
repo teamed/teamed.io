@@ -33,7 +33,7 @@ Please fill out this form if you want to work with us.
   <p>
     <label>Skills</label><br/>
     <input name="skills" tabindex="3"
-      pattern="([A-Za-z+\-]+,?)+" placeholder="([A-Za-z+\-]+,?)+"
+      pattern="([0-9A-Za-z+\- ]+,?)+" placeholder="([0-9A-Za-z+\- ]+,?)+"
       style="width:16em" maxlength="150" ng-model="skills" required/><br/>
     <span class="help">Comma-separated list of skills you're good at; for example,
     "Java, C++" or "UML." No more than three, please.</span>
