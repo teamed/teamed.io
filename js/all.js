@@ -1,9 +1,4 @@
 /*globals $:false, window:false, document:false */
-function valid_email(email) {
-  'use strict';
-  var re = /^(([^<>()\[\]\\.,;:\s@\"]+(\.[^<>()\[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-  return re.test(email);
-}
 function send_email(from, text, subject, success, error) {
   'use strict';
   $.ajax(
@@ -16,7 +11,7 @@ function send_email(from, text, subject, success, error) {
           'from_email': from,
           'to': [
             {
-              'email': 'sales@teamed.io',
+              'email': 'hire@teamed.io',
               'name': 'Yegor Bugayenko',
               'type': 'to'
             }
@@ -35,37 +30,28 @@ function send_email(from, text, subject, success, error) {
     }
   );
 }
-$(
-  function() {
-    'use strict';
-    $('#send').click(
-      function (event) {
-        var $this = $(this), $error = $('#error'), email = $('#email').val();
-        if (!email) {
-          $error.text('No email... What do you mean?');
-        } else if (!valid_email(email)) {
-          $error.text('Email address doesn\'t look correct');
-        } else {
-          $error.text('');
-          $this.attr('disabled', 'disabled');
-          $this.html('Please, wait...');
-          event.preventDefault();
-          send_email(
-            email,
-            'I\'m interested in more information.\n\n',
-            'I am interested in teamed.io',
-            function () {
-              window.location = '/sent.html';
-            },
-            function () {
-              $this.attr('disabled', '');
-              $this.html('Oops :( Try again...');
-            }
-          );
-        }
-      }
-    );
-  }
+angular.module('teamed', []).controller(
+  'Main',
+  [
+    '$scope',
+    function($scope) {
+      'use strict';
+      $scope.email = function(form) {
+        var $form = $(form);
+        send_email(
+          'site@teamed.io',
+          'Form data: ' + $form.serialize(),
+          'form submitted',
+          function () {
+            alert("Thanks, we'll get back to you ASAP!");
+          },
+          function () {
+            alert("There was some problem. Please try again.");
+          }
+        );
+      };
+    }
+  ]
 );
 
 var _gaq = _gaq || [];
