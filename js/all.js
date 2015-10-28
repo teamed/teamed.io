@@ -1,4 +1,4 @@
-/*globals $:false, window:false, document:false */
+/*globals $:false, window:false, document:false, alert:false */
 function send_email(from, text, subject, success, error) {
   'use strict';
   $.ajax(
