@@ -43,7 +43,13 @@ twitterFetcher.fetch(
       the source code (if it exists), and your quality and time expectations.</span>
   </p>
   <p>
-    <button id='submit' tabindex="2">Request estimate</button><br/>
+    <label>How should we contact you?<br/>
+    <input name="contact" style="width:15em" tabindex="2"
+      ng-model="contact" required/><br/>
+    <span class="help">Give us either a phone number of an email.</span>
+  </p>
+  <p>
+    <button id='submit' tabindex="3">Request estimate</button><br/>
     <span class="help">We'll get back in a few hours with a free estimate.</span>
   </p>
 </form>

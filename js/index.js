@@ -8,7 +8,8 @@ angular.module('teamed', []).controller(
       $scope.submit = function() {
         var text =
           'I have a project to outsource:\n\n'
-          + $scope.details,
+          + 'Contact: ' + $scope.details + '\n\n'
+          + 'Details:' + $scope.details,
         url = 'http://www.netbout.com/start?post='
           + encodeURIComponent(text)
           + '&invite=yegor256&rename=new+project';
