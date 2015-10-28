@@ -18,7 +18,7 @@ keywords:
 <li>5X more efficient than other offshore solutions
 <li>Full transparency / Complete project ownership
 
-<form name="form" name="form" ng-submit="submit()">
+<form name="form-get-teamed" name="form-get-teamed" ng-submit="submit()">
   <p>
     <label>Let's Get You Teamed Up</label><br/>
     <textarea name="details" style="width:100%;height:5em" tabindex="1"
