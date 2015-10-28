@@ -89,7 +89,7 @@ Please fill out this form if you want to work with us.
   <p>
     <label>Your personality code<br/>
     <input name="personality" style="width:9em" tabindex="10"
-      placeholder="[a-zA-Z\-]{,6}" pattern="[a-zA-Z\-]{,6}"
+      placeholder="[a-zA-Z\-]+" pattern="[a-zA-Z\-]+"
       maxlength="8" ng-model="personality" required/><br/>
     <span class="help">Please, take
       this <a href="http://www.16personalities.com/">5-minutes test</a>
