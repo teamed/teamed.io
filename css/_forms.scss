@@ -49,6 +49,12 @@ button {
   color: white;
   background-color: #c14b30;
   letter-spacing: 3px;
+  &[disabled] {
+    background-color: gray;
+    &:hover {
+      background-color: gray;
+    }
+  }
   &:hover {
     background-color: #ac351b;
   }

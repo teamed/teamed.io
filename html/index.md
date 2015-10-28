@@ -33,7 +33,7 @@ twitterFetcher.fetch(
 
 <p style="text-align:right"><a href="https://twitter.com/teamed_io" style="border-bottom:none"><i class="fa fa-twitter">&nbsp;</i>more news</a></p>
 
-<form name="form" name="form" ng-submit="submit()">
+<form name="form" name="form" id="form" ng-submit="submit('#form')">
   <p>
     <label>What your project is about?</label><br/>
     <textarea name="details" style="width:100%;height:5em" tabindex="1"

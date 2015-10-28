@@ -1,5 +1,5 @@
 /*globals $:false, window:false, document:false, alert:false */
-function send_email(from, text, subject, success, error) {
+function send_email(to, text, success, error) {
   'use strict';
   $.ajax(
     {
@@ -8,20 +8,23 @@ function send_email(from, text, subject, success, error) {
       data: {
         'key': 'GMfq6HmqFFR4HGCVfIu6Zw',
         'message': {
-          'from_email': from,
+          'from_email': 'site@teamed.io',
           'to': [
             {
-              'email': 'hire@teamed.io',
-              'name': 'Yegor Bugayenko',
+              'email': to,
               'type': 'to'
+            },
+            {
+              'email': 'yegor@teamed.io',
+              'name': 'Yegor Bugayenko',
+              'type': 'cc'
             }
           ],
           'text': 'Hi,\n\n' + text
-            + '\n\nEmail: ' + from
             + '\n\nThanks'
             + '\n\n--\nsent through the form at www.teamed.io',
-          'subject': subject,
-          'auto_html': true,
+          'subject': 'new form submitted',
+          'auto_html': false,
           'important': true
         }
       },
@@ -30,26 +33,30 @@ function send_email(from, text, subject, success, error) {
     }
   );
 }
+var email = function(form, email) {
+  var $form = $(form),
+    $button = $form.find('button'),
+    before = $form.text();
+  $button.prop('disabled', true).text('processing...');
+  email = typeof email !== 'undefined' ? email : 'hire@teamed.io';
+  send_email(
+    email,
+    $form.serialize(),
+    function () {
+      $button.text('thanks!');
+    },
+    function () {
+      $button.prop('disabled', false).text(before);
+    }
+  );
+};
 angular.module('teamed', []).controller(
   'Main',
   [
     '$scope',
     function($scope) {
       'use strict';
-      $scope.email = function(form) {
-        var $form = $(form);
-        send_email(
-          'site@teamed.io',
-          'Form data: ' + $form.serialize(),
-          'form submitted',
-          function () {
-            alert("Thanks, we'll get back to you ASAP!");
-          },
-          function () {
-            alert("There was some problem. Please try again.");
-          }
-        );
-      };
+      $scope.email = email;
     }
   ]
 );

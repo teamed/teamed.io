@@ -15,7 +15,7 @@ keywords:
 
 Please fill out this form if you want to work with us.
 
-<form name="hire" name="form" ng-submit="submit()">
+<form name="form" name="form" id="form" ng-submit="submit('#form');">
   <p>
     <label>Your full name</label><br/>
     <input name="name" style="width:12em" tabindex="1"

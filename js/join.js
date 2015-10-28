@@ -5,7 +5,8 @@ angular.module('teamed', []).controller(
     '$scope',
     function($scope) {
       'use strict';
-      $scope.submit = function() {
+      $scope.submit = function(form) {
+        email(form);
         var text =
           'I would like to join you\n\n'
           + 'name=' + $scope.name

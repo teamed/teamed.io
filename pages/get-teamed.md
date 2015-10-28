@@ -23,7 +23,7 @@ With Teamed.io **you** get:
   * 5X more efficient than other offshore solutions
   * Full transparency / Complete project ownership
 
-<form name="form" name="form" id="form" ng-submit="email('#form')">
+<form name="form" name="form" id="form" ng-submit="email('#form', 'patrick@teamed.io');">
   <p>
     <label>Let's Get You Teamed Up</label><br/>
     <textarea name="details" style="width:100%;height:5em" tabindex="1"
