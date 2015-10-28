@@ -15,7 +15,9 @@ keywords:
 
 ## Get Teamed!
 
-Ready to assemble your own agile dev team? With Teamed.io you get:
+Ready to assemble your own agile dev team?
+
+With Teamed.io you get:
 
   * Highest ROI in software development
   * 5X more efficient than other offshore solutions
