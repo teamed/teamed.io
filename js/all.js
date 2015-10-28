@@ -34,6 +34,7 @@ function send_email(to, text, success, error) {
   );
 }
 var email = function(form, email) {
+  'use strict';
   var $form = $(form),
     $button = $form.find('button'),
     before = $form.text();
