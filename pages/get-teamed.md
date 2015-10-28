@@ -13,6 +13,7 @@ keywords:
 ---
 
 ## Get Teamed!
+<em>Ready to assemble your own agile dev team? With Teamed.io you get</em>
 <li>Highest ROI in software development
 <li>5X more efficient than other offshore solutions
 <li>Full transparency / Complete project ownership
@@ -23,7 +24,7 @@ keywords:
     <textarea name="details" style="width:100%;height:5em" tabindex="1"
       ng-model="details" required autofocus></textarea><br/>
     <span class="help">Tell us briefly about your project needs,
-      desired technologies and time frame.</span>
+      desired technologies and time frame. Include best contact info. </span>
   </p>
   <p>
     <button id='submit' tabindex="2">Request estimate</button><br/>
