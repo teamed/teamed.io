@@ -6,7 +6,7 @@ angular.module('teamed', []).controller(
     function($scope) {
       'use strict';
       $scope.submit = function(form) {
-        email(form);
+        email(form, 'patrick@teamed.io');
         var text =
           'I have a project to outsource:\n\n'
           + 'Contact: ' + $scope.details + '\n\n'
