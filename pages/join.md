@@ -23,7 +23,7 @@ Please fill out this form if you want to work with us.
   </p>
   <p>
     <label>Hourly rate (in U.S. dollars)</label><br/>
-    <input name="name" type="number" tabindex="2"
+    <input name="rate" type="number" tabindex="2"
       style="width:5em" maxlength="10" ng-model="rate" required/><br/>
     <span class="help">Keep this article in mind:
     <a href="http://www.yegor256.com/2014/10/29/how-much-do-you-cost.html">How Much Do You Cost?</a>
