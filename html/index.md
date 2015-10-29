@@ -35,7 +35,7 @@ twitterFetcher.fetch(
 
 <form name="form" name="form" id="form" ng-submit="submit('#form')">
   <p>
-    <label>What your project is about?</label><br/>
+    <label>What is your project about?</label><br/>
     <textarea name="details" style="width:100%;height:5em" tabindex="1"
       ng-model="details" required autofocus></textarea><br/>
     <span class="help">Please, tell us briefly about your business case,
@@ -46,7 +46,7 @@ twitterFetcher.fetch(
     <label>How should we contact you?<br/>
     <input name="contact" style="width:15em" tabindex="2"
       ng-model="contact" required/><br/>
-    <span class="help">Give us either a phone number of an email.</span>
+    <span class="help">Give us either a phone number or an email.</span>
   </p>
   <p>
     <button id='submit' tabindex="3">Request estimate</button><br/>
