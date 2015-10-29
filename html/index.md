@@ -49,7 +49,11 @@ twitterFetcher.fetch(
     <span class="help">Give us either a phone number or an email.</span>
   </p>
   <p>
-    <button id='submit' tabindex="3">Request estimate</button><br/>
+    <button id='submit' tabindex="3">Request estimate</button>
+    via
+    <img src="/images/netbout-logo.jpg" alt="netbout"
+      style="vertical-align:middle;width:100px;height:22px;"/>
+    <br/>
     <span class="help">We'll get back in a few hours with a free estimate.</span>
   </p>
 </form>
