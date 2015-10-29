@@ -37,12 +37,19 @@ var email = function(form, email) {
   'use strict';
   var $form = $(form),
     $button = $form.find('button'),
-    before = $form.text();
+    before = $form.text(),
+    text = '';
   $button.prop('disabled', true).text('processing...');
   email = typeof email !== 'undefined' ? email : 'hire@teamed.io';
+  $form.find('input,textarea').each(
+    function() {
+      var $i = $(this);
+      text += $i.prop('name') + ': ' + $i.val() + '\n\n';
+    }
+  );
   send_email(
     email,
-    $form.serialize(),
+    text,
     function () {
       $button.text('thanks!');
     },
