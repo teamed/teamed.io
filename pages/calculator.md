@@ -26,7 +26,7 @@ can be estimated:
     <tbody>
       <tr>
         <td>Thinking</td>
-        <td><input style="width:4em" ng-model="thinking"
+        <td><input style="width:5em" ng-model="thinking"
           maxlength="3" ng-maxlength="3" type="number"
           ng-change="update()" autofocus="autofocus" tabindex="1" name="thinking"/>
           hours
@@ -34,7 +34,7 @@ can be estimated:
       </tr>
       <tr>
         <td>Building</td>
-        <td><input style="width:4em" ng-model="building"
+        <td><input style="width:5em" ng-model="building"
           maxlength="3" ng-maxlength="3" type="number"
           ng-change="update()" tabindex="2" name="building"/>
           hours
