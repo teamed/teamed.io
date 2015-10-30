@@ -31,7 +31,7 @@ app.controller(
         return Math.round(value);
       };
       $scope.update = function() {
-        $scope.sa = $scope.thinking * 100;
+        $scope.sa = $scope.thinking * 75;
         $scope.a = $scope.building * 100;
         $scope.h = $scope.hoc / 90;
         $scope.r = 40;
