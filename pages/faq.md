@@ -29,27 +29,28 @@ form [here](http://www.teamed.io). When you click "submit",
 you will be forwarded to [Netbout](http://www.netbout.com),
 a platform where we communicate with programmers and clients.
 
-You will have to create an account in Netbout, but logging in
-through Facebook, Google+ or Github and choosing a unique user name.
+You will have to create an account in Netbout, using your
+Facebook, Google+ or Github account, and choose a unique user name.
 It's a quick process, should take less than a minute.
 
 ### Discussion
 
 Two people are invited to the discussion in Netbout right after
-we receive your request &mdash; our CTO and VP/Business Development.
+we receive your request &mdash; our CTO and VP/BizDev.
 They will ask you about your project, to make sure we understand
 the scope, at least preliminarly. They may also ask you to share
 the documentation you have about the project.
 
-We're ready to sign a Non-Disclosure Agreement (NDA) at this stage.
+We're ready to sign a Non-Disclosure Agreement
+([NDA](http://www.yegor256.com/2015/05/04/how-to-protect-business-idea.html)) at this stage.
 
 We'll be ready to answer your questions and explain how we work. If
 necessary, we can make a presentation, a video call, or even a meeting.
-We have to make sure we're on the same page and we really can help you.
+We have to make sure we're on the same page and really can help you.
 
 ### Estimate (if necessary)
 
-If you're interested in a preliminary Rough-Order-of-Magnitude estimate,
+If you're interested in a preliminary [ROM estimate](http://www.technoparkcorp.com/process/cost/rom/),
 a few architects will be invited to the discussion and will estimate
 your scope.
 
@@ -74,7 +75,8 @@ Then, the HR manager selects two system analysts for your project and two
 software architects. Their names will be announced to you and we'll discuss
 their profiles with you. If there will be any objections, we'll change them.
 
-You can also invite more people from your in-house team to Netbout.
+You can also invite more people from your in-house team to Netbout,
+to help you monitor the progress.
 
 ### Management Reports
 
