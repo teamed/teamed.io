@@ -33,7 +33,7 @@ app.controller(
       $scope.update = function() {
         $scope.sa = $scope.thinking * 100;
         $scope.a = $scope.building * 100;
-        $scope.h = $scope.hoc / 210;
+        $scope.h = $scope.hoc / 110;
         $scope.r = 30;
         if ($scope.hoc > 10000) {
           $scope.r -= 12 / ($scope.hoc / 5000);
