@@ -164,10 +164,11 @@ When it's over 1,600, you'll get up to 20 tasks.
 ## System Analyst (SA)
 
 {% par 39 %}
-As a system analyst, you are responsible for validation and verification of
+As a system analyst, you are responsible for
+[validation and verification](https://en.wikipedia.org/wiki/Verification_and_validation) of
 product scope. First, you validate requirements to make sure the
 specification is accurate. Second, you verify that our product is
-in line with the specification. The specification (`README` file in GitHub)
+in line with the specification. The specification (README file in GitHub)
 is your deliverables. Follow these guidelines:
 [How We Write a Product Vision](http://www.yegor256.com/2014/10/20/how-we-write-product-vision.html) and
 [Worst Technical Specifications Have No Glossaries](http://www.yegor256.com/2015/03/16/technical-glossaries.html).
