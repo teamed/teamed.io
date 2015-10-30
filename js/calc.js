@@ -33,13 +33,13 @@ app.controller(
       $scope.update = function() {
         $scope.sa = $scope.thinking * 100;
         $scope.a = $scope.building * 100;
-        $scope.h = $scope.hoc / 110;
-        $scope.r = 30;
+        $scope.h = $scope.hoc / 90;
+        $scope.r = 40;
         if ($scope.hoc > 10000) {
           $scope.r -= 12 / ($scope.hoc / 5000);
         }
-        $scope.t = $scope.h * 2.6;
-        $scope.pr = $scope.t * 0.45;
+        $scope.t = $scope.h * 1.3;
+        $scope.pr = $scope.t * 0.25;
         $scope.p = $scope.h * $scope.r;
         $scope.tm = $scope.p;
       };
