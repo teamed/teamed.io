@@ -120,9 +120,26 @@ and their names and profiles will be announced to you, in Netbout.
 
 The project manager will start assigning tasks to programmers in GitHub.
 
+We are using our proprietary software and open source tools to automate
+the process of software engineering. The majority of routine management
+activities go through our proprietary **management platform** and are
+automated. We're also using these open source and commercial instruments:
+[rultor.com](http://www.rultor.com) for merging, deploying and releasing;
+[travis-ci.com](http://www.travis-ci.com) and [appveyor.com](http://www.appveyor.com) for continuous integration;
+[pdd](https://github.com/teamed/pdd) for automation of sub-tasking;
+[est](https://github.com/teamed/est) for estimation;
+[hoc](https://github.com/teamed/hoc) for hits-of-code calculation;
+[coveralls.io](http://www.coveralls.io) for test coverage tracking.
+
 We encourage you to take active participation in GitHub discussions
 and provide your feedback about quality and scope.
 
 All financial questions must be discussed in Netbout, where our CFO
 and VP/BizDev are present during the course of the entire project.
 
+### Using Phase
+
+When the product is ready for the market, we continue to support it.
+Most programmers will be removed from the team, since their help
+is not required any more. We will keep a few people in stand-by mode
+for as long as necessary for your business needs.
