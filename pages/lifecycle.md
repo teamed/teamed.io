@@ -94,7 +94,7 @@ ask you, and all your technical people, to create accounts there (unless
 you have them already). Then, the project manager will create a new repository and will
 give you access to it.
 
-### Thinking Phase
+### "Thinking" Phase
 
 One system analyst will get in touch with you, to perform
 [requirements elicitation](https://en.wikipedia.org/wiki/Requirements_elicitation)
@@ -106,14 +106,14 @@ you and create the first version of README, as soon as possible.
 
 This phase usually takes up to two weeks and up to 20 hours.
 
-### Building Phase
+### "Building" Phase
 
 When the README document is ready, a software architect will create a skeleton
 of the product, to prove that the solution works.
 
 This phase usually takes up to two weeks and up to 80 hours.
 
-### Fixing Phase
+### "Fixing" Phase
 
 When skeleton is ready, HR manager will invite programmers to the project
 and their names and profiles will be announced to you, in Netbout.
@@ -137,7 +137,7 @@ and provide your feedback about quality and scope.
 All financial questions must be discussed in Netbout, where our CFO
 and VP/BizDev are present during the course of the entire project.
 
-### Using Phase
+### "Using" Phase
 
 When the product is ready for the market, we continue to support it.
 Most programmers will be removed from the team, since their help
