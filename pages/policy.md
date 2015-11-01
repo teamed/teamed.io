@@ -69,7 +69,8 @@ the reason for incompletion was, including someone else's mistakes.
 {% par 8 %}
 For a code review task, you'll get 15 minutes plus as many minutes
 as the number of comments you post in the discussion. Whether you accept
-the code or reject it, you'll still get the payment.
+the code or [reject](http://www.yegor256.com/2015/06/22/valid-reasons-to-reject-bug-fix.html)
+it, you'll still get the payment.
 
 {% par 9 %}
 If you don't want to work with a task &mdash; for any reason, post a message
