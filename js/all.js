@@ -23,7 +23,7 @@ function send_email(to, text, success, error) {
           'text': 'Hi,\n\n' + text
             + '\n\nThanks'
             + '\n\n--\nsent through the form at www.teamed.io',
-          'subject': 'new form submitted',
+          'subject': 'new form submitted (for ' + to + ')',
           'auto_html': false,
           'important': true
         }
