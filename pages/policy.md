@@ -180,8 +180,8 @@ Slack, phone calls, and emails. Communication with programmers still has
 to go through GitHub tickets [only](http://www.yegor256.com/2014/10/07/stop-chatting-start-coding.html).
 
 {% par 41 %}
-Every time we pay for one hour to anyone in the project, you receive 10
-minutes on your account.
+<del>Every time we pay for one hour to anyone in the project, you receive 10
+minutes on your account.</del> (suspended)
 
 {% par 42 %}
 While the project is in [Thinking](http://www.yegor256.com/2014/10/06/software-project-lifecycle.html#thinking)
