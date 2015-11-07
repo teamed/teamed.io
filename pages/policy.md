@@ -233,7 +233,7 @@ you and QA will still be paid.
 Every few days, projects are checked by a project manager to detect
 mistakes in ticket planning, milestone organization, release discipline, etc.
 If any problems are found, you as an architect will get 25 points docked from your rating.
-If no problems are found, you'll get 60 minutes. These rules are applied:
+If no problems are found, you'll get 120 minutes. These rules are applied:
 1) All tasks are dispatched within five days;
 2) The latest release is either final or less than 10 days old;
 3) There are no milestones missed for more than five days;
