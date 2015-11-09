@@ -28,11 +28,14 @@ angular.module('teamed', []).controller(
           + $scope.netbout
           + '; skills='
           + $scope.skills,
+        thanks = '@' + $scope.netbout +
+          ' thanks for filling the form, we will get back to you shortly',
         url = 'http://www.netbout.com/start?post='
           + encodeURIComponent(text)
           + '&invite=alice&rename='
           + encodeURIComponent($scope.github)
-          + '&post=' + encodeURIComponent(entry);
+          + '&post=' + encodeURIComponent(entry)
+          + '&post=' + encodeURIComponent(thanks);
         window.location = url;
       };
     }

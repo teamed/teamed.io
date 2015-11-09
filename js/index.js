@@ -11,9 +11,13 @@ angular.module('teamed', []).controller(
           'I have a project to outsource:\n\n'
           + 'Contact: ' + $scope.contact + '\n\n'
           + 'Details: ' + $scope.details,
-        url = 'http://www.netbout.com/start?post='
-          + encodeURIComponent(text)
-          + '&invite=yegor256&invite=patrickboyle&rename=Estimate+for+New+Teamed+Project';
+        entry = '@patrickboyle please help us to estimate this+project'
+        url = 'http://www.netbout.com/start?'
+          + 'rename=Estimate+for+New+Teamed+Project'
+          + '&invite=yegor256'
+          + '&invite=patrickboyle'
+          + '&post=' + encodeURIComponent(text)
+          + '&post=' + encodeURIComponent(entry);
         window.location = url;
       };
     }
