@@ -11,7 +11,7 @@ angular.module('teamed', []).controller(
           'I have a project to outsource:\n\n'
           + 'Contact: ' + $scope.contact + '\n\n'
           + 'Details: ' + $scope.details,
-        entry = '@patrickboyle please help us to estimate this+project'
+        entry = '@patrickboyle please help us to estimate this+project',
         url = 'http://www.netbout.com/start?'
           + 'rename=Estimate+for+New+Teamed+Project'
           + '&invite=yegor256'
