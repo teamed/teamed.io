@@ -1,7 +1,7 @@
 /*globals casper:false */
 [
-    '/sponsor.html',
-    '/developer.html',
+    '/policy.html',
+    '/faq.html',
     '/sitemap.xml',
     '/index.html',
     '/css/layout.css',
