@@ -179,7 +179,7 @@ Stateful RESTful Web Primitives With XML/JSON API
 </p>
 -->
 
-Also see [our full portfolio](/portfolio.html).
+Also see [our full portfolio](http://at.teamed.io/portfolio.html).
 
 Again, we produce higher quality of code because we control quality in every micro task.
 Our micro tasks are really small in size and usually take less than
@@ -360,7 +360,7 @@ and the task budget is 30 minutes.
 You will get $25 immediately after the task is completed. Here is a
 [sample](/engineer.pdf) of our contract.
 
-<form action="/join.html">
+<form action="http://at.teamed.io/join.html">
   <p>
     <button type="submit">Apply Now</button>
   </p>
