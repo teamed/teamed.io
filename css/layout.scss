@@ -91,7 +91,8 @@ article {
 .small {
   font-size: .8 * $em;
 }
-.headline span {
+h2 {
+  @extend .centered;
   font-weight: 600;
   color: $brown;
   font-size: 1.7 * $em;
