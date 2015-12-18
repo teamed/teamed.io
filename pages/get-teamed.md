@@ -24,15 +24,11 @@ With Teamed.io **you** get:
   * Full transparency / Complete project ownership
 
 <form name="form" name="form" id="form" ng-submit="email('#form', 'patrick@teamed.io');">
-  <p>
-    <label>Let's Get You Teamed Up</label><br/>
-    <textarea name="details" style="width:100%;height:5em" tabindex="1"
-      ng-model="details" required autofocus></textarea><br/>
-    <span class="help">Tell us briefly about your project needs,
-      desired technologies and time frame. Include best contact info.</span>
-  </p>
-  <p>
-    <button id='submit' tabindex="2">Request estimate</button><br/>
-    <span class="help">We'll get back to you ASAP.</span>
-  </p>
+  <label>Let's Get You Teamed Up</label>
+  <textarea name="details" style="width:100%;height:5em" tabindex="1"
+    ng-model="details" required></textarea>
+  <div class="help">Tell us briefly about your project needs,
+    desired technologies and time frame. Include best contact info.</div>
+  <button id='submit' tabindex="2">Request estimate</button>
+  <div class="help">We'll get back to you ASAP.</div>
 </form>

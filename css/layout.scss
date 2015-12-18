@@ -5,10 +5,9 @@
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,700,800,900,600);
 
 $em: 24px;
+$fold: 1024px;
 
 $black: black;
-$green: #81b341;
-$blue: #6e97a2;
 $red: #e2725c;
 $brown: #64585a;
 $beige: #e6e1cf;
@@ -38,7 +37,7 @@ header {
   background: linear-gradient(135deg,  $beige 0%, #ddd5ba 100%);
   img {
     width: 250px;
-    @media all and (max-width: 1024px) {
+    @media all and (max-width: $fold) {
       width: 160px;
     }
   }
@@ -47,7 +46,7 @@ header {
     color: $brown;
     line-height: 1.1em;
     font-weight: 700;
-    @media all and (max-width: 1024px) {
+    @media all and (max-width: $fold) {
       font-size: 2 * $em;
     }
   }
@@ -141,5 +140,8 @@ label {
 }
 .ico {
   color: $brown;
-  font-size: 5em;
+  font-size: 5 * $em;
+  @media all and (max-width: $fold) {
+    font-size: 3.5 * $em;
+  }
 }
