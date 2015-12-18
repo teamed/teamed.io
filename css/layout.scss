@@ -37,8 +37,10 @@ header {
   background: linear-gradient(135deg,  $beige 0%, #ddd5ba 100%);
   img {
     width: 250px;
+    height: 232px;
     @media all and (max-width: $fold) {
       width: 160px;
+      height: 149px;
     }
   }
   h1 {
