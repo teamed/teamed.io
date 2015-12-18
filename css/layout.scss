@@ -6,9 +6,10 @@
 
 $em: 24px;
 
+$black: black;
 $green: #81b341;
 $blue: #6e97a2;
-$red: #e37259;
+$red: #e2725c;
 $brown: #64585a;
 $beige: #e6e1cf;
 
@@ -36,7 +37,7 @@ header {
   background: -webkit-linear-gradient(-45deg,  $beige 0%, #ddd5ba 100%);
   background: linear-gradient(135deg,  $beige 0%, #ddd5ba 100%);
   .slogan {
-    font-size: 300%;
+    font-size: 3 * $em;
     color: $brown;
     line-height: 1.1em;
     font-weight: 700;
@@ -45,31 +46,33 @@ header {
 footer {
   font-family: Verdana;
   background-color: $brown;
-  padding: 6em;
-  color: #c5c1b6;
-  font-size: 70%;
-  text-shadow: 0 1px 0 black;
-}
-  footer a {
+  padding: 3 * $em;
+  color: darken($beige, 6);
+  font-size: .7 * $em;
+  text-shadow: 0 1px 0 $black;
+  a {
     color: $beige;
     border-bottom: 1px dotted $beige;
   }
-  footer a:hover {
-    color: #f7f2e5;
-    border-bottom: 1px solid #f7f2e5;
+  a:hover {
+    color: lighten($beige, 6);
+    border-bottom: 1px solid lighten($beige, 6);
   }
-section a {
-  color: #e2725c;
-  border-bottom: 1px dotted #e2725c;
 }
-  section a:hover {
-    color: #cb6755;
-    border-bottom: 1px solid #cb6755;
+section {
+  a {
+    color: $red;
+    border-bottom: 1px dotted $red;
+    &:hover {
+      color: darken($red, 5);
+      border-bottom: 1px solid darken($red, 5);
+    }
   }
-  section p {
+  p {
     margin-top: 1em;
     margin-bottom: 1em;
   }
+}
 .centered {
   text-align: center;
 }
@@ -82,33 +85,34 @@ section a {
 .container-l { width: 850px; }
 .container-xl { width: 1050px; }
 article {
-  margin-top: 8em;
-  margin-bottom: 8em;
+  margin-top: 8 * $em;
+  margin-bottom: 8 * $em;
 }
 .small {
-  font-size: 80%;
+  font-size: .8 * $em;
 }
 .headline span {
   font-weight: 600;
-  color: #64585a;
-  font-size: 1.7em;
+  color: $brown;
+  font-size: 1.7 * $em;
 }
 .circle {
   border-radius: 50%;
   background-color: white;
   text-align: center;
   vertical-align: middle;
-  width: 6em;
-  height: 6em;
-  line-height: 6em;
+  width: 6 * $em;
+  height: 6 * $em;
+  line-height: 6 * $em;
   display: inline-block;
-  margin-top: .5em;
-  margin-bottom: .5em;
+  margin-top: .5 * $em;
+  margin-bottom: .5 * $em;
 }
-textarea, input {
-  font-size: 1em;
-  padding: .5em;
-  border-radius: 5px;
+textarea,
+input {
+  font-size: $em;
+  padding: .5 * $em;
+  border-radius: .2 * $em;
   background-color: $beige;
   border: 0;
   font-family: 'Raleway';
@@ -119,10 +123,10 @@ label {
   display: block;
 }
 .help {
-  font-size: 75%;
-  color: gray;
+  font-size: .75 * $em;
+  color: lighten($black, 50);
 }
 .ico {
-  color: #64585a;
+  color: $brown;
   font-size: 5em;
 }
