@@ -36,11 +36,20 @@ header {
   background: -moz-linear-gradient(-45deg,  $beige 0%, #ddd5ba 100%);
   background: -webkit-linear-gradient(-45deg,  $beige 0%, #ddd5ba 100%);
   background: linear-gradient(135deg,  $beige 0%, #ddd5ba 100%);
+  img {
+    width: 250px;
+    @media all and (max-width: 1024px) {
+      width: 160px;
+    }
+  }
   h1 {
     font-size: 3.1 * $em;
     color: $brown;
     line-height: 1.1em;
     font-weight: 700;
+    @media all and (max-width: 1024px) {
+      font-size: 2 * $em;
+    }
   }
 }
 footer {
