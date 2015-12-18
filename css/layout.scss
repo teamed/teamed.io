@@ -55,7 +55,8 @@ header {
 footer {
   font-family: Verdana;
   background-color: $brown;
-  padding: 3 * $em;
+  padding-top: 3 * $em;
+  padding-bottom: 3 * $em;
   color: darken($beige, 6);
   font-size: .7 * $em;
   text-shadow: 0 1px 0 $black;
