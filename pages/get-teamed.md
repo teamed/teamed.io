@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: plain
 title: "Get Teamed!"
 permalink: /get-teamed.html
 description:
