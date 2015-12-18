@@ -7,14 +7,6 @@ permalink: :year/:month/:day/:title.html
 
 url: http://www.teamed.io
 
-gems:
-  - jekyll-sass # see https://github.com/noct/jekyll-sass
-  - jekyll-press
-sass:
-  style: compressed
-  deploy_style: compressed
-  compile_in_place: false
-
 # see https://github.com/kinnetica/jekyll-plugins
 sitemap:
   file: "/sitemap.xml"
