@@ -79,6 +79,8 @@ section {
 .container {
   margin-left: auto;
   margin-right: auto;
+  padding-right: $em;
+  padding-left: $em;
   max-width: 100%;
 }
 .container-m { width: 650px; }
