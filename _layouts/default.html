@@ -9,7 +9,7 @@
     <meta name="keywords" content="{{ page.keywords | join:', ' | escape }}" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta property="twitter:account_id" content="4503599630178231" />
-    <link rel="canonical" href="{{ site.url }}{{ page.url }}" />
+    <link rel="canonical" href="{{ site.url }}{{ page.url | replace:'/index.html','/' }}" />
     <link rel="stylesheet" href="/css/layout.css?{{ site.data['hash'] }}"/>
     <title>{{ page.title }}</title>
     <script src="//code.jquery.com/jquery-2.1.0.min.js"></script>
