@@ -16,7 +16,7 @@ keywords:
   - find a freelancer
   - find a software developer
 ---
-<section itemscope itemtype="http://schema.org/Offer" role="main" ng-controller="Main">
+<section itemscope itemtype="http://schema.org/Offer" role="main" data-ng-controller="Main">
   <header class="centered">
     <div class="container container-xl centered">
       <img src="/images/logo.svg" alt="teamed.io logo"/>
@@ -349,16 +349,16 @@ keywords:
       <h2>Request a Quote</h2>
     </div>
     <div class="container container-m">
-      <form name="form" id="form" ng-submit="submit('#form')">
+      <form name="form" id="form" data-ng-submit="submit('#form')">
         <label for="details">What is your project about?</label>
         <textarea id="details" name="details" style="width:100%;height:10em"
-          tabindex="1" ng-model="details" required></textarea><br/>
+          tabindex="1" data-ng-model="details" required></textarea><br/>
         <div class="help">Please, tell us briefly about your business case,
           expected stack of technologies, current situation with
           the source code (if it exists), and your quality and time expectations.</div>
         <label for="contact">How should we contact you?</label>
         <input id="contact" name="contact" tabindex="2" class="u-full-width"
-          ng-model="contact" required/>
+          data-ng-model="contact" required/>
         <div class="help">Give us either a phone number or an email.</div>
         <button id='submit' tabindex="3">Request estimate</button>
         via
