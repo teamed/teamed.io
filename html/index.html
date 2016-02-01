@@ -351,13 +351,13 @@ keywords:
     <div class="container container-m">
       <form name="form" id="form" ng-submit="submit('#form')">
         <label for="details">What is your project about?</label>
-        <textarea name="details" style="width:100%;height:10em"
+        <textarea id="details" name="details" style="width:100%;height:10em"
           tabindex="1" ng-model="details" required></textarea><br/>
         <div class="help">Please, tell us briefly about your business case,
           expected stack of technologies, current situation with
           the source code (if it exists), and your quality and time expectations.</div>
         <label for="contact">How should we contact you?</label><br/>
-        <input name="contact" tabindex="2" class="u-full-width"
+        <input id="contact" name="contact" tabindex="2" class="u-full-width"
           ng-model="contact" required/>
         <div class="help">Give us either a phone number or an email.</div>
         <button id='submit' tabindex="3">Request estimate</button>
