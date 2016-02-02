@@ -37,7 +37,7 @@ var email = function(form, email) {
   'use strict';
   var $form = $(form),
     $button = $form.find('button'),
-    before = $form.text(),
+    before = $button.text(),
     text = '';
   $button.prop('disabled', true).text('processing...');
   email = typeof email !== 'undefined' ? email : 'hire@teamed.io';
