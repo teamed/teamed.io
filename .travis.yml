@@ -7,7 +7,7 @@ branches:
   - master
 before_install:
   - set -e
-  - openssl aes-256-cbc -K $encrypted_091a05d4487d_key -iv $encrypted_091a05d4487d_iv -in id_rsa.enc -out id_rsa -d
+  - openssl aes-256-cbc -K $encrypted_091a05d4487d_key -iv $encrypted_091a05d4487d_iv -in id_rsa.enc -out ~/.ssh/id_rsa -d
   - chmod 600 ~/.ssh/id_rsa
   - git config --global user.email "travis@teamed.io"
   - git config --global user.name "travis"
