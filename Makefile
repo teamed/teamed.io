@@ -34,7 +34,7 @@ redirects: target
 	    echo "<html><head><meta http-equiv='refresh' content='0; URL=$$target'/></head><body/></html>" > target/$$src; \
 	done < redirects
 
-site: $(HTML) $(CSS) $(IMAGES) target/CNAME target/robots.txt
+site: $(HTML) $(CSS) $(IMAGES) redirects target/CNAME target/robots.txt
 
 lint: scsslint
 
