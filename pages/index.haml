@@ -13,8 +13,8 @@
     %section{:itemscope => "", :itemtype => "http://schema.org/Offer", :role => "main"}
       %header.centered
         %div.container.container-xl.centered
-          <img src="images/logo.svg" alt="teamed.io logo"/>
-          <h1>We Are The Programming That Actually Works</h1>
+          %img{:src=>"images/logo.svg", :alt=>"teamed.io logo"}
+          %h1 We Are The Programming That Actually Works
         %div.container.container-m.centered
           %div
             Tap into a distributed global network
@@ -22,21 +22,18 @@
             working under our control
           %br
           %div
-            <a href="http://at.teamed.io/hire.html">
-            <button style="background-color:#64585a;color:white;border:none;">
-            request a quote
-            </button>
-            </a>
+            %a{:href=>"http://at.teamed.io/hire.html"}
+              %button{:style=>"background-color:#64585a;color:white;border:none;"}
+                request a quote
       %article
         %div.container.container-m
           %h2 Upcoming Events
         %div.row.container.container-l.small
           %div.four.columns.centered
-            <img src="http://www.yegor256.com/images/2016/devnexus-2016-logo.png"
-            alt="DevNexus 2016" style="width:200px;"/>
-            <br/>
+            %img{:src=>"http://www.yegor256.com/images/2016/devnexus-2016-logo.png", :alt=>"DevNexus 2016", :style=>"width:200px;"}
+            %br
             Meet us at
-            <a href="https://www.devnexus.com/s/speakers#Yegor_Bugayenko">DevNexus</a>
+            %a{:href=>"https://www.devnexus.com/s/speakers#Yegor_Bugayenko"} DevNexus
             in Atlanta on Feb 16,
             our CTO will talk about chatbots
           %div.four.columns.centered
