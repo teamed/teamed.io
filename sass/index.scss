@@ -1,5 +1,3 @@
----
----
 @import url(https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.css);
 @import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css);
 @import url(https://fonts.googleapis.com/css?family=Raleway:400,700,800,900,600);
@@ -7,142 +5,146 @@
 $em: 24px;
 $fold: 1024px;
 
-$black: black;
+$black: #000;
 $red: #e2725c;
 $brown: #64585a;
 $beige: #e6e1cf;
+$white: #fff;
 
 * {
-  position: relative;
   box-sizing: border-box;
+  position: relative;
 }
+
 body {
-  padding: 0;
-  margin: 0;
-  font-size: $em;
   font-family: 'Raleway';
+  font-size: $em;
   font-weight: 400;
+  margin: 0;
+  padding: 0;
 }
+
 a {
-  text-decoration: none;
   color: inherit;
+  text-decoration: none;
 }
+
 header {
-  padding-top: 5 * $em;
-  padding-bottom: 5 * $em;
+  background: linear-gradient(135deg, $beige 0%, #ddd5ba 100%);
   overflow: hidden;
-  background: $beige;
-  background: -moz-linear-gradient(-45deg,  $beige 0%, #ddd5ba 100%);
-  background: -webkit-linear-gradient(-45deg,  $beige 0%, #ddd5ba 100%);
-  background: linear-gradient(135deg,  $beige 0%, #ddd5ba 100%);
+  padding-bottom: 5 * $em;
+  padding-top: 5 * $em;
+
   img {
-    width: 250px;
     height: 232px;
+    width: 250px;
+
     @media all and (max-width: $fold) {
-      width: 160px;
       height: 149px;
+      width: 160px;
     }
   }
+
   h1 {
-    font-size: 3.1 * $em;
     color: $brown;
-    line-height: 1.1em;
+    font-size: 3.1 * $em;
     font-weight: 700;
+    line-height: 1.1em;
+
     @media all and (max-width: $fold) {
       font-size: 2 * $em;
     }
   }
 }
+
 footer {
-  font-family: Verdana;
   background-color: $brown;
-  padding-top: 3 * $em;
-  padding-bottom: 3 * $em;
   color: darken($beige, 6);
+  font-family: Verdana;
   font-size: .7 * $em;
+  padding-bottom: 3 * $em;
+  padding-top: 3 * $em;
   text-shadow: 0 1px 0 $black;
+
   a {
-    color: $beige;
     border-bottom: 1px dotted $beige;
+    color: $beige;
   }
+
   a:hover {
-    color: lighten($beige, 6);
     border-bottom: 1px solid lighten($beige, 6);
+    color: lighten($beige, 6);
   }
 }
+
 section {
   a {
-    color: $red;
     border-bottom: 1px dotted $red;
+    color: $red;
+
     &:hover {
-      color: darken($red, 5);
       border-bottom: 1px solid darken($red, 5);
+      color: darken($red, 5);
     }
   }
+
   p {
-    margin-top: 1em;
     margin-bottom: 1em;
+    margin-top: 1em;
   }
 }
+
 .centered {
   text-align: center;
 }
+
 .container {
   margin-left: auto;
   margin-right: auto;
-  padding-right: $em;
-  padding-left: $em;
   max-width: 100%;
+  padding-left: $em;
+  padding-right: $em;
 }
+
 .container-m { width: 650px; }
+
 .container-l { width: 850px; }
+
 .container-xl { width: 1050px; }
+
 article {
-  margin-top: 8 * $em;
   margin-bottom: 8 * $em;
+  margin-top: 8 * $em;
 }
+
 .small {
   font-size: .8 * $em;
 }
+
 h2 {
   @extend .centered;
-  font-weight: 600;
   color: $brown;
   font-size: 1.7 * $em;
+  font-weight: 600;
 }
+
 .circle {
+  background-color: $white;
   border-radius: 50%;
-  background-color: white;
+  display: inline-block;
+  height: 6 * $em;
+  line-height: 6 * $em;
+  margin-bottom: .5 * $em;
+  margin-top: .5 * $em;
   text-align: center;
   vertical-align: middle;
   width: 6 * $em;
-  height: 6 * $em;
-  line-height: 6 * $em;
-  display: inline-block;
-  margin-top: .5 * $em;
-  margin-bottom: .5 * $em;
 }
-textarea,
-input {
-  font-size: $em;
-  padding: .5 * $em;
-  border-radius: .2 * $em;
-  background-color: $beige;
-  border: 0;
-  font-family: 'Raleway';
-  font-weight: 400;
-}
-label {
-  font-weight: inherit;
-  display: block;
-}
-.help {
-  font-size: .75 * $em;
-  color: lighten($black, 50);
-}
+
 .ico {
   color: $brown;
   font-size: 5 * $em;
+
   @media all and (max-width: $fold) {
     font-size: 3.5 * $em;
   }

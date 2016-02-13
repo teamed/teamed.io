@@ -1,23 +1,27 @@
 language: ruby
 rvm:
   - 2.1.0
+sudo: false
 branches:
   only:
   - master
-install:
-- bundle install
-- npm install phantomjs -g
-- npm install casperjs -g
 before_install:
-- set -e
-- openssl aes-256-cbc -K $encrypted_091a05d4487d_key -iv $encrypted_091a05d4487d_iv
-  -in id_rsa.enc -out id_rsa -d
-- mv id_rsa ~/.ssh
-- chmod 600 ~/.ssh/id_rsa
+  - set -e
+  - openssl aes-256-cbc -K $encrypted_091a05d4487d_key -iv $encrypted_091a05d4487d_iv -in id_rsa.enc -out id_rsa -d
+  - chmod 600 ~/.ssh/id_rsa
+  - git config --global user.email "travis@teamed.io"
+  - git config --global user.name "travis"
+install:
+  - travis_retry bundle install
 script:
-- set -e
-- _test/run.sh
-- for i in $(ls js/*.js); do echo $i; jslint $i; done
-- git config --global user.email "travis@teamed.io"
-- git config --global user.name "Travis"
-- jgd -u git@github.com:teamed/teamed.github.io.git
+  - make
+  - git clone git@github.com:teamed/teamed.github.io.git tmp
+  - cd tmp
+  - git checkout gh-pages
+  - rm -rf *
+  - mv ../target/* .
+  - git add .
+  - git commit -am 'deploy' --allow-empty
+  - git push origin gh-pages
+  - cd ..
+  - rm -rf tmp
