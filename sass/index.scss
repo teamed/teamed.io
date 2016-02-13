@@ -30,7 +30,7 @@ a {
 }
 
 header {
-  background: linear-gradient(135deg, $beige 0%, #ddd5ba 100%);
+  background: linear-gradient(135deg, $beige 0%, darken($beige, 13) 100%);
   overflow: hidden;
   padding-bottom: 5 * $em;
   padding-top: 5 * $em;
@@ -94,9 +94,8 @@ section {
   }
 }
 
-.centered {
-  text-align: center;
-}
+%centered { text-align: center; }
+.centered { @extend %centered; }
 
 .container {
   margin-left: auto;
@@ -122,7 +121,7 @@ article {
 }
 
 h2 {
-  @extend .centered;
+  @extend %centered;
   color: $brown;
   font-size: 1.7 * $em;
   font-weight: 600;
